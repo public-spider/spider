@@ -12,3 +12,16 @@ class ScrapycrawlItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
     pass
+
+class DmozItem(scrapy.Item):
+    # define the fields for your item here like:
+    # name = scrapy.Field()
+    title = scrapy.Field()
+    link = scrapy.Field()
+    desc = scrapy.Field()
+    image_urls = scrapy.Field()
+    images = scrapy.Field()
+    
+class LoginItem(scrapy.Item):
+    pass
+  

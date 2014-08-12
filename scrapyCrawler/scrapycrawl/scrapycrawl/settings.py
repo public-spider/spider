@@ -12,6 +12,8 @@ BOT_NAME = 'scrapycrawl'
 
 SPIDER_MODULES = ['scrapycrawl.spiders']
 NEWSPIDER_MODULE = 'scrapycrawl.spiders'
-
+ITEM_PIPELINES = {'scrapy.contrib.pipeline.images.ImagesPipeline': 1,'scrapycrawl.pipelines.LoginPipeline':800}
+IMAGES_STORE = '/home/outao/Scrapy/pic'
+IMAGES_EXPIRES = 90
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'scrapycrawl (+http://www.yourdomain.com)'

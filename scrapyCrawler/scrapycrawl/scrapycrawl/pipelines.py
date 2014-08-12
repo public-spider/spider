@@ -9,3 +9,6 @@
 class ScrapycrawlPipeline(object):
     def process_item(self, item, spider):
         return item
+class LoginPipeline(object):
+    def process_item(self, item, spider):
+        return item
