@@ -1,4 +1,3 @@
 eclipse.preferences.version=1
-encoding//scrapycrawl/scrapycrawl/items.py=utf-8
-encoding//scrapycrawl/scrapycrawl/pipelines.py=utf-8
 encoding//scrapycrawl/scrapycrawl/settings.py=utf-8
+encoding//scrapycrawl/scrapycrawl/spiders/test_cj.py=utf-8

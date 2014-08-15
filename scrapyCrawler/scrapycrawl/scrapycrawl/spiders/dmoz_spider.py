@@ -1,8 +1,8 @@
 from scrapy.spider import BaseSpider
 from scrapy.selector import Selector
 from scrapy.http.response.html import HtmlResponse
-from scrapycrawl.items import DmozItem
 from scrapy.http.request import Request
+from scrapycrawl.items import DmozItem
 
 class DmozSpider(BaseSpider):
     name = "dmoz"
