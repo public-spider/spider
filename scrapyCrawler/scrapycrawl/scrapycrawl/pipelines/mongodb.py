@@ -36,8 +36,8 @@ class SingleMongodbPipeline(object):
             print self.style.ERROR("ERROR(SingleMongodbPipeline): %s"%(str(e),))
             traceback.print_exc()
     
-    
-    def from_crawler(self, cls, crawler):
+    @classmethod
+    def from_crawler(cls, crawler):
         cls.MONGODB_SERVER = crawler.settings.get('SingleMONGODB_SERVER', 'localhost')
         cls.MONGODB_PORT = crawler.settings.getint('SingleMONGODB_PORT', 27017)
         cls.MONGODB_DB = crawler.settings.get('SingleMONGODB_DB', 'crawlerDB')
@@ -94,8 +94,8 @@ class ShardMongodbPipeline(object):
             print self.style.ERROR("ERROR(ShardMongodbPipeline): %s"%(str(e),))
             traceback.print_exc()
     
-    
-    def from_crawler(self, cls, crawler):
+    @classmethod
+    def from_crawler(cls, crawler):
         cls.MONGODB_SERVER = crawler.settings.get('ShardMONGODB_SERVER', 'localhost')
         cls.MONGODB_PORT = crawler.settings.getint('ShardMONGODB_PORT', 27017)
         cls.MONGODB_DB = crawler.settings.get('ShardMONGODB_DB', 'crawlerDB_shard')

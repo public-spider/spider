@@ -4,12 +4,12 @@ Created on Aug 13, 2014
 
 @author: whisky
 '''
-from scrapycrawl.scrapycrawl.utils import color
+from scrapycrawl.utils import color
 from _collections import defaultdict
 from scrapy.utils.misc import md5sum
 import os
 import shutil
-from scrapycrawl.scrapycrawl.utils.select_result import list_first_item
+from scrapycrawl.utils.select_result import list_first_item
 from scrapy.contrib.pipeline.media import MediaPipeline
 from scrapy.exceptions import NotConfigured, IgnoreRequest
 import urlparse
@@ -127,8 +127,8 @@ class FilePipeline(MediaPipeline):
         self.style = color.color_style()
         super(FilePipeline, self).__init__(download_func=download_func)
     
-    
-    def from_settings(self, cls, settings):
+    @classmethod
+    def from_settings(cls, settings):
         cls.EXPIRES = settings.getint('FILE_EXPIRES', 90)
         cls.ATTACHMENT_FILENAME_UTF8_DOMAIN = settings.get('ATTACHMENT_FILENAME_UTF8_DOMAIN',[])
         cls.URL_GBK_DOMAIN = settings.get('URL_GBK_DOMAIN',[])

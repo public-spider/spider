@@ -20,8 +20,8 @@ class RFPDupeFilter(BaseDupeFilter):
         self.server = server
         self.key = key
         
-    
-    def from_settings(self, cls, settings):
+    @classmethod
+    def from_settings(cls, settings):
         host = settings.get('REDIS_HOST', 'localhost')
         port = settings.get('REDIS-PORT', 6379)
         server = redis.Redis(host, port)

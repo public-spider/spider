@@ -1,10 +1,10 @@
-from scrapy.spider import BaseSpider
 from scrapy.selector import Selector
 from scrapy.http.response.html import HtmlResponse
 from scrapy.http.request import Request
 from scrapycrawl.items import DmozItem
+from scrapy.spider import Spider
 
-class DmozSpider(BaseSpider):
+class DmozSpider(Spider):
     name = "dmoz"
     allowed_domains = ["dmoz.org"]
     start_urls = [

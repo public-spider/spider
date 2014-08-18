@@ -6,7 +6,7 @@ Created on Aug 15, 2014
 '''
 
 import os, sys
-from scrapy.spider import BaseSpider
+from scrapy.spider import  Spider
 from scrapy.selector.lxmlsel import HtmlXPathSelector
 from scrapycrawl.utils.select_result import list_first_item,clean_url, strip_null, deduplication
 from scrapy.http.request import Request
@@ -14,7 +14,7 @@ from scrapycrawl.items import WoaiduCrawlerItem
 
 
 
-class WoaiduSpider(BaseSpider):
+class WoaiduSpider(Spider):
     name = "woaidu"
     start_urls = (
             'http://www.woaidu.org/sitemap_1.html',

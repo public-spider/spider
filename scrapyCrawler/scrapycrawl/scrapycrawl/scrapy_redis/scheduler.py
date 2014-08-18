@@ -44,7 +44,8 @@ class Scheduler(object):
     def __len__(self):
         return len(self.queue)
     
-    def from_settings(self, cls, settrings):
+    @classmethod
+    def from_settings(cls, settrings):
         host = settings.get('REDIS_HOST', REDIS_HOST)
         port = settings.get('REDIS_PORT', REDIS_PORT)
         persist = settings.get('SCHEDULER_PERSIST', SCHEDULER_PERSIST)
@@ -54,7 +55,8 @@ class Scheduler(object):
         server = redis.Redis(host, port)
         return cls(server, persist, queue_key, queue_cls, dupefilter_key)
     
-    def from_crawler(self, cls, crawler):
+    @classmethod
+    def from_crawler(cls, crawler):
         settings = crawler.settings
         cls.stats = crawler.stats
         return cls.from_settings(settings)

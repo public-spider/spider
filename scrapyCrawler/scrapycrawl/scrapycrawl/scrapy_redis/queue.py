@@ -23,29 +23,29 @@ class Base(object):
         self.spider = spider
         self.key = key % {'spider' : spider.name}
         
-        def _encode_request(self, request):
-            """encode a request object"""
-            return pickle.dumps(request_to_dict(request, self.spider), protocol = -1)
+    def _encode_request(self, request):
+        """encode a request object"""
+        return pickle.dumps(request_to_dict(request, self.spider), protocol = -1)
         
-        def _decode_request(self, encoded_request):
-            '''decode an request previously encoded'''
-            return request_from_dict(pickle.loads(encoded_request), self.spider)
+    def _decode_request(self, encoded_request):
+        '''decode an request previously encoded'''
+        return request_from_dict(pickle.loads(encoded_request), self.spider)
         
-        def __len__(self):
-            """return the length of the queue"""
-            raise NotImplementedError
+    def __len__(self):
+        """return the length of the queue"""
+        raise NotImplementedError
         
-        def push(self, request):
-            """push a request"""
-            raise NotImplementedError
+    def push(self, request):
+        """push a request"""
+        raise NotImplementedError
         
-        def pop(self):
-            """pop a request"""
-            raise NotImplementedError
-        
-        def clrar(self):
-            """clear queue/stack"""
-            self.server.delete(self.key)
+    def pop(self):
+        """pop a request"""
+        raise NotImplementedError
+    
+    def clrar(self):
+        """clear queue/stack"""
+        self.server.delete(self.key)
         
         
 class SpiderQueue(Base):

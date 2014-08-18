@@ -1,0 +1,38 @@
+2014-08-18 15:21:42+0800 [scrapy] INFO: Scrapy 0.24.2 started (bot: scrapycrawl)
+2014-08-18 15:21:42+0800 [scrapy] INFO: Optional features available: ssl, http11, django
+2014-08-18 15:21:42+0800 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'scrapycrawl.spiders', 'SPIDER_MODULES': ['scrapycrawl.spiders'], 'BOT_NAME': 'scrapycrawl', 'COOKIES_ENABLED': False, 'USER_AGENT': '', 'SCHEDULER': 'scrapycrawl.scrapy_redis.scheduler.Scheduler', 'LOG_FILE': 'logs/scrapy.log', 'DOWNLOAD_DELAY': 1}
+2014-08-18 15:21:43+0800 [scrapy] INFO: Enabled extensions: AutoThrottle, LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2014-08-18 15:21:43+0800 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, RotateUserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2014-08-18 15:21:43+0800 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2014-08-18 15:21:43+0800 [scrapy] INFO: Enabled item pipelines: WoaiduBookFile, DropNoneBookFile, SingleMongodbPipeline
+2014-08-18 15:21:43+0800 [woaidu] INFO: Spider opened
+2014-08-18 15:21:43+0800 [woaidu] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2014-08-18 15:21:43+0800 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6026
+2014-08-18 15:21:43+0800 [scrapy] DEBUG: Web service listening on 127.0.0.1:6083
+2014-08-18 15:21:43+0800 [-] Unhandled Error
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/crawler.py", line 93, in start
+	    self.start_reactor()
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/crawler.py", line 130, in start_reactor
+	    reactor.run(installSignalHandlers=False)  # blocking call
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1192, in run
+	    self.mainLoop()
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1201, in mainLoop
+	    self.runUntilCurrent()
+	--- <exception caught here> ---
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/reactor.py", line 41, in __call__
+	    return self._func(*self._a, **self._kw)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/core/engine.py", line 120, in _next_request
+	    self.crawl(request, spider)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/core/engine.py", line 176, in crawl
+	    self.schedule(request, spider)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/core/engine.py", line 182, in schedule
+	    return self.slot.scheduler.enqueue_request(request)
+	  File "/home/whisky/workspace/eclipse/python/scrapyCrawl_git/scrapyCrawler/scrapycrawl/scrapycrawl/scrapy_redis/scheduler.py", line 87, in enqueue_request
+	    self.queue.push(request)
+	  File "/home/whisky/workspace/eclipse/python/scrapyCrawl_git/scrapyCrawler/scrapycrawl/scrapycrawl/scrapy_redis/queue.py", line 78, in push
+	    data = self._encode_request(request)
+	exceptions.AttributeError: 'SpiderPriorityQueue' object has no attribute '_encode_request'
+	

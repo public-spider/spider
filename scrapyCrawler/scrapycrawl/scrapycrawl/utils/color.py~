@@ -6,6 +6,7 @@
 
 import os
 import sys
+
 from scrapycrawl.utils import termcolors
 
 def supports_color():
