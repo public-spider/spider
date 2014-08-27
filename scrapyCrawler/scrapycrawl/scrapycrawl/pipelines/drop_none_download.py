@@ -24,6 +24,7 @@ class DropNoneBookFile(object):
     
     def process_item(self, item, spider):
         if not item.get('book_file_url',None):
+            print "*****book_file_url is none****"
             raise NofilesDrop(item['original_url'])
         
         return item

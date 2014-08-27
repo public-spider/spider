@@ -69,6 +69,30 @@ class SingleMongodbPipeline(object):
         
         return item
     
+    
+    
+   
+class WeiboMongoPipeline(SingleMongodbPipeline):
+    def process_item(self, item, spider):
+        book_detail = {
+            'source_type':item.get('source_type'),
+            'data_type':item.get('data_type'),
+            'url':item.get('url'),
+            'time':item.get('time'),
+            'store_path':item.get('store_path')
+        }
+        
+        result = self.db['book_detail'].insert(book_detail)
+        item["mongodb_id"] = str(result)  
+        
+        log.msg("Item %s wrote to MongoDB database %s/book_detail" %
+                    (result, self.MONGODB_DB),
+                    level=log.DEBUG, spider=spider)
+        
+        return item
+    
+    
+    
 
 class ShardMongodbPipeline(object):
     """save the data to shard mongodb"""

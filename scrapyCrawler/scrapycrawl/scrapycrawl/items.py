@@ -6,7 +6,23 @@
 # http://doc.scrapy.org/en/latest/topics/items.html
 
 import scrapy
+    
 
+class imageItem(scrapy.Item):
+    book_covor_image_path = scrapy.Field()
+    book_covor_image_url = scrapy.Field()
+    source_type = scrapy.Field()
+    data_type = scrapy.Field()
+    url = scrapy.Field()
+    time = scrapy.Field()
+    store_path = scrapy.Field()
+    
+class weiboItem(scrapy.Item):
+    source_type = scrapy.Field()
+    data_type = scrapy.Field()
+    url = scrapy.Field()
+    time = scrapy.Field()
+    store_path = scrapy.Field()
 
 class ScrapycrawlItem(scrapy.Item):
     # define the fields for your item here like:

@@ -1,0 +1,1395 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html" charset="utf-8"/>
+<meta name="keywords" content="上传歌曲、音乐风格、原创音乐、独立音乐、音乐人、播客、在线试听、歌曲搜索、分享歌曲、歌曲排行榜、乐评、音乐社区、演出" />
+<meta name="description" content="微博音乐人主站是新浪微博打造的，致力于推荐优秀音乐人以优质原创音乐的歌曲发布平台。并第一时间通知粉丝新上传的歌曲。给歌曲打分，写乐评，与好友一起在微博上分享音乐。" /> 
+<title>微博音乐人-发现明天的流行音乐</title>
+<link rel="stylesheet" type="text/css" href="http://music.weibo.com/snake/css/homepage.css?v=1.1"/>
+<link rel="stylesheet" type="text/css" href="http://img.t.sinajs.cn/t4/style/css/module/global/out_frame.css"/>
+<script type="text/javascript" src="http://i.sso.sina.com.cn/js/ssologin.js"></script>
+</head>
+
+<body>
+<div id="weibo_top_public"></div>
+<!--header begin-->
+<div class="header_bg">
+	<div class="header">
+		<div class="logo FL"><a href="http://music.weibo.com"><img src="http://i2.sinaimg.cn/music/web/weibo2012/base/transparent.gif" /></a></div>
+    	<div id="bandstatus" class="band_status FR" mus_node="bandstatus">
+			<a target="_blank" class="bk_reg" href="http://music.weibo.com/snake/boke_apply.php"></a>
+			<a target="_blank" class="band_reg" href="http://music.weibo.com/snake/snk_apply.php"></a>
+        </div>
+    </div>
+</div>
+<script src="http://js.t.sinajs.cn/t4/home/js/public/topInit.js?version=20120528"></script>
+<iframe id="login" style="display:none" src="about:blank"></iframe>
+<script type="text/javascript">
+var $topParams = {
+pid:16001,
+_wv:"5",
+any:"&wvr",
+islogin:0
+};
+WBtopGlobal && WBtopGlobal.init($topParams);
+</script>
+<div class="nav_bg">
+	<div class="navbox">
+    	<ul class="nav FL">
+			<li>
+				   <a href="http://music.weibo.com" class="current">
+				<em class="txt_A">首页</em>
+				</a>
+			</li>
+			<li>
+				<a href="http://music.weibo.com/snake/snk_rank.php">
+					<em class="txt_B">排行榜</em>
+				</a>
+			</li>
+			<li>
+				<a href="http://music.weibo.com/snake/snk_artists.php">
+					<em class="txt_C">音乐人</em>
+				</a>
+			</li>
+			<li>
+				<a href="http://music.weibo.com/snake/snk_podcast.php">
+					<em class="txt_D">播客</em>
+				</a>
+			</li>
+			<li style="display:none">
+				<a href="#">
+					<em class="txt_E"></em>
+				</a>
+			</li>
+			<li>
+				<a href="http://music.weibo.com/snake/snk_user.php">
+					<em class="txt_F">我的音乐</em>
+				</a>
+			</li>
+			<li id="setting" style="display:none">
+            	<a href="http://music.weibo.com/snake/snk_setting.php">
+                	<em class="txt_F">个人设置</em>
+                </a>
+            </li>
+        </ul>
+        <div class="search_A mt5 mr10 FR">
+        	<div class="clearfix">
+                <input type="text" class="current" mus_act="searchinput">
+                <a href="javascript:;" class="btn"  mus_act="searchbtn"></a>
+            </div>
+            <div class="searchlist" mus_node="searchresult">
+            </div>
+        </div>
+    </div>
+</div>
+<!--header End-->
+<iframe id="login" style="display:none" src="http://music.weibo.com/snake/login_redirect.php"></iframe>
+<!--主体 begin-->
+<div class="W_main clearfix">
+	<div class="clearfix line_A pb20">
+        <div class="w640 FL">
+		<!-- 首发歌曲推荐title Begin -->
+<div class="title_A mt25">
+	<h2 class="FL">首发歌曲推荐</h2>
+	<a class="playall FR mr13" href="#" mus_act="play" mus_data="songids=100162182,100162000,100161538,100161554,100161632,100161478,100161646,100161456&coflag=50001601"></a>
+</div>
+<!-- 首发歌曲推荐title End -->   
+
+<!-- 首发歌曲推荐 Begin -->
+<div class="recommend">
+	<ul>
+		<li>
+		<a target="_blank" href="http://music.weibo.com/t/i/100162182.html"><img class="img150" src="http://weiyinyue.music.sina.com.cn/wpp_cover/100162182_150150.jpg" /></a>
+		<div class="txt">
+			<div class="FL">
+				<p><a target="_blank" href="http://music.weibo.com/t/i/100162182.html" title="妈妈的歌谣" class="bold">妈妈的歌谣</a></p>
+								<p><a target="_blank" href="http://music.weibo.com/t/s/1562373795.html" title="">莫西子诗</a></p>
+							</div>
+			<a class="btn_playE FR" href="http://music.weibo.com/t/i/100162182.html" mus_act="play" mus_data="songids=100162182&coflag=50001601"></a>
+		</div>
+	</li>
+		<li>
+		<a target="_blank" href="http://music.weibo.com/t/i/100162000.html"><img class="img150" src="http://weiyinyue.music.sina.com.cn/wpp_cover/100162000_150150.jpg" /></a>
+		<div class="txt">
+			<div class="FL">
+				<p><a target="_blank" href="http://music.weibo.com/t/i/100162000.html" title="抱抱我，音乐" class="bold">抱抱我，音乐</a></p>
+								<p><a target="_blank" href="http://music.weibo.com/t/s/1647683910.html" title="">小老虎jfever</a></p>
+							</div>
+			<a class="btn_playE FR" href="http://music.weibo.com/t/i/100162000.html" mus_act="play" mus_data="songids=100162000&coflag=50001601"></a>
+		</div>
+	</li>
+		<li>
+		<a target="_blank" href="http://music.weibo.com/t/i/100161538.html"><img class="img150" src="http://weiyinyue.music.sina.com.cn/wpp_cover/100161538_150150.jpg" /></a>
+		<div class="txt">
+			<div class="FL">
+				<p><a target="_blank" href="http://music.weibo.com/t/i/100161538.html" title="Yours" class="bold">Yours</a></p>
+								<p><a target="_blank" href="http://music.weibo.com/t/s/1898080201.html" title="">杀不死SUBS乐队</a></p>
+							</div>
+			<a class="btn_playE FR" href="http://music.weibo.com/t/i/100161538.html" mus_act="play" mus_data="songids=100161538&coflag=50001601"></a>
+		</div>
+	</li>
+		<li>
+		<a target="_blank" href="http://music.weibo.com/t/i/100161554.html"><img class="img150" src="http://weiyinyue.music.sina.com.cn/wpp_cover/100161554_150150.jpg" /></a>
+		<div class="txt">
+			<div class="FL">
+				<p><a target="_blank" href="http://music.weibo.com/t/i/100161554.html" title="Jiujiang City" class="bold">Jiujiang City</a></p>
+								<p><a target="_blank" href="http://music.weibo.com/t/s/1892260160.html" title="">Yokennnn</a></p>
+							</div>
+			<a class="btn_playE FR" href="http://music.weibo.com/t/i/100161554.html" mus_act="play" mus_data="songids=100161554&coflag=50001601"></a>
+		</div>
+	</li>
+		<li>
+		<a target="_blank" href="http://music.weibo.com/t/i/100161632.html"><img class="img150" src="http://weiyinyue.music.sina.com.cn/wpp_cover/100161632_150150.jpg" /></a>
+		<div class="txt">
+			<div class="FL">
+				<p><a target="_blank" href="http://music.weibo.com/t/i/100161632.html" title="斑斓" class="bold">斑斓</a></p>
+								<p><a target="_blank" href="http://music.weibo.com/t/s/1881646965.html" title="">王安磊_Lei</a></p>
+							</div>
+			<a class="btn_playE FR" href="http://music.weibo.com/t/i/100161632.html" mus_act="play" mus_data="songids=100161632&coflag=50001601"></a>
+		</div>
+	</li>
+		<li>
+		<a target="_blank" href="http://music.weibo.com/t/i/100161478.html"><img class="img150" src="http://weiyinyue.music.sina.com.cn/wpp_cover/100161478_150150.jpg" /></a>
+		<div class="txt">
+			<div class="FL">
+				<p><a target="_blank" href="http://music.weibo.com/t/i/100161478.html" title="刘俊麟-冥想" class="bold">刘俊麟-冥想</a></p>
+								<p><a target="_blank" href="http://music.weibo.com/t/s/1826005435.html" title="">刘俊麟娃</a></p>
+							</div>
+			<a class="btn_playE FR" href="http://music.weibo.com/t/i/100161478.html" mus_act="play" mus_data="songids=100161478&coflag=50001601"></a>
+		</div>
+	</li>
+		<li>
+		<a target="_blank" href="http://music.weibo.com/t/i/100161646.html"><img class="img150" src="http://weiyinyue.music.sina.com.cn/wpp_cover/100161646_150150.jpg" /></a>
+		<div class="txt">
+			<div class="FL">
+				<p><a target="_blank" href="http://music.weibo.com/t/i/100161646.html" title="北门街" class="bold">北门街</a></p>
+								<p><a target="_blank" href="http://music.weibo.com/t/s/1934392131.html" title="">Red10aka不死鸟</a></p>
+							</div>
+			<a class="btn_playE FR" href="http://music.weibo.com/t/i/100161646.html" mus_act="play" mus_data="songids=100161646&coflag=50001601"></a>
+		</div>
+	</li>
+		<li>
+		<a target="_blank" href="http://music.weibo.com/t/i/100161456.html"><img class="img150" src="http://weiyinyue.music.sina.com.cn/wpp_cover/100161456_150150.jpg" /></a>
+		<div class="txt">
+			<div class="FL">
+				<p><a target="_blank" href="http://music.weibo.com/t/i/100161456.html" title="小王子" class="bold">小王子</a></p>
+								<p><a target="_blank" href="http://music.weibo.com/t/s/1144057194.html" title="">@旋灵木Uta</a></p>
+							</div>
+			<a class="btn_playE FR" href="http://music.weibo.com/t/i/100161456.html" mus_act="play" mus_data="songids=100161456&coflag=50001601"></a>
+		</div>
+	</li>
+		</ul>
+</div>
+<!-- 首发歌曲推荐 End -->
+        </div>
+        <div class="w320 FL">
+		<!-- 焦点图 Begin -->
+<div class="focus">
+	<ul id="focuspanel">
+		<li><a class="current" href="javascript:;" tips="1"></a></li>
+		<li><a href="javascript:;" tips="2"></a></li>
+		<li><a href="javascript:;" tips="3"></a></li>
+		<li><a href="javascript:;" tips="4"></a></li>
+		<li><a href="javascript:;" tips="5"></a></li>
+	</ul>
+	<div class="mask focusbg">
+		<div class="image" id="focusmoves" style="width:1860px;height:310px">
+						<a href="http://weibo.com/1852855013/Bk4xGbZfS" target="_blank" class="FL" intro="MONO《Where We Begin》独家首播"><img class="img310" src="http://weiyinyue.music.sina.com.cn/floatingtones/wpp_index_focus/1409039244118.jpg" /></a>
+						<a href="http://weibo.com/p/100153265" target="_blank" class="FL" intro="2014 Beijing Sonic电子音乐艺术节"><img class="img310" src="http://weiyinyue.music.sina.com.cn/floatingtones/wpp_index_focus/1409024198192.jpg" /></a>
+						<a href="http://weibo.com/p/100153184" target="_blank" class="FL" intro="2014宋冬野“雏儿劳鹊”巡演北京站"><img class="img310" src="http://weiyinyue.music.sina.com.cn/floatingtones/wpp_index_focus/1408948385173.jpg" /></a>
+						<a href="http://weibo.com/p/100153296" target="_blank" class="FL" intro="莫西子诗首张唱片《原野》首发巡演"><img class="img310" src="http://weiyinyue.music.sina.com.cn/floatingtones/wpp_index_focus/1408530517797.jpg" /></a>
+						<a href="http://weibo.com/p/100153260" target="_blank" class="FL" intro="2014野孩子乐队“大河之上”剧场巡演"><img class="img310" src="http://weiyinyue.music.sina.com.cn/floatingtones/wpp_index_focus/1408948459318.jpg" /></a>
+						<a href="http://weibo.com/1852855013/Bk4xGbZfS" target="_blank" class="FL"><img class="img310" src="http://weiyinyue.music.sina.com.cn/floatingtones/wpp_index_focus/1409039244118.jpg" /></a>
+		</div>
+		<div class="txt">
+			<a target="_blank" href="http://weibo.com/1852855013/Bk4xGbZfS">MONO《Where We Begin》独家首播</a>
+		</div>
+	</div>
+</div>
+<!-- 焦点图 End -->
+        </div>
+    </div>
+    <div class="W_left mt25">
+ 	<!-- 歌曲排行榜title Begin -->
+<div class="title_A">
+	<h2 class="FL">歌曲排行榜</h2>
+	<a class="more FR mr20" target="_blank" href="http://music.weibo.com/snake/snk_rank.php">更多>></a>
+</div>
+<!-- 歌曲排行榜title End -->
+
+<!--选项卡A begin-->
+<div class="tab_A clearfix">
+	<ul class="FL" id="rankTab">
+		<li><a class="current" href="javascript:;">24小时热播榜</a></li>
+		<li><a href="javascript:;">喜欢歌曲周榜</a></li>
+		<li><a href="javascript:;">分享歌曲总榜</a></li>
+	</ul>
+	<a class="playall FR mr20" href="http://music.weibo.com/snake/snk_rank.php" mus_act="play" mus_data="songids=100162570,100160860,100157338,100162550,100161554,100160810,100161094,100151486,100157566,100162182&coflag=50001601" songids="100162570,100160860,100157338,100162550,100161554,100160810,100161094,100151486,100157566,100162182_100103228,100095665,100096241,100096243,100030867,100108221,100150022,100108140,100122108,100149592_100027028,100029289,100033342,100106169,100128708,100042218,100074692,100036922,100030867,100031893"></a>
+</div>
+<!--选项卡A End-->
+
+<!-- 歌曲排行榜 Begin -->
+<div class="list_A" id="rankPanel">
+	<ul>
+					<li class="first">
+			<div class="line"></div>
+			<div class="content">
+				<span class="con-1">1</span>
+				<!--<a target="_blank" href="http://music.weibo.com/t/i/100162570.html"><img width="65" height="65" src="http://weiyinyue.music.sina.com.cn/wpp_cover/100162570_120120.jpg"></a>-->
+				<a target="_blank" href="http://music.weibo.com/t/i/100162570.html"><img width="65" height="65" src="http://weiyinyue.music.sina.com.cn/wpp_cover/100162570_5050.jpg"></a>
+				<span class="fst_songname">
+					<a class="songname" target="_blank" href="http://music.weibo.com/t/i/100162570.html">侗听</a>
+				</span>
+				<span class="gray FL">
+					<a target="_blank" href="http://music.weibo.com/t/s/1296241304.html">苏醒AllenSu</a>
+				</span>
+				<span class="times"><i>5276</i>次播放</span>
+				<a class="btn_playA" mus_act="play" mus_data="songids=100162570&coflag=50001601" href="http://music.weibo.com/t/i/100162570.html"></a>
+			</div>
+		</li>
+							<li>
+			<span class="con">2</span>
+			<span class="songname">
+				<a class="songname" target="_blank" href="http://music.weibo.com/t/i/100160860.html">中国风改编 小苹果 </a>
+			</span>
+			<span class="gray">
+				<a class="gray" target="_blank" href="http://music.weibo.com/t/s/2061023950.html">熊猫团PandaBros</a>
+			</span>
+			<span class="times"><i>2416</i>次播放</span>
+			<a class="btn_playA" mus_act="play" mus_data="songids=100160860&coflag=50001601" href="http://music.weibo.com/t/i/100160860.html"></a>
+		</li>
+							<li>
+			<span class="con">3</span>
+			<span class="songname">
+				<a class="songname" target="_blank" href="http://music.weibo.com/t/i/100157338.html">星星</a>
+			</span>
+			<span class="gray">
+				<a class="gray" target="_blank" href="http://music.weibo.com/t/s/1227908142.html">牛奶咖啡组合</a>
+			</span>
+			<span class="times"><i>2046</i>次播放</span>
+			<a class="btn_playA" mus_act="play" mus_data="songids=100157338&coflag=50001601" href="http://music.weibo.com/t/i/100157338.html"></a>
+		</li>
+							<li>
+			<span class="con">4</span>
+			<span class="songname">
+				<a class="songname" target="_blank" href="http://music.weibo.com/t/i/100162550.html">刘俊麟 - 笑一个</a>
+			</span>
+			<span class="gray">
+				<a class="gray" target="_blank" href="http://music.weibo.com/t/s/1826005435.html">刘俊麟娃</a>
+			</span>
+			<span class="times"><i>2007</i>次播放</span>
+			<a class="btn_playA" mus_act="play" mus_data="songids=100162550&coflag=50001601" href="http://music.weibo.com/t/i/100162550.html"></a>
+		</li>
+							<li>
+			<span class="con">5</span>
+			<span class="songname">
+				<a class="songname" target="_blank" href="http://music.weibo.com/t/i/100161554.html">Jiujiang City</a>
+			</span>
+			<span class="gray">
+				<a class="gray" target="_blank" href="http://music.weibo.com/t/s/1892260160.html">Yokennnn</a>
+			</span>
+			<span class="times"><i>1722</i>次播放</span>
+			<a class="btn_playA" mus_act="play" mus_data="songids=100161554&coflag=50001601" href="http://music.weibo.com/t/i/100161554.html"></a>
+		</li>
+							<li>
+			<span class="con">6</span>
+			<span class="songname">
+				<a class="songname" target="_blank" href="http://music.weibo.com/t/i/100160810.html">26岁的小孩</a>
+			</span>
+			<span class="gray">
+				<a class="gray" target="_blank" href="http://music.weibo.com/t/s/1801769410.html">刘聪</a>
+			</span>
+			<span class="times"><i>1365</i>次播放</span>
+			<a class="btn_playA" mus_act="play" mus_data="songids=100160810&coflag=50001601" href="http://music.weibo.com/t/i/100160810.html"></a>
+		</li>
+							<li>
+			<span class="con">7</span>
+			<span class="songname">
+				<a class="songname" target="_blank" href="http://music.weibo.com/t/i/100161094.html">路</a>
+			</span>
+			<span class="gray">
+				<a class="gray" target="_blank" href="http://music.weibo.com/t/s/1726316967.html">慕斯小普</a>
+			</span>
+			<span class="times"><i>1362</i>次播放</span>
+			<a class="btn_playA" mus_act="play" mus_data="songids=100161094&coflag=50001601" href="http://music.weibo.com/t/i/100161094.html"></a>
+		</li>
+							<li>
+			<span class="con">8</span>
+			<span class="songname">
+				<a class="songname" target="_blank" href="http://music.weibo.com/t/i/100151486.html">《月光里》夜色钢琴曲</a>
+			</span>
+			<span class="gray">
+				<a class="gray" target="_blank" href="http://music.weibo.com/t/s/1820380821.html">夜色钢琴赵海洋</a>
+			</span>
+			<span class="times"><i>1320</i>次播放</span>
+			<a class="btn_playA" mus_act="play" mus_data="songids=100151486&coflag=50001601" href="http://music.weibo.com/t/i/100151486.html"></a>
+		</li>
+							<li>
+			<span class="con">9</span>
+			<span class="songname">
+				<a class="songname" target="_blank" href="http://music.weibo.com/t/i/100157566.html">歌路</a>
+			</span>
+			<span class="gray">
+				<a class="gray" target="_blank" href="http://music.weibo.com/t/s/2696749592.html">刘瑞琦</a>
+			</span>
+			<span class="times"><i>1299</i>次播放</span>
+			<a class="btn_playA" mus_act="play" mus_data="songids=100157566&coflag=50001601" href="http://music.weibo.com/t/i/100157566.html"></a>
+		</li>
+							<li>
+			<span class="con">10</span>
+			<span class="songname">
+				<a class="songname" target="_blank" href="http://music.weibo.com/t/i/100162182.html">妈妈的歌谣</a>
+			</span>
+			<span class="gray">
+				<a class="gray" target="_blank" href="http://music.weibo.com/t/s/1562373795.html">莫西子诗</a>
+			</span>
+			<span class="times"><i>1093</i>次播放</span>
+			<a class="btn_playA" mus_act="play" mus_data="songids=100162182&coflag=50001601" href="http://music.weibo.com/t/i/100162182.html"></a>
+		</li>
+				</ul>
+	<ul style="display:none">
+					<li class="first">
+			<div class="line"></div>
+			<div class="content">
+				<span class="con-1">1</span>
+				<!--<a target="_blank" href="http://music.weibo.com/t/i/100103228.html"><img width="65" height="65" src="http://weiyinyue.music.sina.com.cn/wpp_cover/100103228_120120.jpg"></a>-->
+				<a target="_blank" href="http://music.weibo.com/t/i/100103228.html"><img width="65" height="65" src="http://weiyinyue.music.sina.com.cn/wpp_cover/100103228_5050.jpg"></a>
+				<span class="fst_songname">
+					<a class="songname" target="_blank" href="http://music.weibo.com/t/i/100103228.html">他不懂</a>
+				</span>
+				<span class="gray FL">
+					<a target="_blank" href="http://music.weibo.com/t/s/1702717794.html">@张杰</a>
+				</span>
+				<span class="times"><i>5465</i>次喜欢</span>
+				<a class="btn_playA" mus_act="play" mus_data="songids=100103228&coflag=50001601" href="http://music.weibo.com/t/i/100103228.html"></a>
+			</div>
+		</li>
+							<li>
+			<span class="con">2</span>
+			<span class="songname">
+				<a class="songname" target="_blank" href="http://music.weibo.com/t/i/100095665.html">Heart</a>
+			</span>
+			<span class="gray">
+				<a class="gray" target="_blank" href="http://music.weibo.com/t/s/1804549454.html">TFBOYS</a>
+			</span>
+			<span class="times"><i>3708</i>次喜欢</span>
+			<a class="btn_playA" mus_act="play" mus_data="songids=100095665&coflag=50001601" href="http://music.weibo.com/t/i/100095665.html"></a>
+		</li>
+							<li>
+			<span class="con">3</span>
+			<span class="songname">
+				<a class="songname" target="_blank" href="http://music.weibo.com/t/i/100096241.html">爱出发</a>
+			</span>
+			<span class="gray">
+				<a class="gray" target="_blank" href="http://music.weibo.com/t/s/1804549454.html">@TFBOYS-王俊...</a>
+			</span>
+			<span class="times"><i>3451</i>次喜欢</span>
+			<a class="btn_playA" mus_act="play" mus_data="songids=100096241&coflag=50001601" href="http://music.weibo.com/t/i/100096241.html"></a>
+		</li>
+							<li>
+			<span class="con">4</span>
+			<span class="songname">
+				<a class="songname" target="_blank" href="http://music.weibo.com/t/i/100096243.html">我不要改变</a>
+			</span>
+			<span class="gray">
+				<a class="gray" target="_blank" href="http://music.weibo.com/t/s/1804549454.html">@TF家族</a>
+			</span>
+			<span class="times"><i>2978</i>次喜欢</span>
+			<a class="btn_playA" mus_act="play" mus_data="songids=100096243&coflag=50001601" href="http://music.weibo.com/t/i/100096243.html"></a>
+		</li>
+							<li>
+			<span class="con">5</span>
+			<span class="songname">
+				<a class="songname" target="_blank" href="http://music.weibo.com/t/i/100030867.html">夜空中最亮的星</a>
+			</span>
+			<span class="gray">
+				<a class="gray" target="_blank" href="http://music.weibo.com/t/s/1346038367.html">EscapePlan逃...</a>
+			</span>
+			<span class="times"><i>2015</i>次喜欢</span>
+			<a class="btn_playA" mus_act="play" mus_data="songids=100030867&coflag=50001601" href="http://music.weibo.com/t/i/100030867.html"></a>
+		</li>
+							<li>
+			<span class="con">6</span>
+			<span class="songname">
+				<a class="songname" target="_blank" href="http://music.weibo.com/t/i/100108221.html">我(10进9)</a>
+			</span>
+			<span class="gray">
+				<a class="gray" target="_blank" href="http://music.weibo.com/t/s/1624923463.html">华晨宇</a>
+			</span>
+			<span class="times"><i>1422</i>次喜欢</span>
+			<a class="btn_playA" mus_act="play" mus_data="songids=100108221&coflag=50001601" href="http://music.weibo.com/t/i/100108221.html"></a>
+		</li>
+							<li>
+			<span class="con">7</span>
+			<span class="songname">
+				<a class="songname" target="_blank" href="http://music.weibo.com/t/i/100150022.html">在一起</a>
+			</span>
+			<span class="gray">
+				<a class="gray" target="_blank" href="http://music.weibo.com/t/s/1844477730.html">欧豪</a>
+			</span>
+			<span class="times"><i>1410</i>次喜欢</span>
+			<a class="btn_playA" mus_act="play" mus_data="songids=100150022&coflag=50001601" href="http://music.weibo.com/t/i/100150022.html"></a>
+		</li>
+							<li>
+			<span class="con">8</span>
+			<span class="songname">
+				<a class="songname" target="_blank" href="http://music.weibo.com/t/i/100108140.html">开到荼蘼（湖南卫...</a>
+			</span>
+			<span class="gray">
+				<a class="gray" target="_blank" href="http://music.weibo.com/t/s/1624923463.html">华晨宇</a>
+			</span>
+			<span class="times"><i>848</i>次喜欢</span>
+			<a class="btn_playA" mus_act="play" mus_data="songids=100108140&coflag=50001601" href="http://music.weibo.com/t/i/100108140.html"></a>
+		</li>
+							<li>
+			<span class="con">9</span>
+			<span class="songname">
+				<a class="songname" target="_blank" href="http://music.weibo.com/t/i/100122108.html">Tender</a>
+			</span>
+			<span class="gray">
+				<a class="gray" target="_blank" href="http://music.weibo.com/t/s/1276025865.html">果味VC Alice ...</a>
+			</span>
+			<span class="times"><i>840</i>次喜欢</span>
+			<a class="btn_playA" mus_act="play" mus_data="songids=100122108&coflag=50001601" href="http://music.weibo.com/t/i/100122108.html"></a>
+		</li>
+							<li>
+			<span class="con">10</span>
+			<span class="songname">
+				<a class="songname" target="_blank" href="http://music.weibo.com/t/i/100149592.html">刘俊麟 - 萤火虫</a>
+			</span>
+			<span class="gray">
+				<a class="gray" target="_blank" href="http://music.weibo.com/t/s/1826005435.html">刘俊麟</a>
+			</span>
+			<span class="times"><i>792</i>次喜欢</span>
+			<a class="btn_playA" mus_act="play" mus_data="songids=100149592&coflag=50001601" href="http://music.weibo.com/t/i/100149592.html"></a>
+		</li>
+				</ul>
+	<ul style="display:none">
+					<li class="first">
+			<div class="line"></div>
+			<div class="content">
+				<span class="con-1">1</span>
+				<!--<a target="_blank" href="http://music.weibo.com/t/i/100027028.html"><img width="65" height="65" src="http://weiyinyue.music.sina.com.cn/wpp_cover/100027028_120120.jpg"></a>-->
+				<a target="_blank" href="http://music.weibo.com/t/i/100027028.html"><img width="65" height="65" src="http://weiyinyue.music.sina.com.cn/wpp_cover/100027028_5050.jpg"></a>
+				<span class="fst_songname">
+					<a class="songname" target="_blank" href="http://music.weibo.com/t/i/100027028.html">我的歌声里 （DEMO...</a>
+				</span>
+				<span class="gray FL">
+					<a target="_blank" href="http://music.weibo.com/t/s/1816618865.html">曲婉婷Wanting</a>
+				</span>
+				<span class="times"><i>59993</i>次分享</span>
+				<a class="btn_playA" mus_act="play" mus_data="songids=100027028&coflag=50001601" href="http://music.weibo.com/t/i/100027028.html"></a>
+			</div>
+		</li>
+							<li>
+			<span class="con">2</span>
+			<span class="songname">
+				<a class="songname" target="_blank" href="http://music.weibo.com/t/i/100029289.html">Drenched - 词曲：...</a>
+			</span>
+			<span class="gray">
+				<a class="gray" target="_blank" href="http://music.weibo.com/t/s/1816618865.html">曲婉婷Wanting</a>
+			</span>
+			<span class="times"><i>36732</i>次分享</span>
+			<a class="btn_playA" mus_act="play" mus_data="songids=100029289&coflag=50001601" href="http://music.weibo.com/t/i/100029289.html"></a>
+		</li>
+							<li>
+			<span class="con">3</span>
+			<span class="songname">
+				<a class="songname" target="_blank" href="http://music.weibo.com/t/i/100033342.html">Life Is Like A So...</a>
+			</span>
+			<span class="gray">
+				<a class="gray" target="_blank" href="http://music.weibo.com/t/s/1816618865.html">曲婉婷Wanting</a>
+			</span>
+			<span class="times"><i>17003</i>次分享</span>
+			<a class="btn_playA" mus_act="play" mus_data="songids=100033342&coflag=50001601" href="http://music.weibo.com/t/i/100033342.html"></a>
+		</li>
+							<li>
+			<span class="con">4</span>
+			<span class="songname">
+				<a class="songname" target="_blank" href="http://music.weibo.com/t/i/100106169.html">远方</a>
+			</span>
+			<span class="gray">
+				<a class="gray" target="_blank" href="http://music.weibo.com/t/s/1288832394.html">徐磊乐</a>
+			</span>
+			<span class="times"><i>13135</i>次分享</span>
+			<a class="btn_playA" mus_act="play" mus_data="songids=100106169&coflag=50001601" href="http://music.weibo.com/t/i/100106169.html"></a>
+		</li>
+							<li>
+			<span class="con">5</span>
+			<span class="songname">
+				<a class="songname" target="_blank" href="http://music.weibo.com/t/i/100128708.html">《爸爸》</a>
+			</span>
+			<span class="gray">
+				<a class="gray" target="_blank" href="http://music.weibo.com/t/s/1751058035.html">苏莹莹EVE-</a>
+			</span>
+			<span class="times"><i>6464</i>次分享</span>
+			<a class="btn_playA" mus_act="play" mus_data="songids=100128708&coflag=50001601" href="http://music.weibo.com/t/i/100128708.html"></a>
+		</li>
+							<li>
+			<span class="con">6</span>
+			<span class="songname">
+				<a class="songname" target="_blank" href="http://music.weibo.com/t/i/100042218.html">Rolling In The De...</a>
+			</span>
+			<span class="gray">
+				<a class="gray" target="_blank" href="http://music.weibo.com/t/s/1592742547.html">North</a>
+			</span>
+			<span class="times"><i>5287</i>次分享</span>
+			<a class="btn_playA" mus_act="play" mus_data="songids=100042218&coflag=50001601" href="http://music.weibo.com/t/i/100042218.html"></a>
+		</li>
+							<li>
+			<span class="con">7</span>
+			<span class="songname">
+				<a class="songname" target="_blank" href="http://music.weibo.com/t/i/100074692.html">泪痕</a>
+			</span>
+			<span class="gray">
+				<a class="gray" target="_blank" href="http://music.weibo.com/t/s/2020370911.html">凌程之Jaylin</a>
+			</span>
+			<span class="times"><i>4872</i>次分享</span>
+			<a class="btn_playA" mus_act="play" mus_data="songids=100074692&coflag=50001601" href="http://music.weibo.com/t/i/100074692.html"></a>
+		</li>
+							<li>
+			<span class="con">8</span>
+			<span class="songname">
+				<a class="songname" target="_blank" href="http://music.weibo.com/t/i/100036922.html">静下来</a>
+			</span>
+			<span class="gray">
+				<a class="gray" target="_blank" href="http://music.weibo.com/t/s/1647051781.html">大乔小乔</a>
+			</span>
+			<span class="times"><i>4538</i>次分享</span>
+			<a class="btn_playA" mus_act="play" mus_data="songids=100036922&coflag=50001601" href="http://music.weibo.com/t/i/100036922.html"></a>
+		</li>
+							<li>
+			<span class="con">9</span>
+			<span class="songname">
+				<a class="songname" target="_blank" href="http://music.weibo.com/t/i/100030867.html">夜空中最亮的星</a>
+			</span>
+			<span class="gray">
+				<a class="gray" target="_blank" href="http://music.weibo.com/t/s/1346038367.html">EscapePlan逃...</a>
+			</span>
+			<span class="times"><i>4100</i>次分享</span>
+			<a class="btn_playA" mus_act="play" mus_data="songids=100030867&coflag=50001601" href="http://music.weibo.com/t/i/100030867.html"></a>
+		</li>
+							<li>
+			<span class="con">10</span>
+			<span class="songname">
+				<a class="songname" target="_blank" href="http://music.weibo.com/t/i/100031893.html">姑娘姑娘</a>
+			</span>
+			<span class="gray">
+				<a class="gray" target="_blank" href="http://music.weibo.com/t/s/1799611473.html">Zakka左卡乐队</a>
+			</span>
+			<span class="times"><i>3808</i>次分享</span>
+			<a class="btn_playA" mus_act="play" mus_data="songids=100031893&coflag=50001601" href="http://music.weibo.com/t/i/100031893.html"></a>
+		</li>
+				</ul>
+</div>
+<!-- 歌曲排行榜 End -->
+
+<!-- 歌曲排行榜title Begin -->
+<div class="title_A mt25">
+	<h2 class="FL">播客排行榜</h2>
+	<a class="more FR mr20" target="_blank" href="http://music.weibo.com/snake/snk_rank.php#boke">更多>></a>
+</div>
+<!-- 歌曲排行榜title End -->
+
+<!--选项卡B begin-->
+<div class="tab_A clearfix mt25">
+	<ul class="FL" id="rankTabB">
+		<li><a class="current" href="javascript:;">24小时播客收听榜</a></li>
+		<li><a href="javascript:;">最新节目</a></li>
+	</ul>
+</div>
+<!--选项卡B End-->
+<div class="list_A" id="rankPanelB">
+	<ul>
+					<li class="first">
+			<div class="line"></div>
+			<div class="content">
+				<span class="con-1">1</span>
+				<!--<a target="_blank" href="http://music.weibo.com/t/i/100159982.html"><img width="65" height="65" src="http://weiyinyue.music.sina.com.cn/wpp_cover/100159982_120120.jpg"></a>-->
+				<a target="_blank" href="http://music.weibo.com/t/i/100159982.html"><img width="65" height="65" src="http://weiyinyue.music.sina.com.cn/wpp_cover/100159982_5050.jpg"></a>
+				<span class="fst_songname">
+					<a class="songname" title="《男闺蜜》Vol.5女神来啦! 第二季" target="_blank" href="http://music.weibo.com/t/i/100159982.html">《男闺蜜》Vol.5女...</a>
+				</span>
+				<span class="gray FL">
+					<a target="_blank" href="http://music.weibo.com/t/s/2706613925.html">女神来啦！</a>
+				</span>
+				<span class="times"><i>1510</i>次播放</span>
+				<a class="btn_playA" mus_act="play" mus_data="songids=100159982&coflag=50001601" href="http://music.weibo.com/t/i/100159982.html"></a>
+			</div>
+		</li>
+							<li>
+			<span class="con">2</span>
+			<span class="songname">
+				<a class="songname" title="【故事吧】给即将上大学的你" target="_blank" href="http://music.weibo.com/t/i/100161482.html">【故事吧】给即将...</a>
+			</span>
+			<span class="gray">
+				<a class="gray" target="_blank" href="http://music.weibo.com/t/s/2495446290.html">♫ 故事吧</a>
+			</span>
+			<span class="times"><i>1294</i>次播放</span>
+			<a class="btn_playA" mus_act="play" mus_data="songids=100161482&coflag=50001601" href="http://music.weibo.com/t/i/100161482.html"></a>
+		</li>
+							<li>
+			<span class="con">3</span>
+			<span class="songname">
+				<a class="songname" title="【IN乐半岛】Vol.18-翻唱PK原唱" target="_blank" href="http://music.weibo.com/t/i/100162502.html">【IN乐半岛】Vol.1...</a>
+			</span>
+			<span class="gray">
+				<a class="gray" target="_blank" href="http://music.weibo.com/t/s/2495446290.html">IN乐半岛</a>
+			</span>
+			<span class="times"><i>1261</i>次播放</span>
+			<a class="btn_playA" mus_act="play" mus_data="songids=100162502&coflag=50001601" href="http://music.weibo.com/t/i/100162502.html"></a>
+		</li>
+							<li>
+			<span class="con">4</span>
+			<span class="songname">
+				<a class="songname" title="《优质男》Vol.6女神来啦! 第二季" target="_blank" href="http://music.weibo.com/t/i/100161600.html">《优质男》Vol.6女...</a>
+			</span>
+			<span class="gray">
+				<a class="gray" target="_blank" href="http://music.weibo.com/t/s/2706613925.html">女神来啦！</a>
+			</span>
+			<span class="times"><i>970</i>次播放</span>
+			<a class="btn_playA" mus_act="play" mus_data="songids=100161600&coflag=50001601" href="http://music.weibo.com/t/i/100161600.html"></a>
+		</li>
+							<li>
+			<span class="con">5</span>
+			<span class="songname">
+				<a class="songname" title="思念" target="_blank" href="http://music.weibo.com/t/i/100057428.html">思念</a>
+			</span>
+			<span class="gray">
+				<a class="gray" target="_blank" href="http://music.weibo.com/t/s/2985903437.html">凡音网络电台</a>
+			</span>
+			<span class="times"><i>725</i>次播放</span>
+			<a class="btn_playA" mus_act="play" mus_data="songids=100057428&coflag=50001601" href="http://music.weibo.com/t/i/100057428.html"></a>
+		</li>
+							<li>
+			<span class="con">6</span>
+			<span class="songname">
+				<a class="songname" title="糖蒜女子脱口秀：化妆师" target="_blank" href="http://music.weibo.com/t/i/100161334.html">糖蒜女子脱口秀：...</a>
+			</span>
+			<span class="gray">
+				<a class="gray" target="_blank" href="http://music.weibo.com/t/s/1497271063.html">糖蒜女子脱口秀</a>
+			</span>
+			<span class="times"><i>437</i>次播放</span>
+			<a class="btn_playA" mus_act="play" mus_data="songids=100161334&coflag=50001601" href="http://music.weibo.com/t/i/100161334.html"></a>
+		</li>
+							<li>
+			<span class="con">7</span>
+			<span class="songname">
+				<a class="songname" title="红牛能量音乐087—我们都爱朴树" target="_blank" href="http://music.weibo.com/t/i/100095351.html">红牛能量音乐087—...</a>
+			</span>
+			<span class="gray">
+				<a class="gray" target="_blank" href="http://music.weibo.com/t/s/3213975917.html">红牛能量音乐</a>
+			</span>
+			<span class="times"><i>433</i>次播放</span>
+			<a class="btn_playA" mus_act="play" mus_data="songids=100095351&coflag=50001601" href="http://music.weibo.com/t/i/100095351.html"></a>
+		</li>
+							<li>
+			<span class="con">8</span>
+			<span class="songname">
+				<a class="songname" title="《终于等到你》张靓颖" target="_blank" href="http://music.weibo.com/t/i/100094599.html">《终于等到你》张靓颖</a>
+			</span>
+			<span class="gray">
+				<a class="gray" target="_blank" href="http://music.weibo.com/t/s/1913764295.html">城市音“雄”</a>
+			</span>
+			<span class="times"><i>402</i>次播放</span>
+			<a class="btn_playA" mus_act="play" mus_data="songids=100094599&coflag=50001601" href="http://music.weibo.com/t/i/100094599.html"></a>
+		</li>
+							<li>
+			<span class="con">9</span>
+			<span class="songname">
+				<a class="songname" title="【小情歌】朴树的平凡之路" target="_blank" href="http://music.weibo.com/t/i/100153960.html">【小情歌】朴树的...</a>
+			</span>
+			<span class="gray">
+				<a class="gray" target="_blank" href="http://music.weibo.com/t/s/3789178872.html">大学生播客</a>
+			</span>
+			<span class="times"><i>348</i>次播放</span>
+			<a class="btn_playA" mus_act="play" mus_data="songids=100153960&coflag=50001601" href="http://music.weibo.com/t/i/100153960.html"></a>
+		</li>
+							<li>
+			<span class="con">10</span>
+			<span class="songname">
+				<a class="songname" title="拾叁不靠：吃 By糖蒜爱音乐" target="_blank" href="http://music.weibo.com/t/i/100162538.html">拾叁不靠：吃 By糖...</a>
+			</span>
+			<span class="gray">
+				<a class="gray" target="_blank" href="http://music.weibo.com/t/s/1497271063.html">糖蒜爱音乐</a>
+			</span>
+			<span class="times"><i>304</i>次播放</span>
+			<a class="btn_playA" mus_act="play" mus_data="songids=100162538&coflag=50001601" href="http://music.weibo.com/t/i/100162538.html"></a>
+		</li>
+				</ul>
+	<ul style="display:none">
+					<li class="first">
+			<div class="line"></div>
+			<div class="content">
+				<span class="con-1">1</span>
+				<!--<a target="_blank" href="http://music.weibo.com/t/i/100163352.html"><img width="65" height="65" src="http://weiyinyue.music.sina.com.cn/wpp_cover/100163352_120120.jpg"></a>-->
+				<a target="_blank" href="http://music.weibo.com/t/i/100163352.html"><img width="65" height="65" src="http://weiyinyue.music.sina.com.cn/wpp_cover/100163352_5050.jpg"></a>
+				<span class="fst_songname">
+					<a class="songname" title="Chapter 4. 2014.8.27 缘分的天空" target="_blank" href="http://music.weibo.com/t/i/100163352.html">Chapter 4. 2014.8...</a>
+				</span>
+				<span class="gray FL">
+					<a target="_blank" href="http://music.weibo.com/t/s/1651485663.html">早安！你好！</a>
+				</span>
+				<span class="times"><i>0</i>次播放</span>
+				<a class="btn_playA" mus_act="play" mus_data="songids=100163352&coflag=50001601" href="http://music.weibo.com/t/i/100163352.html"></a>
+			</div>
+		</li>
+							<li>
+			<span class="con">2</span>
+			<span class="songname">
+				<a class="songname" title="102：私房歌 之 夜晚 " target="_blank" href="http://music.weibo.com/t/i/100163348.html">102：私房歌 之 夜晚 </a>
+			</span>
+			<span class="gray">
+				<a class="gray" target="_blank" href="http://music.weibo.com/t/s/1305305845.html">贺愉</a>
+			</span>
+			<span class="times"><i>25</i>次播放</span>
+			<a class="btn_playA" mus_act="play" mus_data="songids=100163348&coflag=50001601" href="http://music.weibo.com/t/i/100163348.html"></a>
+		</li>
+							<li>
+			<span class="con">3</span>
+			<span class="songname">
+				<a class="songname" title="不想做被人抛弃的洋葱" target="_blank" href="http://music.weibo.com/t/i/100163328.html">不想做被人抛弃的洋葱</a>
+			</span>
+			<span class="gray">
+				<a class="gray" target="_blank" href="http://music.weibo.com/t/s/1375841952.html">普树电台</a>
+			</span>
+			<span class="times"><i>6</i>次播放</span>
+			<a class="btn_playA" mus_act="play" mus_data="songids=100163328&coflag=50001601" href="http://music.weibo.com/t/i/100163328.html"></a>
+		</li>
+							<li>
+			<span class="con">4</span>
+			<span class="songname">
+				<a class="songname" title="【吐槽2014】平胸“女汉子”你是站着嘘嘘吗？" target="_blank" href="http://music.weibo.com/t/i/100163322.html">【吐槽2014】平胸“...</a>
+			</span>
+			<span class="gray">
+				<a class="gray" target="_blank" href="http://music.weibo.com/t/s/1905998075.html">吐槽2014-主播老T</a>
+			</span>
+			<span class="times"><i>29</i>次播放</span>
+			<a class="btn_playA" mus_act="play" mus_data="songids=100163322&coflag=50001601" href="http://music.weibo.com/t/i/100163322.html"></a>
+		</li>
+							<li>
+			<span class="con">5</span>
+			<span class="songname">
+				<a class="songname" title="【故事有情天】氧化" target="_blank" href="http://music.weibo.com/t/i/100163318.html">【故事有情天】氧化</a>
+			</span>
+			<span class="gray">
+				<a class="gray" target="_blank" href="http://music.weibo.com/t/s/1261152445.html">故事有情天</a>
+			</span>
+			<span class="times"><i>3</i>次播放</span>
+			<a class="btn_playA" mus_act="play" mus_data="songids=100163318&coflag=50001601" href="http://music.weibo.com/t/i/100163318.html"></a>
+		</li>
+							<li>
+			<span class="con">6</span>
+			<span class="songname">
+				<a class="songname" title="【每周一歌】《广州》赌鬼乐队" target="_blank" href="http://music.weibo.com/t/i/100163312.html">【每周一歌】《广...</a>
+			</span>
+			<span class="gray">
+				<a class="gray" target="_blank" href="http://music.weibo.com/t/s/2169704763.html">摇滚天堂-杨子虚</a>
+			</span>
+			<span class="times"><i>11</i>次播放</span>
+			<a class="btn_playA" mus_act="play" mus_data="songids=100163312&coflag=50001601" href="http://music.weibo.com/t/i/100163312.html"></a>
+		</li>
+							<li>
+			<span class="con">7</span>
+			<span class="songname">
+				<a class="songname" title="【我的私房歌】 - 陀螺·Vol.05 - NJ嵬俊" target="_blank" href="http://music.weibo.com/t/i/100163300.html">【我的私房歌】 - ...</a>
+			</span>
+			<span class="gray">
+				<a class="gray" target="_blank" href="http://music.weibo.com/t/s/2573201934.html">蔷薇岛屿网络电台</a>
+			</span>
+			<span class="times"><i>11</i>次播放</span>
+			<a class="btn_playA" mus_act="play" mus_data="songids=100163300&coflag=50001601" href="http://music.weibo.com/t/i/100163300.html"></a>
+		</li>
+							<li>
+			<span class="con">8</span>
+			<span class="songname">
+				<a class="songname" title="【岁月如歌】- 肩上蝶，要唱首情歌给你 - NJ楚璇" target="_blank" href="http://music.weibo.com/t/i/100163298.html">【岁月如歌】- 肩...</a>
+			</span>
+			<span class="gray">
+				<a class="gray" target="_blank" href="http://music.weibo.com/t/s/2573201934.html">岁月如歌-蔷薇...</a>
+			</span>
+			<span class="times"><i>50</i>次播放</span>
+			<a class="btn_playA" mus_act="play" mus_data="songids=100163298&coflag=50001601" href="http://music.weibo.com/t/i/100163298.html"></a>
+		</li>
+							<li>
+			<span class="con">9</span>
+			<span class="songname">
+				<a class="songname" title="【那些年，我们遭遇的青春5】把最好的时光留给自己" target="_blank" href="http://music.weibo.com/t/i/100163296.html">【那些年，我们遭...</a>
+			</span>
+			<span class="gray">
+				<a class="gray" target="_blank" href="http://music.weibo.com/t/s/2346173542.html">青话</a>
+			</span>
+			<span class="times"><i>1</i>次播放</span>
+			<a class="btn_playA" mus_act="play" mus_data="songids=100163296&coflag=50001601" href="http://music.weibo.com/t/i/100163296.html"></a>
+		</li>
+							<li>
+			<span class="con">10</span>
+			<span class="songname">
+				<a class="songname" title="【No.024 北京电台詹想专访】" target="_blank" href="http://music.weibo.com/t/i/100163266.html">【No.024 北京电台...</a>
+			</span>
+			<span class="gray">
+				<a class="gray" target="_blank" href="http://music.weibo.com/t/s/3973309303.html">我们的故事</a>
+			</span>
+			<span class="times"><i>16</i>次播放</span>
+			<a class="btn_playA" mus_act="play" mus_data="songids=100163266&coflag=50001601" href="http://music.weibo.com/t/i/100163266.html"></a>
+		</li>
+				</ul>
+</div>
+
+<div class="title_A mt25">
+	<h2 class="FL">音乐人专题</h2>
+	<a class="more FR mr20" href="/snake/snk_topic.php">更多&gt;&gt;</a>
+</div>
+<div class="theme">
+	<a target="_blank" href="http://music.weibo.com/snake/snk_award.php">
+		<img class="" src="http://i3.sinaimg.cn/music/web/weibo2012/ad/20140702_560X260.png" width="560" height="260">
+	</a>
+	<div class="title none">
+		<p class="t">音乐人专刊第十一期 深度专访杨乃文</p>
+		<p>时隔七年，杨乃文终于推出专辑《zero》</p>
+		<p>她说她的歌都是每一个阶段对生命的感悟</p>
+	</div>
+</div>
+	<!-- 广告位 Begin -->
+<!-- 广告位 End -->
+	<!-- 音乐动态title Begin -->
+<div class="title_A mt25">
+	<h2 class="FL">音乐动态</h2>
+</div>
+<!-- 音乐动态title End -->
+
+<!--选项卡A begin-->
+<div class="tab_A clearfix">
+	<ul class="FL" id="actionTab">
+		<li><a class="current" href="javascript:;">全部</a></li>
+		<li><a href="javascript:;">名人</a></li>
+		<li><a href="javascript:;">好友</a></li>
+	</ul>
+</div>
+<!--选项卡A End-->
+
+<!-- 音乐动态 Begin -->
+<div class="list_B">
+	<ul id="actionPanel">
+	</ul>
+</div>
+<!-- 音乐动态 End -->   
+	<!-- 精选乐评title Begin -->
+<div class="title_A mt25">
+	<h2 class="FL">精选乐评</h2>
+</div>
+<!-- 精选乐评title End -->
+
+<!-- 精选乐评 Begin -->
+<div class="month_judge">
+	<dl>
+		<dt><a target="_blank" href="http://music.weibo.com/snake/snk_user.php?uid=3675747032"><img class="img50" src="http://tp1.sinaimg.cn/3675747032/180/5700910410/0" /></a></dt>
+		<dd class="clearfix info">
+			<span class="name">
+				<a target="_blank" href="http://music.weibo.com/snake/snk_user.php?uid=3675747032" title="琰御">琰御</a>
+			</span>
+			<span class="time">
+				<i>07月30日</i><i>18:49</i>评价
+			</span>
+			<a target="_blank" href="http://music.weibo.com/t/i/100140786.html" class="songname" title="半壶纱">半壶纱-刘珂矣</a>
+			<a href="javascript:;" class="btn_playA"  mus_act="play" mus_data="songids=100140786&coflag=50001601"></a>
+		</dd>
+		<dd class="clearfix saying">
+			<em class="front">“</em>
+			<span class="judge">
+				很清爽，颤音和转音把握的很好，声音也有力度。音乐让人清心，词虽简单但情节都到位，很不错。
+				<span class="detail">
+										<em class="behind">”</em>
+				</span>
+			</span>
+
+		</dd>
+	</dl>
+	<dl>
+		<dt><a target="_blank" href="http://music.weibo.com/snake/snk_user.php?uid=1573907430"><img class="img50" src="http://tp3.sinaimg.cn/1573907430/180/40025353394/0" /></a></dt>
+		<dd class="clearfix info">
+			<span class="name">
+				<a target="_blank" href="http://music.weibo.com/snake/snk_user.php?uid=1573907430" title="风居住的街道30">风居住...</a>
+			</span>
+			<span class="time">
+				<i>07月30日</i><i>17:59</i>评价
+			</span>
+			<a target="_blank" href="http://music.weibo.com/t/i/100149592.html" class="songname" title="刘俊麟 - 萤火虫">刘俊麟 - 萤火虫-刘俊麟</a>
+			<a href="javascript:;" class="btn_playA"  mus_act="play" mus_data="songids=100149592&coflag=50001601"></a>
+		</dd>
+		<dd class="clearfix saying">
+			<em class="front">“</em>
+			<span class="judge">
+				开始的口琴真的让我回到年少时的夏天傍晚，赤着脚走在柏油路上，迎着晚霞，去给爸爸买啤酒。可是很快一切都像那段间奏一样笼上一层逝去的忧伤。
+				<span class="detail">
+										<em class="behind">”</em>
+				</span>
+			</span>
+
+		</dd>
+	</dl>
+	<dl>
+		<dt><a target="_blank" href="http://music.weibo.com/snake/snk_user.php?uid=2784304785"><img class="img50" src="http://tp2.sinaimg.cn/2784304785/180/5700923541/0" /></a></dt>
+		<dd class="clearfix info">
+			<span class="name">
+				<a target="_blank" href="http://music.weibo.com/snake/snk_user.php?uid=2784304785" title="心雨better之longffy最美">心雨bet...</a>
+			</span>
+			<span class="time">
+				<i>07月29日</i><i>21:52</i>评价
+			</span>
+			<a target="_blank" href="http://music.weibo.com/t/i/100091025.html" class="songname" title="房间">房间-刘瑞琦</a>
+			<a href="javascript:;" class="btn_playA"  mus_act="play" mus_data="songids=100091025&coflag=50001601"></a>
+		</dd>
+		<dd class="clearfix saying">
+			<em class="front">“</em>
+			<span class="judge">
+				许久以后，听听曾经猛然间喜欢一时的歌手，还能感受得到以前的时光。
+				<span class="detail">
+										<em class="behind">”</em>
+				</span>
+			</span>
+
+		</dd>
+	</dl>
+</div>
+<!-- 精选乐评 End -->
+
+        <!-- 正在首发title Begin -->
+<div class="title_A mt25">
+	<h2 class="FL">正在首发</h2>
+	<a class="more FR mr20" target="_blank" href="http://music.weibo.com/snake/snk_latestupload_songs.php">更多>></a>
+</div>
+<!-- 正在首发title End -->
+
+<!-- 正在首发 Begin -->
+<div class="">
+	<div class="clearfix coutinue">
+			<dl>
+			<dt class="FL">
+				<!--<a target="_blank" href="http://music.weibo.com/t/i/100149778.html"><img class="img100" src="http://weiyinyue.music.sina.com.cn/wpp_cover/100149778_150150.jpg" /></a>-->
+				<a target="_blank" href="http://music.weibo.com/t/i/100149778.html"><img class="img100" src="http://mu1.sinaimg.cn/square.120/weiyinyue.music.sina.com.cn/wpp_cover/100149778.jpg" /></a>
+				<a target="_blank" class="btn_playE" mus_act="play" mus_data="songids=100149778&coflag=50001601" href="http://music.weibo.com/t/i/100149778.html"></a>
+			</dt>
+				<dd class="songs">
+					<a target="_blank" href="http://music.weibo.com/t/i/100149778.html" title="谎言">谎言</a>
+				</dd>
+				<dd class="name">
+					<a  target="_blank" href="http://music.weibo.com/t/s/1780607677.html" title="李哲希">李哲希</a>
+				</dd>
+				<dd class="date">
+					<span>发布：2014-07-30 05:11:13</span>
+				</dd>
+				<dd class="info">
+					<span>简介：</span>
+				</dd>
+		</dl>
+			<dl>
+			<dt class="FL">
+				<!--<a target="_blank" href="http://music.weibo.com/t/i/100149768.html"><img class="img100" src="http://weiyinyue.music.sina.com.cn/wpp_cover/100149768_150150.jpg" /></a>-->
+				<a target="_blank" href="http://music.weibo.com/t/i/100149768.html"><img class="img100" src="http://mu1.sinaimg.cn/square.120/weiyinyue.music.sina.com.cn/wpp_cover/100149768.jpg" /></a>
+				<a target="_blank" class="btn_playE" mus_act="play" mus_data="songids=100149768&coflag=50001601" href="http://music.weibo.com/t/i/100149768.html"></a>
+			</dt>
+				<dd class="songs">
+					<a target="_blank" href="http://music.weibo.com/t/i/100149768.html" title="{团队} E·K·G">{团队} E·K·G</a>
+				</dd>
+				<dd class="name">
+					<a  target="_blank" href="http://music.weibo.com/t/s/2033813260.html" title="sea云">sea云</a>
+				</dd>
+				<dd class="date">
+					<span>发布：2014-07-30 03:31:13</span>
+				</dd>
+				<dd class="info">
+					<span>简介：</span>
+				</dd>
+		</dl>
+			<dl>
+			<dt class="FL">
+				<!--<a target="_blank" href="http://music.weibo.com/t/i/100149774.html"><img class="img100" src="http://weiyinyue.music.sina.com.cn/wpp_cover/100149774_150150.jpg" /></a>-->
+				<a target="_blank" href="http://music.weibo.com/t/i/100149774.html"><img class="img100" src="http://mu1.sinaimg.cn/square.120/weiyinyue.music.sina.com.cn/wpp_cover/100149774.jpg" /></a>
+				<a target="_blank" class="btn_playE" mus_act="play" mus_data="songids=100149774&coflag=50001601" href="http://music.weibo.com/t/i/100149774.html"></a>
+			</dt>
+				<dd class="songs">
+					<a target="_blank" href="http://music.weibo.com/t/i/100149774.html" title="来吧! 来吧! 一起舞蹈!">来吧! 来吧! 一起舞蹈!</a>
+				</dd>
+				<dd class="name">
+					<a  target="_blank" href="http://music.weibo.com/t/s/1929099982.html" title="理会农">理会农</a>
+				</dd>
+				<dd class="date">
+					<span>发布：2014-07-30 04:23:39</span>
+				</dd>
+				<dd class="info">
+					<span>简介：@理会农</span>
+				</dd>
+		</dl>
+			<dl>
+			<dt class="FL">
+				<!--<a target="_blank" href="http://music.weibo.com/t/i/100149766.html"><img class="img100" src="http://weiyinyue.music.sina.com.cn/wpp_cover/100149766_150150.jpg" /></a>-->
+				<a target="_blank" href="http://music.weibo.com/t/i/100149766.html"><img class="img100" src="http://mu1.sinaimg.cn/square.120/weiyinyue.music.sina.com.cn/wpp_cover/100149766.jpg" /></a>
+				<a target="_blank" class="btn_playE" mus_act="play" mus_data="songids=100149766&coflag=50001601" href="http://music.weibo.com/t/i/100149766.html"></a>
+			</dt>
+				<dd class="songs">
+					<a target="_blank" href="http://music.weibo.com/t/i/100149766.html" title="唐布拉">唐布拉</a>
+				</dd>
+				<dd class="name">
+					<a  target="_blank" href="http://music.weibo.com/t/s/1681251873.html" title="王开煜">王开煜</a>
+				</dd>
+				<dd class="date">
+					<span>发布：2014-07-30 03:13:33</span>
+				</dd>
+				<dd class="info">
+					<span>简介：</span>
+				</dd>
+		</dl>
+			<dl>
+			<dt class="FL">
+				<!--<a target="_blank" href="http://music.weibo.com/t/i/100149764.html"><img class="img100" src="http://weiyinyue.music.sina.com.cn/wpp_cover/100149764_150150.jpg" /></a>-->
+				<a target="_blank" href="http://music.weibo.com/t/i/100149764.html"><img class="img100" src="http://mu1.sinaimg.cn/square.120/weiyinyue.music.sina.com.cn/wpp_cover/100149764.jpg" /></a>
+				<a target="_blank" class="btn_playE" mus_act="play" mus_data="songids=100149764&coflag=50001601" href="http://music.weibo.com/t/i/100149764.html"></a>
+			</dt>
+				<dd class="songs">
+					<a target="_blank" href="http://music.weibo.com/t/i/100149764.html" title="摇滚天堂107 【经典现场】Beyond 1991生命接触演唱会（上）">摇滚天堂107 【经典现...</a>
+				</dd>
+				<dd class="name">
+					<a  target="_blank" href="http://music.weibo.com/t/s/2169704763.html" title="@杨子虚">@杨子虚</a>
+				</dd>
+				<dd class="date">
+					<span>发布：2014-07-30 03:01:04</span>
+				</dd>
+				<dd class="info">
+					<span>简介：摇滚天堂新专题开播，即将到来的“经典现...</span>
+				</dd>
+		</dl>
+			<dl>
+			<dt class="FL">
+				<!--<a target="_blank" href="http://music.weibo.com/t/i/100149762.html"><img class="img100" src="http://weiyinyue.music.sina.com.cn/wpp_cover/100149762_150150.jpg" /></a>-->
+				<a target="_blank" href="http://music.weibo.com/t/i/100149762.html"><img class="img100" src="http://mu1.sinaimg.cn/square.120/weiyinyue.music.sina.com.cn/wpp_cover/100149762.jpg" /></a>
+				<a target="_blank" class="btn_playE" mus_act="play" mus_data="songids=100149762&coflag=50001601" href="http://music.weibo.com/t/i/100149762.html"></a>
+			</dt>
+				<dd class="songs">
+					<a target="_blank" href="http://music.weibo.com/t/i/100149762.html" title="my fuckin homies-bear kid">my fuckin homies-bear...</a>
+				</dd>
+				<dd class="name">
+					<a  target="_blank" href="http://music.weibo.com/t/s/5040876434.html" title="AkaTB_bearkid">AkaTB_bearkid</a>
+				</dd>
+				<dd class="date">
+					<span>发布：2014-07-30 02:59:29</span>
+				</dd>
+				<dd class="info">
+					<span>简介：</span>
+				</dd>
+		</dl>
+		</div>
+</div>	
+<!-- 正在首发 End -->
+	<!-- 音乐人风格title Begin -->
+<div class="title_A mt25">
+	<h2 class="FL">音乐人风格</h2>
+	<a class="more FR mr20" target="_blank" href="http://music.weibo.com/snake/style.html">更多>></a>
+</div>
+<!-- 音乐人风格title End -->
+
+<!-- 音乐人风格 Begin -->
+<div class="tags_A">
+	<ul class="clearfix">
+			<li>
+			<a target="_blank" href="http://music.weibo.com/snake/snk_artists_list.php?tagid=1">流行</a>
+		</li>
+			<li>
+			<a target="_blank" href="http://music.weibo.com/snake/snk_artists_list.php?tagid=21">摇滚</a>
+		</li>
+			<li>
+			<a target="_blank" href="http://music.weibo.com/snake/snk_artists_list.php?tagid=7">民谣</a>
+		</li>
+			<li>
+			<a target="_blank" href="http://music.weibo.com/snake/snk_artists_list.php?tagid=20">R&B</a>
+		</li>
+			<li>
+			<a target="_blank" href="http://music.weibo.com/snake/snk_artists_list.php?tagid=19">电子</a>
+		</li>
+			<li>
+			<a target="_blank" href="http://music.weibo.com/snake/snk_artists_list.php?tagid=970">Hip-Pop</a>
+		</li>
+			<li>
+			<a target="_blank" href="http://music.weibo.com/snake/snk_artists_list.php?tagid=30">世界音乐</a>
+		</li>
+			<li>
+			<a target="_blank" href="http://music.weibo.com/snake/snk_artists_list.php?tagid=28">Hip-Hop</a>
+		</li>
+			<li>
+			<a target="_blank" href="http://music.weibo.com/snake/snk_artists_list.php?tagid=29">Indie</a>
+		</li>
+			<li>
+			<a target="_blank" href="http://music.weibo.com/snake/snk_artists_list.php?tagid=12">爵士</a>
+		</li>
+			<li>
+			<a target="_blank" href="http://music.weibo.com/snake/snk_artists_list.php?tagid=18">金属</a>
+		</li>
+			<li>
+			<a target="_blank" href="http://music.weibo.com/snake/snk_artists_list.php?tagid=59">古风</a>
+		</li>
+			<li>
+			<a target="_blank" href="http://music.weibo.com/snake/snk_artists_list.php?tagid=87">RAP</a>
+		</li>
+			<li>
+			<a target="_blank" href="http://music.weibo.com/snake/snk_artists_list.php?tagid=240">说唱</a>
+		</li>
+			<li>
+			<a target="_blank" href="http://music.weibo.com/snake/snk_artists_list.php?tagid=113">电台</a>
+		</li>
+			<li>
+			<a target="_blank" href="http://music.weibo.com/snake/snk_artists_list.php?tagid=51">中国风</a>
+		</li>
+			<li>
+			<a target="_blank" href="http://music.weibo.com/snake/snk_artists_list.php?tagid=22">古典</a>
+		</li>
+			<li>
+			<a target="_blank" href="http://music.weibo.com/snake/snk_artists_list.php?tagid=49">Pop</a>
+		</li>
+			<li>
+			<a target="_blank" href="http://music.weibo.com/snake/snk_artists_list.php?tagid=350">脱口秀</a>
+		</li>
+			<li>
+			<a target="_blank" href="http://music.weibo.com/snake/snk_artists_list.php?tagid=110">民族</a>
+		</li>
+			<li>
+			<a target="_blank" href="http://music.weibo.com/snake/snk_artists_list.php?tagid=38">小清新</a>
+		</li>
+			<li>
+			<a target="_blank" href="http://music.weibo.com/snake/snk_artists_list.php?tagid=37">独立</a>
+		</li>
+			<li>
+			<a target="_blank" href="http://music.weibo.com/snake/snk_artists_list.php?tagid=456">情感</a>
+		</li>
+			<li>
+			<a target="_blank" href="http://music.weibo.com/snake/snk_artists_list.php?tagid=372">音乐</a>
+		</li>
+			<li>
+			<a target="_blank" href="http://music.weibo.com/snake/snk_artists_list.php?tagid=55">轻音乐</a>
+		</li>
+			<li>
+			<a target="_blank" href="http://music.weibo.com/snake/snk_artists_list.php?tagid=525">治愈</a>
+		</li>
+			<li>
+			<a target="_blank" href="http://music.weibo.com/snake/snk_artists_list.php?tagid=86">HIPHOP</a>
+		</li>
+		</ul>
+</div>
+<!-- 音乐人风格 End -->
+    </div>
+    <div class="W_right mt25">
+	<!-- 个人信息 Begin -->
+<div class="login_A clearfix">
+	<dl class="clearfix">
+	<dt></dt>
+		<dd><h3>发现明天的流行音乐</h3></dd>
+		<dd class="login"><p><a href="javascript:;">使用新浪微博账号登录</a></p></dd>
+	</dl>
+  <div class="thread">
+  <span class="s1">
+  </span>
+  <span class="s2">
+  </span>
+  <span class="s3">
+  </span>
+  </div>
+</div>
+<!-- 个人信息 End -->
+        <script src='http://music.weibo.com/snake/port/getads.php'></script>
+        <div id="talk" class="mtb10">
+        </div>
+        <!-- 本周流行音乐人title Begin -->
+<div class="title_A mt25">
+	<h2 class="FL">本周流行音乐人</h2>
+	<a class="more FR" target="_blank" href="http://music.weibo.com/snake/snk_rank.php">更多>></a>
+</div>
+<!-- 本周流行音乐人title End -->
+
+<!-- 本周流行音乐人 Begin -->
+<div class="fashion-musician">
+	<dl class="musician clearfix">
+		<dt><span class="rank r1"></span><a target="_blank" href="http://music.weibo.com/t/s/2014702661.html"><img class="img115" src="http://tp2.sinaimg.cn/2014702661/180/1299689417/1" /></a></dt>
+			<dd class="name"><a class="singer" target="_blank" href="http://music.weibo.com/t/s/2014702661.html">央视西游记作曲许镜清</a></dd>
+			<dd class="btn">
+			<a class="btn_listenB FL" mus_act="play" mus_data="sinaid=2014702661&coflag=50001601" href="http://music.weibo.com/t/s/2014702661.html"></a>
+			</dd>
+			<dd class="album"><span class="info">
+									<a target="_blank" href="http://music.weibo.com/snake/snk_artists_list.php?tagid=831">民族、古典</a>
+									</span></dd>
+			<dd class="data"><span class="info"><i>179286</i>次播放 / <i>8</i>人喜欢</span></dd>
+	</dl>
+	<dl class="musician clearfix">
+		<dt><span class="rank r2"></span><a target="_blank" href="http://music.weibo.com/t/s/1251000504.html"><img class="img115" src="http://tp1.sinaimg.cn/1251000504/180/5683432829/1" /></a></dt>
+			<dd class="name"><a class="singer" target="_blank" href="http://music.weibo.com/t/s/1251000504.html">许嵩</a></dd>
+			<dd class="btn">
+			<a class="btn_listenB FL" mus_act="play" mus_data="sinaid=1251000504&coflag=50001601" href="http://music.weibo.com/t/s/1251000504.html"></a>
+			</dd>
+			<dd class="album"><span class="info">
+									<a target="_blank" href="http://music.weibo.com/snake/snk_artists_list.php?tagid=1">流行</a>
+									</span></dd>
+			<dd class="data"><span class="info"><i>70636</i>次播放 / <i>46</i>人喜欢</span></dd>
+	</dl>
+	<dl class="musician clearfix">
+		<dt><span class="rank r3"></span><a target="_blank" href="http://music.weibo.com/t/s/1296241304.html"><img class="img115" src="http://tp1.sinaimg.cn/1296241304/180/5693698496/1" /></a></dt>
+			<dd class="name"><a class="singer" target="_blank" href="http://music.weibo.com/t/s/1296241304.html">苏醒AllenSu</a></dd>
+			<dd class="btn">
+			<a class="btn_listenB FL" mus_act="play" mus_data="sinaid=1296241304&coflag=50001601" href="http://music.weibo.com/t/s/1296241304.html"></a>
+			</dd>
+			<dd class="album"><span class="info">
+									<a target="_blank" href="http://music.weibo.com/snake/snk_artists_list.php?tagid=19">电子</a>
+									、
+			<a target="_blank" href="http://music.weibo.com/snake/snk_artists_list.php?tagid=20">R&B</a>
+									、
+			<a target="_blank" href="http://music.weibo.com/snake/snk_artists_list.php?tagid=970">Hip-Pop</a>
+									</span></dd>
+			<dd class="data"><span class="info"><i>25646</i>次播放 / <i>17</i>人喜欢</span></dd>
+	</dl>
+	<dl class="musician clearfix">
+		<dt><span class="rank r4"></span><a target="_blank" href="http://music.weibo.com/t/s/2661321160.html"><img class="img115" src="http://tp1.sinaimg.cn/2661321160/180/40056813650/1" /></a></dt>
+			<dd class="name"><a class="singer" target="_blank" href="http://music.weibo.com/t/s/2661321160.html">精品钢琴谱</a></dd>
+			<dd class="btn">
+			<a class="btn_listenB FL" mus_act="play" mus_data="sinaid=2661321160&coflag=50001601" href="http://music.weibo.com/t/s/2661321160.html"></a>
+			</dd>
+			<dd class="album"><span class="info">
+									<a target="_blank" href="http://music.weibo.com/snake/snk_artists_list.php?tagid=198">钢琴</a>
+									</span></dd>
+			<dd class="data"><span class="info"><i>20234</i>次播放 / <i>6</i>人喜欢</span></dd>
+	</dl>
+	<dl class="musician clearfix">
+		<dt><span class="rank r5"></span><a target="_blank" href="http://music.weibo.com/t/s/1816618865.html"><img class="img115" src="http://tp2.sinaimg.cn/1816618865/180/5684746765/0" /></a></dt>
+			<dd class="name"><a class="singer" target="_blank" href="http://music.weibo.com/t/s/1816618865.html">曲婉婷Wanting</a></dd>
+			<dd class="btn">
+			<a class="btn_listenB FL" mus_act="play" mus_data="sinaid=1816618865&coflag=50001601" href="http://music.weibo.com/t/s/1816618865.html"></a>
+			</dd>
+			<dd class="album"><span class="info">
+									<a target="_blank" href="http://music.weibo.com/snake/snk_artists_list.php?tagid=49">Pop</a>
+									、
+			<a target="_blank" href="http://music.weibo.com/snake/snk_artists_list.php?tagid=60">soul</a>
+									</span></dd>
+			<dd class="data"><span class="info"><i>16440</i>次播放 / <i>18</i>人喜欢</span></dd>
+	</dl>
+	<dl class="musician clearfix">
+		<dt><span class="rank r6"></span><a target="_blank" href="http://music.weibo.com/t/s/1261934551.html"><img class="img115" src="http://tp4.sinaimg.cn/1261934551/180/39998755365/1" /></a></dt>
+			<dd class="name"><a class="singer" target="_blank" href="http://music.weibo.com/t/s/1261934551.html">好妹妹乐队-浪客秦昊</a></dd>
+			<dd class="btn">
+			<a class="btn_listenB FL" mus_act="play" mus_data="sinaid=1261934551&coflag=50001601" href="http://music.weibo.com/t/s/1261934551.html"></a>
+			</dd>
+			<dd class="album"><span class="info">
+									<a target="_blank" href="http://music.weibo.com/snake/snk_artists_list.php?tagid=7">民谣</a>
+									</span></dd>
+			<dd class="data"><span class="info"><i>14488</i>次播放 / <i>14</i>人喜欢</span></dd>
+	</dl>
+	<dl class="musician clearfix">
+		<dt><span class="rank r7"></span><a target="_blank" href="http://music.weibo.com/t/s/1582188504.html"><img class="img115" src="http://tp1.sinaimg.cn/1582188504/180/5630241822/0" /></a></dt>
+			<dd class="name"><a class="singer" target="_blank" href="http://music.weibo.com/t/s/1582188504.html">花粥粥大爷</a></dd>
+			<dd class="btn">
+			<a class="btn_listenB FL" mus_act="play" mus_data="sinaid=1582188504&coflag=50001601" href="http://music.weibo.com/t/s/1582188504.html"></a>
+			</dd>
+			<dd class="album"><span class="info">
+									<a target="_blank" href="http://music.weibo.com/snake/snk_artists_list.php?tagid=7">民谣</a>
+									</span></dd>
+			<dd class="data"><span class="info"><i>6173</i>次播放 / <i>7</i>人喜欢</span></dd>
+	</dl>
+	<dl class="musician clearfix">
+		<dt><span class="rank r8"></span><a target="_blank" href="http://music.weibo.com/t/s/1822800565.html"><img class="img115" src="http://tp2.sinaimg.cn/1822800565/180/5691159191/1" /></a></dt>
+			<dd class="name"><a class="singer" target="_blank" href="http://music.weibo.com/t/s/1822800565.html">尧十三</a></dd>
+			<dd class="btn">
+			<a class="btn_listenB FL" mus_act="play" mus_data="sinaid=1822800565&coflag=50001601" href="http://music.weibo.com/t/s/1822800565.html"></a>
+			</dd>
+			<dd class="album"><span class="info">
+									<a target="_blank" href="http://music.weibo.com/snake/snk_artists_list.php?tagid=2000">民谣摇电子</a>
+									</span></dd>
+			<dd class="data"><span class="info"><i>5229</i>次播放 / <i>6</i>人喜欢</span></dd>
+	</dl>
+	<dl class="musician clearfix">
+		<dt><span class="rank r9"></span><a target="_blank" href="http://music.weibo.com/t/s/1251403065.html"><img class="img115" src="http://tp2.sinaimg.cn/1251403065/180/5686902231/1" /></a></dt>
+			<dd class="name"><a class="singer" target="_blank" href="http://music.weibo.com/t/s/1251403065.html">马頔-麻油叶</a></dd>
+			<dd class="btn">
+			<a class="btn_listenB FL" mus_act="play" mus_data="sinaid=1251403065&coflag=50001601" href="http://music.weibo.com/t/s/1251403065.html"></a>
+			</dd>
+			<dd class="album"><span class="info">
+									<a target="_blank" href="http://music.weibo.com/snake/snk_artists_list.php?tagid=7">民谣</a>
+									</span></dd>
+			<dd class="data"><span class="info"><i>4964</i>次播放 / <i>7</i>人喜欢</span></dd>
+	</dl>
+	<dl class="musician clearfix">
+		<dt><span class="rank r10"></span><a target="_blank" href="http://music.weibo.com/t/s/2740928150.html"><img class="img115" src="http://tp3.sinaimg.cn/2740928150/180/5681092632/1" /></a></dt>
+			<dd class="name"><a class="singer" target="_blank" href="http://music.weibo.com/t/s/2740928150.html">白举纲</a></dd>
+			<dd class="btn">
+			<a class="btn_listenB FL" mus_act="play" mus_data="sinaid=2740928150&coflag=50001601" href="http://music.weibo.com/t/s/2740928150.html"></a>
+			</dd>
+			<dd class="album"><span class="info">
+						</span></dd>
+			<dd class="data"><span class="info"><i>4356</i>次播放 / <i>8</i>人喜欢</span></dd>
+	</dl>
+</div>
+<!-- 本周流行音乐人 End -->
+        <div id="attention" class="mtb10">
+        </div>
+        <div id="WBserviceCard"></div>
+        <script id="WBserviceCardScript" src="http://js.t.sinajs.cn/t4/apps/help/js/public/scard.js?autorun=true&flag=music"></script>
+    </div>
+</div>
+<!--主体 End-->
+<!-- footer Begin -->
+<div class="footer_bg mt55">
+	<div class="footer clearfix">
+		<div class="top clearfix">
+			<dl class="line w260">
+				<dt class="A"></dt>
+					<dd>
+						<p>
+						<a style="display:none" target="_blank" href="#">关于我们</a>
+						<a target="_blank" href="http://e.weibo.com/rockmusiclife">关注微博</a>
+						</p>
+						<p>
+						<a style="display:none" target="_blank" href="http://qing.weibo.com/rockmusiclife">产品日志</a>
+						<a  target="_blank" href="http://music.weibo.com/2014">2013年度盘点</a>
+						</p>
+					</dd>
+			</dl>
+			<dl class="line w260">
+				<dt class="B"></dt>
+					<dd>
+						<p><a href="http://music.weibo.com/ting#feature_153" mus_act="play" mus_data="radioid=feature_153&type=radio&coflag=50001601">流行频率</a><a href="http://music.weibo.com/ting#feature_153" mus_act="play" mus_data="radioid=feature_155&type=radio&coflag=50001601">摇滚频率</a></p>
+						<p><a href="http://music.weibo.com/ting#feature_155" mus_act="play" mus_data="radioid=feature_154&type=radio&coflag=50001601">民谣频率</a><a href="http://music.weibo.com/ting#feature_154" mus_act="play" mus_data="radioid=feature_156&type=radio&coflag=50001601">电子频率</a></p>
+					</dd>
+			</dl>
+			<dl class="line w195">
+				<dt class="C"></dt>
+					<dd>
+						<p><a class="font30" target="_blank" href="http://music.weibo.com/snake/snk_atoz_artists.php">11664位</a></p>
+						<p><a target="_blank" href="http://music.weibo.com/snake/snk_atoz_artists.php">音乐人</a></p>
+					</dd>
+			</dl>
+			<dl class="w195">
+				<dt class="D"></dt>
+					<dd>
+						<p><a class="font30" target="_blank" href="http://music.weibo.com/snake/snk_latestupload_songs.php">89715首</a></p>
+						<p><a href="http://music.weibo.com/snake/snk_latestupload_songs.php" target="_blank">作品</a></p>
+					</dd>
+			</dl>
+		</div>
+		<div class="bottom clearfix">
+			<p>
+				<a class="ico_service" target="_blank" href="http://help.weibo.com/newtopic/music">微博客服</a>
+				<a target="_blank" href="http://weibo.com/zt/s?k=9286">意见反馈</a>
+				<a target="_blank" href="http://open.weibo.com/">开放平台</a>
+				<a target="_blank" href="http://hr.weibo.com">微博招聘</a>
+				<a target="_blank" href="http://news.sina.com.cn/guide/">新浪网导航</a>
+				<br/>
+				北京微梦创科网络技术有限公司
+			</p>
+			<span><a class="sitemap" target="_blank" href="http://music.weibo.com/sitemap.xml">网站地图</a></span><br />
+			<span>Copyright © 1996-2013 SINA</span>
+		</div>
+	</div>
+</div>
+<!-- footer End -->
+</body>
+<script src="/snake/js/jquery.1.7.min.js"></script>
+<script src="http://music.weibo.com/t/js/login_ssoconfig.js"></script>
+<script src="http://music.weibo.com/snake/js/loadJs.js"></script>
+<script src="http://music.weibo.com/snake/js/snk_base.js"></script>
+<script src=" http://tjs.sjs.sinajs.cn/open/api/js/wb.js?appkey=872034675" type="text/javascript" charset="utf-8"></script>
+<script src="http://music.weibo.com/snake/js/snk_main.js?version=2014"></script>
+</html>

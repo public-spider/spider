@@ -1,0 +1,146 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript">
+	~function(l){var h = l.href, r = l.protocol +'//'+ l.host, i = h.indexOf('#!'), s = i != -1 ? h.substr(i + 2) : '';if ( (new RegExp("/[a-zA-Z0-9\\.\\-~!@#$%^&*+?:_/=<>]+", "gi")).test(s) ) l.replace(r + s);}(location)
+</script> 
+<script type="text/javascript">
+try{document.execCommand("BackgroundImageCache", false, true);}catch(e){}
+</script> 
+                        <link href="http://img.t.sinajs.cn/t5/style/css/module/base/frame.css?version=f92ddf9e080802ad" type="text/css" rel="stylesheet" charset="utf-8" />
+                                    <link href="http://img.t.sinajs.cn/t5/style/css/patch/content/index.css?version=f92ddf9e080802ad" type="text/css" rel="stylesheet" charset="utf-8" />
+                            <link href="http://img.t.sinajs.cn/t5/skin/default/skin.css?version=f92ddf9e080802ad" type="text/css" rel="stylesheet" charset="utf-8" />
+     <title>Logo规范 微博-随时随地发现新鲜事</title>
+<script type="text/javascript">
+var $CONFIG = {};
+$CONFIG['islogin'] = '1';
+$CONFIG['setCover'] = 1;//ie6hack
+$CONFIG['oid'] = '5060400438';
+$CONFIG['onick'] = 'temp_test_try';
+$CONFIG['allowConnect'] = 'false';
+$CONFIG['uid'] = '5060400438';
+$CONFIG['nick'] = 'temp_test_try';
+$CONFIG['domain'] = '5060400438';
+$CONFIG['watermark'] = 'u/5060400438';
+$CONFIG['sex'] = 'm';
+$CONFIG['ogender'] = 'm';
+$CONFIG['version'] = 'd5053845174b525f';
+$CONFIG['css_version'] = 'f92ddf9e080802ad';
+$CONFIG['bigpipe'] = 'true';
+$CONFIG['timeDiff'] = (new Date() - 1409109138000);
+$CONFIG['product'] = 'v4mblog';
+$CONFIG['pageid'] = 'static_logo';
+$CONFIG['skin'] = 'skin048';
+$CONFIG['background'] = ""; 
+$CONFIG['scheme'] = ""; 
+$CONFIG['colors_type'] = "0";
+$CONFIG['lang'] = 'zh-cn';
+$CONFIG['jsPath'] = 'http://js.t.sinajs.cn/t4/';
+$CONFIG['cssPath'] = 'http://img.t.sinajs.cn/t4/';
+$CONFIG['imgPath'] = 'http://img.t.sinajs.cn/t4/';
+$CONFIG['servertime'] = 1409109138;
+$CONFIG['any'] = "&wvr=5";
+$CONFIG['$webim'] = 1;
+$CONFIG['location'] = 'other';
+$CONFIG['miyou'] = 1;
+$CONFIG['brand'] = 0;
+$CONFIG['recfeed'] = '0';
+$CONFIG['shorturl_offline'] = '';
+$CONFIG['g_mathematician'] = '0.672';
+    $CONFIG['mJsPath'] = ['http://js{n}.t.sinajs.cn/t4/', 1, 2];
+    $CONFIG['mCssPath'] = ['http://img{n}.t.sinajs.cn/t4/', 1, 2];
+$CONFIG['group'] = "";
+$CONFIG['miyou_count'] = "";
+$CONFIG['request_ua'] = 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.43 Safari/537.31';
+$CONFIG['enterprise']='';
+</script>
+</head>
+<body class=" L-zh-cn">
+<div class="W_miniblog">
+<div class="W_miniblog_fb">
+
+    <div id="weibo_top_public"></div>
+<script src="http://js.t.sinajs.cn/t4/home/js/public/topInit.js"></script>
+<script type="text/javascript">
+	WBtopGlobal && WBtopGlobal.init({
+	    name: "temp_test_try",
+	    uid: "5060400438",
+	    any: "&wvr=5",
+	    islogin: "1",
+	    icon: "http://img.t.sinajs.cn/t5/style/images/face/male_medium.png",
+	    lang: "zh-cn",
+	    verified: "",
+	    verify: "-1",
+	    _wv:"5"
+	});
+</script><div id="pl_ad_envelope" style="display: none"></div><div class="W_main">
+    <div class="W_main_bg clearfix">
+        <div class="body_content">
+            <!--静态页内容体-->
+            <div id="pl_static_logo"></div>
+            <!--/静态页内容体-->
+        </div>
+    </div>
+</div>
+	<div class="global_footer">
+	<div class="clearfix">
+		<dl class="list">
+			<dt>找找感兴趣的人</dt>
+			<dd><a href="http://weibo.com/pub/star?bottomnav=1&wvr=5">名人堂</a> <a href="http://vip.weibo.com/home?bottomnav=1&wvr=5">微博会员</a></dd>
+			<dd><a href="http://club.weibo.com?bottomnav=1&wvr=5">微博达人</a></dd>
+			<dd><a href="http://weibo.com/pub/star/mediumlist.php?bottomnav=1&wvr=5">媒体</a> <a href="http://weibo.com/pub/star/brandlist.php?bottomnav=1&wvr=5">企业</a> <a href="http://weibo.com/pub/star/governmenthall.php?bottomnav=1&wvr=5">政府</a></dd>
+		</dl>
+		<dl class="list">
+			<dt>精彩内容</dt>
+			<dd><a href="http://huati.weibo.com/?bottomnav=1&wvr=5">微话题</a> <a href="http://data.weibo.com/top?bottomnav=1&wvr=5">风云榜</a></dd>
+			<dd><a href="http://talk.weibo.com?bottomnav=1&wvr=5">微访谈</a></dd>
+			<dd><a href="http://hot.plaza.weibo.com/?bottomnav=1&wvr=5&type=re&act=day">热门微博</a></dd>
+		</dl>
+		<dl class="list">
+			<dt>热门应用</dt>
+			<dd><a href="http://weiba.weibo.com?bottomnav=1&wvr=5">微吧</a> <a href="http://gongyi.weibo.com?bottomnav=1&wvr=5">微公益</a></dd>
+			<dd><a href="http://photo.weibo.com?bottomnav=1&wvr=5">相册</a> <a href="http://music.weibo.com/t/index.php?bottomnav=1&wvr=5">微音乐</a></dd>
+			<dd><a href="http://vote.weibo.com?bottomnav=1&wvr=5">投票</a> <a href="http://game.weibo.com?bottomnav=1&wvr=5">微游戏</a></dd>
+		</dl>
+		<dl class="list">
+			<dt>手机玩微博</dt>
+			<dd><a href="http://m.weibo.com/web/cellphone.php?bottomnav=1&wvr=5">WAP版</a> <a href="http://m.weibo.com/web/cellphone.php?bottomnav=1&wvr=5#msg">短彩发微博</a></dd>
+			<dd><a href="http://m.weibo.com/web/cellphone.php?bottomnav=1&wvr=5#iphone">iPhone客户端</a> <a href="http://m.weibo.com/web/cellphone.php?bottomnav=1&wvr=5#ipad">iPad客户端</a></dd>
+			<dd><a href="http://m.weibo.com/web/cellphone.php?bottomnav=1&wvr=5#android">Android客户端</a></dd>
+		</dl>
+		<dl class="list list_right">
+			<dt>认证&合作</dt>
+			<dd><a href="http://verified.weibo.com//verify?bottomnav=1&wvr=5">申请认证</a> <a href="http://open.weibo.com/?bottomnav=1&wvr=5">开放平台</a></dd>
+			<dd><a href="http://e.weibo.com/introduce/introduce?bottomnav=1&wvr=5">企业微博</a> <a href="http://open.weibo.com/connect?bottomnav=1&wvr=5">连接网站</a></dd>
+			<dd><a href="http://weibo.com/static/logo?bottomnav=1&wvr=5">微博标识</a> <a href="http://tui.weibo.com?bottomnav=1&wvr=5">广告服务</a></dd>
+		</dl>
+	</div>
+	<div class="other_link clearfix">
+		<div class="help_link">
+			<p><a href="http://help.weibo.com/?refer=didao&bottomnav=1&wvr=5" class="ico_service" target="__blank">微博帮助</a>　<a href="http://help.weibo.com/newtopic/suggest?bottomnav=1&wvr=5" target="__blank">意见反馈</a>　<a href="http://open.weibo.com/?bottomnav=1&wvr=5" target="__blank">开放平台</a>　<a href="http://hr.weibo.com?bottomnav=1&wvr=5" target="__blank">微博招聘</a>　<a href="http://news.sina.com.cn/guide/?bottomnav=1&wvr=5" target="__blank">新浪网导航</a> <a href="http://service.account.weibo.com/?bottomnav=1&wvr=5" target="__blank">社区管理中心</a>　<a href="http://service.account.weibo.com/roles/gongyue?bottomnav=1&wvr=5" target="__blank">微博社区公约</a></p>　
+			<p>北京微梦创科网络技术有限公司&emsp;<a href="http://weibo.com/aj/static/jww.html?_wv=5" target="_blank">京网文[2011]0398-130号</a>&emsp;<a href="http://www.miibeian.gov.cn" target="_blank">京ICP备12002058号</a></p>
+		</div>
+		<div class="copy">
+			<p class="W_linkb">
+							<select id="pl_content_changeLanguage" suda-data="key=tblog_home_click&value=language_versions_click" class="htc_select"><option value="zh-cn" selected>中文(简体)</option><option value="zh-tw">中文(臺灣)</option><option value="zh-hk">中文(香港)</option><option value="en">English</option></select>
+						</p>
+			<p>Copyright &copy; 1996-2014 SINA</p>
+		</div>
+	</div>
+</div>
+<a href="javascript:;" id="base_scrollToTop" class="W_gotop">
+<span><em class="sj">&diams;</em><em class="fk">▐</em>返回顶部</span>
+</a> 
+</div>
+</div>
+<div id="pl_content_Base" style="display:none"></div>
+<!-- powered by yaf -->
+</body>
+                
+<!-- 手机页交给别的部门后，需去掉 -->
+	                    <script src="http://js.t.sinajs.cn/t4/home/js/base.js?version=d5053845174b525f" type="text/javascript" ></script>        		<!-- uc用户首页弹层 -->
+			
+<script>STK && STK.pageletM && STK.pageletM.view({"pid":"pl_static_logo","js":[],"css":["style/css/pages/staticlogo/staticlogo.css?version=f92ddf9e080802ad"],"html":"<!--标志对比-->\n<h2><img src=\"http:\/\/img.t.sinajs.cn\/t5\/style\/images\/staticlogo\/brandLogo.png?version=f92ddf9e080802ad\" alt=\"标识对比\"><\/h2>\n<div class=\"contrastlogo\"><img src=\"http:\/\/img.t.sinajs.cn\/t5\/style\/images\/staticlogo\/logoContrast_pic.png?version=f92ddf9e080802ad\"><\/div>\n<!--\/标志对比-->\n\n<!--正确的标志-->\n<h2><img src=\"http:\/\/img.t.sinajs.cn\/t5\/style\/images\/staticlogo\/brandGroups.png?version=f92ddf9e080802ad\" alt=\"品牌标识组合\"><\/h2>\n<div class=\"reallogo\">\n    <ul class=\"logolist\">\n        <li class=\"liitem\">\n            <div class=\"picdiv\"><img src=\"http:\/\/img.t.sinajs.cn\/t5\/style\/images\/staticlogo\/groups1.png?version=f92ddf9e080802ad\"><\/div>\n            <ul class=\"textlist\">\n                <li><a href=\"http:\/\/img.t.sinajs.cn\/t5\/style\/images\/staticlogo\/download\/Brand_Group\/RGB\/Cn_En_Group\/Sina_Weibo_Logo_RGB_C_E.pdf?version=f92ddf9e080802ad\" target=\"_blank\">微博品牌中英文组合PDF格式<\/a><br>RGB 色彩<\/li>\n                <li><a href=\"http:\/\/img.t.sinajs.cn\/t5\/style\/images\/staticlogo\/download\/Brand_Group\/CMYK\/Cn_En_Group\/Sina_Weibo_Logo_CMYK_C_E.pdf?version=f92ddf9e080802ad\" target=\"_blank\">微博品牌中英文组合PDF格式<\/a><br>CMYK 色彩<\/li>\n                <li><a href=\"http:\/\/img.t.sinajs.cn\/t5\/style\/images\/staticlogo\/download\/Brand_Group\/PNG\/Cn_En_Group\/Sina_Weibo_Logo_RGB_C_E.png?version=f92ddf9e080802ad\" target=\"_blank\">微博品牌中英文组合PNG格式<\/a><br>Web 色彩<\/li>\n            <\/ul>\n        <\/li>\n        <li class=\"liitem middleli\">\n            <div class=\"picdiv\"><img src=\"http:\/\/img.t.sinajs.cn\/t5\/style\/images\/staticlogo\/groups2.png?version=f92ddf9e080802ad\"><\/div>\n            <ul class=\"textlist\">\n                <li><a href=\"http:\/\/img.t.sinajs.cn\/t5\/style\/images\/staticlogo\/download\/Brand_Group\/RGB\/Cn_group\/Sina_Weibo_Logo_RGB_Cn.pdf?version=f92ddf9e080802ad\" target=\"_blank\">微博品牌中文组合PDF格式<\/a><br>RGB 色彩<\/li>\n                <li><a href=\"http:\/\/img.t.sinajs.cn\/t5\/style\/images\/staticlogo\/download\/Brand_Group\/CMYK\/Cn_Group\/Sina_Weibo_Logo_CMYK_Cn.pdf?version=f92ddf9e080802ad\" target=\"_blank\">微博品牌中文组合PDF格式<\/a><br>CMYK 色彩<\/li>\n                <li><a href=\"http:\/\/img.t.sinajs.cn\/t5\/style\/images\/staticlogo\/download\/Brand_Group\/PNG\/Cn_Group\/Sina_Weibo_Logo_RGB_Cn.png?version=f92ddf9e080802ad\" target=\"_blank\">微博品牌中文组合PNG格式<\/a><br>Web 色彩<\/li>\n            <\/ul>\n        <\/li>\n        <li class=\"liitem\">\n            <div class=\"picdiv\"><img src=\"http:\/\/img.t.sinajs.cn\/t5\/style\/images\/staticlogo\/groups3.png?version=f92ddf9e080802ad\"><\/div>\n            <ul class=\"textlist\">\n                <li><a href=\"http:\/\/img.t.sinajs.cn\/t5\/style\/images\/staticlogo\/download\/Brand_Group\/RGB\/En_Group\/Sina_Weibo_Logo_RGB_En.pdf?version=f92ddf9e080802ad\" target=\"_blank\">微博品牌英文组合PDF格式<\/a><br>RGB 色彩<\/li>\n                <li><a href=\"http:\/\/img.t.sinajs.cn\/t5\/style\/images\/staticlogo\/download\/Brand_Group\/CMYK\/En_Group\/Sina_Weibo_Logo_CMYK_En.pdf?version=f92ddf9e080802ad\" target=\"_blank\">微博品牌英文组合PDF格式<\/a><br>CMYK 色彩<\/li>\n                <li><a href=\"http:\/\/img.t.sinajs.cn\/t5\/style\/images\/staticlogo\/download\/Brand_Group\/PNG\/En_Group\/Sina_Weibo_Logo_RGB_En.png?version=f92ddf9e080802ad\" target=\"_blank\">微博品牌英文组合PNG格式<\/a><br>Web 色彩<\/li>\n            <\/ul>\n        <\/li>\n        <li class=\"liitem\">\n            <div class=\"picdiv\"><img src=\"http:\/\/img.t.sinajs.cn\/t5\/style\/images\/staticlogo\/groups1_1.png?version=f92ddf9e080802ad\"><\/div>\n            <ul class=\"textlist\">\n                <li><a href=\"http:\/\/img.t.sinajs.cn\/t5\/style\/images\/staticlogo\/download\/Brand_Group\/RGB\/Cn_En_Group\/Sina_Weibo_Logo_Black_RGB_C_E.pdf?version=f92ddf9e080802ad\" target=\"_blank\">微博品牌中英文组合PDF格式<\/a><br>RGB 单色墨稿<\/li>\n                <li><a href=\"http:\/\/img.t.sinajs.cn\/t5\/style\/images\/staticlogo\/download\/Brand_Group\/CMYK\/Cn_En_Group\/Sina_Weibo_Logo_Black_CMYK_C_E.pdf?version=f92ddf9e080802ad\" target=\"_blank\">微博品牌中英文组合PDF格式<\/a><br>CMYK 单色墨稿<\/li>\n                <li><a href=\"http:\/\/img.t.sinajs.cn\/t5\/style\/images\/staticlogo\/download\/Brand_Group\/PNG\/Cn_En_Group\/Sina_Weibo_Logo_Black_RGB_C_E.png?version=f92ddf9e080802ad\" target=\"_blank\">微博品牌中英文组合PNG格式<\/a><br>Web 单色墨稿<\/li>\n            <\/ul>\n        <\/li>\n        <li class=\"liitem middleli\">\n            <div class=\"picdiv\"><img src=\"http:\/\/img.t.sinajs.cn\/t5\/style\/images\/staticlogo\/groups2_1.png?version=f92ddf9e080802ad\"><\/div>\n            <ul class=\"textlist\">\n                <li><a href=\"http:\/\/img.t.sinajs.cn\/t5\/style\/images\/staticlogo\/download\/Brand_Group\/RGB\/Cn_group\/Sina_Weibo_Logo_Black_RGB_Cn.pdf?version=f92ddf9e080802ad\" target=\"_blank\">微博品牌中文组合PDF格式<\/a><br>RGB 单色墨稿<\/li>\n                <li><a href=\"http:\/\/img.t.sinajs.cn\/t5\/style\/images\/staticlogo\/download\/Brand_Group\/CMYK\/Cn_Group\/Sina_Weibo_Logo_Black_CMYK_Cn.pdf?version=f92ddf9e080802ad\" target=\"_blank\">微博品牌中文组合PDF格式<\/a><br>CMYK 单色墨稿<\/li>\n                <li><a href=\"http:\/\/img.t.sinajs.cn\/t5\/style\/images\/staticlogo\/download\/Brand_Group\/PNG\/Cn_Group\/Sina_Weibo_Logo_Black_RGB_Cn.png?version=f92ddf9e080802ad\" target=\"_blank\">微博品牌中文组合PNG格式<\/a><br>Web 单色墨稿<\/li>\n            <\/ul>\n        <\/li>\n        <li class=\"liitem\">\n            <div class=\"picdiv\"><img src=\"http:\/\/img.t.sinajs.cn\/t5\/style\/images\/staticlogo\/groups3_1.png?version=f92ddf9e080802ad\"><\/div>\n            <ul class=\"textlist\">\n                <li><a href=\"http:\/\/img.t.sinajs.cn\/t5\/style\/images\/staticlogo\/download\/Brand_Group\/RGB\/En_Group\/Sina_Weibo_Logo_Black_RGB_En.pdf?version=f92ddf9e080802ad\" target=\"_blank\">微博品牌英文组合PDF格式<\/a><br>RGB 单色墨稿<\/li>\n                <li><a href=\"http:\/\/img.t.sinajs.cn\/t5\/style\/images\/staticlogo\/download\/Brand_Group\/CMYK\/En_Group\/Sina_Weibo_Logo_Black_CMYK_En.pdf?version=f92ddf9e080802ad\" target=\"_blank\">微博品牌英文组合PDF格式<\/a><br>CMYK 单色墨稿<\/li>\n                <li><a href=\"http:\/\/img.t.sinajs.cn\/t5\/style\/images\/staticlogo\/download\/Brand_Group\/PNG\/En_Group\/Sina_Weibo_Logo_Black_RGB_En.png?version=f92ddf9e080802ad\" target=\"_blank\">微博品牌英文组合PNG格式<\/a><br>Web 单色墨稿<\/li>\n            <\/ul>\n        <\/li>\n        \n        <li class=\"liitem\">\n            <div class=\"picdiv bgblue\"><img src=\"http:\/\/img.t.sinajs.cn\/t5\/style\/images\/staticlogo\/groups1_2.png?version=f92ddf9e080802ad\"><\/div>\n            \n        <\/li>\n        <li class=\"liitem middleli\">\n            <div class=\"picdiv bgblue\"><img src=\"http:\/\/img.t.sinajs.cn\/t5\/style\/images\/staticlogo\/groups2_2.png?version=f92ddf9e080802ad\"><\/div>\n            \n        <\/li>\n        <li class=\"liitem\">\n            <div class=\"picdiv bgblue\"><img src=\"http:\/\/img.t.sinajs.cn\/t5\/style\/images\/staticlogo\/groups3_2.png?version=f92ddf9e080802ad\"><\/div>\n            \n        <\/li>\n        <li class=\"liitem\">\n            <div class=\"picdiv bgblcak\"><img src=\"http:\/\/img.t.sinajs.cn\/t5\/style\/images\/staticlogo\/groups1_3.png?version=f92ddf9e080802ad\"><\/div>\n            \n        <\/li>\n        <li class=\"liitem middleli\">\n            <div class=\"picdiv bgblcak\"><img src=\"http:\/\/img.t.sinajs.cn\/t5\/style\/images\/staticlogo\/groups2_3.png?version=f92ddf9e080802ad\"><\/div>\n            \n        <\/li>\n        <li class=\"liitem\">\n            <div class=\"picdiv bgblcak\"><img src=\"http:\/\/img.t.sinajs.cn\/t5\/style\/images\/staticlogo\/groups3_3.png?version=f92ddf9e080802ad\"><\/div>\n            \n        <\/li>\n    <\/ul>\n<\/div>\n<!--\/正确的标志-->\n\n\n<!--颜色-->\n<h2><img src=\"http:\/\/img.t.sinajs.cn\/t5\/style\/images\/staticlogo\/brandColours.png?version=f92ddf9e080802ad\" alt=\"品牌标准色\"><\/h2>\n<dl class=\"colorlist\">\n    <dt class=\"colorred\"><\/dt>\n    <dd><strong>Red 红色<\/strong>CMYK 0, 100, 100, 0<br>RGB 230, 22, 45 <\/dd>\n    <dt class=\"colororange\"><\/dt>\n    <dd><strong>Orange 橙色<\/strong>CMYK 0, 50, 100, 0<br>RGB 255, 153, 51 <\/dd>\n    <dt class=\"colorblack\"><\/dt>\n    <dd class=\"last\"><strong>Black 黑色<\/strong>CMYK 0, 0, 0, 100<br>RGB 0, 0, 0 <\/dd>\n<\/dl>\n<!--\/颜色-->\n\n<p class=\"bottominfo\">微博品牌使用规范由微博事业部产品设计中心（Sina Weibo CDC）完成。<\/p>\n<!-- \nuid:5060400438<br\/>version:5<br\/>ip:121.79.131.178<br\/>\nis_allowed_ip: -->\n"})</script>
+<script>STK && STK.pageletM && STK.pageletM.view({"pid":"pl_content_Base","js":["home/js/pl/content/changeLanguage.js?version=d5053845174b525f","home/js/pl/content/base.js?version=d5053845174b525f"],"css":[],"html":""})</script>
+</html>

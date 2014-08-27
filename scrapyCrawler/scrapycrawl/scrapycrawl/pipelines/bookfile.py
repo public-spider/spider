@@ -73,7 +73,7 @@ class WoaiduBookFile(FilePipeline):
             custom process_item func,so it will manage the Request result.
         """
         
-        info = self.spiderinfo[spider]
+        info = self.spiderinfo
         requests = arg_to_iter(self.get_media_requests(item, info))
         dlist = [self._process_request(r, info) for r in requests]
         dfd = DeferredList(dlist, consumeErrors=1)

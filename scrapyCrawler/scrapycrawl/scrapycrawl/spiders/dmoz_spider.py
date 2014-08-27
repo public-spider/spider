@@ -18,10 +18,10 @@ class DmozSpider(Spider):
         filename =response.url.split("/")[-2]
         open(filename, 'wb').write(response.body)
 	
-	items = []
- 
- 	newurls = response.selector.xpath('//a/@href').extract()
-	validurls = []
+        items = []
+     
+     	newurls = response.selector.xpath('//a/@href').extract()
+    	validurls = []
         for url in newurls:
 	        if(url[0]=="/"):
                      validurls.append(url)#return Request("http://www.dmoz.org"+url, callback=self.parse)

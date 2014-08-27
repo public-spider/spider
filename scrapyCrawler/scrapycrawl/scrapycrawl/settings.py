@@ -42,17 +42,18 @@ AUTOTHROTTLE_CONCURRENCY_CHECK_PERIOD = 10#How many responses should pass to per
 #if you want to use shard mongodb,you need MongodbWoaiduBookFile and ShardMongodbPipeline
 #if you want to use single mongodb,you need WoaiduBookFile and SingleMongodbPipeline
 ITEM_PIPELINES = {
-#                   'scrapycrawl.pipelines.cover_image.WoaiduCoverImage',
-                    'scrapycrawl.pipelines.bookfile.WoaiduBookFile':100,
+                  'scrapycrawl.pipelines.cover_image.WoaiduCoverImage':50,
+                  'scrapycrawl.pipelines.mongodb.WeiboMongoPipeline':300
+#                    'scrapycrawl.pipelines.bookfile.WoaiduBookFile':100,
 #                   'scrapycrawl.pipelines.mongodb_book_file.MongodbWoaiduBookFile',
-                  'scrapycrawl.pipelines.drop_none_download.DropNoneBookFile':200,
-                  'scrapycrawl.pipelines.mongodb.SingleMongodbPipeline':300,
+#                  'scrapycrawl.pipelines.drop_none_download.DropNoneBookFile':200,
+#                  'scrapycrawl.pipelines.mongodb.SingleMongodbPipeline':300,
 #                   'scrapycrawl.pipelines.mongodb.ShardMongodbPipeline',
-#                   'scrapycrawl.pipelines.final_test.FinalTestPipeline',
+#                   'scrapycrawl.pipelines.final_test.FinalTestPipeline':400,
 }
 #ITEM_PIPELINES = ['scrapycrawl.pipelines.WoaiduBookFile',]
 
-IMAGES_STORE = '/home/whisky/workspace/eclipse/python/scrapyCrawl_git/scrapyCrawler/scrapycrawl/pictures'
+IMAGES_STORE = '/home/outao/Scrapy/out/scrapyCrawler/images'
 IMAGES_EXPIRES = 30
 IMAGES_THUMBS = {
      'small': (50, 50),
@@ -62,7 +63,7 @@ IMAGES_THUMBS = {
 IMAGES_MIN_HEIGHT = 0
 IMAGES_MIN_WIDTH = 0
 
-COOKIES_ENABLED = False
+#COOKIES_ENABLED = False
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent

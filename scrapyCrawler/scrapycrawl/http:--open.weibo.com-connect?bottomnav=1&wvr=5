@@ -1,0 +1,254 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta charset="UTF-8">
+<title>网站接入 - 微博开放平台</title>
+<script type="text/javascript">
+
+var $CONFIG = {
+	$severtime		: "1409109138"
+};
+$CONFIG['uid'] = "5060400438";
+$CONFIG['name'] = "temp_test_try";
+$CONFIG['icon'] = "http://tp3.sinaimg.cn/5060400438/50/0/1";
+$CONFIG['islogin'] = '1';
+$CONFIG['verify'] = '';
+$CONFIG['oid'] = "5060400438";
+$CONFIG['onick'] = "temp_test_try";
+$CONFIG['nick'] = "temp_test_try";
+$CONFIG['bigpipe'] = 'false';
+$CONFIG['timeDiff'] = (new Date() - 1409109138*1000);
+$CONFIG['product'] = '';
+$CONFIG['pageid'] = '';
+$CONFIG['skin'] = '';
+$CONFIG['lang'] = 'zh-cn';
+$CONFIG['jsPath'] = 'http://js.t.sinajs.cn/t4/';
+$CONFIG['cssPath'] = 'http://img.wcdn.cn/t4/';
+$CONFIG['imgPath'] = 'http://img.wcdn.cn/t4/';
+$CONFIG['flashversion'] = 20130402;
+$CONFIG['autoScroll'] = false;
+$CONFIG['authority'] = false;
+
+</script>
+<link href="http://img.t.sinajs.cn/t4/appstyle/open/css/pages/website/home_website_lumpsugar.css?version=1.1.2.377" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="http://tjs.sjs.sinajs.cn/t35/apps/opent/js/lang_zh.js?version=1.1.2.377"></script>
+<script type="text/javascript" src="http://js.t.sinajs.cn/STK/gaea/js/gaea_1_22.js?version=1.1.2.377" ></script>
+</head>
+<body class="B_home_website">
+<div class="op_header">
+  <div class="global_top_header">
+    <div class="header_inner">
+        <div class="header_wrapper">
+            <div class="logo_container">
+                <a class="logo_link" href="/" title="进入首页"><img class="logo_img" src="http://img.t.sinajs.cn/t4/appstyle/open/images/common/transparent.gif" alt="Weibo Platform Logo" /></a>
+                <h1 class="hidden_title">新浪微博开放平台</h1>
+            </div>
+            <div class="nav_list_container">
+                <ul class="nav_list">
+                    <li class="nav_item nav_item_more nav_more_mouseover2   nav_current nav_length_3">
+                        <a class="nav_link" action-type="selection_btn" action-data="index=1" href="/development" title="">微连接<i class="mark_more_arrow"></i></a>
+                        <div class="nav_more_layer" action-type="selection_menu" action-data="index=1">
+                            <div class="nav_more_link_container">
+                                <div class="more_link_line"><a class="nav_more_link" href="/development/mobile" title="">移动应用</a></div>
+                                <div class="more_link_line"><a class="nav_more_link" href="/connect" title="">网站接入</a></div>
+                                <div class="more_link_line"><a class="nav_more_link" href="/development/canvas" title="">站内应用</a></div>
+								<div class="more_link_line"><a class="nav_more_link" href="/development/mobilegame" title="">无线游戏</a></div>
+                                <!-- <div class="more_link_line"><a class="nav_more_link" href="/development/pro" title="">专业版应用</a></div> -->
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav_item nav_item_more nav_more_mouseover2   nav_length_3">
+                        <a class="nav_link" action-type="selection_btn" action-data="index=2" title="" href="/service">微服务<i class="mark_more_arrow"></i></a>
+                        <div class="nav_more_layer" action-type="selection_menu" action-data="index=2">
+                            <div class="nav_more_link_container">
+                            	<div class="more_link_line"><a class="nav_more_link" href="/wp/intro" title="">WP介绍</a></div>
+                                <div class="more_link_line"><a class="nav_more_link" href="/development/fenfu" title="">粉丝服务</a></div>
+                                <div class="more_link_line"><a class="nav_more_link" href="/development/pro" title="">轻应用</a></div>
+                                <div class="more_link_line"><a class="nav_more_link" href="/development/businessdata" title="">商业数据</a></div>
+                                
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav_item ">
+                        <a class="nav_link" href="/wiki/" title="">文档</a>
+                    </li>
+                    <li class="nav_item ">
+                        <a class="nav_link" href="/support" title="">支持</a>
+                    </li>
+                    <li class="nav_item ">
+                        <a class="nav_link" href="/fensitong" title="">推广</a>
+                    </li>
+                    <li class="nav_item ">
+                        <a class="nav_link" href="/apps" hidefocus="true" title="">我的应用</a>
+                    </li>
+                    
+                </ul>
+            </div>
+            <!--登录Start-->
+            <div class="pull_right">
+                                    <div class="user_info user_info_mouseover2" >
+    <div class="user_info_inner" node-type="userinfo_btn">
+        <img class="user_avatar" width="30" height="30" src="http://tp3.sinaimg.cn/5060400438/50/0/1" alt="temp_test_try" />
+        <span class="user_name">temp_test_try</span>
+        <i class="user_info_arrow"></i>
+    </div>
+    <div class="user_handle_layer" node-type="userinfo_menu">
+        <div class="handle_link_container" >
+            <div class="handle_link_line"><a class="handle_link" href="/developers/basicinfo" title="">编辑开发者信息</a></div>
+            <div class="handle_link_line"><a class="handle_link" href="/logout.php?backurl=%2Fconnect%3Fbottomnav%3D1%26wvr%3D5" title="">退出</a></div>
+        </div>
+    </div>
+</div>                            </div>
+            <!--登录End-->
+        </div>
+    </div>
+</div>
+</div>
+
+<!--主内容开始--> 
+<div class="home_website_wrap" id="pl_web_siteIndex">
+    <div class="home_website_banner">
+        <p class="tit"><span>网站接入</span><a href="/wiki/网站接入">[什么是网站接入]</a></p>
+        <p class="con">将您的网站与微博连接，分享微博的6亿用户；<br/>一步接入社会化网络,构建起高效的内容分发传播管道。</p>
+        <p class="btn clearfix">
+          <a class="c"  href="/webmaster/add" >开始接入</a>
+          <a class="g"  href="/webmaster" >管理网站</a>
+        </p>
+    </div>
+    <div class="home_website_content">
+    	<div class="inner clearfix">
+        	<!--左侧-->
+        	<div class="fl">
+                <div class="title_chan title_chan_bg"><strong>选择适合你网站的合作模式</strong></div>
+                <div class="list_website list_website_bg">
+                    <p class="imgs"><span class="links">微博连接</span></p>
+                    <div class="cons">
+                        <p class="tit"><a href="/authentication/" class="W_f14 W_fb">微博登录</a></p>
+                        <p class="con"><span class="W_textc">使用微博帐号访问你的网站，分享内容，同步信息。</span><span class="W_textb">带入微博活跃用户，提升网站的用户数和访问量。</span></p>
+                        <p class="exp W_linkb">案例：<a href="/casedetail.php?type=website&casenum=101">中关村在线</a><a href="/casedetail.php?type=website&casenum=102">土豆网</a><a href="/casedetail.php?type=website&casenum=103">瑞丽网</a></p>
+                    </div>
+                </div>
+                <div class="list_website list_website_bg">
+                    <p class="imgs"><span class="widgets">微博组件</span></p>
+                    <div class="cons">
+                        <p class="tit"><a href="/widgets?cat=wb" class="W_f14 W_fb">微博组件</a></p>
+                        <p class="links W_linkb">
+                            <a href="/sharebutton">分享按钮</a><span class="W_vline">|</span>
+                            <a href="/widget/like.php">赞组件</a><span class="W_vline">|</span>
+                            <a href="/widget/followbutton.php">关注按钮</a><span class="W_vline">|</span>
+                            <a href="/widget/weibotopic.php">微博话题墙</a><span class="W_vline">|</span>
+                            <a href="/widget/publisher.php">发布窗</a><span class="W_vline">|</span>
+                            <a href="/widget/comments.php">评论箱</a><span class="W_vline">|</span>
+                                                        <a href="/widgets?cat=wb">更多&raquo;</a>
+                        </p>
+                        <p class="con"><span class="W_textc">将微博内容输出到第三方网站，用户在第三方网站互动和创造内容，同时分享内容、同步信息到微博。</span><span class="W_textb">快速部署，零开发成本的接入方案，适合绝大多数网站。</span></p>
+                        <p class="exp W_linkb">案例：<a href="/casedetail.php?type=website&casenum=107">MSN</a><a href="/casedetail.php?type=website&casenum=108">VeryCD</a><a href="/casedetail.php?type=website&casenum=109">酷6网</a></p>
+                    </div>
+                </div>
+                <div class="list_website list_website_bg">
+                    <p class="imgs"><span class="jssdk">JS-SDK</span></p>
+                    <div class="cons">
+                        <p class="tit"><a href="/widgets?cat=js" class="W_f14 W_fb">JS-SDK</a></p>
+                        <p class="links W_linkb"><a href="http://weibojs.com/">技术支持</a><span class="W_vline">|</span><a href="/widget/loginbutton.php">微博登录</a><span class="W_vline">|</span><a href="/widget/publisher.php">微博发布器</a><span class="W_vline">|</span><a href="http://weibojs.com/widget/card.php">微博名片</a><span class="W_vline">|</span><a href="http://weibojs.com/widget/selector.php">好友选择器</a><span class="W_vline">|</span><a href="http://open.weibo.com/sdk/js">更多&raquo;</a></p>
+                        <p class="con"><span class="W_textc">通过官方提供的Weibo JS-SDK，定制开发专属的微博社会化组件。</span><span class="W_textb">灵活可定制，将微博接入您的网站，拥有更好的用户体验。</span></p>
+                    </div>
+                </div>
+                <!--
+                <div class="list_website">
+                    <p class="imgs"><span class="xweibo">Xweibo</span></p>
+                    <div class="cons">
+                        <p class="tit"><a href="http://x.weibo.com/" target="_blank" class="W_f14 W_fb">Xweibo</a></p>
+                        <p class="links W_linkb"><a href="http://x.weibo.com/index.php/products" target="_blank">Xweibo 开源系统</a><span class="W_vline">|</span><a href="http://x.weibo.com/index.php/download" target="_blank">Xweibo 网站插件</a><span class="W_vline">|</span><a href="http://x.weibo.com/index.php/solution" target="_blank">Xweibo 解决方案</a></p>
+                        <p class="con"><span class="W_textc">Xweibo是一套基于微博API开发的免费微博系统，可以与微博实现帐号和内容的互联互通。</span><span class="W_textb">快速搭建属于自己的微博服务</span></p>
+                        <p class="exp W_linkb">案例：<a href="/casedetail.php?type=website&casenum=103">瑞丽网</a><a href="/casedetail.php?type=website&casenum=116">榕树下</a><a href="/casedetail.php?type=website&casenum=104">CNTV</a></p>
+                    </div>
+                </div>
+                -->
+            </div>
+        	<!--/左侧-->
+        	<!--右侧-->
+            <div class="fr">
+                <div class="title_chan title_chan_bor"><strong>BD合作</strong></div>
+                <div class="home_website">
+                    <p class="W_f14">开放平台与合作伙伴共享微博优秀的用户资源和数据资源，可为网站免费提供社会化改造方案，帮助网站提升流量和用户黏性。</p>
+                    <dl>
+                    <dt class="W_fb">联系方式</dt>
+                    <dd class="clearfix"><iframe width="100%" height="24" frameborder="0" allowtransparency="true" marginwidth="0" marginheight="0" scrolling="no" border="0" src="http://widget.weibo.com/relationship/followbutton.php?language=zh_cn&width=100%&height=24&uid=1782515283&style=3&btn=light&dpc=1"></iframe></dd>
+                    </dl>
+                </div>
+                <div class="title_chan title_chan_bor"><strong>整体合作案例</strong><span><a href="/cases.php">查看全部</a></span></div>
+                <div class="list_imgcons">
+                    <div class="list_imgcon list_imgcon_bor">
+                        <div class="imgs"><a href="/casedetail.php?type=website&casenum=101"><img src="http://www.sinaimg.cn/blog/developer/cases/logo_zol_50x50.jpg" alt="中关村在线" /></a></div>
+                        <div class="cons">
+                            <p class="tit"><a href="/casedetail.php?type=website&casenum=101" class="W_fb">中关村在线</a></p>
+                            <p class="links W_linkb"><a href="/casedetail.php?type=website&casenum=101#img1">微博连接</a><span class="W_vline">|</span><a href="/casedetail.php?type=website&casenum=101#img2">分享按钮</a></p>
+                        </div>
+                    </div>
+                    <div class="list_imgcon list_imgcon_bor">
+                        <div class="imgs"><a href="/casedetail.php?type=website&casenum=103"><img src="http://www.sinaimg.cn/blog/developer/cases/logo_rayli_50x50.jpg" alt="瑞丽网" /></a></div>
+                        <div class="cons">
+                            <p class="tit"><a href="/casedetail.php?type=website&casenum=103" class="W_fb">瑞丽网</a></p>
+                            <p class="links W_linkb"><a href="/casedetail.php?type=website&casenum=103#img1">微博连接</a><span class="W_vline">|</span><a href="/casedetail.php?type=website&casenum=103#img2">分享按钮</a></p>
+                        </div>
+                    </div>
+                    <div class="list_imgcon list_imgcon_bor">
+                        <div class="imgs"><a href="/casedetail.php?type=website&casenum=105"><img src="http://www.sinaimg.cn/blog/developer/cases/logo_xgo_50x50.jpg" alt="汽车点评网" /></a></div>
+                        <div class="cons">
+                            <p class="tit"><a href="/casedetail.php?type=website&casenum=105" class="W_fb">汽车点评网</a></p>
+                            <p class="links W_linkb"><a href="/casedetail.php?type=website&casenum=105#img1">微博连接</a><span class="W_vline">|</span><a href="/casedetail.php?type=website&casenum=105#img2">分享按钮</a></p>
+                        </div>
+                    </div>
+                    <div class="list_imgcon">
+                        <div class="imgs"><a href="/casedetail.php?type=website&casenum=106"><img src="http://www.sinaimg.cn/blog/developer/cases/logo_m18_50x50.jpg" alt="麦网" /></a></div>
+                        <div class="cons">
+                            <p class="tit"><a href="/casedetail.php?type=website&casenum=106" class="W_fb">麦网</a></p>
+                            <p class="links W_linkb"><a href="/casedetail.php?type=website&casenum=106#img1">微博连接</a><span class="W_vline">|</span><a href="/casedetail.php?type=website&casenum=106#img2">分享按钮</a></p>
+                        </div>
+                    </div>
+                </div>
+                <!--<p class="btn_apply"><a class="W_btnM_a"  href="/createApp.php?xweibo=1" ><span>申请 Xweibo AppKey</span></a></p>-->
+            </div>
+        	<!--/右侧-->
+        </div>
+    </div>
+</div>
+<!--/主内容结束-->
+<div class="op_footer">
+<div class="inner">
+    <p class="links">
+		<a href="/wiki/index.php/关于开放平台">关于微博开放平台</a>
+		<span class="W_vline">|</span>
+		<a href="/wiki/index.php/联系我们">联系我们</a>
+		<span class="W_vline">|</span>
+		<a href="/wiki/开发者协议">服务条款</a>
+		<span class="W_vline">|</span>
+		<a href="http://weibo.com/weibovc">开发者基金</a>
+		<span class="W_vline">|</span>
+		<a href="/game">微游戏</a>
+		<span class="W_vline">|</span>
+		<a href="/blog/">平台博客</a>
+	</p>
+    <p class="copyright W_textb">
+		<span>京网文 [2011] 0398-130号</span>
+		<span>京ICP证100780号</span>
+		<span>Copyright © 1996-2014 SINA</span></p>
+</div>
+</div>
+<script type="text/javascript" src="http://js.t.sinajs.cn/open/site/js/web/siteIndex.js?version=1.1.2.377"></script>
+<noscript>
+<img width="0" height="0" src="http://beacon.sina.com.cn/a.gif?noScript" border="0" alt="" />
+</noscript>
+<script type='text/javascript' charset="utf-8">
+(function() {
+    var doc = document,
+    wa = doc.createElement('script'),
+    s = doc.getElementsByTagName('script')[0];
+    wa.type = 'text/javascript';
+    wa.charset = 'utf-8';
+    wa.async = true;
+    wa.src = 'http://js.t.sinajs.cn/open/analytics/js/suda.js?version=1.1.2.377';
+    s.parentNode.insertBefore(wa, s);
+})();
+</script>
+</body>
+</html>

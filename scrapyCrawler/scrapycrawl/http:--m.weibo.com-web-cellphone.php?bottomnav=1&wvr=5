@@ -1,0 +1,908 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+		<link rel="stylesheet" type="text/css" href="http://img.t.sinajs.cn/t4//style/css/pages/mobile/mobile.css"/>
+		<link rel="stylesheet" type="text/css" href="http://timg.sjs.sinajs.cn/t4/style/css/module/global/out_frame.css"/>
+		<link href="http://img.t.sinajs.cn/t4//skin/default/skin.css" type="text/css" rel="stylesheet" />
+
+		<title>手机版</title>
+
+		<style type="text/css">
+			.mobi_arpb .android_lf{margin:86px 50px 0 35px;}
+			.mobi_s60 .s60_lf{width:170px;}
+			.W_main_2col_r{padding: 35px 30px 60px;width: 740px;}
+			.index_title{padding-bottom:40px;}
+			.B_mobile_mms,
+			.B_mobi_index,
+			.B_mobi_iphone,
+			.B_mobi_ipad,
+			.B_mobi_android,
+			.B_mobi_androidplatform,
+			.B_mobi_s60,
+			.B_mobi_kjava,
+			.B_mobi_blackberry,
+			.B_mobi_wp,
+			.B_mobi_mtk,
+			.B_mobi_h5iphone,
+			.B_mobi_h5ipad,
+			.B_mobi_h5radio,
+			.B_mobi_win8{display:none;background:#fff;overflow:hidden;}
+			#B_mobi_current{display:block;}
+			.B_mobi_h5ipad .mobi_tit,
+			.B_mobi_h5iphone .mobi_tit,
+			.B_mobi_h5radio .mobi_tit{ background:url(http://u1.sinaimg.cn/upload/topic/img/mobile/icon/html5tit.jpg?id=20120106) no-repeat 5px 3px;}
+			.B_mobi_h5ipad .index_title_sec,
+			.B_mobi_h5iphone .index_title_sec{ margin-bottom:5px;}
+			.B_mobi_h5iphone .mobi_idx,
+			.B_mobi_h5ipad .mobi_idx,
+			.B_mobi_h5radio .mobi_idx{ background:none; min-height:120px; _height:120px;}
+			.B_mobi_h5iphone .idxbox p.p2,
+			.B_mobi_h5ipad .idxbox p.p2{ font-size:30px}
+			.B_mobi_h5radio .idxbox p.p2{ font-size:28px}
+			.B_mobi_h5iphone .iconBox,
+			.B_mobi_h5radio .iconBox{ clear:both; height:52px; padding-top:10px;}
+			.B_mobi_h5radio .mobi_iphone .iphone_lf img,
+			.B_mobi_h5radio .mobi_iphone .iphone_lf{width:173px;}
+
+			.mobi_msg_send .edit_con strong{padding:0 3px 0 0;font-size:20px;}
+			.mobi_msg_send dl.tab1 .edit_con strong{color:#78CE00;}
+			.mobi_msg_send dl.tab2 .edit_con strong{color:#DF688E;}
+			.mobi_msg_send dl.tab1 .send_num strong{color:#83B3D7;}
+			.mobi_msg_send dl.tab2 .send_num strong{color:#D58A4C;}
+			.B_mobile_mms .mobi_msg_send .note {color:#919CA2;}
+			.B_mobile_mms .mobi_msg_send dl dt{background-image:url(http://u1.sinaimg.cn/upload/topic/img/mobile/mobile_step.png);}
+			.MTK_txt a span{display:inline-block;width:14px;height:12px;background:url(http://img.t.sinajs.cn/t4/style/images/common/sprite_ico.png) no-repeat -75px -150px;vertical-align:middle;}
+
+			/* android */
+			.mobi_android .android_lf img{
+				height:auto;
+			}
+
+			/* windows 8 */
+			.mobi_win8{
+				overflow:hidden;
+				background:url(http://u1.sinaimg.cn/upload/topic/img/mobile/win8/bg_win8.png) no-repeat 0 50px;
+			}
+			.mobi_win8 .mobi_tit{
+				padding:0 0 0 35px;
+				background:url(http://u1.sinaimg.cn/upload/topic/img/mobile/win8/logo.png) no-repeat;
+			}
+			.mobi_win8 .win8_lf{
+				overflow:hidden;
+				margin:75px 50px 26px 25px;
+				width:271px;
+				height:153px;
+			}
+			.mobi_win8 .win8_rt{
+				width:367px;
+			}
+			.B_mobi_win8 .index_title_sec{
+				margin-bottom:5px;
+			}
+			.B_mobi_win8 .topic_list li{
+				line-height:24px;
+			}
+			.B_mobi_win8 .win8_dbtn_1{
+				overflow:hidden;
+				display:inline-block;
+				margin:-4px 10px 0 0;
+				width:156px;
+				height:55px;
+				background:url(http://u1.sinaimg.cn/upload/topic/img/mobile/win8/btn.jpg) no-repeat;
+			}
+			
+		</style>
+                                        
+	</head>
+
+	<body>
+	<div id="weibo_top_public"></div>
+	<div class="W_main">
+		<div class="W_main_bg clearfix">
+		<div class="W_main_l"> 
+			<!--左侧导航-->
+			<div class="left_nav">
+				<div class="left_haveSC">
+					<h3>手机</h3>
+					<dl id="left_havSC_menus">
+						<dd class="current"><a data-type="mobile" href="javascript:;">手机版</a></dd>
+						<dd><a data-type="msg" href="javascript:;">短/彩信版</a></dd>
+						<!-- <dd><a href="phone.html">语音版</a></dd> -->
+						<dd><a data-type="iphone" href="javascript:;" target="phone_category">iPhone</a></dd>
+						<dd><a data-type="ipad" href="javascript:;" target="phone_category">iPad</a></dd>
+						<dd><a data-type="android" href="javascript:;" target="phone_category">Android</a></dd>
+						<dd><a data-type="android_pad" href="javascript:;" target="phone_category">Android平板</a></dd>
+						<dd><a data-type="symbian" href="javascript:;" target="phone_category">Symbian</a></dd>
+						<dd><a data-type="kjava" href="javascript:;" target="phone_category">kjava</a></dd>
+						<dd><a data-type="blackberry" href="javascript:;" target="phone_category">BlackBerry</a></dd>
+						<dd><a data-type="windowsphone" href="javascript:;" target="phone_category">Windows Phone</a></dd>
+						<dd><a data-type="win8" href="javascript:;" target="phone_category">Windows 8</a></dd>
+						<dd><a data-type="mtk" href="javascript:;" target="phone_category">MTK</a></dd>
+						<dd><a data-type="h5iphone" href="javascript:;" target="phone_category">手机微博触屏版</a></dd>
+						<dd><a data-type="h5ipad" href="javascript:;" target="phone_category">新浪微博Pad版</a></dd>
+						<dd><a data-type="h5radio" href="javascript:;" target="phone_category">微电台触屏版</a></dd>
+					</dl>
+				</div>
+			</div>
+			<!--/左侧导航--> 
+		</div>
+		<div class="W_main_2col_r" id="B_mobi_wrapper">
+			<div class="B_mobi_index" id="B_mobi_current">
+				<div class="index_title">
+					<h3>手机版</h3>
+				</div>
+				<div class="mobi_idx">
+					<div class="lf mobi_idx_lf">
+						<iframe scrolling="auto" height="259" frameborder="0" width="172" src="http://news.sina.com.cn/iframe/wap/437/2011/0504/355.html"></iframe>
+					</div>
+					<div class="lf mobi_idx_rt">
+						<p class="mobi_tit"></p>
+						<div class="idxbox">
+							<p class="p1">手机浏览器中输入网址：</p>
+							<p class="p2">weibo.cn</p>
+							<p class="p3">即可访问新浪微博手机版噢！</p>
+						</div>
+						<p class="mobi_txt W_f14">新浪微博手机版是<span class="W_spetxtb">手机上的新浪微博</span>，直接使用互联网帐号即可登录，享受与网页版同样的内容与服务。</p>
+						<ul class="topic_list clearfix" >
+							<li>&nbsp;</li>
+							<li class="W_textb">资费提示：新浪微博手机版是完全免费的，</li>
+							<li class="W_textb">新浪不收取任何费用，手机上网流量费用事宜请咨询您所选择的运营商。</li>
+							<li class="W_spetxtb">建议开通手机上网套餐，包月上网更省钱！</li>
+						</ul>
+						<p class="mobi_txt">
+							<a target="_blank" href="http://news.sina.com.cn/wap/ydzf.html">移动用户</a>
+							<em class="W_vline">|</em>
+							<a target="_blank" href="http://news.sina.com.cn/wap/ltzf.html">联通用户</a>
+							<em class="W_vline">|</em>
+							<a target="_blank" href="http://news.sina.com.cn/wap/dxzf.html">电信用户</a>
+						</p>
+					</div>
+				</div>
+			</div>
+			<!-- ****************************************************************************************** -->
+			<div class="B_mobile_mms">
+				<div class="index_title">
+					<!--this page title-->
+					<h3>短/彩信版</h3>
+					<h4>绑定手机号，发送短信或彩信，随时随地发微博，还可短信收取离线新消息！ </h4>
+					<!--/this page title-->
+				</div>
+				<div class="mobi_bind_step">
+					<div>
+						<a href="http://account.weibo.com/settings/mobile" target="_blank" title="绑定手机" class="btn_spec"><span>绑定手机</span></a><h2>只需简单<span class="W_spetxta">两步</span>,轻松完成手机号的绑定！</h2><h3>成功绑定后,使用短/彩信即可发微博！</h3>
+					</div>
+					<ul class="clearfix">
+						<li><h5><span>1.</span>  输入手机号</h5><p>输入要绑定的手机号码，点击“绑定手机”按钮。</p><a href="http://account.weibo.com/settings/mobile" target="_blank">查看绑定方式»</a></li>
+						<li class="step"><i></i></li>
+						<li><h5><span>2.</span>发送验证码</h5><p>使用需要绑定的手机号码，将页面提示的验证码，短信发送到指定的运营商号码。</p></li>
+						<li class="step"><i></i></li>
+						<li><h5><span>3.</span>绑定完成</h5><p>短信发送成功后，10分钟内您将收到绑定成功的确认短信。</p></li>
+					</ul>
+					<p class="note">注：使用海外手机号码也可绑定</p>
+				</div>
+				<div class="mobi_msg_rem">
+					<div>
+						<h2>开通<span class="W_spetxta">短信提醒</span>功能，离线新消息实时收取！</h2><h3>离线新评论、新私信…“特别关注”的Ta发的新微博。<span class="W_spetxta">短信实时接收！</span></h3>
+					</div>
+					<dl class="clearfix">
+						<dt class="remind"></dt>
+						<dd class="clearfix"><a href="http://sms.sina.com.cn/weibosms/sms_set/sms_set.php" title="开通/设置短信提醒" class="btn_spec" target="_blank"><span>开通/设置短信提醒<br/>（本服务免费） </span></a></dd>
+						<dd>接收短信免费，发送短信仅需支付由运营商<br/>收取的标准短信费(一般不包含在您定制的短信包中)<br/>海外用户暂无法支持</dd>
+						<dd>
+							<ul>
+								<li>1.  <strong> 第一时间</strong>接收关注人最新微博</li>
+								<li>2.  收到私信<strong> 立刻提醒</strong> ，要事不误</li>
+								<li>3.  评论 <strong>即时短信</strong> 通知，实时互动</li>
+							</ul>
+						</dd>
+					</dl>
+				</div>
+				<div class="mobi_msg_send">
+					<div>
+						<h2>发送<span class="W_spetxta">短信/彩信</span>，随时随地发微博！</h2>
+					</div>
+					<ul>
+						<li  style="display:none">
+							<dl class="tab1 clearfix">
+								<dt></dt>
+								<dd class="edit_con"><strong>短信</strong>编辑微博内容</dd>
+								<dd class="send_num">发送至 <strong>1069 009 009</strong></dd>
+								<dd class="note">仅需支付由运营商收取的标准短信费<br>(一般不包含在您定制的短信包中)</dd>
+							</dl>
+						</li>
+						<li style="display:none">
+							<dl class="tab2 clearfix">
+								<dt></dt>
+								<dd class="edit_con"><strong>彩信</strong>编辑微博内容</dd>
+								<dd class="send_num">发送至 <strong>1066 8888 66</strong></dd>
+								<dd class="note">仅需支付由运营商收取的标准彩信费<br/>(一般不包含在您定制的彩信包中)</dd>
+							</dl>
+						</li>
+						<li style="display:">
+							<dl class="tab3 clearfix">
+								<dt></dt>
+								<dd class="edit_conspe">微博<strong>发送成功</strong></dd>
+								<dd class="send_num">手机访问 http://weibo.cn 看更多</dd>
+								<dd class="note">新浪微博手机版是完全免费的，新浪不收取任何费用，手机上网流量费用事宜请咨询您所选择的运营商</dd>
+							</dl>
+						</li>
+						<li>
+							<p>
+								<a class="current" href="javascript:;"></a><a href="javascript:;"></a><a href="javascript:;"></a>
+							</p>
+						</li>
+					</ul>
+				</div>
+				<div class="mobi_bind clearfix">
+					<dl class="msg_intro">
+						<dt><span class="W_spetxtb">短信</span>发微博</dt>
+						<dd>绑定手机后编辑微博内容， 发短信至 <span class="W_spetxtb">1069 009 009 </span></dd>
+						<dd class="msg_num">海外用户需将短信发送至<br/>+86 1352 008 5509  </dd>
+					</dl>
+					<dl class="mms_intro">
+						<dt><span class="W_spetxta">彩信</span>发微博</dt>
+						<dd>绑定手机后编辑微博内容， 发彩信至<span class="W_spetxta"> 1066 8888 66 </span></dd>
+						<dd class="mms_num">海外用户（包括港、澳、台）暂不支持彩信更新微博。</dd>
+					</dl>
+				</div>
+				<div class="instructions clearfix">
+					<!--手机绑定使用说明-->
+					<h3 class="index_title_sec">使用说明</h3>
+					<ul class="topic_list clearfix">
+						<li><span class="W_textdot"></span><em>短信服务：</em>黑龙江、新疆 "移动用户"及重庆"联通用户"暂未开通。</li>
+						<li><span class="W_textdot"></span><em>彩信服务：</em>内蒙、 新疆"移动用户"及内蒙、青海、陕西"联通用户"暂未开通。</li>
+						<li><span class="W_textdot"></span><em>短信长度：</em>移动/电信用户请勿超过140字、联通用户请勿超过70字，以免更新失败(汉字、字母、标点均算做一个字)。</li>
+						<li><span class="W_textdot"></span><em>彩信内容：</em>请勿包含繁体字，以免造成显示异常。</li>
+						<li><span class="W_textdot"></span><em>海外用户：</em>海外短信资费请详询当地运营商。</li>
+						<li><span class="W_textdot"></span><em>资费提示：</em>所有的短信/彩信更新（含使用国际短信更新微博），新浪不收取任何费用，仅需支付由当地运营商收取的标准<br/><p>短信/彩信费(一般不包含在您定制的短信/彩信包中)。</p></li>
+					</ul>
+					<!--/手机绑定使用说明-->
+				</div>
+			</div>
+			<!-- ****************************************************************************************** -->
+			<div class="B_mobi_iphone">
+				<div class="index_title">
+					<h3>iPhone客户端</h3>
+					<h4>对应手机品牌：苹果iPhone</h4>
+				</div>
+				<div class="mobi_iphone">
+					<div class="lf iphone_lf">
+						<div class="client_img">
+							<img src="http://u1.sinaimg.cn/upload/topic/img/mobile/iphone/1_20131023.jpg" />
+							<img src="http://u1.sinaimg.cn/upload/topic/img/mobile/iphone/2_20131023.jpg" />
+							<img src="http://u1.sinaimg.cn/upload/topic/img/mobile/iphone/3_20131023.jpg" />
+							<img src="http://u1.sinaimg.cn/upload/topic/img/mobile/iphone/4_20131023.jpg" />
+							<img src="http://u1.sinaimg.cn/upload/topic/img/mobile/iphone/5_20131023.jpg" />
+						</div>
+					</div>
+					<div class="lf iphone_rt">
+						<p class="mobi_tit">iPhone&nbsp;客户端</p>
+						<p class="mobi_txt">基于iPhone、iPod touch平台的iPhone版手机客户端，实现了阅读、发布、评论、转发、私信、关注等各主要功能，支持本地相机即拍即传和新消息提醒，记录点滴生活，分享精彩瞬间。</p>
+						<p class="mobi_txt W_spetxtb">记录点滴生活，分享精彩瞬间。</p>
+						<p class="W_hline"></p>
+
+						<p class="mobi_txt W_textb txtNotop">点击按钮直接访问APP Store下载应用<br />下载成功后用iTunes同步安装</p>
+						<p class="mobi_txt"><a href="http://itunes.apple.com/cn/app/id350962117?mt=8" class="iphone_dbtn_1" title="iPhone客户端-App Store"></a></p>
+						<p class="W_hline"></p>
+						<h3 class="index_title_sec">更新功能点：</h3>
+						<ul class="topic_list clearfix" >
+							<li><span class="W_textdot"></span>完美支持iOS7；</li>
+							<li><span class="W_textdot"></span>优化 voice over语音辅助功能；</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- ****************************************************************************************** -->
+			<div class="B_mobi_ipad">
+				<div class="index_title">
+					<h3>iPad客户端</h3>
+					<h4>对应品牌：苹果iPad</h4>
+				</div>
+				<div class="mobi_ipad">
+					<div class="lf ipad_lf">
+						<div class="client_img">
+							<img src="http://u1.sinaimg.cn/upload/topic/img/mobile/ipad/c_1.jpg" />
+							<img src="http://u1.sinaimg.cn/upload/topic/img/mobile/ipad/c_2.jpg" />
+							<img src="http://u1.sinaimg.cn/upload/topic/img/mobile/ipad/c_3.jpg" />
+						</div>
+					</div>
+					<div class="lf ipad_rt">
+						<p class="mobi_tit">iPad&nbsp;客户端</p>
+						<p class="mobi_txt">专为苹果iPad用户打造的新浪微博iPad客户端，享受iPad独有的大屏触控体验，集阅读、发布、评论、转发、私信、关注等主要功能为一体，随时随地同朋友分享身边的新鲜事。</p>
+						<p class="mobi_txt W_spetxtb">喜欢微博的ipad迷，赶快装上一个<br />开始真正的随时随地"微博"生活吧。</p>
+
+						<p class="W_hline"></p>
+						<p class="mobi_txt W_textb txtNotop">点击按钮直接访问APP Store下载应用<br />下载成功后用iTunes同步安装</p>
+						<p class="mobi_txt"><a href="http://itunes.apple.com/cn/app/id386098453?mt=8" class="ipad_dbtn_1" title="iPad客户端-微博HD" target="phone_category"></a>
+						<!--<a href="#" class="ipad_dbtn_2" title="iPad客户端-微博HD Pro"></a>--></p>
+						<p class="W_hline"></p>
+						<h3 class="index_title_sec">特点</h3>
+						<ul class="topic_list clearfix" >
+							<li>微博&nbsp;HD</li>
+							<li><span class="W_textdot"></span>更好的信息流阅读体验；</li>
+							<li><span class="W_textdot"></span>周边—了解周边的人和事儿；</li>
+							<li><span class="W_textdot"></span>支持繁体中文、英文版；</li>
+							<li><span class="W_textdot"></span>全新的季节壁纸；</li>
+							<li><span class="W_textdot"></span>修复bugs，优化各种体验。</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- ****************************************************************************************** -->
+			<div class="B_mobi_android">
+				<div class="index_title">
+					<h3>Android客户端</h3>
+					<h4>对应手机品牌：HTC、三星、LG、华硕、摩托罗拉、华为、索尼爱立信、联想、酷派、TCL、中兴、爱国者等</h4>
+				</div>
+				<div class="mobi_android">
+					<div class="lf android_lf">
+						<div class="client_img">
+							<img src="http://u1.sinaimg.cn/upload/topic/img/mobile/android/1_20131114.png" />
+							<img src="http://u1.sinaimg.cn/upload/topic/img/mobile/android/2_20131114.png" />
+							<img src="http://u1.sinaimg.cn/upload/topic/img/mobile/android/3_20131114.png" />
+							<img src="http://u1.sinaimg.cn/upload/topic/img/mobile/android/4_20131114.png" />
+							<img src="http://u1.sinaimg.cn/upload/topic/img/mobile/android/5_20131114.png" />
+						</div>
+					</div>
+					<div class="lf android_rt">
+						<p class="mobi_tit">Android&nbsp;&nbsp;客户端</p>
+						<p class="mobi_txt">基于Android平台的新浪微博手机客户端，集阅读、发布、评论、转发、私信、关注等主要功能为一体，本地相机即拍即传，随时随地同朋友分享身边的新鲜事。</p>
+
+						<p class="mobi_txt W_spetxtb">喜欢微博的你，赶快装上一个<br />开始真正的随时随地“微博”生活吧。</p>
+						<p class="W_hline"></p>
+						<p class="mobi_txt W_spetxtb W_f14 txtNotop">按平台下载</p>
+						<p class="mobi_txt"><a href="http://3g.sina.com.cn/tv/soft/weibo/weibo_10105011.apk" class="andr_dbtn_1" title="Android1.5固件APK安装包"></a><a href="http://down.sina.cn/adlink/show/down/id/133/mid/0" class="andr_dbtn_2" title="Android1.6以上固件APK安装包"></a><a href="http://s1.sina.cn/tv/soft/weibo/weibo2.5.0.25_ForHTC(ICON-MR)_1201.apk?vt=4" class="andr_dbtn_4" title="HTC微客专用版"></a></p>
+						<p class="W_hline"></p>
+						<h3 class="index_title_sec">更新功能点：</h3>
+						<ul class="topic_list clearfix" >
+							<li><span class="W_textdot"></span>背景随心换，自定义个人主页封面；</li>
+							<li><span class="W_textdot"></span>视听两不误，音乐、视频直接播放；</li>
+							<li><span class="W_textdot"></span>好友消息不再错过，好友圈——分享生活的新途径；</li>
+							<li><span class="W_textdot"></span>浏览速度提升；</li>
+							<li><span class="W_textdot"></span>支持屏蔽广告；</li>
+							<li><span class="W_textdot"></span>广场体验更流畅；</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- ****************************************************************************************** -->
+			<div class="B_mobi_androidplatform">
+				<div class="index_title">
+					<h3>Android平板 客户端</h3>
+					<h4>对应平板品牌：摩托罗拉、索尼、三星、HTC、华硕、Acer等</h4>
+				</div>
+				<div class="mobi_android mobi_arpb">
+					<div class="lf android_lf">
+						<div class="client_img">
+							<img src="http://u1.sinaimg.cn/upload/topic/img/mobile/androidpad/1_20130221v1.png" />
+							<img src="http://u1.sinaimg.cn/upload/topic/img/mobile/androidpad/2_20130221.png" />
+							<img src="http://u1.sinaimg.cn/upload/topic/img/mobile/androidpad/3_20130221.png" />
+						</div>
+					</div>
+					<div class="lf android_rt">
+						<p class="mobi_tit">Android平板&nbsp;&nbsp;客户端</p>
+
+						<p class="mobi_txt">基于Android3.x HoneyComb平台的新浪微博平板客户端，集阅读、发布、评论、转发、私信、关注等主要功能为一体，本地相机即拍即传，随时随地同朋友分享身边的新鲜事。</p>
+						<p class="mobi_txt W_spetxtb">喜欢微博的你，赶快装上一个<br />
+						开始真正的随时随地“微博”生活吧。</p>
+						<p class="W_hline"></p>
+						<p class="mobi_txt W_spetxtb W_f14 txtNotop">按平台下载</p>
+						<p class="mobi_txt W_textb txtNotop">点击按钮下载应用到本地，安装apk文件</p>
+
+						<p class="mobi_txt"><a href="http://s1.sina.cn/tv/soft/weibo/weibo_pad_2.5.9_release_nowidget.apk" class="andr_dbtn_3" title="Android3.x固件APK安装包"></a></p>
+						<p class="W_hline"></p>
+						<h3 class="index_title_sec">更新</h3>
+						<ul class="topic_list clearfix" >
+							<li><span class="W_textdot"></span>修改定位不准确的功能；</li>
+							<li><span class="W_textdot"></span>优化图片显示；</li>
+							<li><span class="W_textdot"></span>优化首页帐号选择功能；</li>
+							<li><span class="W_textdot"></span>适配更多机型，运行更加稳定；</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- ****************************************************************************************** -->
+			<div class="B_mobi_s60">
+				<div class="index_title">
+					<h3>Symbian客户端</h3>
+					<h4>对应手机品牌：诺基亚、索尼爱立信、三星、LG</h4>
+				</div>
+				<div class="mobi_s60">
+					<div class="lf s60_lf">
+						<div class="client_img">
+							<img src="http://u1.sinaimg.cn/upload/topic/img/mobile/symbian/c_1.jpg" />
+							<img src="http://u1.sinaimg.cn/upload/topic/img/mobile/symbian/c_2.jpg" />
+							<img src="http://u1.sinaimg.cn/upload/topic/img/mobile/symbian/c_3.jpg" />
+							<img src="http://u1.sinaimg.cn/upload/topic/img/mobile/symbian/c_4.jpg" />
+							<img src="http://u1.sinaimg.cn/upload/topic/img/mobile/symbian/c_5.jpg" />
+							<img src="http://u1.sinaimg.cn/upload/topic/img/mobile/symbian/c_6.jpg" />
+						</div>
+					</div>
+					<div class="lf s60_rt">
+						<p class="mobi_tit">S60客户端</p>
+						<p class="mobi_txt">专为Symbian平台用户打造的新浪微博手机客户端，集阅读、发布、评论、转发、私信、关注等主要功能为一体，本地相机即拍即传，随时随地同朋友分享身边的新鲜事。</p>
+						<p class="mobi_txt W_spetxtb">喜欢微博的你，赶快装上一个<br />开始真正的随时随地"微博"生活吧。</p>
+						<p class="W_hline"></p>
+						<p class="mobi_txt W_textb txtNotop">用手机访问<a href="#">weibo.cn</a>，进入客户端页面下载手机客户端</p>
+						<p class="mobi_txt W_spetxtb W_f14">按品牌下载</p>
+						<p class="mobi_txt txtNotop">
+							我的手机品牌
+							<select id="brand" class="wspace level_1" onchange="if(this.value != '') setCity(this,this.options[this.selectedIndex].value,brandArr);">
+								<option value="-1">-请选择-</option>
+								<option value="诺基亚">诺基亚</option>
+								<option value="三星">三星</option>
+								<option value="LG">LG</option>
+								<option value="索尼爱立信">索尼爱立信</option>
+															</select>
+						</p>
+						<p class="mobi_txt">我的手机型号<select id="model" class="wspace level_2"><option value="-1">-请选择-</option></select></p>
+						<p class="mobi_txt"><a href="#" class="W_btn_b wspace_2"><span>立即下载</span></a></p>
+						<p class="mobi_txt W_spetxtb W_f14">按平台下载</p>
+						<p class="mobi_txt"><a href="http://s1.sina.cn/tv/soft/weibo/SinaWeiBo_S60_V3_3_1_5_signed.sis" class="s60_dbtn_1" title="Symbian版S60v3"></a><a href="http://down.sina.cn/adlink/show/down/id/41/mid/760" class="s60_dbtn_2" title="Symbian版S60v5"></a><a href="http://down.sina.cn/adlink/show/down/id/42/mid/14438" class="s60_dbtn_3" title="Symbian3"></a></p>
+						<p class="W_hline"></p>
+						<h3 class="index_title_sec">特点</h3>
+						<ul class="topic_list clearfix" >
+							<li><span class="W_textdot"></span>支持照片美化功能，内置精美照片滤镜，为你的照片增添个性；</li>
+							<li><span class="W_textdot"></span>广场增加查看周边的人/周边的微博功能；</li>
+							<li><span class="W_textdot"></span>支持修改和查看好友备注功能；</li>
+							<li><span class="W_textdot"></span>强化多媒体播放支持，包括音乐和视频。</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- ****************************************************************************************** -->
+			<div class="B_mobi_kjava">
+				<div class="index_title">
+					<h3>Kjava客户端</h3>
+					<h4>对应手机品牌：诺基亚、索尼爱立信、三星、摩托、联想、LG</h4>
+				</div>
+				<div class="mobi_kjava">
+					<div class="lf kjava_lf">
+						<div class="client_img">
+							<img src="http://u1.sinaimg.cn/upload/topic/img/mobile/kjava/c_1.bmp" />
+							<img src="http://u1.sinaimg.cn/upload/topic/img/mobile/kjava/c_2.jpg" />
+							<img src="http://u1.sinaimg.cn/upload/topic/img/mobile/kjava/c_3.jpg" />
+							<img src="http://u1.sinaimg.cn/upload/topic/img/mobile/kjava/c_4.jpg" />
+							<img src="http://u1.sinaimg.cn/upload/topic/img/mobile/kjava/c_5.jpg" />
+						</div>
+					</div>
+					<div class="lf kjava_rt">
+						<p class="mobi_tit">Kjava客户端</p>
+						<p class="mobi_txt">专为Java平台用户打造的新浪微博手机客户端，功能强大。完全支持阅读、发布、评论、转发、私信、关注等等现有全部功能，随时随地发微博，记录生活中的点滴，本地相机即拍即传，记录生活中的瞬间。</p>
+						<p class="mobi_txt W_spetxtb">关注 、查找博友，带给您全新的移动沟通体验。</p>
+						<p class="W_hline"></p>
+						<p class="mobi_txt W_textb txtNotop">用手机访问<a href="#">weibo.cn</a>，进入客户端页面下载手机客户端</p>
+
+						<p class="mobi_txt W_spetxtb W_f14">按品牌下载</p>
+						<p class="mobi_txt　txtNotop">
+							我的手机品牌
+							<select class="wspace level_1" onchange="if(this.value != '') setCity(this,this.options[this.selectedIndex].value,kj_brandArr);">
+								<option value="-1">-请选择-</option>
+								<option value="诺基亚">诺基亚</option>
+								<option value="三星">三星</option>
+								<option value="摩托罗拉">摩托罗拉</option>
+								<option value="索尼爱立信">索尼爱立信</option>
+								<option value="联想">联想</option>
+								<option value="LG">LG</option>
+								<option value="其他">其他</option>
+							</select>
+						</p>
+						<p class="mobi_txt">我的手机型号<select id="model" class="wspace level_2"><option value="-1">-请选择-</option></select></p>
+
+						<p class="mobi_txt"><a href="#" class="W_btn_b wspace_2"><span>立即下载</span></a></p>
+						<p class="mobi_txt W_spetxtb W_f14">按平台下载</p>
+						<p class="mobi_txt W_textb txtNotop">选择你要下载的版本，并安装下载后的Jad和Jar文件才能正常使用</p>
+						<p class="mobi_txt"><a href="http://s1.sina.cn/tv/soft/weibo/3333_4001_3.0.0_Kjava.zip" class="kjave_dbtn_1" title="Java通用版Jad+Jar"></a><a href="http://s1.sina.cn/tv/soft/weibo/3333_4001_3.0.0_signed_Kjava.zip" class="kjave_dbtn_2" title="Java签名版Jad+Jar"></a></p>
+						<p class="W_hline"></p>
+						<h3 class="index_title_sec">特点</h3>
+						<ul class="topic_list clearfix" >
+							<li><span class="W_textdot"></span>全新的设计，给你全新的体验；</li>
+							<li><span class="W_textdot"></span>新版更加简洁的六宫格界面；</li>
+							<li><span class="W_textdot"></span>增加周边的微博、周边的人，猜你喜欢、热门转发、热门评论等功能。</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- ****************************************************************************************** -->
+			<div class="B_mobi_blackberry">
+				<div class="index_title">
+					<h3>Blackberry客户端</h3>
+					<h4>对应手机品牌：BlackBerry黑莓</h4>
+				</div>
+				<div class="mobi_blackberry">
+					<div class="lf blackberry_lf">
+						<div class="client_img">
+							<img src="http://u1.sinaimg.cn/upload/topic/img/mobile/blackberry/c_1.jpg" />
+							<img src="http://u1.sinaimg.cn/upload/topic/img/mobile/blackberry/c_2.jpg" />
+							<img src="http://u1.sinaimg.cn/upload/topic/img/mobile/blackberry/c_3.jpg" />
+							<img src="http://u1.sinaimg.cn/upload/topic/img/mobile/blackberry/c_4.jpg" />
+							<img src="http://u1.sinaimg.cn/upload/topic/img/mobile/blackberry/c_5.jpg" />
+						</div>
+					</div>
+					<div class="lf blackberry_rt">
+						<p class="mobi_tit">黑莓客户端</p>
+						<p class="mobi_txt">基于黑莓系统的黑莓版手机客户端，实现了阅读、发布、评论、转发、私信、关注等各主要功能，支持本地相机即拍即传和新消息提醒。</p>
+						<p class="mobi_txt W_spetxtb">喜欢微博的你，赶快装上一个<br />开始真正的随时随地“微博”生活吧。</p>
+						<p class="W_hline"></p>
+						<p class="mobi_txt W_textb txtNotop">OS前只支持4.7以上的版本<br />用手机访问<a href="#">weibo.cn</a>，进入客户端页面下载手机客户端</p>
+						<p class="mobi_txt W_spetxtb W_f14">按型号下载</p>
+						<p class="mobi_txt txtNotop">
+						
+						<script type="text/javascript">
+							function changevalue(value, id)
+							{
+								document.getElementById(id).setAttribute('href', value);
+							}
+						</script>
+						
+							我的黑莓手机型号
+							<select class="wspace" onchange="changevalue(this.options[this.selectedIndex].value, 'select_blackberry');">
+								<option value="http://3g.sina.com.cn/tv/soft/sina/BlackBerry310.zip">黑莓按键版</option>
+								<option value="http://3g.sina.com.cn/tv/soft/sina/BlackBerry310.zip">黑莓触屏版</option>
+							</select>
+						</p>
+						<p class="mobi_txt"><a href="http://3g.sina.com.cn/tv/soft/sina/BlackBerry310.zip" class="W_btn_b wspace_1" id="select_blackberry"><span>立即下载</span></a></p>
+						<p class="mobi_txt W_spetxtb W_f14">按平台下载</p>
+						<p class="mobi_txt W_textb txtNotop">下载后需要使Desktop Manager帮助你安装到手机</p>
+						<p class="mobi_txt"><a href="http://3g.sina.com.cn/tv/soft/sina/BlackBerry310.zip" class="blkbre_dbtn_1" title="黑莓客户端点击下载"></a></p>
+						<p class="W_hline"></p>
+						<h3 class="index_title_sec">特点</h3>
+						<ul class="topic_list clearfix" >
+							<li><span class="W_textdot"></span>POI签到；</li>
+							<li><span class="W_textdot"></span>私信附件（表情、语音、图片、地理位置）；</li>
+							<li><span class="W_textdot"></span>周边的微博、周边的人；</li>
+							<li><span class="W_textdot"></span>@索引、用户资料显示支持备注；</li>
+							<li><span class="W_textdot"></span>关注话题。</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- ****************************************************************************************** -->
+			<div class="B_mobi_wp">
+				<div class="index_title">
+					<h3>Windows Phone 客户端</h3>
+					<h4>对应手机品牌：HTC、三星、LG、戴尔等WP系统手机</h4>
+				</div>
+				<div class="mobi_wdPhone">
+					<div class="lf wdPhone_lf">
+						<div class="client_img">
+							<img src="http://u1.sinaimg.cn/upload/topic/img/mobile/wp/c_1.jpg" />
+							<img src="http://u1.sinaimg.cn/upload/topic/img/mobile/wp/c_9.jpg" />
+							<img src="http://u1.sinaimg.cn/upload/topic/img/mobile/wp/c_3.jpg" />
+							<img src="http://u1.sinaimg.cn/upload/topic/img/mobile/wp/c_4.jpg" />
+							<img src="http://u1.sinaimg.cn/upload/topic/img/mobile/wp/c_5.jpg" />
+							<img src="http://u1.sinaimg.cn/upload/topic/img/mobile/wp/c_6.jpg" />
+							<img src="http://u1.sinaimg.cn/upload/topic/img/mobile/wp/c_7.jpg" />
+							<img src="http://u1.sinaimg.cn/upload/topic/img/mobile/wp/c_8.jpg" />
+						</div>
+					</div>
+					<div class="lf wdPhone_rt">
+						<p class="mobi_tit">Windows Phone客户端</p>
+						<p class="mobi_txt">专为Windows Phone/Windows Mobile平台用户打造的新浪微博手
+						机客户端，集阅读、发布、评论、转发、私信、关注等主要功能
+						为一体，本地相机即拍即传，随时随地同朋友分享身边的新鲜事。</p>
+						<p class="mobi_txt W_spetxtb">喜欢微博的你，赶快装上一个<br />
+						开始真正的随时随地“微博”生活吧。</p>
+						<p class="W_hline"></p>
+						<p class="mobi_txt W_spetxtb W_f14 txtNotop">按平台下载</p>
+						<div class="mobi_tit_zl">Windows phone</div>
+						<p class="mobi_txt"><a href="http://www.windowsphone.com/en-US/apps/57bfcb96-d1d0-4659-b42c-af6868807fd5?wa=wsignin1.0" class="wdPhone_dbtn_5" title="Windows Phone客户端 即将发布Marketplace"></a></p>
+						<p class="mobi_txt">点击按钮直接访问Marketplace下载应用，<br/>
+						下载成功后用Zune同步安装。<br/>
+						<br/>
+						</p>
+						<div class="mobi_tit_zl">Windows Mobile</div>
+						<p class="mobi_txt"><a href="http://3g.sina.com.cn/tv/soft/weibo/Sina_WM_WeiBo.CAB" class="wdPhone_dbtn_3" title="Windows Mobile版 6.x安装版"></a><a href="http://3g.sina.com.cn/tv/soft/weibo/Sina_WM_WeiBo.zip" class="wdPhone_dbtn_4" title="Windows Mobile版 6.x绿色版"></a><a href="http://3g.sina.com.cn/tv/soft/weibo/Sina_WM5_WeiBo.CAB" class="wdPhone_dbtn_1" title="Windows Mobile版 5.0安装版"></a><a href="http://3g.sina.com.cn/tv/soft/weibo/Sina_WM5_WeiBo.zip" class="wdPhone_dbtn_2" title="Windows Mobile版 5.0绿色版"></a></p>
+						<p class="W_hline"></p>
+						<h3 class="index_title_sec">特点</h3>
+						<ul class="topic_list clearfix" >
+							<li><span class="W_textdot"></span>支持照片美化功能，内置精美照片滤镜，为你的照片增添个性；</li>
+							<li><span class="W_textdot"></span>广场增加查看周边的人/周边的微博功能；</li>
+							<li><span class="W_textdot"></span>支持修改和查看好友备注功能；</li>
+							<li><span class="W_textdot"></span>强化多媒体播放支持，包括音乐和视频。</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- ****************************************************************************************** -->
+            <div class="B_mobi_win8">
+				<div class="index_title">
+					<h3>Windows 8官方客户端</h3>
+				</div>
+				<div class="mobi_win8">
+					<div class="lf win8_lf">
+						<div class="client_img">
+							<img src="http://u1.sinaimg.cn/upload/topic/img/mobile/win8/c_1.jpg" />
+							<img src="http://u1.sinaimg.cn/upload/topic/img/mobile/win8/c_2.jpg" />
+						</div>
+					</div>
+					<div class="lf win8_rt">
+						<p class="mobi_tit">Windows 8官方客户端</p>
+						<p class="mobi_txt mobi_txt">分享微博改变你的生活。<br/>专为Windows 8用户打造的新浪微博客户端，实现了阅读、发布、评论、转发、关注、搜索等主要功能，支持本地相机即拍即传，并支持锁屏状态新消息提醒。</p>
+						<p class="mobi_txt mobi_txt W_spetxtb">喜欢微博的你，赶快装上一个<br />开始真正的随时随地“微博”生活吧。</p>
+						<p class="W_hline"></p>
+						<p class="mobi_txt W_spetxtb W_f14">按平台下载</p>
+						<p class="mobi_txt">
+							<a class="win8_dbtn_1" href="http://apps.microsoft.com/windows/zh-CN/app/2aa07d61-adae-4848-b703-78cea10a9918" title="Windows 8官方客户端"></a>
+						</p>
+						<p class="W_hline"></p>
+						<h3 class="index_title_sec">特点</h3>
+						<ul class="topic_list clearfix" >
+							<li><span class="W_textdot"></span>专为Windows8用户打造。</li>
+							<li><span class="W_textdot"></span>支持锁屏状态消息提醒。</li>
+							<li><span class="W_textdot"></span>支持本地相机即拍即传。</li>
+							<li><span class="W_textdot"></span>支持“暗恋”功能，快速pin人到桌面。</li>
+							<li class="txtHatop"></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+            <!-- ****************************************************************************************** -->
+			<div class="B_mobi_mtk">
+				<div class="index_title">
+					<h3>MTK 客户端</h3>
+					<h4>对应手机品牌：金立手机、天语手机、长虹手机、OPPO手机</h4>
+				</div>
+				<div class="mobi_mtk">
+					<div class="lf mtk_lf">
+						<div class="client_img">
+							<img src="http://img.t.sinajs.cn/t4/style/images/mobile/mtk/c_1.jpg">
+							<img src="http://img.t.sinajs.cn/t4/style/images/mobile/mtk/c_2.jpg">
+							<img src="http://img.t.sinajs.cn/t4/style/images/mobile/mtk/c_3.jpg">
+							<img src="http://img.t.sinajs.cn/t4/style/images/mobile/mtk/c_4.jpg">
+							<img src="http://img.t.sinajs.cn/t4/style/images/mobile/mtk/c_5.jpg">
+						</div>
+					</div>
+					<div class="lf mtk_rt">
+						<p class="mobi_tit">MTK客户端</p>
+						<p class="mobi_txt">专微博MTK版本是在MTK平台上运行的手机客户端软件，支持各种型号MTK芯片和各版本的软件。新版本以宫格化显示分类信息，类似智能手机客户端用户体验，支持滑屏、滚屏操作，支持各项微博功能，支持主流各分辨率，适合触摸屏和键盘手机。另外，新版
+						本可支持个性设置如更改字体大小、换皮肤等，最大能缓存1000篇博文和图片，用户体验畅快淋漓。新版本还支持厂商定制，例如显示厂商Logo、显示厂商来源、来源可链接到厂商官方微博帐号等功能。目前新版本微博客户端普遍受到了很多家品牌厂商的认可。
+						</p>
+						<p class="W_hline"></p>
+						<p class="mobi_tit">合作厂商</p>
+						<p class="mobi_txt">金立手机、天语手机、长虹手机、OPPO手机等知名品牌手机厂
+						商已全面预装MTK版本微博。</p>
+						<p class="W_hline"></p>
+						<p class="mobi_tit">官方微博</p>
+						<p class="mobi_txt MTK_txt"><a href="http://weibo.com/weibomtk" title="email">手机微博MTK客户端<span></span></a></p>
+					</div>
+				</div>
+			</div>
+			<!-- ****************************************************************************************** -->
+            <div class="B_mobi_h5iphone">
+				<div class="index_title">
+					<h3>手机微博触屏版</h3>
+				</div>
+				<div class="mobi_iphone">
+					<div class="lf iphone_lf">
+						<div class="client_img">
+							<img src="http://u1.sinaimg.cn/upload/topic/img/mobile/h5iphone/c_1_20120611.jpg" />
+                            <img src="http://u1.sinaimg.cn/upload/topic/img/mobile/h5iphone/c_5_20120611.jpg" />
+                            <img src="http://u1.sinaimg.cn/upload/topic/img/mobile/h5iphone/c_3_20120611.jpg" />
+                            <img src="http://u1.sinaimg.cn/upload/topic/img/mobile/h5iphone/c_4_20120611.jpg" />
+                            <img src="http://u1.sinaimg.cn/upload/topic/img/mobile/h5iphone/c_2_20120611.jpg" />
+						</div>
+					</div>
+					<div class="lf iphone_rt">
+						<p class="mobi_tit">手机微博触屏版</p>
+                        <div class="mobi_idx">
+                            <div class="idxbox">
+                                <p class="p1">手机浏览器中输入网址：</p>
+                                <p class="p2">m.weibo.cn</p>
+                                <p class="p3">立即体验手机微博触屏版吧！</p>
+                            </div>
+                        </div>
+						<p class="mobi_txt">专为iPhone，Android手机设计的网页版微博。<br />无需安装客户端，可直接通过浏览器访问！</p>
+						<p class="W_hline"></p>
+                        <p class="mobi_txt">支持多个浏览器：safari ，uc（android 8.0以上版本），android自带浏览器，天天，海豚，qq浏览器
+                        </p>
+                        <p class="iconBox">
+                        	<img src="http://u1.sinaimg.cn/upload/topic/img/mobile/icon/icon.jpg?id=20120109" />
+                        </p>
+                        <p class="W_hline"></p>
+						<h3 class="index_title_sec">特点</h3>
+						<ul class="topic_list clearfix" >
+							<li><span class="W_textdot"></span>微博表态：快速发表你的观点。</li>
+							<li><span class="W_textdot"></span>兴趣社区：找到你感兴趣的组织并分享！</li>
+							<li><span class="W_textdot"></span>安全微博：隐私设置、账号安全，无忧无虑玩儿微博。</li>
+							<li><span class="W_textdot"></span>HTML5：独特的界面与交互方式带来更畅快的操作。</li>
+							<li><span class="W_textdot"></span>页面签到：随时向好友分享位置感受万千瞩目！</li>
+						</ul>
+                        <p class="mobi_txt W_spetxt">
+                        	快和朋友随时随地分享身边地新鲜事吧！
+                        </p>
+					</div>
+				</div>
+			</div>
+            <!-- ****************************************************************************************** -->
+            <div class="B_mobi_h5ipad">
+				<div class="index_title">
+					<h3>新浪微博Pad版</h3>
+				</div>
+				<div class="mobi_ipad">
+					<div class="lf ipad_lf">
+						<div class="client_img">
+							<img src="http://u1.sinaimg.cn/upload/topic/img/mobile/h5ipad/c_1.jpg" />
+                            <img src="http://u1.sinaimg.cn/upload/topic/img/mobile/h5ipad/c_2.jpg" />
+                            <img src="http://u1.sinaimg.cn/upload/topic/img/mobile/h5ipad/c_3.jpg" />
+                            <img src="http://u1.sinaimg.cn/upload/topic/img/mobile/h5ipad/c_4.jpg" />
+                            <img src="http://u1.sinaimg.cn/upload/topic/img/mobile/h5ipad/c_5.jpg" />
+						</div>
+					</div>
+					<div class="lf ipad_rt">
+						<p class="mobi_tit">新浪微博Pad版</p>
+                        <div class="mobi_idx">
+                            <div class="idxbox">
+                                <p class="p1">现在就在Safari浏览器中输入网址：</p>
+                                <p class="p2">pad.weibo.cn</p>
+                                <p class="p3">马上访问新浪微博Pad版！</p>
+                            </div>
+                        </div>
+						<p class="mobi_txt">独享Pad先进的交互技术，天下大小事尽在怀抱中。<br />原创、转发、评论、私信，随时随地同朋友分享身边的新鲜事。</p>
+						<p class="mobi_txt W_spetxtb">微博在Pad上又有新玩法。<br />坐着看，躺着看，趴着看，想怎么看就怎么看。<br />相同的内容，不同的体验。<br />来新浪微博Pad版给你更舒适的关怀。</p>
+						<p class="W_hline"></p>
+						<h3 class="index_title_sec">特点</h3>
+						<ul class="topic_list clearfix" >
+							<li><span class="W_textdot"></span>为Pad设计：集Pad下简约的UI效果和华丽的界面交互于一身。</li>
+							<li><span class="W_textdot"></span>快捷：打开浏览器输入pad.weibo.cn即可访问，简单快捷。</li>
+							<li><span class="W_textdot"></span>随心浏览：横竖屏无缝切换，方便各种角度使用。</li>
+							<li><span class="W_textdot"></span>方便沟通：头像私信列表，对话框式私信页面。</li>
+                            <li><span class="W_textdot"></span>分组和筛选：支持好友分组浏览、多媒体内容筛选功能。</li>
+                            <li><span class="W_textdot"></span>新消息提醒：支持对@、评论、私信的新消息气泡式提醒。</li>
+							<li class="txtHatop"></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+            <!-- ****************************************************************************************** -->
+            <div class="B_mobi_h5radio">
+				<div class="index_title">
+					<h3>微电台触屏版</h3>
+				</div>
+				<div class="mobi_iphone">
+					<div class="lf iphone_lf">
+						<div class="client_img">
+							<img src="http://u1.sinaimg.cn/upload/topic/img/mobile/h5radio/c_1.jpg" />
+							<img src="http://u1.sinaimg.cn/upload/topic/img/mobile/h5radio/c_2.jpg" />
+							<img src="http://u1.sinaimg.cn/upload/topic/img/mobile/h5radio/c_3.jpg" />
+						</div>
+					</div>
+					<div class="lf iphone_rt">
+						<p class="mobi_tit">微电台触屏版</p>
+						<div class="mobi_idx">
+							<div class="idxbox">
+								<p class="p1">在浏览器输入：</p>
+								<p class="p2">radio.weibo.cn</p>
+								<p class="p3">立即体验微电台触屏版！</p>
+							</div>
+						</div>
+						<p class="mobi_txt">专为iphone，android手机设计的网页版电台。<br />无需安装客户端，可直接通过浏览器访问！</p>
+						<p class="W_hline"></p>
+						<p class="mobi_txt">
+						支持多个浏览器：safari ， uc（android 8.0以上版本），android自带浏览器，天天，海豚，qq浏览器
+						</p>
+						<p class="iconBox">
+							<img src="http://u1.sinaimg.cn/upload/topic/img/mobile/icon/icon.jpg?id=20120109" />
+						</p>
+						<p class="W_hline"></p>
+						<h3 class="index_title_sec">特点</h3>
+						<ul class="topic_list clearfix" >
+							<li><span class="W_textdot"></span>移动随心：随时随地，收听更随心。</li>
+							<li><span class="W_textdot"></span>边听边聊：收听精彩内容, 与好友实时互动， HIGH爆全场！</li>
+							<li><span class="W_textdot"></span>畅快体验：独特的交互方式让操作更加便捷 </li>
+							<li><span class="W_textdot"></span>电台全覆盖：3000多名DJ，万千声音,让你”听”不暇接!</li>
+						</ul>
+						<p class="mobi_txt W_spetxt">
+							快和朋友随时随地分享身边地新鲜事吧！
+						</p>
+					</div>
+				</div>
+			</div>
+            <!-- ****************************************************************************************** -->
+		</div>
+	</div>
+    </div>
+	<!--footer-->
+	<div class="global_footer">
+		<div class="clearfix">
+			<dl class="list">
+			<dt>找找感兴趣的人</dt>
+			<dd><a href="http://weibo.com/pub/star ">名人堂</a>　<a href="http://weibo.com/pub/star/mediumlist.php ">媒体汇</a></dd>
+			<dd><a href="http://weibo.com/pub/star/brandlist.php">品牌馆</a>　<a href="http://weibo.com/pub/star/governmenthall.php ">政务厅</a></dd>
+			<dd><a href="http://weibo.com/pub/star/websitelist.php ">网站荟</a>　<a href="http://weibo.com/pub/star/schoollist.php ">校园</a> <a href="http://weibo.com/pub/star/agencylist.php ">机构</a></dd>
+			<dd><a href="http://club.weibo.com">微博达人</a></dd>
+			<dd><a href="http://weibo.com/f/find/guess ">猜你喜欢</a></dd>
+			</dl>
+			<dl class="list">
+			<dt>精彩内容</dt>
+			<dd><a href="http://weibo.com/pub/topic">微话题</a>　<a href="http://data.weibo.com/top">风云榜</a></dd>
+			<dd><a href="http://talk.weibo.com">微访谈</a>　<a href="http://live.weibo.com">微直播</a></dd>
+			<dd><a href="http://plaza.weibo.com">微博精选</a></dd>
+			<dd><a href="http://weibo.com/pub/news ">随便看看</a></dd>
+			<dd><a href="http://weibo.com/pub/city ">同城微博</a></dd>	
+			</dl>
+			<dl class="list">
+			<dt>热门应用</dt>
+			<dd><a href="http://q.weibo.com">微群</a>　　<a href="http://game.weibo.com">游戏</a></dd>
+			<dd><a href="http://photo.weibo.com">相册</a>　　<a href="http://music.weibo.com/t/index.php">微音乐</a></dd>
+			<dd><a href="http://event.weibo.com">微活动</a>　<a href="http://vote.weibo.com">投票</a> 
+			</dd><dd><a href="http://radio.weibo.com">微电台</a>　<a href="http://screen.weibo.com/">大屏幕</a> 
+			</dd></dl>
+			<dl class="list">
+			<dt>手机玩微博</dt>
+			<dd><a href="http://m.weibo.com/web/cellphone.php">手机WAP版</a></dd>
+			<dd><a href="http://m.weibo.com/web/cellphone.php#msg" target="_blank">短信彩信发微博</a></dd>
+			<dd><a href="http://m.weibo.com/web/cellphone.php#iphone" target="_blank">iPhone客户端</a></dd>
+			<dd><a href="http://m.weibo.com/web/cellphone.php#android" target="_blank">Android客户端</a></dd>
+			<dd><a href="http://m.weibo.com/web/cellphone.php#symbian" target="_blank">Symbian客户端</a></dd>
+			</dl>
+			<dl class="list list_right">
+			<dt>认证&amp;合作</dt>
+			<dd><a href="http://weibo.com/verify">申请认证</a></dd>
+			<dd><a href="http://open.weibo.com/">开放平台</a></dd>
+			<dd><a href="http://e.weibo.com/introduce/introduce">企业微博</a></dd>
+			<dd><a href="http://weibo.com/app/website">连接网站</a></dd>
+			<dd><a href="http://weibo.com/static/logo">微博标识使用规范</a></dd>
+			</dl>
+		</div>
+		<div class="other_link clearfix">
+			<div class="help_link">
+				<p><a target="__blank" class="ico_service" href="http://help.weibo.com/?refer=didao">微博帮助</a>　<a target="__blank" href="http://weibo.com/zt/s?k=9286">意见反馈</a>　<a target="__blank" href="http://open.weibo.com/">开放平台</a>　<a target="__blank" href="http://hr.weibo.com">微博招聘</a>　<a target="__blank" href="http://news.sina.com.cn/guide/">新浪网导航</a>　<a onclick="javascript:window.open('http://weibo.com/reportspam?type=4&amp;url=http%3A%2F%2Fweibo.com%2Fu%2F1685300840', 'newwindow', 'height=700, width=550, toolbar =yes, menubar=no, scrollbars=no, resizable=yes, location=no, status=no');" href="javascript:void(0);">不良信息举报</a></p>
+				<p>北京微梦创科网络技术有限公司&emsp;<a target="_blank" href="http://weibo.com/aj/static/jww.html">京网文[2011]0398-130号</a>&emsp;<a target="_blank" href="http://www.miibeian.gov.cn">京ICP证100780号</a></p>
+			</div>
+			<div class="copy">
+				<p class="W_linkb">
+				<select class="htc_select" id="pl_content_changeLanguage" style="visibility:hidden;"><option selected="" value="zh-cn">中文(简体)</option><option value="zh-tw">中文(繁体)</option></select>
+				</p>
+				<p>Copyright &copy; 1996-2012 SINA</p>
+			</div>
+		</div>
+	</div>
+	<!--/footer-->
+		
+			<script type="text/javascript">
+				(function(){
+					var navIndex ={'mobile':0,'msg':1,'iphone':2,'ipad':3,'android':4,'android_pad':5,'symbian':6,'kjava':7,'blackberry':8,'windowsphone':9,'win8':10,'mtk':11,'h5iphone':12,'h5ipad':13,'h5radio':14};
+					if(window.location.hash){
+						var BdivWrapper = eleChildFilter(document.getElementById('B_mobi_wrapper').childNodes);
+						var Bnav = eleChildFilter(document.getElementById('left_havSC_menus').childNodes);
+						Bnav[0].className='';
+						BdivWrapper[0].id='';
+						BdivWrapper[navIndex[window.location.hash.substring(1)]].id='B_mobi_current';
+						Bnav[navIndex[window.location.hash.substring(1)]].className = 'current';
+					}
+					function eleChildFilter(childA){
+						var eleChildA = [],index=0;
+						for(var i=0;i<childA.length;i++){
+							if(childA[i].nodeType === 1){
+								eleChildA[index] = childA[i];
+								index++;
+							}
+						}
+						return eleChildA;
+					}
+				})();
+			</script>
+		
+		<script src="topic/js/jquery.js" type="text/javascript"></script>
+		<script src="topic/js/index_20120315.js" type="text/javascript"></script>
+		<script type="text/javascript" src="topic/js/ss.js"></script>
+		<script type="text/javascript" src="topic/js/jdata.js"></script>
+		<script type="text/javascript" src="topic/js/sdata.js"></script>
+		<script type="text/javascript" src="http://js.t.sinajs.cn/t4/home/js/public/topInit.js"></script>
+		
+		<script type="text/javascript">
+			var $topParams = new Object();
+							$topParams['name'] = "temp_test_try";
+				$topParams['uid'] = "5060400438";
+				$topParams['islogin'] = 1;
+				$topParams['icon'] = "http://tp3.sinaimg.cn/5060400438/50/0/1";
+								$topParams['verify'] = -1;
+				$topParams['backurl'] = "http://m.weibo.com/web/cellphone.php";
+				$topParams["_wv"] = "4";
+						$topParams['page'] = "app";
+			WBtopGlobal && WBtopGlobal.init($topParams);
+		</script>
+	</body>
+</html>
