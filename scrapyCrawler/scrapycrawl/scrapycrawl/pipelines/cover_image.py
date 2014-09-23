@@ -41,5 +41,5 @@ class WoaiduCoverImage(ImagesPipeline):
         image_paths = [x['path'] for ok, x in results if ok]
         image_path = list_first_item(image_paths)
         item['book_covor_image_path'] = os.path.join(os.path.abspath(self.images_store),image_path) if image_path else ""
-        item['store_path']=item['book_covor_image_path']
+        item['store_path']=os.path.join(self.images_store,image_path) if image_path else ""
         return item

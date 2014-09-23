@@ -1,0 +1,417 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>微博音乐人2014年新年娱快</title>
+<link type="text/css" rel="stylesheet" href="http://music.weibo.com/snake/css/issue2014.css?v=1.7" />
+<script type="text/javascript" src="http://music.weibo.com/snake/js/jquery.1.7.min.js"></script>
+<script type="text/javascript" src="http://music.weibo.com/snake/js/jquery.easing.1.3.js"></script>
+</head>
+
+<body>
+
+<div class="screen" id="screen">
+	<div class="even action">
+    	<div class="wrap step1">
+        	<div class="txt">
+            	<div class="font"><a href="javascript:;"><img src="http://image2.sina.com.cn/music/web/theme/theme20131224/txt-xin.png" width="237" height="470" /></a></div>
+                <div class="font"><a href="javascript:;"><img src="http://image2.sina.com.cn/music/web/theme/theme20131224/txt-yu.png" width="237" height="470" /></a></div>
+                <div class="font"><a href="javascript:;"><img src="http://image2.sina.com.cn/music/web/theme/theme20131224/txt-nian.png" width="237" height="470" /></a></div>
+                <div class="font"><a href="javascript:;"><img src="http://image2.sina.com.cn/music/web/theme/theme20131224/txt-kuai.png" width="237" height="470" /></a></div>
+            </div>
+			  <div class="tags-1"><a href="javascript:;"><img src="http://image2.sina.com.cn/music/web/theme/theme20131224/tags-1.png" /></a></div>
+              <div class="tags-2"><a href="javascript:;"><img src="http://image2.sina.com.cn/music/web/theme/theme20131224/tags-2.png" /></a></div>
+              <div class="tags-3"><a href="javascript:;"><img src="http://image2.sina.com.cn/music/web/theme/theme20131224/tags-4.png" /></a></div>
+              <div class="tags-4"><a href="javascript:;"><img src="http://image2.sina.com.cn/music/web/theme/theme20131224/tags-3-2.png" /></a></div>
+              <div class="tags-3-1"><a href="javascript:;"><img src="http://image2.sina.com.cn/music/web/theme/theme20131224/tags-3-1.png" /></a></div>
+              <div class="tags-3-3"><img src="http://image2.sina.com.cn/music/web/theme/theme20131224/tags-3-3.png" /></div>
+            <div class="next">
+				<div class="tip">分享成功</div>
+            	<a href="javascript:;" class="share">
+                <span class="icon_cloud"></span>
+                </a>
+                <a href="javascript:;" class="arrow"></a>
+            </div>
+        </div>
+    </div>	
+    <div class="odd">
+    	<div class="wrap step2">
+        	<div class="logo"><img src="http://image2.sina.com.cn/music/web/theme/theme20131224/s2-logo.png" /></div>
+            <div class="tags-1"><img src="http://image2.sina.com.cn/music/web/theme/theme20131224/s2-txt.png" /></div>
+            <div class="tags-2"><img src="http://image2.sina.com.cn/music/web/theme/theme20131224/s2-img.png" /></div>
+            <div class="h"><img src="http://image2.sina.com.cn/music/web/theme/theme20131224/s2-title.png" /></div>
+            <div class="txt"><img src="http://image2.sina.com.cn/music/web/theme/theme20131224/s2-article.png" /></div>
+            <div class="video">
+				<object width="400" height="340" id="sinaplayer"><param value="always" name="allowScriptAccess"><embed width="400" height="340" allowscriptaccess="always" allowfullscreen="true" name="sinaplayer" type="application/x-shockwave-flash" src="http://you.video.sina.com.cn/api/sinawebApi/outplayrefer.php/vid=122754532_2430117877_b0vjTHdpB2HK+l1lHz2stqlF+6xCpv2xhGiwuFKlJAlRUguYJMXNb9wF4i7TBMpB83oLHcwydPwk0Bgpbala/s.swf" pluginspage="http://www.macromedia.com/go/getflashplayer"></object>
+			</div>
+            <div class="next">
+				<div class="tip">分享成功</div>
+            	<a href="javascript:;" class="share"></a>
+                <a href="javascript:;" class="arrow"></a>
+            </div>
+        </div>
+    </div>	
+    <div class="even">
+    	<div class="wrap step3">
+        	<div class="tags-1"><img src="http://image2.sina.com.cn/music/web/theme/theme20131224/s3-img.png" /></div>
+            <div class="wrapper">
+            
+            	<div class="top clearfix">
+                	<dl class="image" uid="2745197557" songid="100086026">
+                    	<dt><img src="http://image2.sina.com.cn/music/web/theme/theme20131224/p3-1.jpg" width="144" height="288" alt="" /><a mus_act="play" mus_data="songids=100086026&coflag=50001601" href="javascript:;"></a></dt>
+                        <dd class="name"><a target="_blank" href="http://music.weibo.com/joeacc" title="">左安西西Joe&CC </a></dd>
+                        <dd>创作才女搭配吉他大师</dd>
+                        <dd><i>0</i>次播放|<i>0</i>次赞</dd>
+                    </dl>
+                    <dl class="image" uid="2180164690" songid="100083268">
+                    	<dt><img src="http://image2.sina.com.cn/music/web/theme/theme20131224/p3-2.jpg" width="144" height="288" alt="" /><a mus_act="play" mus_data="songids=100083268&coflag=50001601" href="javascript:;"></a></dt>
+                        <dd class="name"><a target="_blank" href="http://music.weibo.com/fuzzband" title="">The Fuzz</a></dd>
+                        <dd>狂奔的黑色骏马</dd>
+                        <dd><i>0</i>次播放|<i>0</i>次赞</dd>
+                    </dl>
+                    <dl class="image" uid="1744387411" songid="100034688">
+                    	<dt><img src="http://image2.sina.com.cn/music/web/theme/theme20131224/p3-3.jpg" width="144" height="288" alt="" /><a mus_act="play" mus_data="songids=100034688&coflag=50001601" href="javascript:;"></a></dt>
+                        <dd class="name"><a target="_blank" href="http://music.weibo.com/mimixingdong" title="">秘密行动</a></dd>
+                        <dd>90后的摇滚态度是无所畏惧！</dd>
+                        <dd><i>0</i>次播放|<i>0</i>次赞</dd>
+                    </dl>
+                    <dl class="image" uid="1736650734" songid="100067431">
+                    	<dt><img src="http://image2.sina.com.cn/music/web/theme/theme20131224/p3-4.jpg" width="144" height="288" alt="" /><a mus_act="play" mus_data="songids=100067431&coflag=50001601" href="javascript:;"></a></dt>
+                        <dd class="name"><a target="_blank" href="http://music.weibo.com/scaredsailor" title="">包子Bozz</a></dd>
+                        <dd>会说会唱会创作的女rapper</dd>
+                        <dd><i>0</i>次播放|<i>0</i>次赞</dd>
+                    </dl>
+                    <dl class="image" uid="1842747753" songid="100082967">
+                    	<dt><img src="http://image2.sina.com.cn/music/web/theme/theme20131224/p3-5.jpg" width="144" height="288" alt="" /><a mus_act="play" mus_data="songids=100082967&coflag=50001601" href="javascript:;"></a></dt>
+                        <dd class="name"><a target="_blank" href="http://music.weibo.com/u/1842747753" title="">周子琰</a></dd>
+                        <dd>今年最鲜活跳跃的女声</dd>
+                        <dd><i>0</i>次播放|<i>0</i>次赞</dd>
+                    </dl>
+                    <dl class="image" uid="1448191427" songid="100097208">
+                    	<dt><img src="http://image2.sina.com.cn/music/web/theme/theme20131224/p3-6.jpg" width="144" height="288" alt="" /><a mus_act="play" mus_data="songids=100097208&coflag=50001601" href="javascript:;"></a></dt>
+                        <dd class="name"><a target="_blank" href="http://music.weibo.com/u/1448191427" title="">张阿牧</a></dd>
+                        <dd>今年最温暖干净的男声</dd>
+                        <dd><i>0</i>次播放|<i>0</i>次赞</dd>
+                    </dl>
+                </div>
+                <div class="bottom clearfix">
+                	<dl class="image" uid="1577411574" songid="100076732">
+                    	<dt><img src="http://image2.sina.com.cn/music/web/theme/theme20131224/p3-7.jpg" width="144" height="288" alt="" /><a mus_act="play" mus_data="songids=100076732&coflag=50001601" href="javascript:;"></a></dt>
+                        <dd class="name"><a target="_blank" href="http://music.weibo.com/u/1577411574" title="">陈珊妮</a></dd>
+                        <dd>公主变女王，强势新入驻</dd>
+                        <dd><i>0</i>次播放|<i>0</i>次赞</dd>
+                    </dl>
+                    <dl class="image" uid="1231821870" songid="100098387">
+                    	<dt><img src="http://image2.sina.com.cn/music/web/theme/theme20131224/p3-8.jpg" width="144" height="288" alt="" /><a mus_act="play" mus_data="songids=100098387&coflag=50001601" href="javascript:;"></a></dt>
+                        <dd class="name"><a target="_blank" href="http://music.weibo.com/u/1231821870" title="">朱哲琴</a></dd>
+                        <dd>民族即世界，年度新入驻</dd>
+                        <dd><i>0</i>次播放|<i>0</i>次赞</dd>
+                    </dl>
+                    <dl class="image" uid="3319854243" songid="100093981">
+                    	<dt><img src="http://image2.sina.com.cn/music/web/theme/theme20131224/p3-9.jpg" width="144" height="288" alt="" /><a mus_act="play" mus_data="songids=100093981&coflag=50001601" href="javascript:;"></a></dt>
+                        <dd class="name"><a target="_blank" href="http://music.weibo.com/u/3319854243" title="">自由探戈乐团</a></dd>
+                        <dd>音乐就是自由的国度</dd>
+                        <dd><i>0</i>次播放|<i>0</i>次赞</dd>
+                    </dl>
+                    <dl class="image" uid="1683588185" songid="100093225">
+                    	<dt><img src="http://image2.sina.com.cn/music/web/theme/theme20131224/p3-10.jpg" width="144" height="288" alt="" /><a mus_act="play" mus_data="songids=100093225&coflag=50001601" href="javascript:;"></a></dt>
+                        <dd class="name"><a target="_blank" href="http://music.weibo.com/u/1683588185" title="">谣乐队</a></dd>
+                        <dd>西北民谣新势力</dd>
+                        <dd><i>0</i>次播放|<i>0</i>次赞</dd>
+                    </dl>
+                </div>
+            </div>
+           <div class="next">
+				<div class="tip">分享成功</div>
+            	<a href="javascript:;" class="share"></a>
+                <a href="javascript:;" class="arrow"></a>
+            </div>
+        </div>
+    </div>	
+    <div class="odd">
+    	<div class="wrap step4">
+        	<div class="tags-1"><img src="http://image2.sina.com.cn/music/web/theme/theme20131224/s4-img.png" /></div>
+            
+            <div class="wrapper">
+                <div class="top clearfix">
+                    <dl class="image" uid="1680313495" songid="100062410">
+                        <dt><img src="http://image2.sina.com.cn/music/web/theme/theme20131224/p4-1.jpg" width="144" height="288" alt="" /><a mus_act="play" mus_data="songids=100062410&coflag=50001601" href="javascript:;"></a></dt>
+                        <dd class="name"><a target="_blank" href="http://music.weibo.com/u/1680313495" title="">左小祖咒 </a></dd>
+                        <dd>每天都有新作品！</dd>
+                        <dd><i>0</i>次播放|<i>0</i>次赞</dd>
+                    </dl>
+                    <dl class="image" uid="1252036043" songid="100086319">
+                        <dt><img src="http://image2.sina.com.cn/music/web/theme/theme20131224/p4-2.jpg" width="144" height="288" alt="" /><a mus_act="play" mus_data="songids=100086319&coflag=50001601" href="javascript:;"></a></dt>
+                        <dd class="name"><a target="_blank" href="http://music.weibo.com/u/1252036043" title="">尚雯婕</a></dd>
+                        <dd>脚踏主流与小众的边界</dd>
+                        <dd><i>0</i>次播放|<i>0</i>次赞</dd>
+                    </dl>
+                    <dl class="image" uid="1738028070" songid="100062621">
+                        <dt><img src="http://image2.sina.com.cn/music/web/theme/theme20131224/p4-3.jpg" width="144" height="288" alt="" /><a mus_act="play" mus_data="songids=100062621&coflag=50001601" href="javascript:;"></a></dt>
+                        <dd class="name"><a target="_blank" href="http://music.weibo.com/u/1738028070" title="">梁晓雪</a></dd>
+                        <dd>90深情永不变</dd>
+                        <dd><i>0</i>次播放|<i>0</i>次赞</dd>
+                    </dl>
+                    <dl class="image" uid="1706225605" songid="100071180">
+                        <dt><img src="http://image2.sina.com.cn/music/web/theme/theme20131224/p4-4.jpg" width="144" height="288" alt="" /><a mus_act="play" mus_data="songids=100071180&coflag=50001601" href="javascript:;"></a></dt>
+                        <dd class="name"><a target="_blank" href="http://music.weibo.com/u/1706225605" title="">彭青</a></dd>
+                        <dd>歌唱青春，保持青春</dd>
+                        <dd><i>0</i>次播放|<i>0</i>次赞</dd>
+                    </dl>
+                    <dl class="image" uid="1418081675" songid="100030762">
+                        <dt><img src="http://image2.sina.com.cn/music/web/theme/theme20131224/p4-5.jpg" width="144" height="288" alt="" /><a mus_act="play" mus_data="songids=100030762&coflag=50001601" href="javascript:;"></a></dt>
+                        <dd class="name"><a target="_blank" href="http://music.weibo.com/u/1418081675" title="">脑浊</a></dd>
+                        <dd>中国摇滚的标杆</dd>
+                        <dd>200万次播放|80万次赞</dd>
+                    </dl>
+                    <dl class="image" uid="1647683910" songid="100076025">
+                        <dt><img src="http://image2.sina.com.cn/music/web/theme/theme20131224/p4-6.jpg" width="144" height="288" alt="" /><a mus_act="play" mus_data="songids=100076025&coflag=50001601" href="javascript:;"></a></dt>
+                        <dd class="name"><a target="_blank" href="http://music.weibo.com/u/1647683910" title="">小老虎</a></dd>
+                        <dd>说唱真的是一门艺术</dd>
+                        <dd><i>0</i>次播放|<i>0</i>次赞</dd>
+                    </dl>
+                </div>
+                <div class="bottom clearfix">
+                    <dl class="image" uid="1800845853" songid="100032326">
+                        <dt><img src="http://image2.sina.com.cn/music/web/theme/theme20131224/p4-7.jpg" width="144" height="288" alt="" /><a mus_act="play" mus_data="songids=100032326&coflag=50001601" href="javascript:;"></a></dt>
+                        <dd class="name"><a target="_blank" href="http://music.weibo.com/u/1800845853" title="">桑泉</a></dd>
+                        <dd>辛勤付出总有收获</dd>
+                        <dd><i>0</i>次播放|<i>0</i>次赞</dd>
+                    </dl>
+                    <dl class="image" uid="1240067740" songid="100085115">
+                        <dt><img src="http://image2.sina.com.cn/music/web/theme/theme20131224/p4-8.jpg" width="144" height="288" alt="" /><a mus_act="play" mus_data="songids=100085115&coflag=50001601" href="javascript:;"></a></dt>
+                        <dd class="name"><a target="_blank" href="http://music.weibo.com/u/1240067740" title="">郝云</a></dd>
+                        <dd>一个“城市”的民谣</dd>
+                        <dd><i>0</i>次播放|<i>0</i>次赞</dd>
+                    </dl>
+                    <dl class="image" uid="1256498250" songid="100072065">
+                        <dt><img src="http://image2.sina.com.cn/music/web/theme/theme20131224/p4-9.jpg" width="144" height="288" alt="" /><a mus_act="play" mus_data="songids=100072065&coflag=50001601" href="javascript:;"></a></dt>
+                        <dd class="name"><a target="_blank" href="http://music.weibo.com/u/1256498250" title="">杨炅翰</a></dd>
+                        <dd>音乐就是他最好的时光</dd>
+                        <dd><i>0</i>次播放|<i>0</i>次赞</dd>
+                    </dl>
+                    <dl class="image" uid="1741836511" songid="100073938">
+                        <dt><img src="http://image2.sina.com.cn/music/web/theme/theme20131224/p4-10.jpg" width="144" height="288" alt="" /><a mus_act="play" mus_data="songids=100073938&coflag=50001601" href="javascript:;"></a></dt>
+                        <dd class="name"><a target="_blank" href="http://music.weibo.com/u/1741836511" title="">丁可</a></dd>
+                        <dd>一起和他在冬日发梦</dd>
+                        <dd><i>0</i>次播放|<i>0</i>次赞</dd>
+                    </dl>
+                </div>
+            </div>
+           <div class="next">
+				<div class="tip">分享成功</div>
+            	<a href="javascript:;" class="share"></a>
+                <a href="javascript:;" class="arrow"></a>
+            </div>
+        </div>
+    </div>	
+    <div class="even">
+    	<div class="wrap step5">
+        	<div class="tags-1"><img src="http://image2.sina.com.cn/music/web/theme/theme20131224/s5-img.png" /></div>
+            <div class="tags-2"><img src="http://image2.sina.com.cn/music/web/theme/theme20131224/s5-img2.png" /></div>
+            <div class="wrapper">
+            	<div class="top clearfix">
+                	<dl class="image" uid="1346038367" songid="100030867">
+                    	<dt><img src="http://image2.sina.com.cn/music/web/theme/theme20131224/p5-1.jpg" width="144" height="288" alt="" /><a mus_act="play" mus_data="songids=100030867&coflag=50001601" href="javascript:;"></a></dt>
+                        <dd class="name"><a target="_blank" href="http://music.weibo.com/u/1346038367" title="">逃跑计划</a></dd>
+                        <dd>你就是最亮的那颗星</dd>
+                        <dd><i>0</i>次播放|<i>0</i>次赞</dd>
+                    </dl>
+                    <dl class="image" uid="1613258127" songid="100084764">
+                    	<dt><img src="http://image2.sina.com.cn/music/web/theme/theme20131224/p5-2.jpg" width="144" height="288" alt="" /><a mus_act="play" mus_data="songids=100084764&coflag=50001601" href="javascript:;"></a></dt>
+                        <dd class="name"><a target="_blank" href="http://music.weibo.com/u/1613258127" title="">宋冬野</a></dd>
+                        <dd>人人心中都有“董小姐”</dd>
+                        <dd><i>0</i>次播放|<i>0</i>次赞</dd>
+                    </dl>
+                    <dl class="image" uid="1698258640" songid="100077687">
+                    	<dt><img src="http://image2.sina.com.cn/music/web/theme/theme20131224/p5-3.jpg" width="144" height="288" alt="" /><a mus_act="play" mus_data="songids=100077687&coflag=50001601" href="javascript:;"></a></dt>
+                        <dd class="name"><a target="_blank" href="http://music.weibo.com/u/1698258640" title="">阿肆</a></dd>
+                        <dd>炸鸡少女不止在人民广场</dd>
+                        <dd><i>0</i>次播放|<i>0</i>次赞</dd>
+                    </dl>
+                    <dl class="image" uid="1349212194" songid="100065865">
+                    	<dt><img src="http://image2.sina.com.cn/music/web/theme/theme20131224/p5-4.jpg" width="144" height="288" alt="" /><a mus_act="play" mus_data="songids=100065865&coflag=50001601" href="javascript:;"></a></dt>
+                        <dd class="name"><a target="_blank" href="http://music.weibo.com/u/1349212194" title="">GALA</a></dd>
+                        <dd>有梦想的赤子心</dd>
+                        <dd><i>0</i>次播放|<i>0</i>次赞</dd>
+                    </dl>
+                    <dl class="image break" uid="1712782607" songid="100092245">
+                    	<dt><img src="http://image2.sina.com.cn/music/web/theme/theme20131224/p5-5.jpg" width="144" height="288" alt="" /><a mus_act="play" mus_data="songids=100092245&coflag=50001601" href="javascript:;"></a></dt>
+                        <dd class="name"><a target="_blank" href="http://music.weibo.com/u/1712782607" title="">龚琳娜</a></dd>
+                        <dd>鲜明的个人标签</dd>
+                        <dd><i>0</i>次播放|<i>0</i>次赞</dd>
+                    </dl>
+                    <dl class="image" uid="1844477730" songid="100053545">
+                    	<dt><img src="http://image2.sina.com.cn/music/web/theme/theme20131224/p5-6.jpg" width="144" height="288" alt="" /><a mus_act="play" mus_data="songids=100053545&coflag=50001601" href="javascript:;"></a></dt>
+                        <dd class="name"><a target="_blank" href="http://music.weibo.com/u/1844477730" title="">欧豪</a></dd>
+                        <dd>时代需要“坏男孩”</dd>
+                        <dd><i>0</i>次播放|<i>0</i>次赞</dd>
+                    </dl>
+                    <dl class="image" uid="1321460227" songid="100084019">
+                    	<dt><img src="http://image2.sina.com.cn/music/web/theme/theme20131224/p5-7.jpg" width="144" height="288" alt="" /><a mus_act="play" mus_data="songids=100084019&coflag=50001601" href="javascript:;"></a></dt>
+                        <dd class="name"><a target="_blank" href="http://music.weibo.com/u/1321460227" title="">孟楠</a></dd>
+                        <dd>不可掩盖的创作才华</dd>
+                        <dd><i>0</i>次播放|<i>0</i>次赞</dd>
+                    </dl>
+                    <dl class="image" uid="2696749592" songid="100091371">
+                    	<dt><img src="http://image2.sina.com.cn/music/web/theme/theme20131224/p5-8.jpg" width="144" height="288" alt="" /><a mus_act="play" mus_data="songids=100091371&coflag=50001601" href="javascript:;"></a></dt>
+                        <dd class="name"><a target="_blank" href="http://music.weibo.com/u/2696749592" title="">刘瑞琦Richael</a></dd>
+                        <dd>退下选秀，好声音继续发力</dd>
+                        <dd><i>0</i>次播放|<i>0</i>次赞</dd>
+                    </dl>
+                    <dl class="image" uid="1273978794" songid="100091726">
+                    	<dt><img src="http://image2.sina.com.cn/music/web/theme/theme20131224/p5-9.jpg" width="144" height="288" alt="" /><a mus_act="play" mus_data="songids=100091726&coflag=50001601" href="javascript:;"></a></dt>
+                        <dd class="name"><a target="_blank" href="http://music.weibo.com/u/1273978794" title="">耿琦</a></dd>
+                        <dd>这里有更适合他的舞台</dd>
+                        <dd><i>0</i>次播放|<i>0</i>次赞</dd>
+                    </dl>
+                    <dl class="image" uid="1857451524" songid="100048469">
+                    	<dt><img src="http://image2.sina.com.cn/music/web/theme/theme20131224/p5-10.jpg" width="144" height="288" alt="" /><a mus_act="play" mus_data="songids=100048469&coflag=50001601" href="javascript:;"></a></dt>
+                        <dd class="name"><a target="_blank" href="http://music.weibo.com/u/1857451524" title="">李秋泽</a></dd>
+                        <dd>音乐的使命贯穿灵魂</dd>
+                        <dd><i>0</i>次播放|<i>0</i>次赞</dd>
+                    </dl>
+                </div>
+            </div>
+           <div class="next">
+				<div class="tip">分享成功</div>
+            	<a href="javascript:;" class="share"></a>
+                <a href="javascript:;" class="arrow"></a>
+            </div>
+        </div>
+    </div>	
+    <div class="odd">
+    	<div class="wrap step6">
+        	<div class="tags-1"><img src="http://image2.sina.com.cn/music/web/theme/theme20131224/s6-img.png" /></div>
+            
+            <div class="wrapper">
+                <div class="top clearfix">
+                    <dl class="image" uid="1497271063" songid="100095667">
+                        <dt><img src="http://image2.sina.com.cn/music/web/theme/theme20131224/p6-1.jpg" width="144" height="288" alt="" /><a mus_act="play" mus_data="songids=100095667&coflag=50001601" href="javascript:;"></a></dt>
+                        <dd class="name"><a target="_blank" href="http://music.weibo.com/u/1497271063" title="">糖蒜广播</a></dd>
+                        <dd>人多势众，无所不能</dd>
+                        <dd><i>0</i>次播放|<i>0</i>次赞</dd>
+                    </dl>
+                    <dl class="image" uid="1820583933" songid="100093876">
+                        <dt><img src="http://image2.sina.com.cn/music/web/theme/theme20131224/p6-2.jpg" width="144" height="288" alt="" /><a mus_act="play" mus_data="songids=100093876&coflag=50001601" href="javascript:;"></a></dt>
+                        <dd class="name"><a target="_blank" href="http://music.weibo.com/u/1820583933" title="">三角龙电台</a></dd>
+                        <dd>全宇宙都在听</dd>
+                        <dd><i>0</i>次播放|<i>0</i>次赞</dd>
+                    </dl>
+                    <dl class="image" uid="1305305845" songid="100067227">
+                        <dt><img src="http://image2.sina.com.cn/music/web/theme/theme20131224/p6-3.jpg" width="144" height="288" alt="" /><a mus_act="play" mus_data="songids=100067227&coflag=50001601" href="javascript:;"></a></dt>
+                        <dd class="name"><a target="_blank" href="http://music.weibo.com/u/1305305845" title="">迷失音乐</a></dd>
+                        <dd>独立音乐百科全书</dd>
+                        <dd><i>0</i>次播放|<i>0</i>次赞</dd>
+                    </dl>
+                    <dl class="image" uid="3225720314" songid="100097505">
+                        <dt><img src="http://image2.sina.com.cn/music/web/theme/theme20131224/p6-4.jpg" width="144" height="288" alt="" /><a mus_act="play" mus_data="songids=100097505&coflag=50001601" href="javascript:;"></a></dt>
+                        <dd class="name"><a target="_blank" href="http://music.weibo.com/u/3225720314" title="">跑火车电台</a></dd>
+                        <dd>妈妈一起来听跑火车</dd>
+                        <dd><i>0</i>次播放|<i>0</i>次赞</dd>
+                    </dl>
+                    <dl class="image" uid="2495446290" songid="100073294">
+                        <dt><img src="http://image2.sina.com.cn/music/web/theme/theme20131224/p6-5.jpg" width="144" height="288" alt="" /><a mus_act="play" mus_data="songids=100073294&coflag=50001601" href="javascript:;"></a></dt>
+                        <dd class="name"><a target="_blank" href="http://music.weibo.com/u/2495446290" title="">半岛网络</a></dd>
+                        <dd>聆听你内心深处的回音</dd>
+                        <dd>200万次播放|80万次赞</dd>
+                    </dl>
+                    <dl class="image" uid="2108123030" songid="100079713">
+                        <dt><img src="http://image2.sina.com.cn/music/web/theme/theme20131224/p6-6.jpg" width="144" height="288" alt="" /><a mus_act="play" mus_data="songids=100079713&coflag=50001601" href="javascript:;"></a></dt>
+                        <dd class="name"><a target="_blank" href="http://music.weibo.com/u/2108123030" title="">荒岛电台</a></dd>
+                        <dd>分享生活灵感与好音乐</dd>
+                        <dd><i>0</i>次播放|<i>0</i>次赞</dd>
+                    </dl>
+                </div>
+                <div class="bottom clearfix">
+                    <dl class="image" uid="1998412373" songid="100094928">
+                        <dt><img src="http://image2.sina.com.cn/music/web/theme/theme20131224/p6-7.jpg" width="144" height="288" alt="" /><a mus_act="play" mus_data="songids=100094928&coflag=50001601" href="javascript:;"></a></dt>
+                        <dd class="name"><a target="_blank" href="http://music.weibo.com/u/1998412373" title="">机核网</a></dd>
+                        <dd>史上最专业的游戏广播</dd>
+                        <dd><i>0</i>次播放|<i>0</i>次赞</dd>
+                    </dl>
+                    <dl class="image" uid="1645211065" songid="100094064">
+                        <dt><img src="http://image2.sina.com.cn/music/web/theme/theme20131224/p6-8.jpg" width="144" height="288" alt="" /><a mus_act="play" mus_data="songids=100094064&coflag=50001601" href="javascript:;"></a></dt>
+                        <dd class="name"><a target="_blank" href="http://music.weibo.com/u/1645211065" title="">你妹电台</a></dd>
+                        <dd>百无一用是节操</dd>
+                        <dd><i>0</i>次播放|<i>0</i>次赞</dd>
+                    </dl>
+                    <dl class="image" uid="2403016182" songid="100097103">
+                        <dt><img src="http://image2.sina.com.cn/music/web/theme/theme20131224/p6-9.jpg" width="144" height="288" alt="" /><a mus_act="play" mus_data="songids=100097103&coflag=50001601" href="javascript:;"></a></dt>
+                        <dd class="name"><a target="_blank" href="http://music.weibo.com/u/2403016182" title="">新闻酸菜馆</a></dd>
+                        <dd>新闻也能侃大山</dd>
+                        <dd><i>0</i>次播放|<i>0</i>次赞</dd>
+                    </dl>
+                    <dl class="image" uid="2198155375" songid="100099123">
+                        <dt><img src="http://image2.sina.com.cn/music/web/theme/theme20131224/p6-10.jpg" width="144" height="288" alt="" /><a mus_act="play" mus_data="songids=100099123&coflag=50001601" href="javascript:;"></a></dt>
+                        <dd class="name"><a target="_blank" href="http://music.weibo.com/u/2198155375" title="">友的聊</a></dd>
+                        <dd>科技调频，极客之爱</dd>
+                        <dd><i>0</i>次播放|<i>0</i>次赞</dd>
+                    </dl>
+                </div>
+            </div>
+           <div class="next">
+				<div class="tip">分享成功</div>
+            	<a href="javascript:;" class="share"></a>
+                <a href="javascript:;" class="arrow"></a>
+            </div>
+        </div>
+    </div>	
+    <div class="even">
+    	<div class="wrap step7">
+        	<div class="txt">
+            	<div class="font"><a href="javascript:;"><img src="http://image2.sina.com.cn/music/web/theme/theme20131224/txt-xin.png" width="237" height="470" /></a></div>
+                <div class="font"><a href="javascript:;"><img src="http://image2.sina.com.cn/music/web/theme/theme20131224/txt-yu.png" width="237" height="470" /></a></div>
+                <div class="font"><a href="javascript:;"><img src="http://image2.sina.com.cn/music/web/theme/theme20131224/txt-nian.png" width="237" height="470" /></a></div>
+                <div class="font"><a href="javascript:;"><img src="http://image2.sina.com.cn/music/web/theme/theme20131224/txt-kuai.png" width="237" height="470" /></a></div>
+            </div>
+            <div class="tags-1"><img src="http://image2.sina.com.cn/music/web/theme/theme20131224/p7-tags-1.png" /></div>
+            <div class="tags-2"><img src="http://image2.sina.com.cn/music/web/theme/theme20131224/p7-tags-2.png" /></div>
+            <div class="tags-3"><img src="http://image2.sina.com.cn/music/web/theme/theme20131224/p7-tags-3.png" /></div>
+            <div class="tags-4"><img src="http://image2.sina.com.cn/music/web/theme/theme20131224/p7-tags-4.png" /></div>
+            <div class="tags-5"><img src="http://image2.sina.com.cn/music/web/theme/theme20131224/p7-tags-5.png" /></div>
+        	<div class="next">
+				<div class="tip">分享成功</div>
+            	<a href="javascript:;" class="share"></a>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+
+<div class="sidebar">
+	<ul>
+    	<li class="current"><a href="javascript:;"></a></li>
+        <li><a href="javascript:;"></a><span>序</span></li>
+        <li><a href="javascript:;"></a><span>新</span></li>
+        <li><a href="javascript:;"></a><span>年</span></li>
+        <li><a href="javascript:;"></a><span>娱</span></li>
+        <li><a href="javascript:;"></a><span>快</span></li>
+        <li><a href="javascript:;"></a></li>
+    </ul>
+	<a href="javascript:;" class="btn_nextPage"></a>
+</div>
+<script type="text/javascript" src="http://music.weibo.com/snake/js/issue2014.js?v=1.8"></script>
+<script src="http://music.weibo.com/snake/js/loadJs.js"></script>
+<script type="text/javascript" src="http://music.weibo.com/snake/js/snk_base.js"></script>
+<script>
+(function(){
+	var uids = [];
+	$('[uid]').each(function(){
+		uids.push($(this).attr('uid'));
+	})
+	var url = "http://music.weibo.com/snake/port/snk_counts.php";
+	var formatNum = function(num){
+		return num > 10000 ? Math.ceil(num / 10000)+'万' : num;
+	}
+	$.post(url,{singerids:uids},function(data){
+		var lists = data.data;
+		for(var i in lists){
+			$("[uid="+i+"]").find('i').eq(0).text(formatNum(lists[i].popular_play_times));
+			$("[uid="+i+"]").find('i').eq(1).text(lists[i].popular_fav_num);
+		}
+	},'json')
+})()
+</script>
+</body>
+</html>

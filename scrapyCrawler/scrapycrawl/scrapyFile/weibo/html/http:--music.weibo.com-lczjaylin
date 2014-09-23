@@ -1,0 +1,185 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html" charset="utf-8"/>
+<meta content="音乐人" name="keywords"/>
+<meta content="凌程之Jaylin" name="description"/>
+<title>凌程之Jaylin的音乐主站-音乐人</title>
+<link rel="stylesheet" type="text/css" href="http://music.weibo.com/snake/css/snk_main.css?v=1"/>
+<link rel="stylesheet" type="text/css" href="http://music.weibo.com/snake/css/snk_layer.css?v=1"/>
+<style>
+	body{
+						}
+</style>
+</head>
+<body>
+<!--header begin-->
+<div id="weibo_top_public"></div>
+<script src="http://js.t.sinajs.cn/t4/home/js/public/topInit.js?version=20120528"></script>
+<div class="header_bg">
+	<div class="header">
+<div class="logo FL"><a href="http://music.weibo.com/index.html"><img src="http://i2.sinaimg.cn/music/web/weibo2012/base/transparent.gif" /></a></div>
+    	<div id="bandstatus" class="band_status FR" mus_node="bandstatus">
+<!-- <a target="_blank" class="band_reg" href="http://music.weibo.com/snake/snk_apply.php"></a> -->
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+	var $topParams = {
+	pid:16001,
+	_wv:"5",
+	any:"&wvr",
+	islogin:0
+	};
+	WBtopGlobal && WBtopGlobal.init($topParams);
+</script>
+<iframe id="login" style="display:none" src="http://music.weibo.com/snake/login_redirect.php"></iframe>
+<div class="nav_bg">
+	<div class="navbox">
+    	<ul id="navbox" class="nav FL">
+            <li>
+            	<a href="http://music.weibo.com/index.html" class="current">
+                	<em class="txt_A">首页</em>
+                </a>
+            </li>
+            <li>
+            	<a href="http://music.weibo.com/snake/snk_rank.php">
+                	<em class="txt_B">排行榜</em>
+                </a>
+            </li>
+            <li>
+            	<a href="http://music.weibo.com/snake/snk_artists.php">
+                	<em class="txt_C">音乐人</em>
+                </a>
+            </li>
+            <li>
+            	<a href="http://music.weibo.com/snake/snk_podcast.php">
+                	<em class="txt_D">播客</em>
+                </a>
+            </li>
+            <li style="display:none">
+            	<a href="#">
+                	<em class="txt_E">演出</em>
+                </a>
+            </li>
+            <li>
+            	<a href="http://music.weibo.com/snake/snk_user.php">
+                	<em class="txt_F">我的音乐</em>
+                </a>
+            </li>
+            <li id="setting" style="display:none">
+            	<a href="http://music.weibo.com/snake/snk_setting.php">
+                	<em class="txt_F">个人设置</em>
+                </a>
+            </li>
+        </ul>
+        <div class="search_A mt5 mr10 FR">
+        	<div class="clearfix">
+                <input type="text" class="current" mus_act="searchinput">
+                <a href="javascript:;" class="btn"  mus_act="searchbtn"></a>
+            </div>
+            <div class="searchlist none" mus_node="searchresult"></div>
+        </div>
+    </div>
+</div>
+<script>
+try{
+var murl = window.location.href;
+var list = ['index.html','/rank/','snk_artists.php','snk_podcast.php','performace.php','snk_user','snk_setting.php'];
+var navTab = document.getElementById("navbox").getElementsByTagName('a');
+for(var e in list){
+	if(murl.search(list[e]) != -1){
+		navTab[e].className = 'current';
+		break;
+	}else{
+		navTab[e].className = '';
+	}
+}
+}catch(e){
+}
+</script><!--header End-->
+<div class="W_main color_A">
+	<div class="path ml20">
+    	<ul class="clearfix">
+        	<li><a href="http://music.weibo.com/">首页</a></li>
+            <li>&gt;</li>
+            <li>凌程之Jaylin的音乐主站</li>
+        </ul>
+    </div>
+</div>
+<!--主体 begin-->
+<div class="W_main clearfix color_A">
+	<div class="mlr15 pt25" id="artistinfo"></div>
+    <div class="clearfix mt50 line_split598">
+        <div class="W_left">
+        	<div id="songgroup"></div>
+        	<div id="artistshow"></div>
+        	<div id="reviewarea"></div>
+        </div>
+        <div class="W_right" id="rightcolumn"></div>
+    </div>
+    <div id="scriptexe"></div>
+</div>
+<!--主体 End-->
+<!-- footer Begin -->
+<div class="footer_bg mt55">
+<div class="footer clearfix">
+    <div class="bottom clearfix">
+			<p>
+				<a class="ico_service" target="__blank" href="http://help.weibo.com/newtopic/music">微博客服</a>
+				<a target="_blank" href="http://weibo.com/zt/s?k=9286">意见反馈</a>
+				<a target="_blank" href="http://open.weibo.com/">开放平台</a>
+				<a target="_blank" href="http://hr.weibo.com">微博招聘</a>
+				<a target="_blank" href="http://news.sina.com.cn/guide/">新浪网导航</a>
+				<br/>
+				北京微梦创科网络技术有限公司
+			</p>
+			<span><a class="sitemap" target="_blank" href="http://music.weibo.com/sitemap.xml">网站地图</a></span><br />
+			<span>Copyright © 1996-2013 SINA</span>
+    </div>
+</div>
+</div>
+</body>
+<script type="text/javascript" src="/snake/js/jquery.1.7.min.js" ></script>
+<script type="text/javascript" src="http://i.sso.sina.com.cn/js/ssologin.js"></script>
+<script src="http://music.weibo.com/t/js/login_ssoconfig.js"></script>
+<script src=" http://tjs.sjs.sinajs.cn/open/api/js/wb.js?appkey=872034675" type="text/javascript" charset="utf-8"></script>
+<script src="http://music.weibo.com/snake/js/loadJs.js"></script>
+<script src="http://music.weibo.com/snake/js/snk_base.js"></script><!-- footer End -->
+<script>
+function initartist(info){
+	window.artistInfo=$.parseJSON(info.html).artistInfo||{};
+	window.atype=$.parseJSON(info.html).atype||{};
+}
+$(function(){
+	WB2.anyWhere(function(W){
+			$('#wsn_info').length&&W.widget.hoverCard({
+		        id: "wsn_info",
+		        tag:'img',
+		        search:true
+		    });
+		    $('#groupDiv').length&&W.widget.hoverCard({
+		        id: "groupDiv",
+		        tag:'img',
+		        search:true
+			}); 
+		    $('#ads_text').length&&W.widget.hoverCard({
+		        id: "ads_text",
+		        tag:'span',
+		        search:true
+		    });
+		    $('#reviewDiv').length&&W.widget.hoverCard({
+		        id: "reviewDiv",
+		        tag:'img',
+		        search:true
+			});
+			$('#wsn_fans').length&&W.widget.hoverCard({
+		        id: "wsn_fans",
+		        tag:'img',
+		        search:true
+		    });
+		});
+});
+</script>
+</body>
+</html><script>VMC.pageletView({"blockid":"artistinfo","html":"<!-- \u97f3\u4e50\u4eba\u4fe1\u606f Begin -->\r\n<div class=\"information PR\">\r\n<dl class=\"clearfix\">\r\n    <dt>\r\n        <a href=\"http:\/\/weibo.com\/lczjaylin\" id=\"wsn_info\" target=\"_blank\"><img class=\"img180\" src=\"http:\/\/tp4.sinaimg.cn\/2020370911\/180\/40051184169\/1\"\/><\/a>\r\n    <\/dt>\r\n        <dd class=\"name\"><a href=\"http:\/\/weibo.com\/lczjaylin\" target=\"_blank\">\u51cc\u7a0b\u4e4bJaylin<\/a><img class=\"approve\" alt=\"\u65b0\u6d6a\u4e2a\u4eba\u8ba4\u8bc1 \" title=\"\u65b0\u6d6a\u4e2a\u4eba\u8ba4\u8bc1\" src=\"http:\/\/img.t.sinajs.cn\/t4\/style\/images\/common\/transparent.gif\"><img class=\"ico_member\" alt=\"\u5fae\u535a\u4f1a\u5458\" title=\"\u5fae\u535a\u4f1a\u5458\" src=\"http:\/\/img.t.sinajs.cn\/t4\/style\/images\/common\/transparent.gif\"><\/dd>\r\n        <dd class=\"mb20\">\r\n        \t<ul class=\"data clearfix\">\r\n                <li><i class=\"font16 FL\">144233<\/i><span class=\"FL\">\u6b21\u64ad\u653e<\/span><\/li>\r\n                <li>|<\/li>\r\n                <li><i class=\"font16 FL\">5070<\/i><span class=\"FL\">\u6b21\u5206\u4eab<\/span><\/li>\r\n                <li>|<\/li>\r\n                <li><i class=\"font16 FL\">33<\/i><span class=\"FL\">\u4eba\u559c\u6b22<\/span><\/li>\r\n            <\/ul>\r\n        <\/dd>\r\n                <dd>\r\n        \t<span>\u8eab\u4efd\uff1a<\/span>\r\n            <span>\u6b4c\u624b\u3001\u8bcd\u4f5c\u8005\u3001\u66f2\u4f5c\u8005\u3001\u5236\u4f5c\u4eba\/\u7f16\u66f2<\/span>\r\n        <\/dd>\r\n                        <dd class=\"mt5\">\r\n        \t<span>\u98ce\u683c\uff1a<\/span>\r\n            <span><a href=\"http:\/\/music.weibo.com\/snake\/snk_artists_list.php?tagid=1\">\u6d41\u884c<\/a>\u3001<a href=\"http:\/\/music.weibo.com\/snake\/snk_artists_list.php?tagid=20\">R&B<\/a>\u3001<a href=\"http:\/\/music.weibo.com\/snake\/snk_artists_list.php?tagid=28\">Hip-Hop<\/a><\/span>\r\n        <\/dd>\r\n                        <dd class=\"discription\">\r\n        \t<span>\u7b80\u4ecb\uff1a<\/span>\r\n            <span>\u4e9a\u534e\u97f3\u4e50\u6587\u5316\u4f20\u5a92\u6709\u9650\u516c\u53f8\u6b4c\u624b\uff0c\u7f51\u7edc\u6b4c\u624b<\/span>\r\n        <\/dd>\r\n        <\/dl>\r\n<div class=\"line_B\"><span><\/span><em><\/em><\/div>\r\n<div class=\"button\">\r\n\t<ul>\r\n        <li>\r\n        \t<a class=\"btn_operating btn_operating_extend btn_liking\" href=\"#\" mus_act=\"collect\" mus_node=\"singer_2020370911\" mus_data=\"collcls=perfer&discollcls=&coflag=50001611&callback=fav_callback\">\r\n            \t<em class=\"fst\"><\/em>\r\n            \t<span class=\"ico_like pointer\"><\/span>\r\n                <span class=\"txt pointer\">\u559c\u6b22<\/span>\r\n                <em class=\"lst\"><\/em>\r\n            <\/a>\r\n        <\/li>\r\n        <li>\r\n        \t<a class=\"btn_operating\" mus_act=\"play\" mus_data=\"sinaid=2020370911&coflag=50001611\" href=\"javascript:;\">\r\n            \t<span class=\"ico_listen pointer\"><\/span>\r\n                <span class=\"txt pointer\">\u6536\u542cTA\u7684\u9891\u7387<\/span>\r\n            <\/a>\r\n        <\/li>\r\n                <li>\r\n        \t<a class=\"btn_operating\" href=\"#\" mus_act=\"share\" mus_data=\"singerid=2020370911&coflag=50001611\">\r\n            \t<span class=\"ico_share pointer\"><\/span>\r\n                <span class=\"txt pointer\">\u5206\u4eab\u5230\u5fae\u535a<\/span>\r\n            <\/a>\r\n        <\/li>\r\n    <\/ul>\r\n<\/div>\r\n<\/div>\r\n<!-- \u97f3\u4e50\u4eba\u4fe1\u606f End -->"})</script><script>VMC.pageletView({"blockid":"songgroup","html":"<!-- \u6700\u65b0\u5355\u66f2title Begin -->\r\n<div class=\"title_A ml20\">\r\n    <h2 class=\"FL\">\u6797\u6668\u4e4b\u65f6<\/h2>\r\n    <a class=\"playall FR mr13\" href=\"#\" mus_act=\"play\" mus_data=\"songids=100090250,100074692,100073573;coflag=50001611\"><\/a>\r\n    <\/div>\r\n<div class=\"new_album ml20 mb25\">\r\n\t\t<ul id=\"2502\">\r\n\t    \t        <li songid=\"100090250\">\r\n            <span class=\"ranks FL\">1<\/span>\r\n            <span class=\"songname FL\"><a href=\"http:\/\/music.weibo.com\/t\/i\/100090250.html\" target=\"_blank\" title=\"\u81f4\u672a\u6765\u5973\u53cb\">\u81f4\u672a\u6765\u5973\u53cb<\/a><\/span>\r\n            <span class=\"time FL\"><i>1340<\/i>\u6b21\u64ad\u653e<\/span>\r\n            <a href=\"#\" class=\"btn_shareD FR\" mus_act=\"share\" mus_data=\"songid=100090250&coflag=50001611\"><\/a>\r\n            <a href=\"#\" class=\"btn_collectA FR\" mus_act=\"collect\" mus_node=\"song_100090250\" mus_data=\"collcls=btn_alcollectA&discollcls=btn_collectA&coflag=50001611\"><\/a>\r\n            <a href=\"#\" class=\"btn_playA FR\" mus_act=\"play\" mus_data=\"songids=100090250&coflag=50001611\" href=\"javascript:;\"><\/a>\r\n        <\/li>\r\n                <li songid=\"100074692\">\r\n            <span class=\"ranks FL\">2<\/span>\r\n            <span class=\"songname FL\"><a href=\"http:\/\/music.weibo.com\/t\/i\/100074692.html\" target=\"_blank\" title=\"\u6cea\u75d5\">\u6cea\u75d5<\/a><\/span>\r\n            <span class=\"time FL\"><i>24218<\/i>\u6b21\u64ad\u653e<\/span>\r\n            <a href=\"#\" class=\"btn_shareD FR\" mus_act=\"share\" mus_data=\"songid=100074692&coflag=50001611\"><\/a>\r\n            <a href=\"#\" class=\"btn_collectA FR\" mus_act=\"collect\" mus_node=\"song_100074692\" mus_data=\"collcls=btn_alcollectA&discollcls=btn_collectA&coflag=50001611\"><\/a>\r\n            <a href=\"#\" class=\"btn_playA FR\" mus_act=\"play\" mus_data=\"songids=100074692&coflag=50001611\" href=\"javascript:;\"><\/a>\r\n        <\/li>\r\n                <li songid=\"100073573\">\r\n            <span class=\"ranks FL\">3<\/span>\r\n            <span class=\"songname FL\"><a href=\"http:\/\/music.weibo.com\/t\/i\/100073573.html\" target=\"_blank\" title=\"\u6708\u5149\u5409\u4ed6\">\u6708\u5149\u5409\u4ed6<\/a><\/span>\r\n            <span class=\"time FL\"><i>1227<\/i>\u6b21\u64ad\u653e<\/span>\r\n            <a href=\"#\" class=\"btn_shareD FR\" mus_act=\"share\" mus_data=\"songid=100073573&coflag=50001611\"><\/a>\r\n            <a href=\"#\" class=\"btn_collectA FR\" mus_act=\"collect\" mus_node=\"song_100073573\" mus_data=\"collcls=btn_alcollectA&discollcls=btn_collectA&coflag=50001611\"><\/a>\r\n            <a href=\"#\" class=\"btn_playA FR\" mus_act=\"play\" mus_data=\"songids=100073573&coflag=50001611\" href=\"javascript:;\"><\/a>\r\n        <\/li>\r\n            <\/ul>\r\n<\/div>\r\n<div class=\"title_A ml20\">\r\n\t<h2 class=\"FL\">\u9ed8\u8ba4\u5206\u7ec4<\/h2>\r\n\t<a class=\"playall FR mr13\" href=\"#\" mus_act=\"play\" mus_data=\"songids=100072582,100052687,100052212,100051325,100051089,100049994,100049908,100049810;coflag=50001611\"><\/a>\r\n\t<\/div>\r\n<div class=\"new_album ml20 mb25\">\r\n\t<ul>\t\t\t<li songid=\"100072582\">\r\n\t\t    <span class=\"ranks FL\">1<\/span>\r\n\t\t    <span class=\"songname FL\"><a href=\"http:\/\/music.weibo.com\/t\/i\/100072582.html\" target=\"_blank\" title=\"\u8bf7\u4e0d\u8981\u88c5\uff0cplease\u3002to\uff1a\u67d0\u6761\u72d7\">\u8bf7\u4e0d\u8981\u88c5\uff0cplease\u3002to\uff1a\u67d0\u6761\u72d7<\/a><\/span>\r\n\t\t    <span class=\"time FL\"><i>1032<\/i>\u6b21\u64ad\u653e<\/span>\r\n\t\t    <a href=\"#\" class=\"btn_shareD FR\" mus_act=\"share\" mus_data=\"songid=100072582&coflag=50001611\"><\/a>\r\n\t\t    <a href=\"#\" class=\"btn_collectA FR\" mus_act=\"collect\" mus_node=\"song_100072582\" mus_data=\"collcls=btn_alcollectA&discollcls=btn_collectA&coflag=50001611\"><\/a>\r\n\t\t    <a href=\"#\" class=\"btn_playA FR\" mus_act=\"play\" mus_data=\"songids=100072582&coflag=50001611\" href=\"javascript:;\"><\/a>\r\n\t\t<\/li>\r\n\t\t\t<li songid=\"100052687\">\r\n\t\t    <span class=\"ranks FL\">2<\/span>\r\n\t\t    <span class=\"songname FL\"><a href=\"http:\/\/music.weibo.com\/t\/i\/100052687.html\" target=\"_blank\" title=\"\u5e78\u798f\u5927\u95e8to\u674e\u82b7\u8335\">\u5e78\u798f\u5927\u95e8to\u674e\u82b7\u8335<\/a><\/span>\r\n\t\t    <span class=\"time FL\"><i>2397<\/i>\u6b21\u64ad\u653e<\/span>\r\n\t\t    <a href=\"#\" class=\"btn_shareD FR\" mus_act=\"share\" mus_data=\"songid=100052687&coflag=50001611\"><\/a>\r\n\t\t    <a href=\"#\" class=\"btn_collectA FR\" mus_act=\"collect\" mus_node=\"song_100052687\" mus_data=\"collcls=btn_alcollectA&discollcls=btn_collectA&coflag=50001611\"><\/a>\r\n\t\t    <a href=\"#\" class=\"btn_playA FR\" mus_act=\"play\" mus_data=\"songids=100052687&coflag=50001611\" href=\"javascript:;\"><\/a>\r\n\t\t<\/li>\r\n\t\t\t<li songid=\"100052212\">\r\n\t\t    <span class=\"ranks FL\">3<\/span>\r\n\t\t    <span class=\"songname FL\"><a href=\"http:\/\/music.weibo.com\/t\/i\/100052212.html\" target=\"_blank\" title=\"\u9759\u5bc2\u5730\u5e26\">\u9759\u5bc2\u5730\u5e26<\/a><\/span>\r\n\t\t    <span class=\"time FL\"><i>6406<\/i>\u6b21\u64ad\u653e<\/span>\r\n\t\t    <a href=\"#\" class=\"btn_shareD FR\" mus_act=\"share\" mus_data=\"songid=100052212&coflag=50001611\"><\/a>\r\n\t\t    <a href=\"#\" class=\"btn_collectA FR\" mus_act=\"collect\" mus_node=\"song_100052212\" mus_data=\"collcls=btn_alcollectA&discollcls=btn_collectA&coflag=50001611\"><\/a>\r\n\t\t    <a href=\"#\" class=\"btn_playA FR\" mus_act=\"play\" mus_data=\"songids=100052212&coflag=50001611\" href=\"javascript:;\"><\/a>\r\n\t\t<\/li>\r\n\t\t\t<li songid=\"100051325\">\r\n\t\t    <span class=\"ranks FL\">4<\/span>\r\n\t\t    <span class=\"songname FL\"><a href=\"http:\/\/music.weibo.com\/t\/i\/100051325.html\" target=\"_blank\" title=\"\u53cc\u8282\u68cd\u6292\u60c5\u4e86\u5417\">\u53cc\u8282\u68cd\u6292\u60c5\u4e86\u5417<\/a><\/span>\r\n\t\t    <span class=\"time FL\"><i>14209<\/i>\u6b21\u64ad\u653e<\/span>\r\n\t\t    <a href=\"#\" class=\"btn_shareD FR\" mus_act=\"share\" mus_data=\"songid=100051325&coflag=50001611\"><\/a>\r\n\t\t    <a href=\"#\" class=\"btn_collectA FR\" mus_act=\"collect\" mus_node=\"song_100051325\" mus_data=\"collcls=btn_alcollectA&discollcls=btn_collectA&coflag=50001611\"><\/a>\r\n\t\t    <a href=\"#\" class=\"btn_playA FR\" mus_act=\"play\" mus_data=\"songids=100051325&coflag=50001611\" href=\"javascript:;\"><\/a>\r\n\t\t<\/li>\r\n\t\t\t<li songid=\"100051089\">\r\n\t\t    <span class=\"ranks FL\">5<\/span>\r\n\t\t    <span class=\"songname FL\"><a href=\"http:\/\/music.weibo.com\/t\/i\/100051089.html\" target=\"_blank\" title=\"Magic Dudu\">Magic Dudu<\/a><\/span>\r\n\t\t    <span class=\"time FL\"><i>21900<\/i>\u6b21\u64ad\u653e<\/span>\r\n\t\t    <a href=\"#\" class=\"btn_shareD FR\" mus_act=\"share\" mus_data=\"songid=100051089&coflag=50001611\"><\/a>\r\n\t\t    <a href=\"#\" class=\"btn_collectA FR\" mus_act=\"collect\" mus_node=\"song_100051089\" mus_data=\"collcls=btn_alcollectA&discollcls=btn_collectA&coflag=50001611\"><\/a>\r\n\t\t    <a href=\"#\" class=\"btn_playA FR\" mus_act=\"play\" mus_data=\"songids=100051089&coflag=50001611\" href=\"javascript:;\"><\/a>\r\n\t\t<\/li>\r\n\t\t\t<li songid=\"100049994\">\r\n\t\t    <span class=\"ranks FL\">6<\/span>\r\n\t\t    <span class=\"songname FL\"><a href=\"http:\/\/music.weibo.com\/t\/i\/100049994.html\" target=\"_blank\" title=\"\u7b49\u5f85\u665a\u5b89\">\u7b49\u5f85\u665a\u5b89<\/a><\/span>\r\n\t\t    <span class=\"time FL\"><i>28611<\/i>\u6b21\u64ad\u653e<\/span>\r\n\t\t    <a href=\"#\" class=\"btn_shareD FR\" mus_act=\"share\" mus_data=\"songid=100049994&coflag=50001611\"><\/a>\r\n\t\t    <a href=\"#\" class=\"btn_collectA FR\" mus_act=\"collect\" mus_node=\"song_100049994\" mus_data=\"collcls=btn_alcollectA&discollcls=btn_collectA&coflag=50001611\"><\/a>\r\n\t\t    <a href=\"#\" class=\"btn_playA FR\" mus_act=\"play\" mus_data=\"songids=100049994&coflag=50001611\" href=\"javascript:;\"><\/a>\r\n\t\t<\/li>\r\n\t\t\t<li songid=\"100049908\">\r\n\t\t    <span class=\"ranks FL\">7<\/span>\r\n\t\t    <span class=\"songname FL\"><a href=\"http:\/\/music.weibo.com\/t\/i\/100049908.html\" target=\"_blank\" title=\"\u8c01\u53eb\u4f60\u662f\u5904\u5973\u5ea7\">\u8c01\u53eb\u4f60\u662f\u5904\u5973\u5ea7<\/a><\/span>\r\n\t\t    <span class=\"time FL\"><i>22577<\/i>\u6b21\u64ad\u653e<\/span>\r\n\t\t    <a href=\"#\" class=\"btn_shareD FR\" mus_act=\"share\" mus_data=\"songid=100049908&coflag=50001611\"><\/a>\r\n\t\t    <a href=\"#\" class=\"btn_collectA FR\" mus_act=\"collect\" mus_node=\"song_100049908\" mus_data=\"collcls=btn_alcollectA&discollcls=btn_collectA&coflag=50001611\"><\/a>\r\n\t\t    <a href=\"#\" class=\"btn_playA FR\" mus_act=\"play\" mus_data=\"songids=100049908&coflag=50001611\" href=\"javascript:;\"><\/a>\r\n\t\t<\/li>\r\n\t\t\t<li songid=\"100049810\">\r\n\t\t    <span class=\"ranks FL\">8<\/span>\r\n\t\t    <span class=\"songname FL\"><a href=\"http:\/\/music.weibo.com\/t\/i\/100049810.html\" target=\"_blank\" title=\"\u739b\u7459\u7231\">\u739b\u7459\u7231<\/a><\/span>\r\n\t\t    <span class=\"time FL\"><i>20316<\/i>\u6b21\u64ad\u653e<\/span>\r\n\t\t    <a href=\"#\" class=\"btn_shareD FR\" mus_act=\"share\" mus_data=\"songid=100049810&coflag=50001611\"><\/a>\r\n\t\t    <a href=\"#\" class=\"btn_collectA FR\" mus_act=\"collect\" mus_node=\"song_100049810\" mus_data=\"collcls=btn_alcollectA&discollcls=btn_collectA&coflag=50001611\"><\/a>\r\n\t\t    <a href=\"#\" class=\"btn_playA FR\" mus_act=\"play\" mus_data=\"songids=100049810&coflag=50001611\" href=\"javascript:;\"><\/a>\r\n\t\t<\/li>\r\n\t\t<\/ul>\r\n<\/div>\r\n<!--\u6700\u65b0\u5355\u66f2 End -->"})</script><script>VMC.pageletView({"blockid":"reviewarea","html":"<div class=\"announce ml20 clearfix\">\r\n    <div class=\"title_A\">\r\n        <h2 class=\"FL\">\u5bf9\u51cc\u7a0b\u4e4bJaylin\u8bf4\u4e24\u53e5<\/h2>\r\n        <span class=\"limit FR\"><span class=\"con_f\">\u4f60\u8fd8\u53ef\u4ee5\u8f93\u5165<\/span><span class=\"num\">140<\/span><span class=\"con_l\">\u5b57<\/span><\/span>\r\n    <\/div>\r\n    <div class=\"bottom\">\r\n       <textarea id=\"review_area\"><\/textarea>\r\n       <lable class=\"FL mt15\"><input type=\"checkbox\" class=\"FL mr10\" checked=\"checked\"\/>\u540c\u6b65\u5230\u5fae\u535a<\/lable>\r\n       <a href=\"#\" class=\"btn_publiA FR\" style=\"display:none\"><\/a>\r\n       <span class=\"btn_publiB FR\"><\/span>\r\n    <\/div>\r\n<\/div>\r\n<!--\u8bc4\u8bba Begin -->\r\n<div class=\"reply ml20\" id=\"reviewDiv\">\t    <\/div><script>\r\n\tWB2.anyWhere(function(W){\r\n\t\t$('#comment_')&&W.widget.hoverCard({\r\n\t        id: \"comment_\",\r\n\t        tag:'img',\r\n\t        search:true\r\n\t    });\r\n\t   });\r\n<\/script>\r\n<!--\u8bc4\u8bba End -->","js":["http:\/\/music.weibo.com\/snake\/js\/snk_artist_aself.js?v=2013"]})</script><script>VMC.pageletView({"blockid":"rightcolumn","html":"<!-- \u516c\u544atitle Begin -->\r\n<div class=\"title_A\">\r\n    <h2 class=\"FL\">\u516c\u544a<\/h2>\r\n<\/div>\r\n<!-- \u516c\u544atitle End -->\r\n<div class=\"announcement mb25\" id=\"ads_div\">\r\n    <div class=\"none\" style=\"clear:both\" id=\"area_wrap\">\r\n        <textarea class=\"apper\" style=\"line-height: 20px;\" id=\"ads_area\"><\/textarea>\r\n        <div class=\"buttom FR\">\r\n            <a href=\"#\" class=\"btn_cancelA\"><\/a>\r\n            <a href=\"#\" class=\"btn_saveA\"><\/a>\r\n        <\/div>\r\n    <\/div>\r\n\t<div class=\"bord\" id=\"ads_text\" hint=\"\u70b9\u51fb\u4ee5\u589e\u52a0\u516c\u544a\">\r\n        <span><p>\u6700\u65b0\u4e13\u8f91 \u300a\u51cc\u6668\u4e4b\u65f6\u300b<\/p><p>\u00b7\u300a\u6cea\u75d5\u300b\u00b7(\u5df2\u53d1\u5e03)100%<\/p><p>\u00b7\u300a\u6708\u5149\u5409\u4ed6\u300b\u00b7(\u5df2\u53d1\u5e03)100%<\/p><p>\u00b7\u300a\u6211\u662f\u600e\u4e48\u4e86\u300b\u00b7\uff08\u7535\u53f0\u9891\u9053\u62a2\u5148\u7248\uff0c\u5df2\u53d1\u5e03\uff09100%<\/p><p>\u00b7\u300a\u6211\u53ea\u662f\u4e2aR&amp;B\u300bft:XXX\u00b769%<\/p><p>\u00b7\u300a\u7231\u60c5\u8bf7\u5e16\u300b\u00b7\uff08\u5236\u4f5c\u4e2d\uff0937%<\/p><p>\u00b7\u300a\u626c\u89d2\u7ed8\u610f\u300b\u00b7to\u6768\u6167\uff08\u5236\u4f5c\u4e2d)96%<\/p><p>\u00b7\u300a\u7231\u4e0e\u4e0d\u7231\u300b\u00b7\u97e9\u56fd\u7ec4\u5408\u66f2\uff08\u5236\u4f5c\u4e2d\uff0978%<\/p><p>\u00b7\u300a\u6211\u6ca1\u6709\u53d8\u300b\uff08\u5236\u4f5c\u4e2d\uff09\u00b759%<\/p><p>\u8fd8\u6709\u4e09\u99960%\u8bcd\u66f2\u90fd\u6ca1\u6709\u5440\uff01\u6df7\u86cb\uff01\uff01\uff01\uff01<\/p><\/span>\r\n    <\/div>\r\n<\/div>\r\n<div class=\"title_A\">\r\n    <h2 class=\"FL\">\u56e2\u961f\u4e0e\u5408\u4f5c<\/h2>\r\n<\/div>\r\n<!-- \u56e2\u961f\u4e0e\u5408\u4f5c Begin -->\r\n<div class=\"group_corporation mb25 mr20\" id=\"groupDiv\">\t    <dl class=\"clearfix\" gid=\"189548\">\r\n        <dt>\r\n            <a href=\"http:\/\/music.weibo.com\/snake\/snk_user.php?uid=2020370911\" target=\"_blank\">\r\n                <img src=\"http:\/\/tp4.sinaimg.cn\/2020370911\/50\/40051184169\/1\" class=\"img60\"  wb_screen_name=\"\u51cc\u7a0b\u4e4bJaylin\"\/>\r\n            <\/a>\r\n        <\/dt>\r\n        <dd class=\"name\">\r\n            <a href=\"http:\/\/music.weibo.com\/snake\/snk_user.php?uid=2020370911\" target=\"_blank\">\u51cc\u7a0b\u4e4bJaylin<\/a>\r\n        <\/dd>\r\n        <dd class=\"group clearfix\">\r\n             <span>\u7f16\u66f2<\/span>\r\n                     <\/dd>\r\n    <\/dl>\r\n        <dl class=\"clearfix\" gid=\"189547\">\r\n        <dt>\r\n            <a href=\"http:\/\/music.weibo.com\/snake\/snk_user.php?uid=1238873395\" target=\"_blank\">\r\n                <img src=\"http:\/\/tp4.sinaimg.cn\/1238873395\/50\/5681747516\/1\" class=\"img60\"  wb_screen_name=\"\u8bb8\u8bfa\u6b4c\u624b\"\/>\r\n            <\/a>\r\n        <\/dt>\r\n        <dd class=\"name\">\r\n            <a href=\"http:\/\/music.weibo.com\/snake\/snk_user.php?uid=1238873395\" target=\"_blank\">\u8bb8\u8bfa\u6b4c\u624b<\/a>\r\n        <\/dd>\r\n        <dd class=\"group clearfix\">\r\n             <span>\u4f5c\u66f2<\/span>\r\n                     <\/dd>\r\n    <\/dl>\r\n        <dl class=\"clearfix\" gid=\"189544\">\r\n        <dt>\r\n            <a href=\"http:\/\/music.weibo.com\/snake\/snk_user.php?uid=1764328631\" target=\"_blank\">\r\n                <img src=\"http:\/\/tp4.sinaimg.cn\/1764328631\/50\/5659433929\/1\" class=\"img60\"  wb_screen_name=\"_\u56de\u97f3\u54e5_\"\/>\r\n            <\/a>\r\n        <\/dt>\r\n        <dd class=\"name\">\r\n            <a href=\"http:\/\/music.weibo.com\/snake\/snk_user.php?uid=1764328631\" target=\"_blank\">_\u56de\u97f3\u54e5_<\/a>\r\n        <\/dd>\r\n        <dd class=\"group clearfix\">\r\n             <span>\u540e\u671f<\/span>\r\n                     <\/dd>\r\n    <\/dl>\r\n        <dl class=\"clearfix\" gid=\"187477\">\r\n        <dt>\r\n            <a href=\"http:\/\/music.weibo.com\/snake\/snk_user.php?uid=1727181912\" target=\"_blank\">\r\n                <img src=\"http:\/\/tp1.sinaimg.cn\/1727181912\/50\/40013316709\/1\" class=\"img60\"  wb_screen_name=\"Gary\u6d45\u84dd\"\/>\r\n            <\/a>\r\n        <\/dt>\r\n        <dd class=\"name\">\r\n            <a href=\"http:\/\/music.weibo.com\/snake\/snk_user.php?uid=1727181912\" target=\"_blank\">Gary\u6d45\u84dd<\/a>\r\n        <\/dd>\r\n        <dd class=\"group clearfix\">\r\n             <span>\u540e\u671f<\/span>\r\n                     <\/dd>\r\n    <\/dl>\r\n    <\/div><!-- \u56e2\u961f\u4e0e\u5408\u4f5c End -->\r\n\r\n<!-- \u52a0\u8f7d\u66f4\u591a Begin -->\r\n<div class=\"load_more line_C mb25\">\r\n\t<a href=\"#\" id=\"loadMoreGroupBtn\">\u52a0\u8f7d\u66f4\u591a...<\/a>\r\n<\/div>\r\n\r\n<!-- \u6211\u559c\u6b22\u7684\u4ebatitle Begin -->\r\n<div class=\"title_A mr20\">\r\n    <h2 class=\"FL\">\u559c\u6b22TA\u7684\u4eba<\/h2>\r\n    <ul class=\"band_contrl FL mt20 ml10\">\r\n    \t<li class=\"FL\">(<\/li>\r\n        <li class=\"\">\r\n        \t<a class=\"FL\" href=\"http:\/\/music.weibo.com\/snake\/snk_artist_userlist.php?sinaid=2020370911\" target=\"_blank\">33<\/a>\r\n        <\/li>\r\n        <li>)<\/li>\r\n    <\/ul>\r\n    <a href=\"http:\/\/music.weibo.com\/snake\/snk_artist_userlist.php?sinaid=2020370911\" target=\"_blank\" class=\"more FR\">\u66f4\u591a>><\/a>\r\n<\/div>\r\n<!-- \u6211\u559c\u6b22\u7684\u4ebatitle End -->   \r\n\r\n<!-- \u559c\u6b22\u6211\u7684\u4eba Begin -->\r\n<div class=\"like_me mb25\" id=\"wsn_fans\">\r\n    <div class=\"wrap\">\r\n    \t        <dl>\r\n            <dt>\r\n                <a href=\"http:\/\/music.weibo.com\/snake\/snk_user.php?uid=2712605584\" target=\"_blank\">\r\n                    <img src=\"http:\/\/tp1.sinaimg.cn\/2712605584\/50\/40000950715\/1\" class=\"img50\" wb_screen_name=\"Ezfic\"\/>\r\n                <\/a>\r\n            <\/dt>\r\n            <dd>\r\n              <a href=\"http:\/\/music.weibo.com\/snake\/snk_user.php?uid=2712605584\" target=\"_blank\" title=\"Ezfic\">Ezfic<\/a>\r\n            <\/dd>\r\n        <\/dl>\r\n                <dl>\r\n            <dt>\r\n                <a href=\"http:\/\/music.weibo.com\/snake\/snk_user.php?uid=1902508845\" target=\"_blank\">\r\n                    <img src=\"http:\/\/tp2.sinaimg.cn\/1902508845\/50\/5705912335\/0\" class=\"img50\" wb_screen_name=\"\u674e\u5f18\u57fa_\u7476\u7476\"\/>\r\n                <\/a>\r\n            <\/dt>\r\n            <dd>\r\n              <a href=\"http:\/\/music.weibo.com\/snake\/snk_user.php?uid=1902508845\" target=\"_blank\" title=\"\u674e\u5f18\u57fa_\u7476\u7476\">\u674e\u5f18\u57fa<\/a>\r\n            <\/dd>\r\n        <\/dl>\r\n                <dl>\r\n            <dt>\r\n                <a href=\"http:\/\/music.weibo.com\/snake\/snk_user.php?uid=1969919917\" target=\"_blank\">\r\n                    <img src=\"http:\/\/tp2.sinaimg.cn\/1969919917\/50\/5695467852\/0\" class=\"img50\" wb_screen_name=\"\u4e48\u4e48\u5403\u841d\u535c\"\/>\r\n                <\/a>\r\n            <\/dt>\r\n            <dd>\r\n              <a href=\"http:\/\/music.weibo.com\/snake\/snk_user.php?uid=1969919917\" target=\"_blank\" title=\"\u4e48\u4e48\u5403\u841d\u535c\">\u4e48\u4e48\u5403<\/a>\r\n            <\/dd>\r\n        <\/dl>\r\n                <dl>\r\n            <dt>\r\n                <a href=\"http:\/\/music.weibo.com\/snake\/snk_user.php?uid=3757771493\" target=\"_blank\">\r\n                    <img src=\"http:\/\/tp2.sinaimg.cn\/3757771493\/50\/40041199101\/1\" class=\"img50\" wb_screen_name=\"Luv-Me\u68a6\u91cc\u8bf4\u6211\u7231\u4f60\u7b97\u4e0d\u7b97\u52c7\u6c14\"\/>\r\n                <\/a>\r\n            <\/dt>\r\n            <dd>\r\n              <a href=\"http:\/\/music.weibo.com\/snake\/snk_user.php?uid=3757771493\" target=\"_blank\" title=\"Luv-Me\u68a6\u91cc\u8bf4\u6211\u7231\u4f60\u7b97\u4e0d\u7b97\u52c7\u6c14\">Luv-Me<\/a>\r\n            <\/dd>\r\n        <\/dl>\r\n                <dl>\r\n            <dt>\r\n                <a href=\"http:\/\/music.weibo.com\/snake\/snk_user.php?uid=2237602173\" target=\"_blank\">\r\n                    <img src=\"http:\/\/tp2.sinaimg.cn\/2237602173\/50\/5705983692\/1\" class=\"img50\" wb_screen_name=\"\u52aa\u529b\u8003\u7814\u7684\u5c0f\u946b\u54e5\"\/>\r\n                <\/a>\r\n            <\/dt>\r\n            <dd>\r\n              <a href=\"http:\/\/music.weibo.com\/snake\/snk_user.php?uid=2237602173\" target=\"_blank\" title=\"\u52aa\u529b\u8003\u7814\u7684\u5c0f\u946b\u54e5\">\u52aa\u529b\u8003<\/a>\r\n            <\/dd>\r\n        <\/dl>\r\n                <dl>\r\n            <dt>\r\n                <a href=\"http:\/\/music.weibo.com\/snake\/snk_user.php?uid=1873778981\" target=\"_blank\">\r\n                    <img src=\"http:\/\/tp2.sinaimg.cn\/1873778981\/50\/5705959109\/0\" class=\"img50\" wb_screen_name=\"\u538b\u53a2\u5e95\u7684\u85e4\u6905Roise\"\/>\r\n                <\/a>\r\n            <\/dt>\r\n            <dd>\r\n              <a href=\"http:\/\/music.weibo.com\/snake\/snk_user.php?uid=1873778981\" target=\"_blank\" title=\"\u538b\u53a2\u5e95\u7684\u85e4\u6905Roise\">\u538b\u53a2\u5e95<\/a>\r\n            <\/dd>\r\n        <\/dl>\r\n                <dl>\r\n            <dt>\r\n                <a href=\"http:\/\/music.weibo.com\/snake\/snk_user.php?uid=2167785244\" target=\"_blank\">\r\n                    <img src=\"http:\/\/tp1.sinaimg.cn\/2167785244\/50\/5629821840\/0\" class=\"img50\" wb_screen_name=\"\u521a\u6d77\u6731\u8bf8\"\/>\r\n                <\/a>\r\n            <\/dt>\r\n            <dd>\r\n              <a href=\"http:\/\/music.weibo.com\/snake\/snk_user.php?uid=2167785244\" target=\"_blank\" title=\"\u521a\u6d77\u6731\u8bf8\">\u521a\u6d77\u6731<\/a>\r\n            <\/dd>\r\n        <\/dl>\r\n                <dl>\r\n            <dt>\r\n                <a href=\"http:\/\/music.weibo.com\/snake\/snk_user.php?uid=2198994030\" target=\"_blank\">\r\n                    <img src=\"http:\/\/tp3.sinaimg.cn\/2198994030\/50\/5702031647\/0\" class=\"img50\" wb_screen_name=\"\u4e50\u4e50\u7684\u5c0f\u4eb2\u7231\"\/>\r\n                <\/a>\r\n            <\/dt>\r\n            <dd>\r\n              <a href=\"http:\/\/music.weibo.com\/snake\/snk_user.php?uid=2198994030\" target=\"_blank\" title=\"\u4e50\u4e50\u7684\u5c0f\u4eb2\u7231\">\u4e50\u4e50\u7684<\/a>\r\n            <\/dd>\r\n        <\/dl>\r\n                <dl>\r\n            <dt>\r\n                <a href=\"http:\/\/music.weibo.com\/snake\/snk_user.php?uid=2930355434\" target=\"_blank\">\r\n                    <img src=\"http:\/\/tp3.sinaimg.cn\/2930355434\/50\/40051279647\/1\" class=\"img50\" wb_screen_name=\"_\u9648\u6b27\u9633\"\/>\r\n                <\/a>\r\n            <\/dt>\r\n            <dd>\r\n              <a href=\"http:\/\/music.weibo.com\/snake\/snk_user.php?uid=2930355434\" target=\"_blank\" title=\"_\u9648\u6b27\u9633\">_\u9648\u6b27<\/a>\r\n            <\/dd>\r\n        <\/dl>\r\n                <dl>\r\n            <dt>\r\n                <a href=\"http:\/\/music.weibo.com\/snake\/snk_user.php?uid=2738426191\" target=\"_blank\">\r\n                    <img src=\"http:\/\/tp4.sinaimg.cn\/2738426191\/50\/5692456511\/1\" class=\"img50\" wb_screen_name=\"\u6e05\u98ceahd\u660e\u6708\"\/>\r\n                <\/a>\r\n            <\/dt>\r\n            <dd>\r\n              <a href=\"http:\/\/music.weibo.com\/snake\/snk_user.php?uid=2738426191\" target=\"_blank\" title=\"\u6e05\u98ceahd\u660e\u6708\">\u6e05\u98ceah<\/a>\r\n            <\/dd>\r\n        <\/dl>\r\n                <dl>\r\n            <dt>\r\n                <a href=\"http:\/\/music.weibo.com\/snake\/snk_user.php?uid=3788672443\" target=\"_blank\">\r\n                    <img src=\"http:\/\/tp4.sinaimg.cn\/3788672443\/50\/40033435250\/1\" class=\"img50\" wb_screen_name=\"\u53cc\u9c7c\u5ea7\u8a2b\u6b87\"\/>\r\n                <\/a>\r\n            <\/dt>\r\n            <dd>\r\n              <a href=\"http:\/\/music.weibo.com\/snake\/snk_user.php?uid=3788672443\" target=\"_blank\" title=\"\u53cc\u9c7c\u5ea7\u8a2b\u6b87\">\u53cc\u9c7c\u5ea7<\/a>\r\n            <\/dd>\r\n        <\/dl>\r\n                <dl>\r\n            <dt>\r\n                <a href=\"http:\/\/music.weibo.com\/snake\/snk_user.php?uid=2643275141\" target=\"_blank\">\r\n                    <img src=\"http:\/\/tp2.sinaimg.cn\/2643275141\/50\/5705206242\/0\" class=\"img50\" wb_screen_name=\"\u600e\u4e48\u6837\u662f\u600e\u4e48\u6837\"\/>\r\n                <\/a>\r\n            <\/dt>\r\n            <dd>\r\n              <a href=\"http:\/\/music.weibo.com\/snake\/snk_user.php?uid=2643275141\" target=\"_blank\" title=\"\u600e\u4e48\u6837\u662f\u600e\u4e48\u6837\">\u600e\u4e48\u6837<\/a>\r\n            <\/dd>\r\n        <\/dl>\r\n            <\/div>\r\n<\/div>\r\n<!-- \u559c\u6b22\u6211\u7684\u4eba End -->\r\n","js":["http:\/\/music.weibo.com\/snake\/js\/snk_artist_aself.js?v=2013"],"css":["http:\/\/code.jquery.com\/ui\/1.9.1\/themes\/base\/jquery-ui.css"]})</script><script>initartist({"blockid":"scriptexe","html":"{\"artistInfo\":{\"uid\":2020370911,\"nick\":\"\\u51cc\\u7a0b\\u4e4bJaylin\",\"profile_image_url\":\"http:\\\/\\\/tp4.sinaimg.cn\\\/2020370911\\\/180\\\/40051184169\\\/1\",\"profile_url\":\"lczjaylin\",\"wburl\":\"http:\\\/\\\/weibo.com\\\/lczjaylin\",\"icon\":\"<img class=\\\"approve\\\" alt=\\\"\\u65b0\\u6d6a\\u4e2a\\u4eba\\u8ba4\\u8bc1 \\\" title=\\\"\\u65b0\\u6d6a\\u4e2a\\u4eba\\u8ba4\\u8bc1\\\" src=\\\"http:\\\/\\\/img.t.sinajs.cn\\\/t4\\\/style\\\/images\\\/common\\\/transparent.gif\\\"><img class=\\\"ico_member\\\" alt=\\\"\\u5fae\\u535a\\u4f1a\\u5458\\\" title=\\\"\\u5fae\\u535a\\u4f1a\\u5458\\\" src=\\\"http:\\\/\\\/img.t.sinajs.cn\\\/t4\\\/style\\\/images\\\/common\\\/transparent.gif\\\">\",\"coflag\":50001611,\"weiboid\":\"3498891104287080\",\"comms_count\":5,\"isboke\":false,\"text_song\":\"\\u6b4c\\u66f2\",\"text_singer\":\"\\u97f3\\u4e50\",\"annual_img\":\"\",\"identity\":\"\\u6b4c\\u624b\\u3001\\u8bcd\\u4f5c\\u8005\\u3001\\u66f2\\u4f5c\\u8005\\u3001\\u5236\\u4f5c\\u4eba\\\/\\u7f16\\u66f2\",\"info\":\"\\u4e9a\\u534e\\u97f3\\u4e50\\u6587\\u5316\\u4f20\\u5a92\\u6709\\u9650\\u516c\\u53f8\\u6b4c\\u624b\\uff0c\\u7f51\\u7edc\\u6b4c\\u624b\",\"tags\":\"<a href=\\\"http:\\\/\\\/music.weibo.com\\\/snake\\\/snk_artists_list.php?tagid=1\\\">\\u6d41\\u884c<\\\/a>\\u3001<a href=\\\"http:\\\/\\\/music.weibo.com\\\/snake\\\/snk_artists_list.php?tagid=20\\\">R&B<\\\/a>\\u3001<a href=\\\"http:\\\/\\\/music.weibo.com\\\/snake\\\/snk_artists_list.php?tagid=28\\\">Hip-Hop<\\\/a>\",\"times_fav\":33,\"times_share\":5070,\"times_play\":144233,\"sell_info_bool\":0,\"sell_info_url\":\"\"},\"atype\":{\"uid\":0,\"whoseid\":2020370911,\"userself\":0,\"tologin\":0}}","js":["http:\/\/music.weibo.com\/snake\/js\/snk_artist_aself.js?v=2013"],"css":["http:\/\/code.jquery.com\/ui\/1.9.1\/themes\/base\/jquery-ui.css"]})</script><script>VMC.end()</script>

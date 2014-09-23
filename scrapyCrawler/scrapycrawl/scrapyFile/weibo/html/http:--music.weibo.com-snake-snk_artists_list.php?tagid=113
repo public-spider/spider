@@ -1,0 +1,386 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html" charset="utf-8"/>
+<meta content="微音乐" name="keywords"/>
+<meta content="" name="description"/>
+<title>
+	电台-微音乐人
+</title>
+<link rel="stylesheet" type="text/css" href="http://music.weibo.com/snake/css/snk_main.css"/>
+</head>
+<body>
+<!--header begin-->
+<!--微音乐导航 begin-->
+<div id="weibo_top_public"></div>
+<script src="http://js.t.sinajs.cn/t4/home/js/public/topInit.js?version=20120528"></script>
+<div class="header_bg">
+	<div class="header">
+<div class="logo FL"><a href="http://music.weibo.com/index.html"><img src="http://i2.sinaimg.cn/music/web/weibo2012/base/transparent.gif" /></a></div>
+    	<div id="bandstatus" class="band_status FR" mus_node="bandstatus">
+<!-- <a target="_blank" class="band_reg" href="http://music.weibo.com/snake/snk_apply.php"></a> -->
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+	var $topParams = {
+	pid:16001,
+	_wv:"5",
+	any:"&wvr",
+	islogin:0
+	};
+	WBtopGlobal && WBtopGlobal.init($topParams);
+</script>
+<iframe id="login" style="display:none" src="http://music.weibo.com/snake/login_redirect.php"></iframe>
+<div class="nav_bg">
+	<div class="navbox">
+    	<ul id="navbox" class="nav FL">
+            <li>
+            	<a href="http://music.weibo.com/index.html" class="current">
+                	<em class="txt_A">首页</em>
+                </a>
+            </li>
+            <li>
+            	<a href="http://music.weibo.com/snake/snk_rank.php">
+                	<em class="txt_B">排行榜</em>
+                </a>
+            </li>
+            <li>
+            	<a href="http://music.weibo.com/snake/snk_artists.php">
+                	<em class="txt_C">音乐人</em>
+                </a>
+            </li>
+            <li>
+            	<a href="http://music.weibo.com/snake/snk_podcast.php">
+                	<em class="txt_D">播客</em>
+                </a>
+            </li>
+            <li style="display:none">
+            	<a href="#">
+                	<em class="txt_E">演出</em>
+                </a>
+            </li>
+            <li>
+            	<a href="http://music.weibo.com/snake/snk_user.php">
+                	<em class="txt_F">我的音乐</em>
+                </a>
+            </li>
+            <li id="setting" style="display:none">
+            	<a href="http://music.weibo.com/snake/snk_setting.php">
+                	<em class="txt_F">个人设置</em>
+                </a>
+            </li>
+        </ul>
+        <div class="search_A mt5 mr10 FR">
+        	<div class="clearfix">
+                <input type="text" class="current" mus_act="searchinput">
+                <a href="javascript:;" class="btn"  mus_act="searchbtn"></a>
+            </div>
+            <div class="searchlist none" mus_node="searchresult"></div>
+        </div>
+    </div>
+</div>
+<script>
+try{
+var murl = window.location.href;
+var list = ['index.html','/rank/','snk_artists.php','snk_podcast.php','performace.php','snk_user','snk_setting.php'];
+var navTab = document.getElementById("navbox").getElementsByTagName('a');
+for(var e in list){
+	if(murl.search(list[e]) != -1){
+		navTab[e].className = 'current';
+		break;
+	}else{
+		navTab[e].className = '';
+	}
+}
+}catch(e){
+}
+</script><!--微音乐导航 End-->
+<!--header End-->
+
+<div class="W_main">
+<!--主站上的页面路径 Begin -->
+    <div class="path">
+    	<ul class="clearfix">
+        	<li><a href="http://music.weibo.com/snake/index.html">首页</a></li>
+            <li>></li>
+            <li><a href="http://music.weibo.com/snake/snk_user.php"> 我的音乐</a></li>
+            <li>></li>
+            <li>所有音乐人</li>
+        </ul>
+    </div>
+    <!--主站上的页面路径 End -->
+</div>
+    
+<!--主体 begin-->
+<div class="W_main clearfix line_split598">
+	<div class="W_left">
+         <div class="title_B">
+         	         		<h2 class="FL">音乐人--电台</h2>
+         	         </div>   
+        <!--音乐人列表-B begin-->
+                <div class="singers_infor ">
+        <dl class="clearfix">
+        <dt class="FL"><a href="http://music.weibo.com/t/s/1940041263.html"><img src="http://tp4.sinaimg.cn/1940041263/180/40005567059/1" class="img180"/></a></dt>
+        <dd class="name"><a href="http://music.weibo.com/t/s/1940041263.html">Dear.FM 心灵情感轻电台</a></dd>
+        <dd><span>538797次播放/256次分享/1921人喜欢</span></dd>
+        <dd><span>2012-10-14 12:52:27入驻 / 小清新,电台,情感 </span></dd>
+        <dd class="infor"><span>DEAR.FM×原创情感轻电台。 DEAR.FM是一片干净的心灵栖息地，力求有观点的聆听，有真实的情感，有独立的判断，它属于来到这里的每一个人！</span></dd>
+ 		
+        <dd class="btn mt25">
+	        <a href="javascript:;" class="btn_listenD" mus_act="play" mus_data="sinaid=1940041263&coflag=50000816"></a> 
+	        <a href="javascript:;" class="btn_shareB" mus_act="collect" mus_node="singer_1940041263" mus_data="collcls=btn_shareC&discollcls=btn_shareB&coflag=50001608"></a>
+        </dd>       
+        </dl>
+        </div>       
+                <div class="singers_infor ">
+        <dl class="clearfix">
+        <dt class="FL"><a href="http://music.weibo.com/t/s/3976126683.html"><img src="http://tp4.sinaimg.cn/3976126683/180/40060100407/0" class="img180"/></a></dt>
+        <dd class="name"><a href="http://music.weibo.com/t/s/3976126683.html">星座FM网络电台</a></dd>
+        <dd><span>331次播放/12次分享/6人喜欢</span></dd>
+        <dd><span>2014-07-15 12:10:07入驻 / 电台,星座,趣味 </span></dd>
+        <dd class="infor"><span>听星座 听青春 听乐趣。
+星座FM网络电台，让世界聆听你的星音。</span></dd>
+ 		
+        <dd class="btn mt25">
+	        <a href="javascript:;" class="btn_listenD" mus_act="play" mus_data="sinaid=3976126683&coflag=50000816"></a> 
+	        <a href="javascript:;" class="btn_shareB" mus_act="collect" mus_node="singer_3976126683" mus_data="collcls=btn_shareC&discollcls=btn_shareB&coflag=50001608"></a>
+        </dd>       
+        </dl>
+        </div>       
+                <div class="singers_infor ">
+        <dl class="clearfix">
+        <dt class="FL"><a href="http://music.weibo.com/t/s/5159112684.html"><img src="http://tp1.sinaimg.cn/5159112684/180/40056140358/1" class="img180"/></a></dt>
+        <dd class="name"><a href="http://music.weibo.com/t/s/5159112684.html">看球者说</a></dd>
+        <dd><span>33次播放/0次分享/0人喜欢</span></dd>
+        <dd><span>2014-07-08 18:12:05入驻 / 电台,脱口秀,体育 </span></dd>
+        <dd class="infor"><span>Cedrick's Freekick 听大雪聊足球
+2014 年巴西世界杯最值得收听的原创电台
+微博：@Cedrick @看球者说微博
+
+正在直播：《世界杯之声》</span></dd>
+ 		
+        <dd class="btn mt25">
+	        <a href="javascript:;" class="btn_listenD" mus_act="play" mus_data="sinaid=5159112684&coflag=50000816"></a> 
+	        <a href="javascript:;" class="btn_shareB" mus_act="collect" mus_node="singer_5159112684" mus_data="collcls=btn_shareC&discollcls=btn_shareB&coflag=50001608"></a>
+        </dd>       
+        </dl>
+        </div>       
+                <div class="singers_infor ">
+        <dl class="clearfix">
+        <dt class="FL"><a href="http://music.weibo.com/t/s/1733074053.html"><img src="http://tp2.sinaimg.cn/1733074053/180/5625817432/0" class="img180"/></a></dt>
+        <dd class="name"><a href="http://music.weibo.com/t/s/1733074053.html">NJ一念</a></dd>
+        <dd><span>328176次播放/1013次分享/9783人喜欢</span></dd>
+        <dd><span>2012-05-22 17:30:48入驻 / 电台,温暖如初 </span></dd>
+        <dd class="infor"><span>有生之年，做个阳光明媚的女子。</span></dd>
+ 		
+        <dd class="btn mt25">
+	        <a href="javascript:;" class="btn_listenD" mus_act="play" mus_data="sinaid=1733074053&coflag=50000816"></a> 
+	        <a href="javascript:;" class="btn_shareB" mus_act="collect" mus_node="singer_1733074053" mus_data="collcls=btn_shareC&discollcls=btn_shareB&coflag=50001608"></a>
+        </dd>       
+        </dl>
+        </div>       
+                <div class="singers_infor ">
+        <dl class="clearfix">
+        <dt class="FL"><a href="http://music.weibo.com/t/s/2771049264.html"><img src="http://tp1.sinaimg.cn/2771049264/180/5633343121/1" class="img180"/></a></dt>
+        <dd class="name"><a href="http://music.weibo.com/t/s/2771049264.html">虾米音乐汇</a></dd>
+        <dd><span>37623次播放/215次分享/316人喜欢</span></dd>
+        <dd><span>2012-06-17 17:09:02入驻 / 流行,爵士,电台 </span></dd>
+        <dd class="infor"><span>积木音乐台联合虾米音乐网打造的时尚音乐节目。这个季节，循声而来，《虾米音乐汇》你的音乐一起约会。Ｑ交流群：64657607 工作事务请联系@DJmimo</span></dd>
+ 		
+        <dd class="btn mt25">
+	        <a href="javascript:;" class="btn_listenD" mus_act="play" mus_data="sinaid=2771049264&coflag=50000816"></a> 
+	        <a href="javascript:;" class="btn_shareB" mus_act="collect" mus_node="singer_2771049264" mus_data="collcls=btn_shareC&discollcls=btn_shareB&coflag=50001608"></a>
+        </dd>       
+        </dl>
+        </div>       
+                <div class="singers_infor ">
+        <dl class="clearfix">
+        <dt class="FL"><a href="http://music.weibo.com/t/s/1180357437.html"><img src="http://tp2.sinaimg.cn/1180357437/180/5641999542/1" class="img180"/></a></dt>
+        <dd class="name"><a href="http://music.weibo.com/t/s/1180357437.html">假电台</a></dd>
+        <dd><span>108234次播放/193次分享/101人喜欢</span></dd>
+        <dd><span>2012-06-29 20:46:06入驻 / 民谣,摇滚,电台 </span></dd>
+        <dd class="infor"><span>Jia.fm 不同于真的电台，不是普通的电台！</span></dd>
+ 		
+        <dd class="btn mt25">
+	        <a href="javascript:;" class="btn_listenD" mus_act="play" mus_data="sinaid=1180357437&coflag=50000816"></a> 
+	        <a href="javascript:;" class="btn_shareB" mus_act="collect" mus_node="singer_1180357437" mus_data="collcls=btn_shareC&discollcls=btn_shareB&coflag=50001608"></a>
+        </dd>       
+        </dl>
+        </div>       
+                <div class="singers_infor ">
+        <dl class="clearfix">
+        <dt class="FL"><a href="http://music.weibo.com/t/s/5224934657.html"><img src="http://tp2.sinaimg.cn/5224934657/180/22881710484/1" class="img180"/></a></dt>
+        <dd class="name"><a href="http://music.weibo.com/t/s/5224934657.html">祁璐</a></dd>
+        <dd><span>2012次播放/13次分享/59人喜欢</span></dd>
+        <dd><span>2014-07-20 13:10:22入驻 / 流行,电台,情感 </span></dd>
+        <dd class="infor"><span>X-Radio网络电台官方账号</span></dd>
+ 		
+        <dd class="btn mt25">
+	        <a href="javascript:;" class="btn_listenD" mus_act="play" mus_data="sinaid=5224934657&coflag=50000816"></a> 
+	        <a href="javascript:;" class="btn_shareB" mus_act="collect" mus_node="singer_5224934657" mus_data="collcls=btn_shareC&discollcls=btn_shareB&coflag=50001608"></a>
+        </dd>       
+        </dl>
+        </div>       
+                <div class="singers_infor ">
+        <dl class="clearfix">
+        <dt class="FL"><a href="http://music.weibo.com/t/s/1836403753.html"><img src="http://tp2.sinaimg.cn/1836403753/180/40055477047/1" class="img180"/></a></dt>
+        <dd class="name"><a href="http://music.weibo.com/t/s/1836403753.html">冯恒昇</a></dd>
+        <dd><span>1000次播放/18次分享/1人喜欢</span></dd>
+        <dd><span>2014-07-25 10:21:09入驻 / 电台 </span></dd>
+        <dd class="infor"><span>用微笑回报生活，让声音定格美好！逢恒声音乐电台因为有你的陪伴而变得意义非凡，每一次与你的邂逅都尤为珍贵。期待你的驻足聆听，感谢你的一路相伴。</span></dd>
+ 		
+        <dd class="btn mt25">
+	        <a href="javascript:;" class="btn_listenD" mus_act="play" mus_data="sinaid=1836403753&coflag=50000816"></a> 
+	        <a href="javascript:;" class="btn_shareB" mus_act="collect" mus_node="singer_1836403753" mus_data="collcls=btn_shareC&discollcls=btn_shareB&coflag=50001608"></a>
+        </dd>       
+        </dl>
+        </div>       
+                <div class="singers_infor ">
+        <dl class="clearfix">
+        <dt class="FL"><a href="http://music.weibo.com/t/s/2022851417.html"><img src="http://tp2.sinaimg.cn/2022851417/180/40062461711/1" class="img180"/></a></dt>
+        <dd class="name"><a href="http://music.weibo.com/t/s/2022851417.html">清晨音乐台</a></dd>
+        <dd><span>185128次播放/528次分享/1242人喜欢</span></dd>
+        <dd><span>2012-07-11 21:44:01入驻 / 有声,电台,播客 </span></dd>
+        <dd class="infor"><span>一直致力于打造属于自己独特的音乐广播电台。出色的主播阵容，秉着我们的音乐及我们热枕的信念，我们努力发展至今吸引了一批批的各层次的听众。</span></dd>
+ 		
+        <dd class="btn mt25">
+	        <a href="javascript:;" class="btn_listenD" mus_act="play" mus_data="sinaid=2022851417&coflag=50000816"></a> 
+	        <a href="javascript:;" class="btn_shareB" mus_act="collect" mus_node="singer_2022851417" mus_data="collcls=btn_shareC&discollcls=btn_shareB&coflag=50001608"></a>
+        </dd>       
+        </dl>
+        </div>       
+                <div class="singers_infor ">
+        <dl class="clearfix">
+        <dt class="FL"><a href="http://music.weibo.com/t/s/2800341952.html"><img src="http://tp1.sinaimg.cn/2800341952/180/22881915643/1" class="img180"/></a></dt>
+        <dd class="name"><a href="http://music.weibo.com/t/s/2800341952.html">自己网络电台</a></dd>
+        <dd><span>276566次播放/233次分享/1470人喜欢</span></dd>
+        <dd><span>2012-07-31 09:47:19入驻 / 电台,旅行 </span></dd>
+        <dd class="infor"><span>长沙独立电台MINEFM，成立于2012年5月14日，是国内首个地域独立电台，品牌节目《纯粹旅行》、《城市时间》等。</span></dd>
+ 		
+        <dd class="btn mt25">
+	        <a href="javascript:;" class="btn_listenD" mus_act="play" mus_data="sinaid=2800341952&coflag=50000816"></a> 
+	        <a href="javascript:;" class="btn_shareB" mus_act="collect" mus_node="singer_2800341952" mus_data="collcls=btn_shareC&discollcls=btn_shareB&coflag=50001608"></a>
+        </dd>       
+        </dl>
+        </div>       
+         
+<!--音乐人列表-B End-->
+
+	</div>
+	<div class="W_right">
+        <div class="title_B ml10">
+                <h2 class="FL">音乐人风格</h2>
+        </div>
+        <div class="tags_A ml10">
+        	<ul class="clearfix">
+								<li>
+					<a title="流行" href="http://music.weibo.com/snake/snk_artists_list.php?tagid=1">流行<span></span></a>
+				</li>
+								<li>
+					<a title="摇滚" href="http://music.weibo.com/snake/snk_artists_list.php?tagid=21">摇滚<span></span></a>
+				</li>
+								<li>
+					<a title="民谣" href="http://music.weibo.com/snake/snk_artists_list.php?tagid=7">民谣<span></span></a>
+				</li>
+								<li>
+					<a title="R&B" href="http://music.weibo.com/snake/snk_artists_list.php?tagid=20">R&B<span></span></a>
+				</li>
+								<li>
+					<a title="电子" href="http://music.weibo.com/snake/snk_artists_list.php?tagid=19">电子<span></span></a>
+				</li>
+								<li>
+					<a title="Hip-Pop" href="http://music.weibo.com/snake/snk_artists_list.php?tagid=970">Hip-Pop<span></span></a>
+				</li>
+								<li>
+					<a title="世界音乐" href="http://music.weibo.com/snake/snk_artists_list.php?tagid=30">世界音乐<span></span></a>
+				</li>
+								<li>
+					<a title="Hip-Hop" href="http://music.weibo.com/snake/snk_artists_list.php?tagid=28">Hip-Hop<span></span></a>
+				</li>
+								<li>
+					<a title="Indie" href="http://music.weibo.com/snake/snk_artists_list.php?tagid=29">Indie<span></span></a>
+				</li>
+								<li>
+					<a title="爵士" href="http://music.weibo.com/snake/snk_artists_list.php?tagid=12">爵士<span></span></a>
+				</li>
+								<li>
+					<a title="金属" href="http://music.weibo.com/snake/snk_artists_list.php?tagid=18">金属<span></span></a>
+				</li>
+								<li>
+					<a title="古风" href="http://music.weibo.com/snake/snk_artists_list.php?tagid=59">古风<span></span></a>
+				</li>
+								<li>
+					<a title="RAP" href="http://music.weibo.com/snake/snk_artists_list.php?tagid=87">RAP<span></span></a>
+				</li>
+								<li>
+					<a title="说唱" href="http://music.weibo.com/snake/snk_artists_list.php?tagid=240">说唱<span></span></a>
+				</li>
+								<li>
+					<a title="电台" href="http://music.weibo.com/snake/snk_artists_list.php?tagid=113">电台<span></span></a>
+				</li>
+								<li>
+					<a title="中国风" href="http://music.weibo.com/snake/snk_artists_list.php?tagid=51">中国风<span></span></a>
+				</li>
+								<li>
+					<a title="古典" href="http://music.weibo.com/snake/snk_artists_list.php?tagid=22">古典<span></span></a>
+				</li>
+								<li>
+					<a title="Pop" href="http://music.weibo.com/snake/snk_artists_list.php?tagid=49">Pop<span></span></a>
+				</li>
+								<li>
+					<a title="脱口秀" href="http://music.weibo.com/snake/snk_artists_list.php?tagid=350">脱口秀<span></span></a>
+				</li>
+								<li>
+					<a title="民族" href="http://music.weibo.com/snake/snk_artists_list.php?tagid=110">民族<span></span></a>
+				</li>
+								</ul>
+            </div> <br>
+        <div id="attention" class="mtb10 ml10">
+        </div>
+         
+        <div class="ml10 mt50">
+         <a href="snk_atoz_artists.php" class="btn_operating_x">
+             <span class="txt pointer FL">音乐人字母检索一览表</span>
+             <span class="btn_moreA FL"></span>
+       </a>
+       </div>     
+    </div>
+</div>
+<!--主体 End-->
+ 
+<!--page begin-->
+	<div class="page_down_up">
+	<div class="page"><ul><li><a href="javascript:void(0)" class="current">1</a></li><li><a href="http://music.weibo.com/snake/snk_artists_list.php?tagid=113&page=2">2</a></li><li><a href="http://music.weibo.com/snake/snk_artists_list.php?tagid=113&page=3">3</a></li><li><a href="http://music.weibo.com/snake/snk_artists_list.php?tagid=113&page=4">4</a></li><li><a href="http://music.weibo.com/snake/snk_artists_list.php?tagid=113&page=5">5</a></li><li><a href="http://music.weibo.com/snake/snk_artists_list.php?tagid=113&page=6">6</a></li><li><a href="http://music.weibo.com/snake/snk_artists_list.php?tagid=113&page=7">7</a></li><li><a href="http://music.weibo.com/snake/snk_artists_list.php?tagid=113&page=8">8</a></li><li><a href="http://music.weibo.com/snake/snk_artists_list.php?tagid=113&page=9">9</a></li><li><a href="http://music.weibo.com/snake/snk_artists_list.php?tagid=113&page=2" class="next">下一页</a></li></ul></div>
+	</div>
+<!--page end-->
+   
+<!-- main end -->
+<!-- footer Begin -->
+<div class="footer_bg mt55">
+<div class="footer clearfix">
+    <div class="bottom clearfix">
+			<p>
+				<a class="ico_service" target="__blank" href="http://help.weibo.com/newtopic/music">微博客服</a>
+				<a target="_blank" href="http://weibo.com/zt/s?k=9286">意见反馈</a>
+				<a target="_blank" href="http://open.weibo.com/">开放平台</a>
+				<a target="_blank" href="http://hr.weibo.com">微博招聘</a>
+				<a target="_blank" href="http://news.sina.com.cn/guide/">新浪网导航</a>
+				<br/>
+				北京微梦创科网络技术有限公司
+			</p>
+			<span><a class="sitemap" target="_blank" href="http://music.weibo.com/sitemap.xml">网站地图</a></span><br />
+			<span>Copyright © 1996-2013 SINA</span>
+    </div>
+</div>
+</div>
+</body>
+<script type="text/javascript" src="/snake/js/jquery.1.7.min.js" ></script>
+<script type="text/javascript" src="http://i.sso.sina.com.cn/js/ssologin.js"></script>
+<script src="http://music.weibo.com/t/js/login_ssoconfig.js"></script>
+<script src=" http://tjs.sjs.sinajs.cn/open/api/js/wb.js?appkey=872034675" type="text/javascript" charset="utf-8"></script>
+<script src="http://music.weibo.com/snake/js/loadJs.js"></script>
+<script src="http://music.weibo.com/snake/js/snk_base.js"></script><!-- footer End -->
+</body>
+</html>
+

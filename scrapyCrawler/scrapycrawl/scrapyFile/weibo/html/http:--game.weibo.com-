@@ -1,0 +1,927 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>微游戏-动漫游戏-新浪微博官方游戏平台</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="微游戏, 微博游戏, 动漫游戏, 网页游戏" />
+<meta name="Description" content="微游戏，中国最专业最全面的动漫游戏平台，网罗最新最好的动漫游戏，新浪微博官方游戏平台，汇聚动漫玩家、高端白领玩家，随时随地与微博好友、微博名人一起玩游戏。" />
+<link href="/favicon.ico" rel="SHORTCUT ICON" />
+<link rel="stylesheet"  type="text/css"  href="http://img.app.wcdn.cn/ops/game/style/css/center/ui/ui-all.minlist.css?v=201409051240"/>
+<link rel="stylesheet"  type="text/css"  href="http://img1.app.wcdn.cn/ops/game/style/css/center/friday/homefinder_avatar.minlist.css?v=201409051240"/>
+<link rel="stylesheet"  type="text/css"  href="http://img2.app.wcdn.cn/ops/game/style/css/center/friday/index_flashcover.minlist.css?v=201409051240"/>
+<script type="text/javascript">
+var $WYX = {};
+$WYX['baseUrl'] = "http://game.weibo.com/home/";
+$WYX['serverTime'] = "1411377251000";
+try{
+	var $topParams = {};
+	$topParams['uid'] = 0; //必须
+	$topParams['name'] = ''; //必须
+	$topParams['islogin'] = 0; //是否登录 //必须
+	$topParams['icon'] = '';
+	$topParams['verify'] = '';
+	$topParams['verified_type'] = '';
+	$topParams['version'] = '1346744478';
+	$topParams['_wv'] = '';
+	$topParams['authorizeHY'] = 0 ;
+	$isLogin = $topParams['islogin'];
+    //WBtopGlobal.init($topParams);
+
+}catch(e){
+
+};
+</script>
+</head>
+<body>
+<div class="top_navy"></div>
+<script type="text/javascript" src="http://js.app.wcdn.cn/ops/game/js/center/friday/wyx.navLoad.minlist.js?v=1024"></script>
+<!-- 新手引导 -->
+
+<div class="contenter" id="out">
+	<!--轮播图 BEGIN -->
+	<div class="loop_banner">
+		<!-- <div class="black_bg"></div> -->
+		<div  class="loop_img" id="beingLoopImg">
+			<div class="a_btn">
+								<a href="http://game.weibo.com/datianshizhijian?action=login&service=180012401074&oid=1000106710001"class="hover" target="_blank">
+	            	<span>
+	            	   <img class="small_icon" src="http://ww2.sinaimg.cn/large/736a8bf2jw1eimuz0ma95j2028028mx0.jpg" alt="大天使之剑" />
+	                   <div class="small_tit">
+	                   		<h2>
+			                    大天使之剑	                   		</h2>
+		                   <p>
+			                   新服开启		                   </p>
+	                   </div>
+	                   <div style="clear:both;"></div>
+	                </span>
+	            </a>
+								<a href="http://game.weibo.com/zhongchaozuqiu?action=login&service=1800118310105&ownpt=weibo&oid=1000106710002" target="_blank">
+	            	<span>
+	            	   <img class="small_icon" src="http://ww4.sinaimg.cn/large/736a8bf2jw1e8bdwbjj62j2028028745.jpg" alt="中超足球" />
+	                   <div class="small_tit">
+	                   		<h2>
+			                    中超足球	                   		</h2>
+		                   <p>
+			                   爱足球爱中超		                   </p>
+	                   </div>
+	                   <div style="clear:both;"></div>
+	                </span>
+	            </a>
+								<a href="http://game.weibo.com/juezhangaodaol?action=login&service=180012201003&ownpt=weibo&oid=1000106710003" target="_blank">
+	            	<span>
+	            	   <img class="small_icon" src="http://ww3.sinaimg.cn/large/736a8bf2jw1eh8slt92xvj2028028glh.jpg" alt="高达online" />
+	                   <div class="small_tit">
+	                   		<h2>
+			                    高达online	                   		</h2>
+		                   <p>
+			                   高达ol新服开启		                   </p>
+	                   </div>
+	                   <div style="clear:both;"></div>
+	                </span>
+	            </a>
+								<a href="http://game.weibo.com/shenyuan?action=login&service=180012421012&ownpt=weibo&oid=1000106710004" target="_blank">
+	            	<span>
+	            	   <img class="small_icon" src="http://ww4.sinaimg.cn/large/736a8bf2jw1ejhw453asjj20280283yd.jpg" alt="深渊" />
+	                   <div class="small_tit">
+	                   		<h2>
+			                    深渊	                   		</h2>
+		                   <p>
+			                   只有你想不到		                   </p>
+	                   </div>
+	                   <div style="clear:both;"></div>
+	                </span>
+	            </a>
+								<a href="http://game.weibo.com/rexue11?server_id=1&oid=1000106710005" target="_blank">
+	            	<span>
+	            	   <img class="small_icon" src="http://ww4.sinaimg.cn/large/736a8bf2jw1eho3a4hmexj2028028mx1.jpg" alt="热血11人" />
+	                   <div class="small_tit">
+	                   		<h2>
+			                    热血11人	                   		</h2>
+		                   <p>
+			                   激情澎湃		                   </p>
+	                   </div>
+	                   <div style="clear:both;"></div>
+	                </span>
+	            </a>
+				
+			</div>
+						<div class="img_wrap">
+				<div class="img_bg" style="background-image: url(http://ww3.sinaimg.cn/large/736a8bf2jw1ekhluuyqbdj212w096agg.jpg); background-color:#000000;"></div>
+				<a href="http://game.weibo.com/datianshizhijian?action=login&service=180012401074&oid=1000106710001" class="img_a" index="0" style="display:block;" target="_blank">
+				</a>
+			</div>
+						<div class="img_wrap">
+				<div class="img_bg" style="background-image: url(http://ww3.sinaimg.cn/large/736a8bf2jw1ekl21fjtwyj212w096n0m.jpg); background-color:#030303;"></div>
+				<a href="http://game.weibo.com/zhongchaozuqiu?action=login&service=1800118310105&ownpt=weibo&oid=1000106710002" class="img_a" index="0" style="display:block;" target="_blank">
+				</a>
+			</div>
+						<div class="img_wrap">
+				<div class="img_bg" style="background-image: url(http://ww3.sinaimg.cn/large/736a8bf2jw1ekl23j05fcj212w096jx1.jpg); background-color:#0e0607;"></div>
+				<a href="http://game.weibo.com/juezhangaodaol?action=login&service=180012201003&ownpt=weibo&oid=1000106710003" class="img_a" index="0" style="display:block;" target="_blank">
+				</a>
+			</div>
+						<div class="img_wrap">
+				<div class="img_bg" style="background-image: url(http://ww1.sinaimg.cn/large/736a8bf2jw1ekl24r6ytvj212w096q7c.jpg); background-color:#000631;"></div>
+				<a href="http://game.weibo.com/shenyuan?action=login&service=180012421012&ownpt=weibo&oid=1000106710004" class="img_a" index="0" style="display:block;" target="_blank">
+				</a>
+			</div>
+						<div class="img_wrap">
+				<div class="img_bg" style="background-image: url(http://ww1.sinaimg.cn/large/736a8bf2jw1ekl26btdflj212w096wje.jpg); background-color:#000000;"></div>
+				<a href="http://game.weibo.com/rexue11?server_id=1&oid=1000106710005" class="img_a" index="0" style="display:block;" target="_blank">
+				</a>
+			</div>
+					</div>
+	</div>
+	<!--轮播图 END -->
+	<div class="main">
+		<div class="wyx_header" id="wyxCoupletBox">
+<!-- 			<div class="avatarwrap avatarwrap_pa">
+			</div>
+ -->
+ 			 			<!-- 未登录 start -->
+ 			<div class="WYX_login_index" style="display: block;" id="newWYX_loginBox">
+			    <div class="login_box">
+			        <div class="login_title">
+			            <div class="WYX_title_info">
+			                登录/注册
+			            </div>
+			            <a class="close_layer" href="javascript:void(0)" id="newWXY_closeLayer">关闭</a>
+			        </div>
+			        <div class="WYX_login_info">
+			            已有新浪微游戏、微博、博客、邮箱等新浪帐号可直接登录
+			        </div>
+			        <ul class="WYX_login_form">
+			            <li class="WYX_username_box" id="newWYX_usernameBox">
+			                <input type="text" id="newWYX_loginUname" value="请输入账号" action-data="请输入用户名" data-type="" autocomplete = "off"/>
+			            </li>
+			            <li class="password_box" id="newWYX_passwordBox">
+			                <input type="password" id="newWYX_loginUpwd">
+			                <span class="enter_psw" id="newWYX_tipUpwd" autocomplete="off">请输入密码</span>
+			            </li>
+			        </ul>
+			        <div class="verifycode_box" id="newWYX_verifycodeBox">
+			            <input maxlength="6" tabindex="3" name="verify_code" type="text" class="verify_code" value="验证码" action-data="验证码" id="newWYX_loginVcode" data-type="">
+			            <img src="" title="" width="100" height="40" id="newWYX_verifyImg">
+			            <a class="verify_refresh" id="newWYX_verifyRefresh" onclick="return false;" href="javascript:void(0);"> 刷新</a>
+			        </div>
+			        <div class="vsncode_box" id="newWYX_vsncodeBox">
+						<input maxlength="6" class="vsn_code" id="newWYX_loginVsncode" value="微盾动态码" action-data="微盾动态码" data-type="">
+						<a href="http://account.weibo.com/forgot/vdun" target="_blank" class="text_color">微盾挂失</a>
+					</div>
+			        <div class="info_list">
+						<div class="left">
+							<input type="checkbox" id="newautoLogin" checked/>自动登录<a href="http://help.weibo.com/faq/q/85/12524#12524" class="auto_login" target="_blank"></a>
+						</div>
+						<div class="right">
+							<a target="_blank" href="https://login.sina.com.cn/getpass.html?entry=weibo" class="text_color">忘记密码</a>
+						</div>
+					</div>
+			        <div class="error_box" id="newWYX_loginTip" style="display: none; top: -31px;">
+			            <div class="error_content">
+			                <span class="error_info" id="newWYX_loginInfo"></span>
+							<a class="erro_close" id="newWYX_erroClose" href="javascript:void(0)">关闭</a>
+			            </div>
+			            <div class="error_arrow" id="newWXY_errorArrow"></div>
+			        </div>
+			        <div class="reg_info">
+			            <a class="WYX_login_btn" id="newWYX_loginBtn" href="javascript:void(0);" onclick="return false;">
+			                <span class="WYX_btn_l"></span>
+			                <span class="WYX_btn_info" id="newWYX_loginWord">登录</span>
+			            </a>
+			            <div class="WYX_login_info">
+			                <span class="WYX_no_id">还没有帐号？</span><a target="_blank" href="http://weibo.com/signup/signup.php" class="text_color">立即注册！</a>
+			            </div>
+			        </div>
+			    </div>
+			    <div class="WYX_tips" id="wyxNewLoginTipsbox">
+				    <h3>温馨提示:</h3>
+				    <p>新浪微游戏、微博、博客、邮箱等新浪帐号可直接登录</p>
+				</div>
+			</div>
+ 			<!-- 未登录 end -->
+ 			
+
+ 						<!-- 对联BEGIN -->
+			<div class="wyx_couplet_ads ads_left" id="wyxCoupletLeft">
+									<a class="couplet_link" href="http://game.weibo.com/datianshizhijian?action=login&service=180012401074&oid=1000104910002" target="_blank"><img src="http://ww3.sinaimg.cn/large/736a8bf2jw1ekamyrhgeij203w08674r.jpg"></a>
+							</div>
+			<div class="wyx_couplet_ads ads_right" id="wyxCoupletRight">
+									<a class="couplet_link" href="http://game.weibo.com/datianshizhijian?action=login&service=180012401074&oid=1000104910003" target="_blank"><img src="http://ww3.sinaimg.cn/large/736a8bf2jw1ekamz0edfcj203w086t94.jpg"></a>
+							</div>
+			<!-- 对联END -->
+						<div class="bannerwrap">
+				<div class="index_h1">
+					人气<h1>动漫游戏</h1>
+				</div>
+				<!--170 190 图片BEGIN-->
+				<div class="able-switchable-content word_link" id="recentGameCont">
+										<div class="box">
+						<div class="tips tips_1">最新开服</div>
+						<a href="http://game.weibo.com/ouguanzuqiu2?action=login&service=180012391011&ownpt=weibo&oid=1000106810001" class="card">
+							<img src="http://ww3.sinaimg.cn/large/736a8bf2jw1ekl28mumepj204q05amxe.jpg" alt="欧冠足球2">
+						</a>
+						<dl class="dl_1">
+							<dt><a href="http://game.weibo.com/ouguanzuqiu2?action=login&service=180012391011&ownpt=weibo&oid=1000106810001">欧冠足球2</a></dt>
+							<dd>欧冠新服</dd>
+						</dl>
+					</div>
+										<div class="box">
+						<div class="tips tips_1">最新开服</div>
+						<a href="http://game.weibo.com/dahanghaisj?action=login&service=180012091102&ownpt=weibo&oid=1000106810002" class="card">
+							<img src="http://ww4.sinaimg.cn/large/736a8bf2jw1ekl29ks52ij204q05a74l.jpg" alt="大航海传奇">
+						</a>
+						<dl class="dl_2">
+							<dt><a href="http://game.weibo.com/dahanghaisj?action=login&service=180012091102&ownpt=weibo&oid=1000106810002">大航海传奇</a></dt>
+							<dd>深海冒险扬帆起航</dd>
+						</dl>
+					</div>
+										<div class="box">
+						<div class="tips tips_1">最新开服</div>
+						<a href="http://game.weibo.com/fantexilanqiujingli2?action=login&service=180012181032&ownpt=weibo&oid=1000106810003" class="card">
+							<img src="http://ww2.sinaimg.cn/large/736a8bf2jw1ekl2abfz80j204q05ajrp.jpg" alt="范特西篮球经理2">
+						</a>
+						<dl class="dl_3">
+							<dt><a href="http://game.weibo.com/fantexilanqiujingli2?action=login&service=180012181032&ownpt=weibo&oid=1000106810003">范特西篮球经理2</a></dt>
+							<dd>无兄弟不篮球</dd>
+						</dl>
+					</div>
+										<div class="box">
+						<div class="tips tips_1">最新开服</div>
+						<a href="http://game.weibo.com/juezhangaodaol?action=login&service=180012201003&ownpt=weibo&oid=1000106810004" class="card">
+							<img src="http://ww2.sinaimg.cn/large/736a8bf2jw1ekl2b9t86vj204q05a3yu.jpg" alt="高达online">
+						</a>
+						<dl class="dl_4">
+							<dt><a href="http://game.weibo.com/juezhangaodaol?action=login&service=180012201003&ownpt=weibo&oid=1000106810004">高达online</a></dt>
+							<dd>男人无法舍弃</dd>
+						</dl>
+					</div>
+										<div class="box">
+						<div class="tips tips_1">最新开服</div>
+						<a href="http://game.weibo.com/huoyingrenzhe?serverid=315&oid=1000106810005" class="card">
+							<img src="http://ww3.sinaimg.cn/large/736a8bf2jw1ekl2cgzrugj204q05amxa.jpg" alt="火影疾风坛">
+						</a>
+						<dl class="dl_5">
+							<dt><a href="http://game.weibo.com/huoyingrenzhe?serverid=315&oid=1000106810005">火影疾风坛</a></dt>
+							<dd>原汁原味的火影</dd>
+						</dl>
+					</div>
+									</div>
+				<!--170 190 图片END-->
+			</div>
+							<!--文字链 开始-->
+				<div class="new_recommend">
+					<div class="box box_1">
+						<h3 class="tit_h3">动漫二次元</h3>
+																		<div class="pic">
+							<a c="4" rel="1333682350" href="http://game.weibo.com/huoyingrenzhe?act=play&serverid=315&oid=1000107010001" class="pic_a">
+								<img src="http://wyxdevelopers-img.stor.appsina.com/017287d5194d3996f2e5fe926c0b1b2f.png" alt="火影疾风坛">
+							</a>
+							<h4 class="tit_h4">
+								<a c="4" rel="1333682350" href="http://game.weibo.com/huoyingrenzhe?act=play&serverid=315&oid=1000107010001">火影疾风坛<span class="gnone"></span></a>
+
+							</h4>
+																							<p class="gray">最新开服：<a title="微游戏315区" href="http://game.weibo.com/huoyingrenzhe?act=play&serverid=315&oid=1000107010001">微游戏315区&gt;&gt;</a></p>
+															
+						</div>
+																								<span class="box_hr"></span>
+						<p class="box_p odd_bg">
+																<a c="4" rel="2407325320" href="http://game.weibo.com/sishenkuangchao?server_id=185&oid=1000107010002" class="fl">死神狂潮 185区<span class="gnone"></span></a>
+								<span class="fr">2014-09-16</span>
+														</p>
+																								<span class="box_hr"></span>
+						<p class="box_p even_bg">
+																<a c="4" rel="1840658317" href="http://game.weibo.com/longzhiwenzhang?action=login&service=180012171045&ownpt=weibo&oid=1000107010002" class="fl">龙之纹章 45区<span class="gpopular"></span></a>
+								<span class="fr">2014-08-21</span>
+														</p>
+																								<span class="box_hr"></span>
+						<p class="box_p odd_bg">
+																<a c="4" rel="1942330763" href="http://game.weibo.com/gundamol?serverid=9&oid=1000107010002" class="fl">SD高达 9区<span class="gpopular"></span></a>
+								<span class="fr">2014-08-01</span>
+														</p>
+																	</div>
+
+					<div class="box box_2">
+						<h3 class="tit_h3">在线竞技</h3>
+																					<div class="pic">
+									<a c="4" rel="3902438532" href="http://game.weibo.com/tianxiazuqiu?action=login&service=180012291032&ownpt=weibo&oid=1000107010003" class="pic_a">
+										<img src="http://ww2.sinaimg.cn/large/736a8bf2jw1egbjmsnqv7j2028028jr9.jpg" alt="天下足球OL">
+									</a>
+									<h4 class="tit_h4">
+										<a c="4" rel="3902438532" href="http://game.weibo.com/tianxiazuqiu?action=login&service=180012291032&ownpt=weibo&oid=1000107010003">天下足球OL</a>
+										<span class="gnone"></span>
+									</h4>
+
+
+																														<p class="gray">最新开服：<a title="微游戏32区" href="http://game.weibo.com/tianxiazuqiu?action=login&service=180012291032&ownpt=weibo&oid=1000107010003">微游戏32区&gt;&gt;</a></p>
+																			
+								</div>
+																												<span class="box_hr"></span>
+								<p class="box_p odd_bg">
+																			<a c="4" rel="2278806545" href="http://game.weibo.com/guanjun/?action=login&service=180011091127&ownpt=weibo&oid=1000107010004" class="fl">冠军足球经理OL 127区<span class="gnone"></span></a>
+										<span class="fr">2014-09-14</span>
+																	</p>
+																												<span class="box_hr"></span>
+								<p class="box_p even_bg">
+																			<a c="4" rel="3631677399" href="http://game.weibo.com/baxishijiebei?action=login&service=180012121038&ownpt=weibo&oid=1000107010004" class="fl">2014巴西世界杯 38区<span class="gpopular"></span></a>
+										<span class="fr">2014-09-13</span>
+																	</p>
+																												<span class="box_hr"></span>
+								<p class="box_p odd_bg">
+																			<a c="4" rel="3207876985" href="http://game.weibo.com/fantexilanqiujingli2?action=login&service=180012181032&ownpt=weibo&oid=1000107010004" class="fl">兄弟篮球贰 28区<span class="gnone"></span></a>
+										<span class="fr">2014-09-22</span>
+																	</p>
+																		</div>
+
+					<div class="box box_3">
+						<h3 class="tit_h3">扑克麻将</h3>
+																					<div class="pic">
+									<a c="4" rel="2500843143" href="http://game.weibo.com/texaspoker?oid=1000107010005" class="pic_a">
+										<img src="http://ww3.sinaimg.cn/large/6b6539afjw1dsbx8x6xxbj.jpg" alt="德克萨斯扑克">
+									</a>
+									<h4 class="tit_h4">
+										<a c="4" rel="2500843143" href="http://game.weibo.com/texaspoker?oid=1000107010005">德克萨斯扑克</a>
+										<span class="ghot"></span>
+									</h4>
+
+
+																			<p class="gray">当前玩家：<span class="orange">23323165</span>人</p>
+									
+								</div>
+																												<span class="box_hr"></span>
+								<p class="box_p odd_bg">
+																			<a c="4" rel="2390891729" href="http://game.weibo.com/happy21?oid=1000107010006" class="fl">欢乐21点<span class="gnone"></span></a>
+										<span class="fr">当前<span class="orange">29401</span>玩家</span>
+																	</p>
+																												<span class="box_hr"></span>
+								<p class="box_p even_bg">
+																			<a c="4" rel="3431555917" href="http://game.weibo.com/kaixinmj?oid=1000107010006" class="fl">开心麻將<span class="gnone"></span></a>
+										<span class="fr">当前<span class="orange">1444045</span>玩家</span>
+																	</p>
+																												<span class="box_hr"></span>
+								<p class="box_p odd_bg">
+																			<a c="4" rel="865369181" href="http://game.weibo.com/jj_lord?oid=1000107010006" class="fl">JJ斗地主<span class="gnone"></span></a>
+										<span class="fr">当前<span class="orange">1361418</span>玩家</span>
+																	</p>
+																		</div>
+
+					<div class="box box_4">
+						<h3 class="tit_h3">角色扮演</h3>
+																					<div class="pic">
+									<a c="4" rel="1896804107" href="http://game.weibo.com/sanguomingjiang?action=login&service=180012031115&ownpt=weibo&oid=1000107010007" class="pic_a">
+										<img src="http://ww3.sinaimg.cn/large/736a8bf2jw1ec1kdbvk4lj2028028745.jpg" alt="三国名将">
+									</a>
+									<h4 class="tit_h4">
+										<a c="4" rel="1896804107" href="http://game.weibo.com/sanguomingjiang?action=login&service=180012031115&ownpt=weibo&oid=1000107010007">三国名将</a>
+										<span class="gnew"></span>
+									</h4>
+
+
+																														<p class="gray">最新开服：<a title="微游戏115区" href="http://game.weibo.com/sanguomingjiang?action=login&service=180012031115&ownpt=weibo&oid=1000107010007">微游戏115区&gt;&gt;</a></p>
+																			
+								</div>
+																												<span class="box_hr"></span>
+								<p class="box_p odd_bg">
+																			<a c="4" rel="1959948215" href="http://game.weibo.com/aojian2?action=login&service=180012341027&ownpt=weibo&oid=1000107010008" class="fl">傲剑2 27区<span class="gnone"></span></a>
+										<span class="fr">2014-09-13</span>
+																	</p>
+																												<span class="box_hr"></span>
+								<p class="box_p even_bg">
+																			<a c="4" rel="3951524811" href="http://game.weibo.com/kuaidaxiyou?action=login&service=180012271016&ownpt=weibo&oid=1000107010008" class="fl">快打西游OL 16区<span class="gnone"></span></a>
+										<span class="fr">2014-09-11</span>
+																	</p>
+																												<span class="box_hr"></span>
+								<p class="box_p odd_bg">
+																			<a c="4" rel="3634294922" href="http://game.weibo.com/xianxiadao?action=login&service=180012101049&ownpt=weibo&oid=1000107010008" class="fl">仙侠道OL 49区<span class="gnone"></span></a>
+										<span class="fr">2014-09-04</span>
+																	</p>
+																		</div>
+
+				</div>
+
+				<!--文字链 结束-->
+
+		</div>
+		<!-- 首页二三屏0823新加 开始 -->
+		<div class="index_second" id="hotPerfectProBox">
+			<div class="leftsidebar_wrap">
+				<div class="leftsidebar" id="hotPerfectProList">
+				</div>
+			</div>
+			<textarea style="display: none;" id="hotPerfectProInfo">
+				<h2 class="tit hot_boutique"><span>热门精品</span></h2>
+										<div class="box_tu">
+						<a href="http://game.weibo.com/datianshizhijian?oid=1000107110001" title="大天使之剑" target="_blank" class="a_big" title="gameName">
+							<img src="http://ww3.sinaimg.cn/large/736a8bf2jw1ejb4916na7j205v08kwfw.jpg" alt="大天使之剑"  class="img" >
+						</a>
+						<div class="detail">
+							<a href="http://game.weibo.com/datianshizhijian?oid=1000107110001" title="大天使之剑" target="_blank"  class="h3">大天使之剑</a>
+							<p class="p">
+								震撼新服体验,给力活动不停							</p>
+							<p class="p">
+								<span class="icon"></span>
+								<a href="http://game.weibo.com/datianshizhijian?action=login&service=180012401007&ownpt=weibo&oid=1000107110001" target="_blank" class="special">微游特权：<span>快来参加给力活动</span>&gt;&gt;</a>
+							</p>
+							<a class="btn" target="_blank" href="http://game.weibo.com/datianshizhijian?oid=1000107110001" >开始游戏</a>
+						</div>
+					</div>
+										<div class="box_tu">
+						<a href="http://game.weibo.com/xinxianjian/home?oid=1000107110001" title="新仙剑OL" target="_blank" class="a_big" title="gameName">
+							<img src="http://ww4.sinaimg.cn/large/736a8bf2jw1ej9uo65fdwj205v08kwex.jpg" alt="新仙剑OL"  class="img" >
+						</a>
+						<div class="detail">
+							<a href="http://game.weibo.com/xinxianjian/home?oid=1000107110001" title="新仙剑OL" target="_blank"  class="h3">新仙剑OL</a>
+							<p class="p">
+								爱恨情仇仙剑缘							</p>
+							<p class="p">
+								<span class="icon"></span>
+								<a href="http://game.weibo.com/xinxianjian?server=89&oid=1000107110001" target="_blank" class="special">微游特权：<span>快来参加哟</span>&gt;&gt;</a>
+							</p>
+							<a class="btn" target="_blank" href="http://game.weibo.com/xinxianjian/home?oid=1000107110001" >开始游戏</a>
+						</div>
+					</div>
+										<div class="box_tu">
+						<a href="http://game.weibo.com/juezhangaodaol?oid=1000107110001" title="高达online" target="_blank" class="a_big" title="gameName">
+							<img src="http://ww4.sinaimg.cn/large/736a8bf2jw1ekhn1a02yvj205v08kwf7.jpg" alt="高达online"  class="img" >
+						</a>
+						<div class="detail">
+							<a href="http://game.weibo.com/juezhangaodaol?oid=1000107110001" title="高达online" target="_blank"  class="h3">高达online</a>
+							<p class="p">
+								高达ol震撼体验							</p>
+							<p class="p">
+								<span class="icon"></span>
+								<a href="http://game.weibo.com/juezhangaodaol?action=login&service=180012201002&oid=1000107110001" target="_blank" class="special">微游特权：<span>点击了解详情</span>&gt;&gt;</a>
+							</p>
+							<a class="btn" target="_blank" href="http://game.weibo.com/juezhangaodaol?oid=1000107110001" >开始游戏</a>
+						</div>
+					</div>
+								</textarea>
+
+			<div class="rightsidebar">
+				<h2 class="tit rank_list">
+					<span class="left">24小时热门榜</span>
+					<span class="right" id="wyxHotRankTabBox">
+						<em class="all current" id="wyxHotRankAllTab" dex="all">全部</em>
+						<em class="new" id="wyxNewGameTab" dex="newgame">新游戏</em>
+					</span>
+				</h2>
+				<ul class="ul" id="wyxHotRankAllList">
+										<li>
+						<em class="status_fair"></em>
+						<a href="http://game.weibo.com/datianshizhijian?oid=1000107110002" target="_blank" c="4" rel="1717824507">大天使之剑</a>
+					</li>
+										<li>
+						<em class="status_up"></em>
+						<a href="http://game.weibo.com/texaspoker?oid=1000107110003" target="_blank" c="4" rel="2500843143">德克萨斯扑克</a>
+					</li>
+										<li>
+						<em class="status_up"></em>
+						<a href="http://game.weibo.com/aojian2?oid=1000107110003" target="_blank" c="4" rel="1959948215">傲剑2</a>
+					</li>
+										<li>
+						<em class="status_up"></em>
+						<a href="http://game.weibo.com/menghuijianghu?oid=1000107110003" target="_blank" c="4" rel="568538955">梦回江湖</a>
+					</li>
+										<li>
+						<em class="status_up"></em>
+						<a href="http://game.weibo.com/tthaizeiwang?oid=1000107110003" target="_blank" c="4" rel="3710045013">天天海贼王</a>
+					</li>
+										<li>
+						<em class="status_up"></em>
+						<a href="http://game.weibo.com/dahanghaisj?oid=1000107110003" target="_blank" c="4" rel="1828077322">大航海传奇</a>
+					</li>
+										<li>
+						<em class="status_up"></em>
+						<a href="http://game.weibo.com/tdhaizei?oid=1000107110003" target="_blank" c="4" rel="3768703082">塔防海贼王</a>
+					</li>
+										<li>
+						<em class="status_up"></em>
+						<a href="http://game.weibo.com/shenyuan?oid=1000107110003" target="_blank" c="4" rel="3251845288">深渊</a>
+					</li>
+										<li>
+						<em class="status_down"></em>
+						<a href="http://game.weibo.com/huoyingrenzhe?oid=1000107110003" target="_blank" c="4" rel="1333682350">火影疾风坛</a>
+					</li>
+										<li>
+						<em class="status_up"></em>
+						<a href="http://game.weibo.com/rexue11?oid=1000107110003" target="_blank" c="4" rel="29007707">热血11人</a>
+					</li>
+									</ul>
+			</div>
+
+		</div>
+
+				<a target="_blank" id="indexImgBannerBox"  class="index_banner" title="新浪页游助手" href="http://dl.games.sina.com.cn/game/wyx-sinagame.exe?oid=1000107110004">
+		</a>
+		<textarea style="display: none;" id="indexImgBannerInfo">
+			<img src="http://ww3.sinaimg.cn/large/736a8bf2jw1eiso2iyj8pj20rs03g3zx.jpg" alt="新浪页游助手"/>
+		</textarea>
+		
+		<div class="index_third" id="clubAndServerBox">
+			<div class="leftsidebar" id="clubNewStroyBox">
+			</div>
+			<textarea style="display: none;" id="clubNewStroyInfo">
+				<h3 class="tit tit_club_fangle"><span>社区新鲜事</span></h3>
+				<div class="inner">
+					<div class="club_banner">
+						<a class="club_a" title="对不起，我不是故意那么奇葩的" href="http://game.weibo.com/club/read-1056889-1?oid=1005101010019" target="_blank">
+							<img class="img" src="http://ww2.sinaimg.cn/large/736a8bf2jw1ekl2lbgp2qj209g0823zn.jpg" alt="对不起，我不是故意那么奇葩的">
+						</a>
+						<div class="detail">
+							<a class="game_name" href="http://game.weibo.com/club/read-1056889-1?oid=1005101010019" title="对不起，我不是故意那么奇葩的" target="_blank">对不起，我不是故意那么奇葩的</a>
+							<p>每个人的童年都迥然不同,你还记得小时候干过的奇葩事情吗,一起来说说看吧!<a href="http://game.weibo.com/club/read-1056889-1?oid=1005101010019" target="_blank">[详细]</a></p>
+						</div>
+					</div>
+					<div class="club_list">
+												<dl class="dl" title="《火影传说》屌丝930w战力怒收十尾" href="http://game.weibo.com/club/read-1055519-1?oid=1005101010020" target="_blank">
+							<dt><a href="http://game.weibo.com/club/read-1055519-1?oid=1005101010020" target="_blank" title="《火影传说》屌丝930w战力怒收十尾" >《火影传说》屌丝930w战力怒收十尾</a></dt>
+							<dd>斑的位置最好是我爱罗，初代也不错。 我爱罗 大大提高了对BOSS的容错率，过十尾利器！比斑好用1万倍！！！ <a href="http://game.weibo.com/club/read-1055519-1?oid=1005101010020" target="_blank">[详细]</a></dd>
+						</dl>
+												<dl class="dl" title="《TOUCH》彩蛋合成以及变身文字" href="http://game.weibo.com/club/read-1053070-1?oid=1005101010020" target="_blank">
+							<dt><a href="http://game.weibo.com/club/read-1053070-1?oid=1005101010020" target="_blank" title="《TOUCH》彩蛋合成以及变身文字" >《TOUCH》彩蛋合成以及变身文字</a></dt>
+							<dd>为了简洁版面以及所有玩家可能不知道的合成物、交互动作以及变身魔法等是由哪个彩蛋获得的, 皮皮特别制定了简单易懂的文字表格...<a href="http://game.weibo.com/club/read-1053070-1?oid=1005101010020" target="_blank">[详细]</a></dd>
+						</dl>
+												<dl class="dl" title="《塔防海贼王》红达斯琪 + 裸装娜美领衔主演" href="http://game.weibo.com/club/read-1050800-1?oid=1005101010020" target="_blank">
+							<dt><a href="http://game.weibo.com/club/read-1050800-1?oid=1005101010020" target="_blank" title="《塔防海贼王》红达斯琪 + 裸装娜美领衔主演" >《塔防海贼王》红达斯琪 + 裸装娜美</a></dt>
+							<dd>没有拿红达斯其的同学们，你们造吗？你们有多亏！红达斯其的天赋技能不是吹的<a href="http://game.weibo.com/club/read-1050800-1?oid=1005101010020" target="_blank">[详细]</a></dd>
+						</dl>
+											</div>
+				</div>
+			</textarea>
+			<div class="rightsidebar">
+				<h2 class="tit new_kaifu"><span>最新开服</span></h2>
+				<div class="inner" id="webGameNewestServerBox">
+				</div>
+			</div>
+		</div>
+				<div class="index_coser" id="wyxHomeCoserBlock">
+			<div class="conser_pop" id="coserTipsBox" style="display: none">
+				<h4><a href="javascript:void(0);" class="close" id="coserTipsClose"></a></h4>
+				<h5></h5>
+				<h6></h6>
+			</div>
+			<h3 class="tit">
+				<span class="tit_coser"></span>
+				<a href="http://game.weibo.com/club/read-309824-1#floor_0" class="btn" target="_blank">我要发布真人<font class="letter_show">SHOW</font></a>
+				<a href="javascript:void(0)" class="btn" id="wyxCoserToggle">换一换</a>
+			</h3>
+			<ul class="conser_cont" id="wyxCoserListBox">
+			</ul>
+			<textarea style="display:none;" id="wyxCoserListInfo">
+								<li class="module">
+					<a href="http://game.weibo.com/club/read-1055860-1?oid=1005101010022" target="_blank" class="part_left" >
+						<img src="http://ww1.sinaimg.cn/large/736a8bf2jw1ekeba5li2uj207l07l3yq.jpg" title="NaNa--Leung"/>
+					</a>
+					<div class="part_right">
+						<p class="user_info">
+							<a href="http://game.weibo.com/club/read-1055860-1?oid=1005101010022" target="_blank" title="NaNa--Leung" class="name">
+								NaNa--Leung							</a>
+													</p>
+						<a class="cont" href="http://game.weibo.com/club/read-1055860-1?oid=1005101010022" target="_blank">
+							求关注，来我唐宫梦						</a>
+																			<a href="javascript:void(0)" class="btn coser_add_flow" uid="1840376357" weibo-url="http://weibo.com/1840376357">加关注</a>
+																		</div>
+				</li>
+								<li class="module">
+					<a href="http://game.weibo.com/club/read-1051925-1?oid=1005101010022" target="_blank" class="part_left" >
+						<img src="http://ww2.sinaimg.cn/large/736a8bf2jw1ejli5qhbe4g2037037aa4.gif" title="Vernie-Hsiao"/>
+					</a>
+					<div class="part_right">
+						<p class="user_info">
+							<a href="http://game.weibo.com/club/read-1051925-1?oid=1005101010022" target="_blank" title="Vernie-Hsiao" class="name">
+								Vernie-Hsiao							</a>
+							<img class="vip-eredar" width="16px" height="14px" src="http://img.app.wcdn.cn/ops/game/style/images/center/transparent.png?v=201401021650" alt="达人" title="达人" />						</p>
+						<a class="cont" href="http://game.weibo.com/club/read-1051925-1?oid=1005101010022" target="_blank">
+							壮我大唐宫梦。。						</a>
+																			<a href="javascript:void(0)" class="btn coser_add_flow" uid="1998809454" weibo-url="http://weibo.com/1998809454">加关注</a>
+																		</div>
+				</li>
+								<li class="module">
+					<a href="http://game.weibo.com/club/read-1044526-1?oid=1005101010022" target="_blank" class="part_left" >
+						<img src="http://ww4.sinaimg.cn/large/736a8bf2jw1ei5ghn7a11j2037037mx0.jpg" title="YueeReeuY"/>
+					</a>
+					<div class="part_right">
+						<p class="user_info">
+							<a href="http://game.weibo.com/club/read-1044526-1?oid=1005101010022" target="_blank" title="YueeReeuY" class="name">
+								YueeReeuY							</a>
+							<img class="vip-eredar" width="16px" height="14px" src="http://img.app.wcdn.cn/ops/game/style/images/center/transparent.png?v=201401021650" alt="达人" title="达人" />						</p>
+						<a class="cont" href="http://game.weibo.com/club/read-1044526-1?oid=1005101010022" target="_blank">
+							嗯哼哈啊哟~~~跟随我们皮皮的脚步						</a>
+																			<a href="javascript:void(0)" class="btn coser_add_flow" uid="1787193530" weibo-url="http://weibo.com/1787193530">加关注</a>
+																		</div>
+				</li>
+								<li class="module">
+					<a href="http://game.weibo.com/club/read-1050466-1?oid=1005101010022" target="_blank" class="part_left" >
+						<img src="http://ww3.sinaimg.cn/large/736a8bf2jw1ejatq5l88xj2037037mx0.jpg" title="鹿默笙i"/>
+					</a>
+					<div class="part_right">
+						<p class="user_info">
+							<a href="http://game.weibo.com/club/read-1050466-1?oid=1005101010022" target="_blank" title="鹿默笙i" class="name">
+								鹿默笙i							</a>
+													</p>
+						<a class="cont" href="http://game.weibo.com/club/read-1050466-1?oid=1005101010022" target="_blank">
+							流光容易把人抛，红了樱桃，绿了芭蕉。						</a>
+																			<a href="javascript:void(0)" class="btn coser_add_flow" uid="5226470559" weibo-url="http://weibo.com/5226470559">加关注</a>
+																		</div>
+				</li>
+								<li class="module">
+					<a href="http://game.weibo.com/club/read-1042660-1?oid=1005101010022" target="_blank" class="part_left" >
+						<img src="http://ww2.sinaimg.cn/large/736a8bf2jw1ej0mm40ey0j2037037jr8.jpg" title="大雅妹纸"/>
+					</a>
+					<div class="part_right">
+						<p class="user_info">
+							<a href="http://game.weibo.com/club/read-1042660-1?oid=1005101010022" target="_blank" title="大雅妹纸" class="name">
+								大雅妹纸							</a>
+													</p>
+						<a class="cont" href="http://game.weibo.com/club/read-1042660-1?oid=1005101010022" target="_blank">
+							高清美女哦~						</a>
+																			<a href="javascript:void(0)" class="btn coser_add_flow" uid="2196216775" weibo-url="http://weibo.com/2196216775">加关注</a>
+																		</div>
+				</li>
+								<li class="module">
+					<a href="http://game.weibo.com/club/read-1042864-1?oid=1005101010022" target="_blank" class="part_left" >
+						<img src="http://ww3.sinaimg.cn/large/736a8bf2jw1ek62h1brybg2037037q30.gif" title="lillianzzzzz"/>
+					</a>
+					<div class="part_right">
+						<p class="user_info">
+							<a href="http://game.weibo.com/club/read-1042864-1?oid=1005101010022" target="_blank" title="lillianzzzzz" class="name">
+								lillianzzzzz							</a>
+							<img class="vip-eredar" width="16px" height="14px" src="http://img.app.wcdn.cn/ops/game/style/images/center/transparent.png?v=201409021609" alt="达人" title="达人" />						</p>
+						<a class="cont" href="http://game.weibo.com/club/read-1042864-1?oid=1005101010022" target="_blank">
+							新朋友旧朋友都来捧个场~ 						</a>
+																			<a href="javascript:void(0)" class="btn coser_add_flow" uid="1794996920" weibo-url="http://weibo.com/1794996920">加关注</a>
+																		</div>
+				</li>
+							</textarea>
+		</div>
+				<div class="all_game" id="homePageAllGameBox">
+			<h2 class="tit tit_all_game"><span></span></h2>
+			<div class="inner">
+				<div class=" all_game_new_content" id="homePageNewOnlineBox">
+				</div>
+			</div>
+			<textarea style="display: none;" id="pageNewOnlineInfo">
+									<div class=" all_game_new">
+						<div class="tu">
+							<a href="http://game.weibo.com/rexue11?oid=1000107110007" target="_blank" class="tu_a" title="热血11人" >
+								<img src="http://ww1.sinaimg.cn/large/736a8bf2jw1ejc75557p0j203e02qdfx.jpg" alt="热血11人">
+							</a>
+							<div class="btn_prompt_wrap">
+								<a href="http://game.weibo.com/rexue11?oid=1000107110007" class="btn_prompt" target="_blank"></a>
+							</div>
+						</div>
+						<div class="intro">
+							<span class="orange">最新上线</span>
+							<a href="http://game.weibo.com/rexue11?oid=1000107110007" target="_blank" class="name" title="热血11人">热血11人</a>
+							<span class="type">模拟经营类</span>
+						</div>
+					</div>
+									<div class=" all_game_new">
+						<div class="tu">
+							<a href="http://game.weibo.com/datianshizhijian?oid=1000107110007" target="_blank" class="tu_a" title="大天使之剑" >
+								<img src="http://ww1.sinaimg.cn/large/736a8bf2jw1ejc75m3ji8j203e02qt8u.jpg" alt="大天使之剑">
+							</a>
+							<div class="btn_prompt_wrap">
+								<a href="http://game.weibo.com/datianshizhijian?oid=1000107110007" class="btn_prompt" target="_blank"></a>
+							</div>
+						</div>
+						<div class="intro">
+							<span class="orange">最新上线</span>
+							<a href="http://game.weibo.com/datianshizhijian?oid=1000107110007" target="_blank" class="name" title="大天使之剑">大天使之剑</a>
+							<span class="type">角色扮演类</span>
+						</div>
+					</div>
+									<div class=" all_game_new">
+						<div class="tu">
+							<a href="http://game.weibo.com/juezhangaodaol?oid=1000107110007" target="_blank" class="tu_a" title="高达online" >
+								<img src="http://ww4.sinaimg.cn/large/736a8bf2jw1ekhmzq8o98j203e02qa9z.jpg" alt="高达online">
+							</a>
+							<div class="btn_prompt_wrap">
+								<a href="http://game.weibo.com/juezhangaodaol?oid=1000107110007" class="btn_prompt" target="_blank"></a>
+							</div>
+						</div>
+						<div class="intro">
+							<span class="orange">最新上线</span>
+							<a href="http://game.weibo.com/juezhangaodaol?oid=1000107110007" target="_blank" class="name" title="高达online">高达onli</a>
+							<span class="type">角色扮演类</span>
+						</div>
+					</div>
+									<div class=" all_game_new">
+						<div class="tu">
+							<a href="http://game.weibo.com/tanggongmeng?oid=1000107110007" target="_blank" class="tu_a" title="唐宫梦" >
+								<img src="http://ww2.sinaimg.cn/large/736a8bf2jw1efxg0fdp8yj203e02q0sp.jpg" alt="唐宫梦">
+							</a>
+							<div class="btn_prompt_wrap">
+								<a href="http://game.weibo.com/tanggongmeng?oid=1000107110007" class="btn_prompt" target="_blank"></a>
+							</div>
+						</div>
+						<div class="intro">
+							<span class="orange">最新上线</span>
+							<a href="http://game.weibo.com/tanggongmeng?oid=1000107110007" target="_blank" class="name" title="唐宫梦">唐宫梦</a>
+							<span class="type">角色扮演类</span>
+						</div>
+					</div>
+							</textarea>
+			<div class="game_type">
+				<ul class="tit_type" id="allGamesTabsBox">
+					<li class="current" id="all"><a href="javascript:void(0);">全部</a></li>
+					<li id="operate"><a href="javascript:void(0);">模拟</a></li>
+					<li id="tactics"><a href="javascript:void(0);">策略</a></li>
+					<li id="rollplay"><a href="javascript:void(0);">角色</a></li>
+					<li id="chess"><a href="javascript:void(0);">棋牌</a></li>
+					<li id="puz"><a href="javascript:void(0);">休闲</a></li>
+					<li id="singlegame"><a href="javascript:void(0);" >单机</a></li>
+				</ul>
+				<div class="detail">
+					<div class="inner">
+						<span class="arrow_left arrow_left_gray" id="goLeftBtn"></span>
+						<span class="arrow_right" id="goRightBtn"></span>
+						<div class="list_wrap">
+							<ul class="list" id="allGamesListBox">
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 首页二三屏0823新加 结束 -->
+	</div>		<!-- mian  end-->
+</div>		<!-- contenter  end-->
+<!--custom guide start-->
+<script type="text/javascript">
+	var pageType = "home";
+	var $newUserStatus = 0 //是否显示新手引导
+</script>
+
+<script type="text/javascript">
+   try{WYX.innerNavGlobal.init({'avatar':0,isLogin:$topParams['islogin'],loginOutUrl:location.protocol+'//'+location.hostname+location.pathname,myUid:$topParams['uid']}); }catch(e){}
+</script>
+<div class="wyx-common-footer">
+	<div class="footer-main">
+    	<div class="footer-details">
+        	<div class="sort find">
+            	<h3></h3>
+                <ul>
+                	<li><a href="http://game.weibo.com" target="_blank">微游戏首页</a></li>
+                    <li><a href="http://game.weibo.com/webgame" target="_blank" title="网页游戏">网页游戏大全</a></li>
+                </ul>
+            </div>
+            <div class="sort play">
+           		<h3></h3>
+                <ul>
+                	<li><a href="http://game.weibo.com/club" target="_blank">微游社区</a></li>
+                    <li><a href="http://game.weibo.com/avatar?oid=1000105210006" target="_blank">微Me</a></li>
+                </ul>
+            </div>
+            <div class="sort help">
+            	<h3></h3>
+                <ul>
+                    <li><a href="http://game.weibo.com/vip" target="_blank">VIP服务</a></li>
+                    <li><a href="http://game.weibo.com/kefu" target="_blank">联系客服</a></li>
+                </ul>
+            </div>
+            <div class="sort family">
+            	<h3>
+                	<a href="http://food.weibo.com?origin=2047&oid=1000105610004" target="_blank" class="user_if_upgrade">微美食</a> |
+                    <a href="http://vgirl.weibo.com?origin=2049&oid=1000105610006" target="_blank" class="user_if_upgrade">微女郎</a> |
+                    <a href="http://caipiao.weibo.com?origin=2048&oid=1000105610005" target="_blank" class="user_if_upgrade">微彩票</a>
+                </h3>
+                <div class="members">
+                	<dl class="user_if_upgrade">
+                    	<dt><a class="pic" target="_blank" href="http://manhua.weibo.com?origin=2044&oid=1000105610001" title="微漫画"></a></dt>
+                        <dd><a href="http://manhua.weibo.com?origin=2044&oid=1000105610001" target="_blank">微漫画</a></dd>
+                    </dl>
+                    <dl class="user_if_upgrade">
+                    	<dt><a class="pic" target="_blank" href="http://book.weibo.com?origin=2045&oid=1000105610002" title="微读书"></a></dt>
+                        <dd><a href="http://book.weibo.com?origin=2045&oid=1000105610002" target="_blank">微读书</a></dd>
+                    </dl>
+                    <dl class="user_if_upgrade">
+                    	<dt><a class="pic" target="_blank" href="http://game.weibo.com/newqipai?oid=1000105610007" title="棋牌中心"></a></dt>
+                        <dd><a href="http://game.weibo.com/newqipai?oid=1000105610007" target="_blank">棋牌中心</a></dd>
+                    </dl>
+                </div>
+          </div>
+            <div class="sort horn">
+            	<dl class="horn-info">
+                	<dt><a href="http://e.weibo.com/weiyouxixiaolaba" target="_blank" title="微游戏小喇叭"><img src="http://img.app.wcdn.cn/ops/game/style/images/center/footer/wyx-horn-logo.jpg?v=201409051240" alt="微游戏小喇叭"/></a></dt>
+                    <dd>
+                    	<div class="horn-name"><a href="http://e.weibo.com/weiyouxixiaolaba" target="_blank">微游戏小喇叭</a></div>
+                        <p>新浪微博官方游戏平台</p>
+                        <div class="horn-flow" id="footerAddwyxHornFlow"></div>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+    	<div class="footer-bg-box"></div>
+    </div>
+</div><div class="footer_friend">
+    <div class="center">
+        <div class="content">
+            <h4 class="tit">游戏官网：</h4>
+             <p class="part_right">
+                <a href="http://sskc.game.weibo.com" target="_blank">死神狂潮</a>
+                <a href="http://hy.game.weibo.com" target="_blank">火影疾风坛</a>
+                <a href="http://zuiwuji.game.weibo.com" target="_blank">最无极</a>
+                <a href="http://qijilanqiu.game.weibo.com" target="_blank">奇迹篮球</a>
+                <a href="http://op.game.weibo.com" target="_blank">塔防海贼王 </a>
+                <a href="http://bleachorl.game.weibo.com" target="_blank">死神ORL </a>
+                <div class="clear_b"></div>
+            </p>
+        </div>
+        <div class="content">
+            <h4 class="tit">友情链接：</h4>
+            <p class="part_right">
+                                        <a href="http://www.narutom.com/" target="_blank">火影忍者中文网</a>
+                            <a href="http://www.imanhua.com/" target="_blank">爱漫画</a>
+                            <a href="http://web.pcgames.com.cn/" target="_blank">太平洋游戏网页游戏</a>
+                            <a href="http://www.86wan.com/" target="_blank">86wan</a>
+                            <a href="http://www.juxia.com/" target="_blank">聚侠网</a>
+                            <a href="http://www.xindm.cn" target="_blank">新动漫</a>
+                            <a href="http://www.tuku.cc" target="_blank">在线漫画</a>
+                            <a href="http://ol.tgbus.com/" target="_blank">巴士网游</a>
+                            <a href="http://www.xxdm.com/" target="_blank">动画网</a>
+                            <a href="http://www.58dm.com/" target="_blank">动画片大全</a>
+                            <a href="http://www.ceowan.com/" target="_blank">CEO玩</a>
+                            <a href="http://game.163.com/" target="_blank">网易游戏</a>
+                            <a href="http://www.25pp.com" target="_blank">苹果游戏</a>
+                            <a href="http://game.91.com/" target="_blank">手机游戏</a>
+                            <a href="http://game.hiapk.com/" target="_blank">安卓游戏</a>
+                            <a href="http://www.996.com/" target="_blank">996手游网</a>
+                            <a href="http://www.40407.com/" target="_blank">40407网页游戏</a>
+                            <a href="http://www.6711.com/" target="_blank">6711游戏</a>
+                            <a href="http://game.weibo.com/juezhangaodaol" target="_blank">高达online</a>
+                            <a href="http://game.weibo.com/lvyinzhanshen" target="_blank">绿茵战神</a>
+                            <a href="http://www.uc129.com/" target="_blank">红色警戒</a>
+                            <a href="http://news.17173.com/" target="_blank">17173</a>
+                            <a href="http://www.10339.com/" target="_blank">手机游戏</a>
+                            <a href="http://kf.07073.com/" target="_blank">网页游戏开服表</a>
+                            <a href="http://www.shouji56.com/" target="_blank">56手机游戏</a>
+                            <a href="http://game.weibo.com/tanggongmeng" target="_blank">唐宫梦</a>
+                            <a href="http://www.laohu.com/" target="_blank">老虎游戏</a>
+                            <a href="http://www.15153.com/" target="_blank">15153手游网</a>
+                            <a href="http://wanwan.sina.com.cn/" target="_blank">玩玩游戏</a>
+                            <a href="http://games.sina.com.cn/" target="_blank">新浪游戏</a>
+                            <a href="http://game.weibo.com/nihuawocai" target="_blank">你画我猜</a>
+                            <a href="http://game.weibo.com/jj_lord" target="_blank">JJ斗地主</a>
+                            <a href="http://game.weibo.com/sanguosha/" target="_blank">三国杀online</a>
+                            <a href="http://game.weibo.com/datianshizhijian" target="_blank">大天使之剑</a>
+                            <div class="clear_b"></div>
+            </p>
+        </div>
+    </div>
+</div><div id="footerSimple" class="footer fsimple">
+    <div class="bg"></div>
+    <div class="main clearfix">
+		<div class="footercont">
+			<p class="W_linkb">
+				<a href="http://game.weibo.com/help/?origin=2008">帮助</a>
+				<a href="http://weibo.com/weiyouxixiaolaba" target="_blank">官方微博</a>
+				<a href="http://open.weibo.com/game" target="_blank">微游戏开放平台</a>
+				<a href="http://weibo.com/pub/verified" target="_blank">微博认证及合作</a>
+				<a href="http://news.sina.com.cn/guide/" target="_blank">新浪网导航</a>
+				<a href="http://game.weibo.com/home/user/authInfo" target="_blank">未成年人家长监护</a>
+				<a href="http://game.weibo.com/home/user/authInput" target="_blank">游戏防沉迷</a>
+			</p>
+			<p class="copyright"><span>北京微梦创科网络技术有限公司 <a target="_blank" href="http://weibo.com/aj/static/jww.html?_wv=5" class="JWW_num" style="margin:0px 15px;">京网文[2011]0398-130号</a> 京ICP证100780号</span>Copyright &copy; 1996-2014 SINA</p>
+		</div>
+    </div>
+</div>
+<script type="text/javascript" src="http://js.app.wcdn.cn/ops/game/js/center/libs/jquery-1.7.2.minlist.js?v=201409051240"></script>
+<script type="text/javascript" src="http://js1.app.wcdn.cn/ops/game/js/center/libs/switchable/jquery.switchable.minlist.js?v=201409051240"></script>
+<script type="text/javascript" src="http://js.app.wcdn.cn/ops/game/js/center/libs/jquery.seeIt.minlist.js?v=201409051240"></script>
+<script type="text/javascript" src="http://js1.app.wcdn.cn/ops/game/js/center/ui-all.minlist.js?v=201409051240"></script>
+<script type="text/javascript" src="http://js.app.wcdn.cn/ops/game/js/center/friday/wyx.indexFlashCover.minlist.js?v=201409051240"></script>
+<script type="text/javascript" src="http://js1.app.wcdn.cn/ops/game/js/center/friday/wyx.pagefinder.minlist.js?v=201409051240"></script>
+<script type="text/javascript" src="http://js.app.wcdn.cn/ops/game/js/signup/upgrade/toUserUpgrade.minlist.js?v=201310161321"></script>
+
+<script>
+upgradeIdentity.init();
+</script>
+</body>
+
+<script type="text/javascript">
+var _gaq = _gaq || [];//google 统计
+_gaq.push(['_setAccount', 'UA-24090044-1']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+    var ga = document.createElement('script');
+    ga.type = 'text/javascript';
+    ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+
+<!-- SUDA_CODE_START -->
+<script src="http://tjs.sjs.sinajs.cn/t35/platform/static/js/suda_wb_v851c.js?version=1322560426" type="text/javascript"></script>
+<script type="text/javascript" >
+_S_pSt(_S_PID_);
+</script>
+<noScript>
+<div style='position:absolute;top:0;left:0;width:0;height:0;visibility:hidden'><img width=0 height=0 src='http://beacon.sina.com.cn/a.gif?noScript' border='0' alt='' /></div>
+</noScript>
+<!-- SUDA_CODE_END -->
+
+</body>
+</html>

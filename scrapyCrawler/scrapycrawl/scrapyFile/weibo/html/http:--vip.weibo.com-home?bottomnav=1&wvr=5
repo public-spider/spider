@@ -1,0 +1,473 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="http://weibo.com/favicon.ico">
+<title>新浪微博会员—精彩你的微博生活！</title>
+<script type="text/javascript">
+var $CONFIG = {};
+$CONFIG['islogin'] = 1,
+$CONFIG['setCover'] = 1;//ie6hack
+$CONFIG['oid'] = '5060400438';
+$CONFIG['onick'] = 'temp_test_try';
+$CONFIG['allowConnect'] = 'false';
+$CONFIG['uid'] = '5060400438';
+$CONFIG['nick'] = 'temp_test_try';
+$CONFIG['domain'] = '5060400438';
+$CONFIG['name'] = 'temp_test_try';
+$CONFIG['icon'] = 'http://tp3.sinaimg.cn/5060400438/50/0/1';
+$CONFIG['user_version'] = '5';
+$CONFIG['$webim'] = 1;
+$CONFIG['version'] = '201409210746';
+$CONFIG['bigpipe'] = 'false';
+$CONFIG['timeDiff'] = (new Date() - 1411378378000);
+$CONFIG['product'] = 'v4mblog';
+$CONFIG['pageid'] = 'home';
+$CONFIG['skin'] = 'default';
+$CONFIG['background'] = ""; 
+$CONFIG['scheme'] = ""; 
+$CONFIG['lang'] = 'zh-cn';
+$CONFIG['jsPath'] = 'http://js.t.sinajs.cn/t5/';
+$CONFIG['cssPath'] = 'http://img.t.sinajs.cn/t4/';
+$CONFIG['imgPath'] = 'http://img.t.sinajs.cn/t4/';
+$CONFIG['servertime'] = 1411378378;
+$CONFIG['any'] = "";
+</script><script src="http://js.t.sinajs.cn/STK/theia/js/theia_1_4.js?version=201409210746" type="text/javascript"></script>
+<script type="text/javascript" src="http://js.t.sinajs.cn/t4/home/js/public/topInit.js"></script>
+<link href="http://img.t.sinajs.cn/t4/appstyle/public/css/module/base/frame.css?version=201409210746" type="text/css" rel="stylesheet" charset="utf-8" />
+<link href="http://img.t.sinajs.cn/t4/appstyle/vip/skin/default/skin.css?version=201409210746" type="text/css" rel="stylesheet" charset="utf-8" />
+<link href="http://img.t.sinajs.cn/t4/appstyle/vip/css/module/global/common.css?version=201409210746" type="text/css" rel="stylesheet" charset="utf-8" />
+	<link href="http://img1.t.sinajs.cn/t4/appstyle/vip/css/pages/home/home.css?version=201409210746" type="text/css" rel="stylesheet" charset="utf-8" />
+<link href="http://img1.t.sinajs.cn/t4/appstyle/vip/css/patch/update/update.css?version=201409210746" type="text/css" rel="stylesheet" charset="utf-8" /></head>
+<body class="W_vip_home">
+<!--顶部导航-->
+<div class="global_header" id="weibo_top_public"></div>
+<script type="text/javascript">
+WBtopGlobal && WBtopGlobal.init({
+	  name: $CONFIG['nick'],
+	  uid: $CONFIG['uid'],
+	  any: $CONFIG['any'],
+	  islogin: $CONFIG['islogin'],
+	  icon: $CONFIG['icon'],
+	  lang: $CONFIG['lang'],
+	  verified: $CONFIG['verified'],
+	  verify: $CONFIG['verify'],
+	_wv: $CONFIG['user_version']
+	});	
+</script> 
+<!--/顶部导航-->
+
+<!--首页框架-->
+<div class="frame_vip">
+ <!--pl会员顶部导航-->
+	 <div id="pl_general_top" class="pl_general_top"> <!--会员顶部导航-->
+ <div class="topnav_vip clearfix">
+ <div class="bg_A">
+ <div class="bg_B">
+  <div class="logo"><a class="img" href="/home"></a></div>
+  <div class="topnav_vip clearfix">
+ <div class="bg">
+  <div class="navlist_vip CH">
+	  <ul>
+  <li action-type="navLi"><span class="text W_f16"><a href="/home">首页</a></span></li>
+  <li action-type="navLi" style="position:relative;">
+  <span class="text W_f16"><a href="/privilege?classid=10">装扮特权</a></span>
+  <div class="layer_menu_list">
+ <ul>
+ <li><a href="/prividesc?priv=1102">专属模板</a></li>
+ <li><a href="/prividesc?priv=1116">动态模板</a></li>
+ <li><a href="/prividesc?priv=1112">自定义封面图</a></li>
+  </ul>
+  </div>
+  </li>
+  <li action-type="navLi" style="position:relative;" >
+  <span class="text W_f16"><a href="/privilege?classid=11">身份特权</a></span>
+  <div class="layer_menu_list">
+ <ul>
+ <li><a href="/prividesc?priv=1001">专属标识</a></li>
+ <li><a href="/prividesc?priv=1114">排名靠前</a></li>
+ <li><a href="/prividesc?priv=1401">游戏礼包</a></li>
+  </ul>
+  </div>
+  </li>
+  <li action-type="navLi" style="position:relative;">
+  <span class="text W_f16"><a href="/privilege?classid=12">功能特权</a></span>
+  <div class="layer_menu_list">
+ <ul>
+ <li><a href="/prividesc?priv=1107">微博置顶</a></li>
+ <li><a href="/prividesc?priv=1113">微博屏蔽</a></li>
+ <li><a href="/prividesc?priv=1115">后悔药</a></li>
+  </ul>
+  </div>
+  </li>
+  <li action-type="navLi" style="position:relative;">
+  <span class="text W_f16"><a href="/privilege?classid=13">手机特权</a></span>
+  <div class="layer_menu_list">
+ <ul>
+ <li><a href="/prividesc?priv=1205">客户端专属主题</a></li>
+ <li><a href="/prividesc?priv=1202">短信特别关注</a></li>
+ <li><a href="/prividesc?priv=1204">微博红名</a></li>
+  </ul>
+  </div>
+  </li>
+  <li action-type="navLi"><span class="text W_f16"><a href="/yearvip">年费会员</a></span></li>
+  <li action-type="navLi"><span class="text W_f16"><a href="/paycenter">支付中心</a></span></li>
+  </ul>
+  <div class="other"><a href="/personal?showall=all">个人中心&gt;&gt;</a></div>
+	  </div>
+ </div>
+  </div>
+ </div>
+ </div>
+ </div>
+ <!--/会员顶部导航--></div>
+	<!--pl会员顶部导航-->
+	<div class="vip_main">
+		<div class="v_main_Abox clearfix">
+		<div class="v_l_box">
+	<!--pl个人中心-->
+	<div id="pl_general_intro" class="pl_general_intro">
+	
+ <div class="individual_center clearfix">
+ <div class="personal_content">
+  <div class="box_con clearfix">
+  <div class="face"><a href="http://weibo.com/u/5060400438" title="temp_test_try"><img width="50" height="50" class="headpic" alt="temp_test_try" src="http://tp3.sinaimg.cn/5060400438/50/0/1" /></a></div>
+  <div class="info">
+  <div class="username"><a href="/personal?showall=all" class="center_link color_spc2 link_R">个人中心&gt;&gt;</a><span class="name W_fb W_f14"><a href="http://weibo.com/u/5060400438" title="temp_test_try">temp_test_try</a></span></div>
+  <div class="vipicons clearfix"><a href="/growth" class="center_link color_spc2 link_R">成长体系&gt;&gt;
+  <a href="/personal?showall=all"><img src="http://img.t.sinajs.cn/t4/appstyle/vip/images/common/transparent.gif" title="" alt="" class="ico_vip_overdue"></a>
+  <a href="/yearvip"><img src="http://img.t.sinajs.cn/t4/appstyle/vip/images/common/transparent.gif" title="" alt="" class="ico_year_overdue" node-type="tipNode" node-data="year"></a>
+  </div>
+  </div>
+  </div>
+  <div class="grow_value">
+  <div class="not_opened">
+  <p class="detail">开通微博会员可享受装扮、身份、功能、手机四大类特权服务</p>
+  <div class="privilege_list clearfix">
+  <ul class="clearfix notext">
+ <li><a href="/prividesc?priv=1105" title="关注上限"> <span class="p_ico func_gzsxtg"></span> </a> </li>
+ <li><a href="/prividesc?priv=1101" title="等级加速"> <span class="p_ico func_djjs"></span> </a> </li>
+ <li><a href="/prividesc?priv=1001" title="专属标识"> <span class="p_ico id_zsbz"></span> </a> </li>
+ <li><a href="/prividesc?priv=1102" title="专属模板"> <span class="p_ico drs_zsmb"></span> </a></li>
+ <li><a href="/prividesc?priv=1002" title="专属勋章"> <span class="p_ico id_zsxz"></span> </a> </li>
+ <li><a href="/prividesc?priv=1401" title="专属游戏礼包"> <span class="p_ico id_yxlb"></span> </a> </li>
+  </ul>
+  <p><a href="/privilege?showall=all" class="color_spc2 link_R morelink">更多特权&gt;&gt;</a></p>
+  </div>
+  <div class="renew clearfix"><a href="/paycenter?from=personal" class=" btn_renew"><span><b>开通会员</b></span></a><a href="/paycenter?pageid=byebank&payother=1&from=personal_others" class="color_spc2 CH link_handsel">给他人开通&gt;&gt;</a></div>
+  </div>
+  </div>
+ </div>
+  </div>
+  
+	</div>
+	<!--pl个人中心-->
+		</div>
+		<div class="v_r_box">
+	<!--pl首页tips展示-->
+	<div id="pl_home_picShow" class="pl_home_picShow">
+	<!--首页tips展示-->
+ <div class="tips_home_show clearfix">
+ <div class="tips_box">
+ 	<div class="img_show">
+ 	 	 
+	 <a href="http://vip.weibo.com/prividesc?priv=1113" node-type="pic" >	 	 	
+	 	<img height="278" width="688" src="http://ww3.sinaimg.cn/mw690/a1d3feabtw1egu5ovhbboj20j607sab6.jpg" /></a>
+	 	 
+	 <a href="http://vcard.vip.weibo.com/" node-type="pic" style="display:none;">	 	 	
+	 	<img height="278" width="688" src="http://ww4.sinaimg.cn/mw690/a1d3feabjw1ekgt8ep305j20j608cq7l.jpg" /></a>
+	 	 
+	 <a href="http://vip.weibo.com/privilege?classid=13" node-type="pic" style="display:none;">	 	 	
+	 	<img height="278" width="688" src="http://ww2.sinaimg.cn/mw690/a1d3feabjw1e9smyvph0aj20j607swg5.jpg" /></a>
+	 	 
+	 <a href="http://vip.weibo.com/prividesc?priv=1116" node-type="pic" style="display:none;">	 	 	
+	 	<img height="278" width="688" src="http://img.t.sinajs.cn/t4/appstyle/vip/images/tipsimgs/privtipsbig_dongtai.gif" /></a>
+	 	 
+	 <a href="http://vip.weibo.com/prividesc?priv=1204&from=sybanner5" node-type="pic" style="display:none;">	 	 	
+	 	<img height="278" width="688" src="http://img.t.sinajs.cn/t4/appstyle/vip/images/tipsimgs/privtipsbig_hm.jpg" /></a>
+	 	 	 	</div>
+	 	
+	 	<div class="pages_show" node-type="moveBox">
+	 	 	 
+	 	<a href="javascript:void(0);" node-type="btn" action-type="switchTo" action-data="index=0" class="current"><span>屏蔽关键词</span></a>	
+	 	 
+	 	<a href="javascript:void(0);" node-type="btn" action-type="switchTo" action-data="index=1" class=""><span>微博信用卡两周年</span></a>	
+	 	 
+	 	<a href="javascript:void(0);" node-type="btn" action-type="switchTo" action-data="index=2" class=""><span>手机特权</span></a>	
+	 	 
+	 	<a href="javascript:void(0);" node-type="btn" action-type="switchTo" action-data="index=3" class=""><span>动态模板</span></a>	
+	 	 
+	 	<a href="javascript:void(0);" node-type="btn" action-type="switchTo" action-data="index=4" class=""><span>客户端红名</span></a>	
+	 	 	 </div> 
+ </div>
+ </div>
+ <!--/首页tips展示-->
+	</div>
+	<!--/首页tips展示-->
+		</div>
+		</div>
+		<div class="v_main_Bbox clearfix">
+		<div class="v_l_box">
+	<!--pl首页特权列表-->
+	<div id="pl_home_privilege" class="pl_home_privilege">
+	<!--首页特权列表-->
+  <div id="" class="index_privilege_list clearfix">
+ <!-- 装扮特权 -->
+ <div class="plist_frame">
+  <div class="title dress_tit clearfix"><span></span><a href="/privilege?classid=10" class="CH">更多&gt;&gt;</a></div>
+  <div class="dress_con clearfix">
+  <ul class="clearfix">
+ 	  	<li><a onclick="" target="_blank" href="http://vip.weibo.com/prividesc?priv=1102"><b class="W_f14 W_fb">专属模版</b><span>精美的模版伴随配套发布框和按钮</span><img alt="" src="http://img.t.sinajs.cn/t4/appstyle/vip/images/tipsimgs/privtips_120615_005.jpg" /></a></li>
+  	  	<li><a onclick="" target="_blank" href="http://vip.weibo.com/prividesc?priv=1112"><b class="W_f14 W_fb">自定义封面图</b><span>用喜欢的图片代表你的微博态度</span><img alt="" src="http://img.t.sinajs.cn/t4/appstyle/vip/images/tipsimgs/privtips_130923_004.jpg" /></a></li>
+  	  	<li><a onclick="" target="_blank" href="http://vip.weibo.com/prividesc?priv=1005"><b class="W_f14 W_fb">七天自动换装</b><span>每天更换模板，一周不重样
+</span><img alt="" src="http://img.t.sinajs.cn/t4/appstyle/vip/images/tipsimgs/privtips_130923_005.jpg" /></a></li>
+  	 </ul>
+  </div>
+ </div>
+ <!-- /装扮特权 -->
+ <!--身份特权-->
+ <div class="plist_frame">
+  <div class="title identity_tit clearfix"><span></span><a href="/privilege?classid=11" class="CH">更多&gt;&gt;</a></div>
+  <div class="identity_con clearfix">
+  <ul class="clearfix">
+ 	  	<li><a onclick="" target="_blank" href="http://vip.weibo.com/prividesc?priv=1001"><b class="W_f14 W_fb">专属标识</b><span>会员专属标识，彰显尊贵身份</span><img alt="" src="http://img.t.sinajs.cn/t4/appstyle/vip/images/tipsimgs/privtips_120618_001.jpg" /></a></li>
+  	  	<li><a onclick="" target="_blank" href="http://vip.weibo.com/prividesc?priv=1106"><b class="W_f14 W_fb">优先推荐</b><span>不再默默刷微博，赢得更多粉丝关注</span><img alt="" src="http://img.t.sinajs.cn/t4/appstyle/vip/images/tipsimgs/privtips_120618_002.jpg" /></a></li>
+  	  	<li><a onclick="" target="_blank" href="http://vip.weibo.com/prividesc?priv=1002"><b class="W_f14 W_fb">专属勋章</b><span>会员等级勋章，收集专属荣耀</span><img alt="" src="http://img.t.sinajs.cn/t4/appstyle/vip/images/tipsimgs/privtips_120615_002.jpg" /></a></li>
+  	 </ul>
+  </div>
+ </div>
+ <!--身份特权-->
+ <!--功能特权-->
+ <div class="plist_frame">
+  <div class="title function_tit clearfix"><span></span><a href="/privilege?classid=12" class="CH">更多&gt;&gt;</a></div>
+  <div class="function_con clearfix">
+  <ul class="clearfix">
+  	  	<li><a onclick="" target="_blank" href="http://vip.weibo.com/prividesc?priv=1115"><b class="W_f14 W_fb">后悔药</b><span>别担心，帮你找回删除的微博</span><img alt="" src="http://img.t.sinajs.cn/t4/appstyle/vip/images/tipsimgs/privtips_130923_001.jpg" /></a></li>
+  	  	<li><a onclick="" target="_blank" href="http://vip.weibo.com/prividesc?priv=1107"><b class="W_f14 W_fb">微博置顶<em class="icon_vip_new"></em></b><span>我的主页有头条，重要微博来置顶</span><img alt="" src="http://img.t.sinajs.cn/t4/appstyle/vip/images/tipsimgs/privtips_120718.png" /></a></li>
+  	  	<li><a onclick="" target="_blank" href="http://vip.weibo.com/prividesc?priv=1101"><b class="W_f14 W_fb">等级加速</b><span>会员加速显神奇，等级PK王者胜</span><img alt="" src="http://img.t.sinajs.cn/t4/appstyle/vip/images/tipsimgs/privtips_120615_004.jpg" /></a></li>
+  	  </ul>
+  </div>
+ </div>
+ <!--功能特权-->
+ <!--手机特权-->
+ <div class="plist_frame">
+  <div class="title phone_tit clearfix"><span></span><a href="/privilege?classid=13" class="CH">更多&gt;&gt;</a></div>
+  <div class="phone_con clearfix">
+  <ul class="clearfix">
+  	  	<li><a onclick="" target="_blank" href="http://vip.weibo.com/prividesc?priv=1205"><b class="W_f14 W_fb">客户端模板</b><span>告别平淡，迎接精美的手机端主题</span><img alt="" src="http://img.t.sinajs.cn/t4/appstyle/vip/images/tipsimgs/privtips_130923_002.jpg" /></a></li>
+  	  	<li><a onclick="" target="_blank" href="http://vip.weibo.com/prividesc?priv=1202"><b class="W_f14 W_fb">短信特别关注</b><span>抢偶像微博“沙发”利器</span><img alt="" src="http://img.t.sinajs.cn/t4/appstyle/vip/images/tipsimgs/privtips_120615_008.jpg" /></a></li>
+  	  	<li><a onclick="" target="_blank" href="http://vip.weibo.com/prividesc?priv=1203"><b class="W_f14 W_fb">生日提醒</b><span>温馨提示，不再错过生日Party</span><img alt="" src="http://img.t.sinajs.cn/t4/appstyle/vip/images/tipsimgs/privtips_120615_009.jpg" /></a></li>
+  	  </ul>
+  </div>
+ </div>
+ <!--手机特权-->
+  </div>
+  <!--/首页特权列表-->
+	</div>
+	<!--/pl首页特权列表-->
+		</div>
+		<div class="v_r_box">
+		<!--pl微博会员介绍-->
+	<div id="pl_home_openVip" class="pl_home_openVip">
+		<!--会员热门活动-->
+<div class="rightnav_vip clearfix">
+<div class="vip_event_hot">
+	<div class="box_con1">
+	<h2>会员热门活动</h2>
+	<div class="event_list">
+		<div class="event_list_cont clearfix">
+	<div class="event_l">
+	<a href="http://vcard.vip.weibo.com/"><img src="http://ww1.sinaimg.cn/small/a1d3feabjw1ekgtedrbx4j202s02374q.jpg"
+	alt="微博信用卡"></a>
+	</div>
+	<div class="event_r">
+	<p>
+	<a href="http://vcard.vip.weibo.com/">
+	微博信用卡
+	</a>
+	</p>
+	<div class="event_oper">
+	<a href="http://vcard.vip.weibo.com/" class="btn_sml"><span>立即参与</span></a>
+	</div>
+	</div>
+	</div>
+	<div class="event_list_cont clearfix">
+	<div class="event_l">
+	<a href="http://skin.vip.weibo.com/zt?ztid=zt130902010"><img src="http://ww4.sinaimg.cn/mw690/a1d3feabtw1ef96izbz44j202s0230sj.jpg"
+	alt="等你来抱养"></a>
+	</div>
+	<div class="event_r">
+	<p>
+	<a href="http://skin.vip.weibo.com/zt?ztid=zt130902010">
+	等你来抱养
+	</a>
+	</p>
+	<div class="event_oper">
+	<a href="http://skin.vip.weibo.com/zt?ztid=zt130902010" class="btn_sml"><span>立即参与</span></a>
+	</div>
+	</div>
+	</div>
+	</div>
+	<div class="link clearfix">
+	<ul>
+	<li class="clearfix"><a href="http://huati.weibo.com/19426?order=time&from=popactivity3"
+	class="color_spc2 CH">
+	小会长信箱
+	</a></li>
+	<li class="clearfix"><a href="http://huati.weibo.com/24922?from=popactivity4"
+	class="color_spc2 CH">
+	短信特别关注
+	</a></li>
+	</ul>
+	</div>
+	</div>
+ </div>
+</div>
+<!--/会员热门活动-->
+<!--微博会员介绍-->
+<div class="rightnav_vip clearfix">
+ <div class="vip_year_col">
+	<div class="box_con2">
+	<h2>年费会员</h2>
+	<div class="ad_link">
+	<a href="/yearvip" title=""
+	class="ad_silder"><img src="http://img.t.sinajs.cn/t4/appstyle/vip/images/tipsimgs/ad_pic1.jpg?id=201208171430" alt=""
+	class="ad_pic" />
+	</a>
+	</div>
+	<p class="vip_intro clearfix">年费会员是指按年支付方式开通的微博会员。年费会员身份更尊贵、拥有更多特权！</p>
+	<p class="clearfix">
+	<a target="_blank" href="/yearvip"
+	class="year_link"><img
+	src="http://img.t.sinajs.cn/t4/appstyle/vip/images/common/transparent.gif"
+	title="" alt="" class="ico_year">
+	</a>年费会员尊享<span class="color_spc1">15点</span>/天成长速度，一次性开通一年可获得<span
+	class="color_spc1">200点</span>成长值奖励
+	</p>
+	<p class="renew clearfix">
+	<a href="/paycenter?pageid=byyear&from=home_openyear"
+	class=" btn_renew"><span><b>开通年费会员</b></span>
+	</a>
+	</p>
+	<p class="clearfix">
+	<a href="/yearvip" class="color_spc2
+	CH link_R">查看年费会员特权&gt;&gt;</a>
+	</p>
+	</div>
+</div>
+</div>
+<!--/微博会员介绍-->
+	</div>
+	<!--pl微博会员官方客服-->
+	<div id="pl_home_service" class="pl_home_service">
+		<div class="rightnav_vip clearfix">
+	<!--旧微博会员官方客服-->
+	<div class="vip_service">
+	<div class="box_con3">
+	<h2>微博会员官方客服</h2>
+	<!--单条会员头像列表-->
+	<div id="" class="face_list_one clearfix">
+	<div class="box_con">
+	<div class="face">
+	<a href="http://weibo.com/2715025067"><img
+	width="50" height="50" class="headpic" alt=""
+	src="http://tp4.sinaimg.cn/2715025067/50/0/0"
+	/>
+	</a>
+	</div>
+	<div class="info">
+	<div class="username">
+	<a href="http://weibo.com/2715025067"
+	class="W_f14 W_fb color_spc2 CH">微博会员
+	</a>
+	</div>
+	<div class="fllow clearfix">
+	<div node-type="followBtnBox" class="btnA">
+	<a href="javascript:void(0);" action-data="uid=2715025067&amp;fnick=微博会员&amp;f=1"
+		action-type="follow" class="W_addbtn"><img
+		src="http://img.t.sinajs.cn/t4/appstyle/vip/images/common/transparent.gif"
+		alt="" class="addicon"><span>加关注</span></a>
+	</div>
+	<div class="btnB">
+	<a href="javascript:void(0);" action-type="sendMessage"
+		action-data="screen_name=微博会员&amp;uid=2715025067"
+		class="W_addbtn private_letter">私信</a>
+	</div>
+	</div>
+	</div>
+	</div>
+	</div>
+	<!--/单条会员头像列表-->
+	<div class="W_bubtips clearfix">
+  <div class="W_bgcolor_arrow"><em class="W_arrline_mini">◆</em><span>◆</span></div>
+  <div class="W_bgcolor W_linecolor">
+	<!--已关注已激活-->
+	<div class="feed_box clearfix" style="display:">
+	 <p><a href="http://weibo.com/2715025067" title="" class="color_spc2">微博会员</a>:能不这么搞笑嘛亲[哈哈][哈哈]</p>
+  <div class="feed_info">9月22日 15:58</div>
+	</div>
+	<!--/已关注已激活-->
+  </div>
+ </div>
+	<div class="link clearfix">
+  <ul>
+  <li class="clearfix"><a href="http://help.weibo.com/topic/vip?refer=vip" class="wb_help"><b>会员帮助</b></a></li>
+  <li class="clearfix"><a href="http://help.weibo.com/self/query" class="wb_service"><b>微博客服专区</b></a></li>
+  </ul>
+ </div>
+	</div>
+	</div>
+	<!--/旧微博会员官方客服-->
+</div>
+	</div>
+	<!--/pl微博会员官方客服-->
+		</div>
+		</div>
+		</div>
+</div>
+<!--首页框架-->
+	<!-- 
+	<script src="http://js.t.sinajs.cn/t5/apps/vip/js/home/openVip.js?version=201409210746" type="text/javascript" ></script>
+	<script src="http://js.t.sinajs.cn/t5/apps/vip/js/home/picShow.js?version=201409210746" type="text/javascript" ></script>
+	<script src="http://js.t.sinajs.cn/t5/apps/vip/js/home/privilege.js?version=201409210746" type="text/javascript" ></script>
+	<script src="http://js.t.sinajs.cn/t5/apps/vip/js/home/service.js?version=201409210746" type="text/javascript" ></script>-->	
+<!-- 底导 -->
+<div class="global_footer">
+	<div class="other_link clearfix">
+	<div class="help_link">
+		<p>
+		<a href="http://ir.weibo.com/?bottomnav=1&wvr=5" class="ico_service" target="__blank">关于微博</a>&emsp;
+		<a href="http://help.weibo.com/topic/vip?refer=vip" target="__blank">会员帮助</a>&emsp;
+	<a href="http://weibo.com/zt/s?k=9286" target="__blank">意见反馈</a>　
+		<a href="http://open.weibo.com/" target="__blank">开放平台</a>　
+		<a href="http://hr.weibo.com" target="__blank">微博招聘</a>　
+		<a href="http://news.sina.com.cn/guide/" target="__blank">新浪网导航</a>
+		</p>
+  
+		<p>北京微梦创科网络技术有限公司&emsp;<a href="http://weibo.com/aj/static/jww.html" target="_blank">京网文[2011]0398-130号</a>&emsp;<a href="http://www.miibeian.gov.cn" target="_blank">京ICP证12002058号</a></p>
+	</div>
+	<div class="copy">
+		<p>Copyright &copy; 2009-2014 WEIBO</p>
+	</div>
+	</div>
+</div>
+<script src="http://js.t.sinajs.cn/t5/apps/vip/js/pages/home/home.js?version=201409210746" type="text/javascript" ></script>
+<!-- SUDA_CODE_START -->
+<script type='text/javascript' charset="utf-8">
+(function() {
+	var doc = document,
+	wa = doc.createElement('script'),
+	s = doc.getElementsByTagName('script')[0];
+  wa.type = 'text/javascript';
+  wa.charset = 'utf-8';
+  wa.async = true;
+  wa.src = ('https:' == doc.location.protocol ? 'https://' : 'http://') + 'js.t.sinajs.cn/open/analytics/js/suda.js?version=201409210746';
+  s.parentNode.insertBefore(wa, s);
+})();
+</script>
+<noScript>
+<img width="0" height="0" src="http://beacon.sina.com.cn/a.gif?noScript" border="0" alt="" />
+</noScript>
+<!-- SUDA_CODE_END --><!-- /底导 -->
+</body>
+</html>

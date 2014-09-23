@@ -53,7 +53,7 @@ ITEM_PIPELINES = {
 }
 #ITEM_PIPELINES = ['scrapycrawl.pipelines.WoaiduBookFile',]
 
-IMAGES_STORE = '/home/outao/Scrapy/out/scrapyCrawler/images'
+IMAGES_STORE = 'scrapyFile/weibo/images'
 IMAGES_EXPIRES = 30
 IMAGES_THUMBS = {
      'small': (50, 50),
@@ -90,7 +90,7 @@ BOOK_FILE_STORE = os.path.join(PROJECT_DIR,'media/book_files')
 
 #For more mime types about file,you can visit:
 #http://mimeapplication.net/
-BOOK_FILE_CONTENT_TYPE = ['application/file',
+BOOK_FILE_CONTENT_TYPE = ['application/weibo/file',
     'application/zip',
     'application/octet-stream',
     'application/x-zip-compressed',
@@ -140,7 +140,10 @@ LOG_FILE = "logs/scrapy.log"
 # GRAPHITE_PORT = 2003
 # GRAPHITE_IGNOREKEYS = []
 
-SingleMONGODB_SERVER = "localhost"
+#SingleMONGODB_SERVER = "127.0.0.1"
+SingleMONGODB_SERVER = "192.168.60.7"
+#REDIS_HOST = "192.168.60.7"
+REDIS_HOST="127.0.0.1"
 SingleMONGODB_PORT = 27017
 SingleMONGODB_DB = "books_fs"
 

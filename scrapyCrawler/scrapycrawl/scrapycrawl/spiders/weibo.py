@@ -41,7 +41,7 @@ class WeiboSpider(CrawlSpider):
             yield self.make_requests_from_url(url)
         
     def parse(self, response):
-        filename =response.url.replace('/','-');
+        filename ="scrapyFile/weibo/html/"+response.url.replace('/','-');
         open(filename, 'wb').write(response.body)
         
         items = []
@@ -76,7 +76,7 @@ class WeiboSpider(CrawlSpider):
         
         dbitem['time']=time.strftime('%y-%m-%d,%H:%M:%S',time.localtime(time.time()))
         
-        dbitem['store_path']=os.getcwd()+ os.sep+filename
+        dbitem['store_path']=filename
         items.append(dbitem)
        
         print "********url:%s******"%response.url

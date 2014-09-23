@@ -1,0 +1,973 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html" charset="utf-8"/>
+<meta content="音乐人" name="keywords"/>
+<meta content="" name="description"/>
+<title>我的主站-音乐人主站</title>
+<link rel="stylesheet" type="text/css" href="http://music.weibo.com/snake/css/snk_main.css?v=1"/>
+<link rel="stylesheet" type="text/css" href="http://music.weibo.com/snake/css/snk_layer.css?v=1"/>
+</head>
+<body>
+<!--header begin-->
+<div id="weibo_top_public"></div>
+<script src="http://js.t.sinajs.cn/t4/home/js/public/topInit.js?version=20120528"></script>
+<div class="header_bg">
+	<div class="header">
+<div class="logo FL"><a href="http://music.weibo.com/index.html"><img src="http://i2.sinaimg.cn/music/web/weibo2012/base/transparent.gif" /></a></div>
+    	<div id="bandstatus" class="band_status FR" mus_node="bandstatus">
+<!-- <a target="_blank" class="band_reg" href="http://music.weibo.com/snake/snk_apply.php"></a> -->
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+	var $topParams = {
+	pid:16001,
+	_wv:"5",
+	any:"&wvr",
+	islogin:0
+	};
+	WBtopGlobal && WBtopGlobal.init($topParams);
+</script>
+<iframe id="login" style="display:none" src="http://music.weibo.com/snake/login_redirect.php"></iframe>
+<div class="nav_bg">
+	<div class="navbox">
+    	<ul id="navbox" class="nav FL">
+            <li>
+            	<a href="http://music.weibo.com/index.html" class="current">
+                	<em class="txt_A">首页</em>
+                </a>
+            </li>
+            <li>
+            	<a href="http://music.weibo.com/snake/snk_rank.php">
+                	<em class="txt_B">排行榜</em>
+                </a>
+            </li>
+            <li>
+            	<a href="http://music.weibo.com/snake/snk_artists.php">
+                	<em class="txt_C">音乐人</em>
+                </a>
+            </li>
+            <li>
+            	<a href="http://music.weibo.com/snake/snk_podcast.php">
+                	<em class="txt_D">播客</em>
+                </a>
+            </li>
+            <li style="display:none">
+            	<a href="#">
+                	<em class="txt_E">演出</em>
+                </a>
+            </li>
+            <li>
+            	<a href="http://music.weibo.com/snake/snk_user.php">
+                	<em class="txt_F">我的音乐</em>
+                </a>
+            </li>
+            <li id="setting" style="display:none">
+            	<a href="http://music.weibo.com/snake/snk_setting.php">
+                	<em class="txt_F">个人设置</em>
+                </a>
+            </li>
+        </ul>
+        <div class="search_A mt5 mr10 FR">
+        	<div class="clearfix">
+                <input type="text" class="current" mus_act="searchinput">
+                <a href="javascript:;" class="btn"  mus_act="searchbtn"></a>
+            </div>
+            <div class="searchlist none" mus_node="searchresult"></div>
+        </div>
+    </div>
+</div>
+<script>
+try{
+var murl = window.location.href;
+var list = ['index.html','/rank/','snk_artists.php','snk_podcast.php','performace.php','snk_user','snk_setting.php'];
+var navTab = document.getElementById("navbox").getElementsByTagName('a');
+for(var e in list){
+	if(murl.search(list[e]) != -1){
+		navTab[e].className = 'current';
+		break;
+	}else{
+		navTab[e].className = '';
+	}
+}
+}catch(e){
+}
+</script><!--header End-->
+<div class="W_main color_A">
+	<div class="path ml20">
+    	<ul class="clearfix">
+        	<li><a href="http://music.weibo.com/">首页</a></li>
+            <li>&gt;</li>
+            <li>吐槽2014-老T</li>
+        </ul>
+    </div>
+</div>
+<!--主体 begin-->
+<div class="W_main clearfix color_A">
+	<div class="mlr15 pt25">
+    	<!-- 音乐人信息 Begin -->
+    	<div class="information PR">
+            <dl class="clearfix">
+                <dt>
+                    <a href="#"><img class="img180" src="http://weiyinyue.music.sina.com.cn/movie_game/1408728910661.jpg"></a>
+                </dt>
+                    <dd class="name bold">吐槽2014-老T</dd>
+                    <dd class="name2 bold mb20"><span>微博：</span><a href="http://weibo.com/1905998075" target="_blank">主播老T</a></dd>
+              		<dd class="mb10">
+                    	<ul class="data clearfix">
+                            <li><i class="font16">5679</i><span>次播放</span></li>
+                            <li>|</li>
+                            <!--<li><i class="font16">测试测试</i><span>次分享</span></li>
+                            <li>|</li>-->
+                            <li><i class="font16">692</i><span>人喜欢</span></li>
+                        </ul>
+                    </dd>
+                    
+              		<dd class="mt5">
+                    	<span>类别：</span>
+                        <span>脱口秀 搞笑</span>
+                    </dd>
+                                        <dd class="discription">
+                    	<span>简介：</span>
+                        <span>每天吐槽不一样的事情，站在年轻人的角度评论事实，以幽默搞笑的大白话来解读现在这糟糕世界，绝对让你笑翻全场。</span>
+                    </dd>
+                                </dl>
+            <div class="line_B"><span></span><em></em></div>
+            <div class="button">
+            	<ul>
+                    <li>
+                    	<a class="btn_operating btn_operating_extend btn_liking" mus_act="boke_like" href="javascript:;">
+                        	<em class="fst"></em>
+                        	<span class="ico_like pointer"></span>
+                			<span class="txt pointer">喜欢</span>
+                            <em class="lst"></em>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- 音乐人信息 End -->
+    </div>
+    <div class="clearfix mt50">
+        <div class="W_left">
+        	        	<!-- 我的子播客title Begin -->
+            <div class="title_A ml20">
+                <h2 class="FL">栏目</h2>
+            </div>
+            <!-- 我的子播客title End -->   
+            
+            <!--我的子播客 Begin -->
+            <div class="myboke ml20 mt15">
+            	<div class="box clearfix" >
+            	            		<dl bokeid="8482">
+                        <dt><a href="http://music.weibo.com/snake/boke_boke.php?bid=8482"><img src="http://weiyinyue.music.sina.com.cn/movie_game/1408729019983.jpg" width="170" height="170"></a></dt>
+                        <dd class="name font14"><a href="http://music.weibo.com/snake/boke_boke.php?bid=8482" title="吐槽2014-主播老T">吐槽2014-主播老T</a></dd>
+                        <dd class="style">脱口秀 搞笑</dd>
+                        
+                    </dl>
+            	                </div>
+            </div>
+            <!--我的子播客 End -->
+                        <!-- 最新节目title Begin -->
+            <div class="title_A ml20">
+                <h2 class="FL">最新节目</h2>
+            </div>
+            <!-- 最新节目title End -->  
+            
+            <!--最新节目 Begin -->
+            <div class="new_album ml20 mt15">
+                            <ul>
+                                    <li songid=100173436>
+                        <span class="ranks FL">1</span>
+                        <span class="songname FL"><a href="http://music.weibo.com/t/i/100173436.html">【吐槽2014】是谁发明了出国这么孤独的事儿！</a></span>
+                        <span class="time FL"><i>78</i>次播放</span>
+                        <a href="#" class="btn_shareD FR" mus_act="share" mus_data="songid=100173436&amp;coflag=50001611"></a>
+                        <a href="#" class="btn_collectA FR" mus_act="collect" mus_node="song_100173436" mus_data="collcls=btn_alcollectA&amp;discollcls=btn_collectA&amp;coflag=50001611"></a>
+                        <a href="#" class="btn_playA FR" mus_act="play" mus_data="songids=100173436&amp;coflag=50001611"></a>
+                    </li>
+                                        <li songid=100168382>
+                        <span class="ranks FL">2</span>
+                        <span class="songname FL"><a href="http://music.weibo.com/t/i/100168382.html">【吐槽2014】兄弟！5年前我借你的200块钱能不能还我！</a></span>
+                        <span class="time FL"><i>168</i>次播放</span>
+                        <a href="#" class="btn_shareD FR" mus_act="share" mus_data="songid=100168382&amp;coflag=50001611"></a>
+                        <a href="#" class="btn_collectA FR" mus_act="collect" mus_node="song_100168382" mus_data="collcls=btn_alcollectA&amp;discollcls=btn_collectA&amp;coflag=50001611"></a>
+                        <a href="#" class="btn_playA FR" mus_act="play" mus_data="songids=100168382&amp;coflag=50001611"></a>
+                    </li>
+                                        <li songid=100166440>
+                        <span class="ranks FL">3</span>
+                        <span class="songname FL"><a href="http://music.weibo.com/t/i/100166440.html">【吐槽2014】未来你们会进化成什么模样？</a></span>
+                        <span class="time FL"><i>163</i>次播放</span>
+                        <a href="#" class="btn_shareD FR" mus_act="share" mus_data="songid=100166440&amp;coflag=50001611"></a>
+                        <a href="#" class="btn_collectA FR" mus_act="collect" mus_node="song_100166440" mus_data="collcls=btn_alcollectA&amp;discollcls=btn_collectA&amp;coflag=50001611"></a>
+                        <a href="#" class="btn_playA FR" mus_act="play" mus_data="songids=100166440&amp;coflag=50001611"></a>
+                    </li>
+                                        <li songid=100164966>
+                        <span class="ranks FL">4</span>
+                        <span class="songname FL"><a href="http://music.weibo.com/t/i/100164966.html">【吐槽2014】从F4到EXO，小鲜肉根本停不下来</a></span>
+                        <span class="time FL"><i>344</i>次播放</span>
+                        <a href="#" class="btn_shareD FR" mus_act="share" mus_data="songid=100164966&amp;coflag=50001611"></a>
+                        <a href="#" class="btn_collectA FR" mus_act="collect" mus_node="song_100164966" mus_data="collcls=btn_alcollectA&amp;discollcls=btn_collectA&amp;coflag=50001611"></a>
+                        <a href="#" class="btn_playA FR" mus_act="play" mus_data="songids=100164966&amp;coflag=50001611"></a>
+                    </li>
+                                        <li songid=100163322>
+                        <span class="ranks FL">5</span>
+                        <span class="songname FL"><a href="http://music.weibo.com/t/i/100163322.html">【吐槽2014】平胸“女汉子”你是站着嘘嘘吗？</a></span>
+                        <span class="time FL"><i>284</i>次播放</span>
+                        <a href="#" class="btn_shareD FR" mus_act="share" mus_data="songid=100163322&amp;coflag=50001611"></a>
+                        <a href="#" class="btn_collectA FR" mus_act="collect" mus_node="song_100163322" mus_data="collcls=btn_alcollectA&amp;discollcls=btn_collectA&amp;coflag=50001611"></a>
+                        <a href="#" class="btn_playA FR" mus_act="play" mus_data="songids=100163322&amp;coflag=50001611"></a>
+                    </li>
+                                        <li songid=100161546>
+                        <span class="ranks FL">6</span>
+                        <span class="songname FL"><a href="http://music.weibo.com/t/i/100161546.html">【吐槽2014】湿兄来袭，告诉你开学必做的那些事</a></span>
+                        <span class="time FL"><i>452</i>次播放</span>
+                        <a href="#" class="btn_shareD FR" mus_act="share" mus_data="songid=100161546&amp;coflag=50001611"></a>
+                        <a href="#" class="btn_collectA FR" mus_act="collect" mus_node="song_100161546" mus_data="collcls=btn_alcollectA&amp;discollcls=btn_collectA&amp;coflag=50001611"></a>
+                        <a href="#" class="btn_playA FR" mus_act="play" mus_data="songids=100161546&amp;coflag=50001611"></a>
+                    </li>
+                                        <li songid=100160038>
+                        <span class="ranks FL">7</span>
+                        <span class="songname FL"><a href="http://music.weibo.com/t/i/100160038.html">【吐槽2014】我们一直在路上</a></span>
+                        <span class="time FL"><i>79</i>次播放</span>
+                        <a href="#" class="btn_shareD FR" mus_act="share" mus_data="songid=100160038&amp;coflag=50001611"></a>
+                        <a href="#" class="btn_collectA FR" mus_act="collect" mus_node="song_100160038" mus_data="collcls=btn_alcollectA&amp;discollcls=btn_collectA&amp;coflag=50001611"></a>
+                        <a href="#" class="btn_playA FR" mus_act="play" mus_data="songids=100160038&amp;coflag=50001611"></a>
+                    </li>
+                                        <li songid=100157696>
+                        <span class="ranks FL">8</span>
+                        <span class="songname FL"><a href="http://music.weibo.com/t/i/100157696.html">【吐槽2014】交通改变生活</a></span>
+                        <span class="time FL"><i>59</i>次播放</span>
+                        <a href="#" class="btn_shareD FR" mus_act="share" mus_data="songid=100157696&amp;coflag=50001611"></a>
+                        <a href="#" class="btn_collectA FR" mus_act="collect" mus_node="song_100157696" mus_data="collcls=btn_alcollectA&amp;discollcls=btn_collectA&amp;coflag=50001611"></a>
+                        <a href="#" class="btn_playA FR" mus_act="play" mus_data="songids=100157696&amp;coflag=50001611"></a>
+                    </li>
+                                        <li songid=100156124>
+                        <span class="ranks FL">9</span>
+                        <span class="songname FL"><a href="http://music.weibo.com/t/i/100156124.html">【吐槽2014】别说我老了</a></span>
+                        <span class="time FL"><i>115</i>次播放</span>
+                        <a href="#" class="btn_shareD FR" mus_act="share" mus_data="songid=100156124&amp;coflag=50001611"></a>
+                        <a href="#" class="btn_collectA FR" mus_act="collect" mus_node="song_100156124" mus_data="collcls=btn_alcollectA&amp;discollcls=btn_collectA&amp;coflag=50001611"></a>
+                        <a href="#" class="btn_playA FR" mus_act="play" mus_data="songids=100156124&amp;coflag=50001611"></a>
+                    </li>
+                                        <li songid=100154324>
+                        <span class="ranks FL">10</span>
+                        <span class="songname FL"><a href="http://music.weibo.com/t/i/100154324.html">【吐槽2014】别说我没有文化！</a></span>
+                        <span class="time FL"><i>83</i>次播放</span>
+                        <a href="#" class="btn_shareD FR" mus_act="share" mus_data="songid=100154324&amp;coflag=50001611"></a>
+                        <a href="#" class="btn_collectA FR" mus_act="collect" mus_node="song_100154324" mus_data="collcls=btn_alcollectA&amp;discollcls=btn_collectA&amp;coflag=50001611"></a>
+                        <a href="#" class="btn_playA FR" mus_act="play" mus_data="songids=100154324&amp;coflag=50001611"></a>
+                    </li>
+                                        <li songid=100152164>
+                        <span class="ranks FL">11</span>
+                        <span class="songname FL"><a href="http://music.weibo.com/t/i/100152164.html">【吐槽2014】低头玩手机，抬头无话题</a></span>
+                        <span class="time FL"><i>8</i>次播放</span>
+                        <a href="#" class="btn_shareD FR" mus_act="share" mus_data="songid=100152164&amp;coflag=50001611"></a>
+                        <a href="#" class="btn_collectA FR" mus_act="collect" mus_node="song_100152164" mus_data="collcls=btn_alcollectA&amp;discollcls=btn_collectA&amp;coflag=50001611"></a>
+                        <a href="#" class="btn_playA FR" mus_act="play" mus_data="songids=100152164&amp;coflag=50001611"></a>
+                    </li>
+                                        <li songid=100147502>
+                        <span class="ranks FL">12</span>
+                        <span class="songname FL"><a href="http://music.weibo.com/t/i/100147502.html">【吐槽2014】你真的会花钱吗？</a></span>
+                        <span class="time FL"><i>147</i>次播放</span>
+                        <a href="#" class="btn_shareD FR" mus_act="share" mus_data="songid=100147502&amp;coflag=50001611"></a>
+                        <a href="#" class="btn_collectA FR" mus_act="collect" mus_node="song_100147502" mus_data="collcls=btn_alcollectA&amp;discollcls=btn_collectA&amp;coflag=50001611"></a>
+                        <a href="#" class="btn_playA FR" mus_act="play" mus_data="songids=100147502&amp;coflag=50001611"></a>
+                    </li>
+                                        <li songid=100145478>
+                        <span class="ranks FL">13</span>
+                        <span class="songname FL"><a href="http://music.weibo.com/t/i/100145478.html">【吐槽2014】从驾校出来的那些大神</a></span>
+                        <span class="time FL"><i>118</i>次播放</span>
+                        <a href="#" class="btn_shareD FR" mus_act="share" mus_data="songid=100145478&amp;coflag=50001611"></a>
+                        <a href="#" class="btn_collectA FR" mus_act="collect" mus_node="song_100145478" mus_data="collcls=btn_alcollectA&amp;discollcls=btn_collectA&amp;coflag=50001611"></a>
+                        <a href="#" class="btn_playA FR" mus_act="play" mus_data="songids=100145478&amp;coflag=50001611"></a>
+                    </li>
+                                        <li songid=100143758>
+                        <span class="ranks FL">14</span>
+                        <span class="songname FL"><a href="http://music.weibo.com/t/i/100143758.html">【吐槽2014】以买彩票的心情去相亲，玩的就是心跳</a></span>
+                        <span class="time FL"><i>94</i>次播放</span>
+                        <a href="#" class="btn_shareD FR" mus_act="share" mus_data="songid=100143758&amp;coflag=50001611"></a>
+                        <a href="#" class="btn_collectA FR" mus_act="collect" mus_node="song_100143758" mus_data="collcls=btn_alcollectA&amp;discollcls=btn_collectA&amp;coflag=50001611"></a>
+                        <a href="#" class="btn_playA FR" mus_act="play" mus_data="songids=100143758&amp;coflag=50001611"></a>
+                    </li>
+                                        <li songid=100143756>
+                        <span class="ranks FL">15</span>
+                        <span class="songname FL"><a href="http://music.weibo.com/t/i/100143756.html">【吐槽2014】你过的是哪国时间</a></span>
+                        <span class="time FL"><i>57</i>次播放</span>
+                        <a href="#" class="btn_shareD FR" mus_act="share" mus_data="songid=100143756&amp;coflag=50001611"></a>
+                        <a href="#" class="btn_collectA FR" mus_act="collect" mus_node="song_100143756" mus_data="collcls=btn_alcollectA&amp;discollcls=btn_collectA&amp;coflag=50001611"></a>
+                        <a href="#" class="btn_playA FR" mus_act="play" mus_data="songids=100143756&amp;coflag=50001611"></a>
+                    </li>
+                                        <li songid=100139872>
+                        <span class="ranks FL">16</span>
+                        <span class="songname FL"><a href="http://music.weibo.com/t/i/100139872.html">【吐槽2014】现在人们为什么都这么浮躁</a></span>
+                        <span class="time FL"><i>74</i>次播放</span>
+                        <a href="#" class="btn_shareD FR" mus_act="share" mus_data="songid=100139872&amp;coflag=50001611"></a>
+                        <a href="#" class="btn_collectA FR" mus_act="collect" mus_node="song_100139872" mus_data="collcls=btn_alcollectA&amp;discollcls=btn_collectA&amp;coflag=50001611"></a>
+                        <a href="#" class="btn_playA FR" mus_act="play" mus_data="songids=100139872&amp;coflag=50001611"></a>
+                    </li>
+                                        <li songid=100138356>
+                        <span class="ranks FL">17</span>
+                        <span class="songname FL"><a href="http://music.weibo.com/t/i/100138356.html">【吐槽2014】吐槽物价飞涨的时代</a></span>
+                        <span class="time FL"><i>66</i>次播放</span>
+                        <a href="#" class="btn_shareD FR" mus_act="share" mus_data="songid=100138356&amp;coflag=50001611"></a>
+                        <a href="#" class="btn_collectA FR" mus_act="collect" mus_node="song_100138356" mus_data="collcls=btn_alcollectA&amp;discollcls=btn_collectA&amp;coflag=50001611"></a>
+                        <a href="#" class="btn_playA FR" mus_act="play" mus_data="songids=100138356&amp;coflag=50001611"></a>
+                    </li>
+                                        <li songid=100136822>
+                        <span class="ranks FL">18</span>
+                        <span class="songname FL"><a href="http://music.weibo.com/t/i/100136822.html">【吐槽2014】男女恋爱观，你真的会谈恋爱吗？</a></span>
+                        <span class="time FL"><i>388</i>次播放</span>
+                        <a href="#" class="btn_shareD FR" mus_act="share" mus_data="songid=100136822&amp;coflag=50001611"></a>
+                        <a href="#" class="btn_collectA FR" mus_act="collect" mus_node="song_100136822" mus_data="collcls=btn_alcollectA&amp;discollcls=btn_collectA&amp;coflag=50001611"></a>
+                        <a href="#" class="btn_playA FR" mus_act="play" mus_data="songids=100136822&amp;coflag=50001611"></a>
+                    </li>
+                                        <li songid=100134974>
+                        <span class="ranks FL">19</span>
+                        <span class="songname FL"><a href="http://music.weibo.com/t/i/100134974.html">【吐槽2014】兔子不吃“同桌的你”</a></span>
+                        <span class="time FL"><i>89</i>次播放</span>
+                        <a href="#" class="btn_shareD FR" mus_act="share" mus_data="songid=100134974&amp;coflag=50001611"></a>
+                        <a href="#" class="btn_collectA FR" mus_act="collect" mus_node="song_100134974" mus_data="collcls=btn_alcollectA&amp;discollcls=btn_collectA&amp;coflag=50001611"></a>
+                        <a href="#" class="btn_playA FR" mus_act="play" mus_data="songids=100134974&amp;coflag=50001611"></a>
+                    </li>
+                                        <li songid=100132344>
+                        <span class="ranks FL">20</span>
+                        <span class="songname FL"><a href="http://music.weibo.com/t/i/100132344.html">【吐槽2014】你如果孤独是因为你缺少一个同类</a></span>
+                        <span class="time FL"><i>133</i>次播放</span>
+                        <a href="#" class="btn_shareD FR" mus_act="share" mus_data="songid=100132344&amp;coflag=50001611"></a>
+                        <a href="#" class="btn_collectA FR" mus_act="collect" mus_node="song_100132344" mus_data="collcls=btn_alcollectA&amp;discollcls=btn_collectA&amp;coflag=50001611"></a>
+                        <a href="#" class="btn_playA FR" mus_act="play" mus_data="songids=100132344&amp;coflag=50001611"></a>
+                    </li>
+                                    </ul>
+                            </div>
+            <!--最新节目 End -->
+            
+            <!--发布器 Begin -->
+            <!-- <div class="announce ml20 mt15 clearfix">
+                    <div class="title_A">
+                        <h2 class="FL">对渡生FM说两句</h2>
+                        <span class="limit FR"><span class="con_f">你还可以输入</span><span class="num">140</span><span class="con_l">字</span></span>
+                    </div>
+                    <div class="bottom">
+                       <textarea></textarea>
+                       <label class="FL mt15"><input type="checkbox" class="FL mr10">同步到微博</label>
+                       <a href="#" class="btn_publiA FR"></a>
+                       <span class="btn_publiB FR"></span>
+                    </div>
+            </div>-->
+            <!--发布器 End -->
+            
+            <!--评论 Begin -->
+            <!-- <div class="reply ml20">
+                <dl class="clearfix">
+                    <dt>
+                    <a href="#"><img class="img50" src="imgs/img50x50.gif"></a>
+                    </dt>
+                    <dd class="con">
+                        <a href="#" class="name">水晶niun:</a>
+                        <span class="content">好听</span>
+                    </dd>
+                    <dd class="time">
+                    <span class="FL">10月12日 15:21
+                    </span>
+                    <a class="FR" href="#">回复</a>
+                    </dd>
+                </dl>
+                <dl class="clearfix">
+                    <dt>
+                    <a href="#"><img class="img50" src="imgs/img50x50.gif"></a>
+                    </dt>
+                    <dd class="con">
+                        <a href="#" class="name">水晶niun:</a>
+                        <span class="content">好听</span>
+                    </dd>
+                    <dd class="time">
+                    <span class="FL">10月12日 15:21
+                    </span>
+                    <a class="FR" href="#">回复</a>
+                    </dd>
+                </dl>
+            </div> -->
+            <!--评论 End -->
+
+        </div>
+        <div class="W_right">
+                                <!-- 公告title Begin -->
+            <div class="title_A">
+                <h2 class="FL">公告</h2>
+            </div>
+            <!-- 公告title End -->
+            
+            <!-- 公告 Begin -->
+            <div class="announcement mb25" id="ads_div_js">
+    			<div class="bord" >
+        			<span><p><p>每天吐槽不一样的事情，站在年轻人的角度评论事实，以幽默搞笑的大白话来解读现在这糟糕世界，绝对让你笑翻全场。</p></p></span>
+    			</div>
+            </div>
+            <!-- 公告 End -->
+                        
+            <!-- 主播阵容title Begin -->
+                        <!-- 主播阵容 End -->
+            
+		
+            <!-- 我喜欢的人title Begin -->
+                        <div class="title_A mt15">
+                <h2 class="FL">喜欢我的人</h2>
+                <ul class="band_contrl FL mt20 ml10">
+                	<li class="FL">(</li>
+                    <li class="">
+                    	<a class="FL" href="#">343</a>
+                    </li>
+                    <li>)</li>
+                </ul>
+                <!-- <a href="#" class="more FR">更多>></a> -->
+            </div>
+            <!-- 我喜欢的人title End -->    
+            
+            <!-- 喜欢我的人 Begin -->
+            <div class="like_me mt15">
+                <div class="wrap">
+                                        <dl>
+                        <dt>
+                            <a href="http://weibo.com/3309781935" target='_blank'>
+                                <img src="http://tp4.sinaimg.cn/3309781935/50/0/1" class="img50" />
+                            </a>
+                        </dt>
+                        <dd>
+                          <a href="http://weibo.com/3309781935" target='_blank' style='overflow:hidden' title='用户60wqkmjrku'>用户60..</a>
+                        </dd>
+                    </dl>
+                                       <dl>
+                        <dt>
+                            <a href="http://weibo.com/1402490454" target='_blank'>
+                                <img src="http://tp3.sinaimg.cn/1402490454/50/5609657665/0" class="img50" />
+                            </a>
+                        </dt>
+                        <dd>
+                          <a href="http://weibo.com/1402490454" target='_blank' style='overflow:hidden' title='快乐草书'>快乐草..</a>
+                        </dd>
+                    </dl>
+                                       <dl>
+                        <dt>
+                            <a href="http://weibo.com/3687486701" target='_blank'>
+                                <img src="http://tp2.sinaimg.cn/3687486701/50/5696746041/0" class="img50" />
+                            </a>
+                        </dt>
+                        <dd>
+                          <a href="http://weibo.com/3687486701" target='_blank' style='overflow:hidden' title='A-i溪'>A-i溪..</a>
+                        </dd>
+                    </dl>
+                                       <dl>
+                        <dt>
+                            <a href="http://weibo.com/3178642672" target='_blank'>
+                                <img src="http://tp1.sinaimg.cn/3178642672/50/5654869580/1" class="img50" />
+                            </a>
+                        </dt>
+                        <dd>
+                          <a href="http://weibo.com/3178642672" target='_blank' style='overflow:hidden' title='丨H灬杨雅伦灬H丨'>丨H灬..</a>
+                        </dd>
+                    </dl>
+                                       <dl>
+                        <dt>
+                            <a href="http://weibo.com/2570943745" target='_blank'>
+                                <img src="http://tp2.sinaimg.cn/2570943745/50/5674808297/0" class="img50" />
+                            </a>
+                        </dt>
+                        <dd>
+                          <a href="http://weibo.com/2570943745" target='_blank' style='overflow:hidden' title='快乐的生活6854'>快乐的..</a>
+                        </dd>
+                    </dl>
+                                       <dl>
+                        <dt>
+                            <a href="http://weibo.com/2750156151" target='_blank'>
+                                <img src="http://tp4.sinaimg.cn/2750156151/50/5687105468/0" class="img50" />
+                            </a>
+                        </dt>
+                        <dd>
+                          <a href="http://weibo.com/2750156151" target='_blank' style='overflow:hidden' title='訫隨庚動'>訫隨庚..</a>
+                        </dd>
+                    </dl>
+                                       <dl>
+                        <dt>
+                            <a href="http://weibo.com/5243746787" target='_blank'>
+                                <img src="http://tp4.sinaimg.cn/5243746787/50/5702305679/1" class="img50" />
+                            </a>
+                        </dt>
+                        <dd>
+                          <a href="http://weibo.com/5243746787" target='_blank' style='overflow:hidden' title='TitanicQian'>Titani..</a>
+                        </dd>
+                    </dl>
+                                       <dl>
+                        <dt>
+                            <a href="http://weibo.com/5297881974" target='_blank'>
+                                <img src="http://tp3.sinaimg.cn/5297881974/50/5705943600/1" class="img50" />
+                            </a>
+                        </dt>
+                        <dd>
+                          <a href="http://weibo.com/5297881974" target='_blank' style='overflow:hidden' title='羽说不可以'>羽说不..</a>
+                        </dd>
+                    </dl>
+                                       <dl>
+                        <dt>
+                            <a href="http://weibo.com/5109090505" target='_blank'>
+                                <img src="http://tp2.sinaimg.cn/5109090505/50/5706053694/1" class="img50" />
+                            </a>
+                        </dt>
+                        <dd>
+                          <a href="http://weibo.com/5109090505" target='_blank' style='overflow:hidden' title='用户2ca92fejr1'>用户2c..</a>
+                        </dd>
+                    </dl>
+                                       <dl>
+                        <dt>
+                            <a href="http://weibo.com/3046404877" target='_blank'>
+                                <img src="http://tp2.sinaimg.cn/3046404877/50/5706280273/0" class="img50" />
+                            </a>
+                        </dt>
+                        <dd>
+                          <a href="http://weibo.com/3046404877" target='_blank' style='overflow:hidden' title='感谢当年喜欢你的我'>感谢当..</a>
+                        </dd>
+                    </dl>
+                                       <dl>
+                        <dt>
+                            <a href="http://weibo.com/3860601923" target='_blank'>
+                                <img src="http://tp4.sinaimg.cn/3860601923/50/5704415322/0" class="img50" />
+                            </a>
+                        </dt>
+                        <dd>
+                          <a href="http://weibo.com/3860601923" target='_blank' style='overflow:hidden' title='嗯别对我傲i'>嗯别对..</a>
+                        </dd>
+                    </dl>
+                                       <dl>
+                        <dt>
+                            <a href="http://weibo.com/3048747747" target='_blank'>
+                                <img src="http://tp4.sinaimg.cn/3048747747/50/5703339086/0" class="img50" />
+                            </a>
+                        </dt>
+                        <dd>
+                          <a href="http://weibo.com/3048747747" target='_blank' style='overflow:hidden' title='微尚'>微尚..</a>
+                        </dd>
+                    </dl>
+                                       <dl>
+                        <dt>
+                            <a href="http://weibo.com/3977945991" target='_blank'>
+                                <img src="http://tp4.sinaimg.cn/3977945991/50/5704560493/0" class="img50" />
+                            </a>
+                        </dt>
+                        <dd>
+                          <a href="http://weibo.com/3977945991" target='_blank' style='overflow:hidden' title='小杨的林宥嘉'>小杨的..</a>
+                        </dd>
+                    </dl>
+                                       <dl>
+                        <dt>
+                            <a href="http://weibo.com/3292602857" target='_blank'>
+                                <img src="http://tp2.sinaimg.cn/3292602857/50/5693990828/0" class="img50" />
+                            </a>
+                        </dt>
+                        <dd>
+                          <a href="http://weibo.com/3292602857" target='_blank' style='overflow:hidden' title='婆娑贰货'>婆娑贰..</a>
+                        </dd>
+                    </dl>
+                                       <dl>
+                        <dt>
+                            <a href="http://weibo.com/3473397320" target='_blank'>
+                                <img src="http://tp1.sinaimg.cn/3473397320/50/22843553359/1" class="img50" />
+                            </a>
+                        </dt>
+                        <dd>
+                          <a href="http://weibo.com/3473397320" target='_blank' style='overflow:hidden' title='chen维维维'>chen维..</a>
+                        </dd>
+                    </dl>
+                                       <dl>
+                        <dt>
+                            <a href="http://weibo.com/2306399301" target='_blank'>
+                                <img src="http://tp2.sinaimg.cn/2306399301/50/5699359924/1" class="img50" />
+                            </a>
+                        </dt>
+                        <dd>
+                          <a href="http://weibo.com/2306399301" target='_blank' style='overflow:hidden' title='becky已忘了如何去爱'>becky..</a>
+                        </dd>
+                    </dl>
+                                       <dl>
+                        <dt>
+                            <a href="http://weibo.com/2248585077" target='_blank'>
+                                <img src="http://tp2.sinaimg.cn/2248585077/50/22845679434/1" class="img50" />
+                            </a>
+                        </dt>
+                        <dd>
+                          <a href="http://weibo.com/2248585077" target='_blank' style='overflow:hidden' title='东桀Example'>东桀Ex..</a>
+                        </dd>
+                    </dl>
+                                       <dl>
+                        <dt>
+                            <a href="http://weibo.com/2570925063" target='_blank'>
+                                <img src="http://tp4.sinaimg.cn/2570925063/50/22877576233/0" class="img50" />
+                            </a>
+                        </dt>
+                        <dd>
+                          <a href="http://weibo.com/2570925063" target='_blank' style='overflow:hidden' title='末进生Miss_Liu'>末进生..</a>
+                        </dd>
+                    </dl>
+                                       <dl>
+                        <dt>
+                            <a href="http://weibo.com/3194837972" target='_blank'>
+                                <img src="http://tp1.sinaimg.cn/3194837972/50/5704187086/0" class="img50" />
+                            </a>
+                        </dt>
+                        <dd>
+                          <a href="http://weibo.com/3194837972" target='_blank' style='overflow:hidden' title='淡淡的青春happy'>淡淡的..</a>
+                        </dd>
+                    </dl>
+                                       <dl>
+                        <dt>
+                            <a href="http://weibo.com/3963916975" target='_blank'>
+                                <img src="http://tp4.sinaimg.cn/3963916975/50/5703143050/0" class="img50" />
+                            </a>
+                        </dt>
+                        <dd>
+                          <a href="http://weibo.com/3963916975" target='_blank' style='overflow:hidden' title='有瀑布的百草园_38898'>有瀑布..</a>
+                        </dd>
+                    </dl>
+                                       <dl>
+                        <dt>
+                            <a href="http://weibo.com/3859360725" target='_blank'>
+                                <img src="http://tp2.sinaimg.cn/3859360725/50/5677082946/0" class="img50" />
+                            </a>
+                        </dt>
+                        <dd>
+                          <a href="http://weibo.com/3859360725" target='_blank' style='overflow:hidden' title='TempleQIN'>Temple..</a>
+                        </dd>
+                    </dl>
+                                       <dl>
+                        <dt>
+                            <a href="http://weibo.com/1465338263" target='_blank'>
+                                <img src="http://tp4.sinaimg.cn/1465338263/50/40057841426/1" class="img50" />
+                            </a>
+                        </dt>
+                        <dd>
+                          <a href="http://weibo.com/1465338263" target='_blank' style='overflow:hidden' title='楊少爺Yang'>楊少爺..</a>
+                        </dd>
+                    </dl>
+                                       <dl>
+                        <dt>
+                            <a href="http://weibo.com/1913214352" target='_blank'>
+                                <img src="http://tp1.sinaimg.cn/1913214352/50/5617679005/0" class="img50" />
+                            </a>
+                        </dt>
+                        <dd>
+                          <a href="http://weibo.com/1913214352" target='_blank' style='overflow:hidden' title='噜噜矮油'>噜噜矮..</a>
+                        </dd>
+                    </dl>
+                                       <dl>
+                        <dt>
+                            <a href="http://weibo.com/2944969767" target='_blank'>
+                                <img src="http://tp4.sinaimg.cn/2944969767/50/5691326893/0" class="img50" />
+                            </a>
+                        </dt>
+                        <dd>
+                          <a href="http://weibo.com/2944969767" target='_blank' style='overflow:hidden' title='心曦星辰'>心曦星..</a>
+                        </dd>
+                    </dl>
+                                       <dl>
+                        <dt>
+                            <a href="http://weibo.com/2613140777" target='_blank'>
+                                <img src="http://tp2.sinaimg.cn/2613140777/50/0/1" class="img50" />
+                            </a>
+                        </dt>
+                        <dd>
+                          <a href="http://weibo.com/2613140777" target='_blank' style='overflow:hidden' title='手机用户2613140777'>手机用..</a>
+                        </dd>
+                    </dl>
+                                       <dl>
+                        <dt>
+                            <a href="http://weibo.com/2824778001" target='_blank'>
+                                <img src="http://tp2.sinaimg.cn/2824778001/50/5682667734/0" class="img50" />
+                            </a>
+                        </dt>
+                        <dd>
+                          <a href="http://weibo.com/2824778001" target='_blank' style='overflow:hidden' title='180Sun'>180Sun..</a>
+                        </dd>
+                    </dl>
+                                       <dl>
+                        <dt>
+                            <a href="http://weibo.com/2521651543" target='_blank'>
+                                <img src="http://tp4.sinaimg.cn/2521651543/50/5705151902/0" class="img50" />
+                            </a>
+                        </dt>
+                        <dd>
+                          <a href="http://weibo.com/2521651543" target='_blank' style='overflow:hidden' title='我的美好一天里'>我的美..</a>
+                        </dd>
+                    </dl>
+                                       <dl>
+                        <dt>
+                            <a href="http://weibo.com/5255494524" target='_blank'>
+                                <img src="http://tp1.sinaimg.cn/5255494524/50/5703553747/0" class="img50" />
+                            </a>
+                        </dt>
+                        <dd>
+                          <a href="http://weibo.com/5255494524" target='_blank' style='overflow:hidden' title='蓝桐桐'>蓝桐桐..</a>
+                        </dd>
+                    </dl>
+                                       <dl>
+                        <dt>
+                            <a href="http://weibo.com/5281238713" target='_blank'>
+                                <img src="http://tp2.sinaimg.cn/5281238713/50/0/1" class="img50" />
+                            </a>
+                        </dt>
+                        <dd>
+                          <a href="http://weibo.com/5281238713" target='_blank' style='overflow:hidden' title='用户5281238713'>用户52..</a>
+                        </dd>
+                    </dl>
+                                       <dl>
+                        <dt>
+                            <a href="http://weibo.com/5284998212" target='_blank'>
+                                <img src="http://tp1.sinaimg.cn/5284998212/50/5704947002/1" class="img50" />
+                            </a>
+                        </dt>
+                        <dd>
+                          <a href="http://weibo.com/5284998212" target='_blank' style='overflow:hidden' title='源源萌10025'>源源萌..</a>
+                        </dd>
+                    </dl>
+                                       <dl>
+                        <dt>
+                            <a href="http://weibo.com/2175007911" target='_blank'>
+                                <img src="http://tp4.sinaimg.cn/2175007911/50/5642288515/1" class="img50" />
+                            </a>
+                        </dt>
+                        <dd>
+                          <a href="http://weibo.com/2175007911" target='_blank' style='overflow:hidden' title='未雨绸谋地盘'>未雨绸..</a>
+                        </dd>
+                    </dl>
+                                       <dl>
+                        <dt>
+                            <a href="http://weibo.com/5253315472" target='_blank'>
+                                <img src="http://tp1.sinaimg.cn/5253315472/50/0/1" class="img50" />
+                            </a>
+                        </dt>
+                        <dd>
+                          <a href="http://weibo.com/5253315472" target='_blank' style='overflow:hidden' title='用户5253315472'>用户52..</a>
+                        </dd>
+                    </dl>
+                                       <dl>
+                        <dt>
+                            <a href="http://weibo.com/5185177978" target='_blank'>
+                                <img src="http://tp3.sinaimg.cn/5185177978/50/5698132580/1" class="img50" />
+                            </a>
+                        </dt>
+                        <dd>
+                          <a href="http://weibo.com/5185177978" target='_blank' style='overflow:hidden' title='薄凉陌路'>薄凉陌..</a>
+                        </dd>
+                    </dl>
+                                       <dl>
+                        <dt>
+                            <a href="http://weibo.com/2694048480" target='_blank'>
+                                <img src="http://tp1.sinaimg.cn/2694048480/50/5703094607/1" class="img50" />
+                            </a>
+                        </dt>
+                        <dd>
+                          <a href="http://weibo.com/2694048480" target='_blank' style='overflow:hidden' title='无所谓锦源'>无所谓..</a>
+                        </dd>
+                    </dl>
+                                       <dl>
+                        <dt>
+                            <a href="http://weibo.com/5239244191" target='_blank'>
+                                <img src="http://tp4.sinaimg.cn/5239244191/50/5703821399/1" class="img50" />
+                            </a>
+                        </dt>
+                        <dd>
+                          <a href="http://weibo.com/5239244191" target='_blank' style='overflow:hidden' title='李同同520'>李同同..</a>
+                        </dd>
+                    </dl>
+                                       <dl>
+                        <dt>
+                            <a href="http://weibo.com/5279455123" target='_blank'>
+                                <img src="http://tp4.sinaimg.cn/5279455123/50/5704773709/1" class="img50" />
+                            </a>
+                        </dt>
+                        <dd>
+                          <a href="http://weibo.com/5279455123" target='_blank' style='overflow:hidden' title='勿忘我久别'>勿忘我..</a>
+                        </dd>
+                    </dl>
+                                       <dl>
+                        <dt>
+                            <a href="http://weibo.com/5242703759" target='_blank'>
+                                <img src="http://tp4.sinaimg.cn/5242703759/50/5706241135/0" class="img50" />
+                            </a>
+                        </dt>
+                        <dd>
+                          <a href="http://weibo.com/5242703759" target='_blank' style='overflow:hidden' title='lovexo爱鹿HAN'>lovexo..</a>
+                        </dd>
+                    </dl>
+                                       <dl>
+                        <dt>
+                            <a href="http://weibo.com/2567462651" target='_blank'>
+                                <img src="http://tp4.sinaimg.cn/2567462651/50/5706185139/0" class="img50" />
+                            </a>
+                        </dt>
+                        <dd>
+                          <a href="http://weibo.com/2567462651" target='_blank' style='overflow:hidden' title='赵艹艹不是草'>赵艹艹..</a>
+                        </dd>
+                    </dl>
+                                       <dl>
+                        <dt>
+                            <a href="http://weibo.com/3477375382" target='_blank'>
+                                <img src="http://tp3.sinaimg.cn/3477375382/50/5691206006/0" class="img50" />
+                            </a>
+                        </dt>
+                        <dd>
+                          <a href="http://weibo.com/3477375382" target='_blank' style='overflow:hidden' title='打哈哈5v5'>打哈哈..</a>
+                        </dd>
+                    </dl>
+                                       <dl>
+                        <dt>
+                            <a href="http://weibo.com/3862760072" target='_blank'>
+                                <img src="http://tp1.sinaimg.cn/3862760072/50/5703426221/0" class="img50" />
+                            </a>
+                        </dt>
+                        <dd>
+                          <a href="http://weibo.com/3862760072" target='_blank' style='overflow:hidden' title='梁小雅雯'>梁小雅..</a>
+                        </dd>
+                    </dl>
+                                       <dl>
+                        <dt>
+                            <a href="http://weibo.com/1763552305" target='_blank'>
+                                <img src="http://tp2.sinaimg.cn/1763552305/50/5705977678/0" class="img50" />
+                            </a>
+                        </dt>
+                        <dd>
+                          <a href="http://weibo.com/1763552305" target='_blank' style='overflow:hidden' title='冰雪shelly'>冰雪sh..</a>
+                        </dd>
+                    </dl>
+                                       <dl>
+                        <dt>
+                            <a href="http://weibo.com/2962274931" target='_blank'>
+                                <img src="http://tp4.sinaimg.cn/2962274931/50/0/1" class="img50" />
+                            </a>
+                        </dt>
+                        <dd>
+                          <a href="http://weibo.com/2962274931" target='_blank' style='overflow:hidden' title='大石头YF'>大石头..</a>
+                        </dd>
+                    </dl>
+                                       <dl>
+                        <dt>
+                            <a href="http://weibo.com/5143028672" target='_blank'>
+                                <img src="http://tp1.sinaimg.cn/5143028672/50/5695195430/1" class="img50" />
+                            </a>
+                        </dt>
+                        <dd>
+                          <a href="http://weibo.com/5143028672" target='_blank' style='overflow:hidden' title='天空下的每'>天空下..</a>
+                        </dd>
+                    </dl>
+                                       <dl>
+                        <dt>
+                            <a href="http://weibo.com/5218152563" target='_blank'>
+                                <img src="http://tp4.sinaimg.cn/5218152563/50/5700368795/1" class="img50" />
+                            </a>
+                        </dt>
+                        <dd>
+                          <a href="http://weibo.com/5218152563" target='_blank' style='overflow:hidden' title='人在有本事也难逃过命运的不仁慈'>人在有..</a>
+                        </dd>
+                    </dl>
+                                       <dl>
+                        <dt>
+                            <a href="http://weibo.com/3214534137" target='_blank'>
+                                <img src="http://tp2.sinaimg.cn/3214534137/50/5703874703/0" class="img50" />
+                            </a>
+                        </dt>
+                        <dd>
+                          <a href="http://weibo.com/3214534137" target='_blank' style='overflow:hidden' title='我心直疼'>我心直..</a>
+                        </dd>
+                    </dl>
+                                       <dl>
+                        <dt>
+                            <a href="http://weibo.com/2266742701" target='_blank'>
+                                <img src="http://tp2.sinaimg.cn/2266742701/50/5704021188/0" class="img50" />
+                            </a>
+                        </dt>
+                        <dd>
+                          <a href="http://weibo.com/2266742701" target='_blank' style='overflow:hidden' title='Deeplove_呆呆妞'>Deeplo..</a>
+                        </dd>
+                    </dl>
+                                       <dl>
+                        <dt>
+                            <a href="http://weibo.com/5277660014" target='_blank'>
+                                <img src="http://tp3.sinaimg.cn/5277660014/50/5704633303/1" class="img50" />
+                            </a>
+                        </dt>
+                        <dd>
+                          <a href="http://weibo.com/5277660014" target='_blank' style='overflow:hidden' title='隐姓埋名41'>隐姓埋..</a>
+                        </dd>
+                    </dl>
+                                       <dl>
+                        <dt>
+                            <a href="http://weibo.com/3377364972" target='_blank'>
+                                <img src="http://tp1.sinaimg.cn/3377364972/50/5704632600/0" class="img50" />
+                            </a>
+                        </dt>
+                        <dd>
+                          <a href="http://weibo.com/3377364972" target='_blank' style='overflow:hidden' title='Myloverchong'>Mylove..</a>
+                        </dd>
+                    </dl>
+                                       <dl>
+                        <dt>
+                            <a href="http://weibo.com/3302565705" target='_blank'>
+                                <img src="http://tp2.sinaimg.cn/3302565705/50/40046520863/0" class="img50" />
+                            </a>
+                        </dt>
+                        <dd>
+                          <a href="http://weibo.com/3302565705" target='_blank' style='overflow:hidden' title='用户3626579冫662'>用户36..</a>
+                        </dd>
+                    </dl>
+                                       <dl>
+                        <dt>
+                            <a href="http://weibo.com/5210920432" target='_blank'>
+                                <img src="http://tp1.sinaimg.cn/5210920432/50/5701389916/1" class="img50" />
+                            </a>
+                        </dt>
+                        <dd>
+                          <a href="http://weibo.com/5210920432" target='_blank' style='overflow:hidden' title='一个小学生用菊花'>一个小..</a>
+                        </dd>
+                    </dl>
+                                   </div>
+            </div>
+                        <!-- 喜欢我的人 End -->
+        </div>	
+    </div>
+</div>
+<!--主体 End-->
+<!-- footer Begin -->
+<div class="footer_bg mt55">
+<div class="footer clearfix">
+    <div class="bottom clearfix">
+			<p>
+				<a class="ico_service" target="__blank" href="http://help.weibo.com/newtopic/music">微博客服</a>
+				<a target="_blank" href="http://weibo.com/zt/s?k=9286">意见反馈</a>
+				<a target="_blank" href="http://open.weibo.com/">开放平台</a>
+				<a target="_blank" href="http://hr.weibo.com">微博招聘</a>
+				<a target="_blank" href="http://news.sina.com.cn/guide/">新浪网导航</a>
+				<br/>
+				北京微梦创科网络技术有限公司
+			</p>
+			<span><a class="sitemap" target="_blank" href="http://music.weibo.com/sitemap.xml">网站地图</a></span><br />
+			<span>Copyright © 1996-2013 SINA</span>
+    </div>
+</div>
+</div>
+</body>
+<script type="text/javascript" src="/snake/js/jquery.1.7.min.js" ></script>
+<script type="text/javascript" src="http://i.sso.sina.com.cn/js/ssologin.js"></script>
+<script src="http://music.weibo.com/t/js/login_ssoconfig.js"></script>
+<script src=" http://tjs.sjs.sinajs.cn/open/api/js/wb.js?appkey=872034675" type="text/javascript" charset="utf-8"></script>
+<script src="http://music.weibo.com/snake/js/loadJs.js"></script>
+<script src="http://music.weibo.com/snake/js/snk_base.js"></script><!-- footer End -->
+<script type="text/javascript">
+	var userinfo={"can_edit":0,"uid":0,"nick":"nick","fanstotal":"343"};
+	var bokeinfo={"bokeid":"1366","banner":"http:\/\/weiyinyue.music.sina.com.cn\/movie_game\/1408728910661.jpg","official_sinaid":"1905998075","official_nick":"\u4e3b\u64ad\u8001T","tobe_v":0,"boke_name":"\u5410\u69fd2014-\u8001T","boke_intro":"\u6bcf\u5929\u5410\u69fd\u4e0d\u4e00\u6837\u7684\u4e8b\u60c5\uff0c\u7ad9\u5728\u5e74\u8f7b\u4eba\u7684\u89d2\u5ea6\u8bc4\u8bba\u4e8b\u5b9e\uff0c\u4ee5\u5e7d\u9ed8\u641e\u7b11\u7684\u5927\u767d\u8bdd\u6765\u89e3\u8bfb\u73b0\u5728\u8fd9\u7cdf\u7cd5\u4e16\u754c\uff0c\u7edd\u5bf9\u8ba9\u4f60\u7b11\u7ffb\u5168\u573a\u3002","announcement":"<p>\u6bcf\u5929\u5410\u69fd\u4e0d\u4e00\u6837\u7684\u4e8b\u60c5\uff0c\u7ad9\u5728\u5e74\u8f7b\u4eba\u7684\u89d2\u5ea6\u8bc4\u8bba\u4e8b\u5b9e\uff0c\u4ee5\u5e7d\u9ed8\u641e\u7b11\u7684\u5927\u767d\u8bdd\u6765\u89e3\u8bfb\u73b0\u5728\u8fd9\u7cdf\u7cd5\u4e16\u754c\uff0c\u7edd\u5bf9\u8ba9\u4f60\u7b11\u7ffb\u5168\u573a\u3002<\/p>","category":"\u8131\u53e3\u79c0 \u641e\u7b11","num_like":"692","num_play":"5679","is_liked":false};
+    var bokepage={total:0,current:1};
+    var verifyid=0;
+</script>
+<script src="http://music.weibo.com/snake/js/snk_idvalid.js"></script>
+<script src="http://music.weibo.com/snake/js/snk_valid.js"></script>
+<script src="http://music.weibo.com/snake/js/snk_layer.js"></script>
+<script src="http://music.weibo.com/snake/js/boke_main_self.js?v=2"></script>
+</body>
+</html>
