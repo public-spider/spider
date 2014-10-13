@@ -83,11 +83,7 @@ class WeiboMongoPipeline(SingleMongodbPipeline):
         }
         
         result = self.db['book_detail'].insert(book_detail)
-        item["mongodb_id"] = str(result)  
         
-        log.msg("Item %s wrote to MongoDB database %s/book_detail" %
-                    (result, self.MONGODB_DB),
-                    level=log.DEBUG, spider=spider)
         
         return item
     
