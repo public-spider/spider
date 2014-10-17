@@ -48,7 +48,9 @@ class WeiboSpider(CrawlSpider):
         newurls = response.selector.xpath('//a/@href').extract()
         validurls = []
         for url in newurls:
-            if(url[0]=="/"):
+            if(url==''):
+                pass
+            elif(url[0]=="/"):
                 validurls.append("http://weibo.com"+url)#return Request("http://www.dmoz.org"+url, callback=self.parse)
             elif(url[0]=="h"):
                 validurls.append(url)
