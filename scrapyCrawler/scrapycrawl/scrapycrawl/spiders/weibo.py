@@ -60,7 +60,9 @@ class WeiboSpider(CrawlSpider):
         
         for img  in imgs:
             item = imageItem()
-            if(img[0]=='/'):
+            if(img=='')
+                pass
+            elif(img[0]=='/'):
                item['book_covor_image_url']="http://weibo.com"+img
             else:
                item['book_covor_image_url']=img
